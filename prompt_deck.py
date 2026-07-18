@@ -44,19 +44,6 @@ def _save_rating(file_path: str, key: str, rating: str):
         json.dump(data, f, ensure_ascii=False, indent=1)
 
 
-def _parse_replacements(spec: str):
-    """Each line: `search -> replace`. Applied top to bottom, in order."""
-    pairs = []
-    for raw in spec.splitlines():
-        if "->" not in raw:
-            continue
-        old, new = raw.split("->", 1)
-        old = old.strip()
-        if old:
-            pairs.append((old, new.strip()))
-    return pairs
-
-
 def _parse_disabled(spec: str):
     out = set()
     for part in str(spec).replace(";", ",").split(","):
@@ -85,11 +72,11 @@ def _apply_cuts(text: str, cut_to: str, cut_from: str) -> str:
     return text.strip().strip(",").strip()
 
 
-def _process_line(raw: str, cut_to: str, cut_from: str, replacements: str) -> str:
+def _process_line(raw: str, cut_to: str, cut_from: str, search: str, replace: str) -> str:
     text = _NUMBERING_RE.sub("", raw.strip())
     text = _apply_cuts(text, cut_to, cut_from)
-    for old, new in _parse_replacements(replacements):
-        text = text.replace(old, new)
+    if search:
+        text = text.replace(search, replace)
     return text
 
 
@@ -129,8 +116,8 @@ class PromptDeck:
     CATEGORY = "PromptDeck"
     FUNCTION = "read"
     OUTPUT_NODE = True  # can run standalone, no downstream nodes needed
-    RETURN_TYPES = ("STRING", "INT", "INT", "INT", "STRING")
-    RETURN_NAMES = ("text", "line_number", "total_lines", "remaining_lines", "filename_slug")
+    RETURN_TYPES = ("STRING", "STRING")
+    RETURN_NAMES = ("text", "filename_slug")
     DESCRIPTION = (
         "Feeds prompts line-by-line from a text file, with a visible list, "
         "click-to-jump, hold, ratings, and per-line disable. Blank lines and "
@@ -155,9 +142,13 @@ class PromptDeck:
                 }),
                 "pre_text": ("STRING", {"default": "", "multiline": True}),
                 "after_text": ("STRING", {"default": "", "multiline": True}),
-                "replacements": ("STRING", {
-                    "default": "", "multiline": True,
-                    "placeholder": "search -> replace   (one per line, applied in order)",
+                "search": ("STRING", {
+                    "default": "",
+                    "tooltip": "Text to find in each line (leave empty for no replacement).",
+                }),
+                "replace": ("STRING", {
+                    "default": "",
+                    "tooltip": "What `search` gets replaced with.",
                 }),
                 "cut_to": ("STRING", {
                     "default": "",
@@ -193,7 +184,7 @@ class PromptDeck:
                 parts.append("x")
         return "|".join(parts)
 
-    def read(self, file_path, line_index, pre_text, after_text, replacements,
+    def read(self, file_path, line_index, pre_text, after_text, search, replace,
              cut_to, cut_from, rating_filter, disabled_lines="", resolved=""):
         entries = _load_entries(file_path)
         ratings = _load_ratings(file_path)
@@ -201,15 +192,14 @@ class PromptDeck:
 
         if not runnable:
             ui = {"deck_state": [{"line": 0, "ordinal": 0, "runnable_total": 0, "resolved": ""}]}
-            return {"ui": ui, "result": ("", 0, 0, 0, "empty")}
+            return {"ui": ui, "result": ("", "empty")}
 
         ordinal = line_index % len(runnable)
         entry = runnable[ordinal]
 
-        line = _process_line(entry["raw"], cut_to, cut_from, replacements)
+        line = _process_line(entry["raw"], cut_to, cut_from, search, replace)
         text = f"{pre_text}{line}{after_text}"
         slug = _SLUG_RE.sub("_", line).strip("_")[:60] or "prompt"
-        remaining = len(runnable) - ordinal - 1
 
         ui = {"deck_state": [{
             "line": entry["n"],
@@ -217,11 +207,11 @@ class PromptDeck:
             "runnable_total": len(runnable),
             "resolved": text,
         }]}
-        return {"ui": ui, "result": (text, entry["n"], len(runnable), remaining, slug)}
+        return {"ui": ui, "result": (text, slug)}
 
 
 NODE_CLASS_MAPPINGS = {"PromptDeck": PromptDeck}
-NODE_DISPLAY_NAME_MAPPINGS = {"PromptDeck": "Prompt Deck 🎴"}
+NODE_DISPLAY_NAME_MAPPINGS = {"PromptDeck": "Prompt Deck"}
 
 
 def _register_routes():

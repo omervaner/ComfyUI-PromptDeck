@@ -1,4 +1,4 @@
-# Prompt Deck 🎴
+# Prompt Deck
 
 A ComfyUI custom node that feeds prompts line-by-line from a text file — and
 actually **shows you the list**. Current line highlighted, click to jump, hold,
@@ -17,7 +17,9 @@ gives you transport controls.
 ## Features
 
 - **Visible prompt list** in the node: numbered rows, the currently running
-  line highlighted, the next-up line marked. `+` / `−` buttons grow/shrink the list.
+  line highlighted, the next-up line marked. `+` / `−` buttons grow/shrink the
+  list. Hovering a truncated row shows the **full prompt in a floating box**.
+  The header shows `position / total · word count`.
 - **Click a line to jump** to it. ◀ ▶ step backward/forward. **hold** pins the
   current line (repeat until released). ↻ reloads the file.
 - **Ratings**: ★ good / ✕ bad per line, saved to a sidecar file
@@ -35,7 +37,7 @@ gives you transport controls.
      including the earliest match
   3. `cut_from` — comma-separated markers; cuts the line's **tail** from the
      earliest match onward (e.g. `cinematic, film grain` to drop style tails)
-  4. `replacements` — one `search -> replace` per line, applied top to bottom
+  4. `search` / `replace` — plain text substitution
   5. `pre_text` + line + `after_text`
 - **Honest metadata**: the final composed prompt is written back into the
   read-only `resolved` box after each run — so the *actual* prompt used is
@@ -44,6 +46,8 @@ gives you transport controls.
 - **No line limits.** Blank lines and `# comment` lines are skipped.
 - **Runs standalone** (it's an output node): a workflow with just this node
   executes — handy for cycling/testing prompts without loading any models.
+- The node is under **PromptDeck → Prompt Deck** (display name has no emoji;
+  emoji are a chat-only indulgence 🎴).
 - **Zero dependencies.** Python stdlib + one JS file.
 
 ## Outputs
@@ -51,10 +55,10 @@ gives you transport controls.
 | output | meaning |
 |---|---|
 | `text` | the final composed prompt |
-| `line_number` | 1-based line number in the file |
-| `total_lines` | count of runnable lines (after disable/rating filters) |
-| `remaining_lines` | runnable lines left before the deck wraps |
-| `filename_slug` | filesystem-safe slug of the line, for Save nodes |
+| `filename_slug` | filesystem-safe slug of the line — wire into a Save node's filename so images are named after their prompt |
+
+(Position, totals, and remaining lines are shown in the node header instead of
+cluttering the outputs.)
 
 ## Install
 
@@ -63,7 +67,7 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/omervaner/ComfyUI-PromptDeck
 ```
 
-Restart ComfyUI. The node is under **PromptDeck → Prompt Deck 🎴**.
+Restart ComfyUI. The node is under **PromptDeck → Prompt Deck**.
 
 No pip installs. See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for a hand-holding version.
 

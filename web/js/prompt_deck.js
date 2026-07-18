@@ -176,12 +176,16 @@ function makeDeckWidget(node) {
         bx += bw + 4;
       }
 
-      // ---- header: position counter, right aligned ----
+      // ---- header: position counter + word count, right aligned ----
       ctx.textAlign = "right";
       ctx.fillStyle = COLORS.num;
       let posLabel;
       if (info.runnable.length) {
-        posLabel = `${info.ordinal + 1} / ${info.runnable.length}`;
+        // word count of the last composed prompt, or of the upcoming line
+        const current = widget(node, "resolved")?.value?.trim();
+        const basis = current || info.runnable[info.ordinal]?.disp || "";
+        const words = basis ? basis.split(/\s+/).length : 0;
+        posLabel = `${info.ordinal + 1} / ${info.runnable.length} · ${words}w`;
       } else {
         posLabel = deck.error ?? "empty";
       }
@@ -311,6 +315,48 @@ function makeDeckWidget(node) {
         });
       }
 
+      // ---- hover tooltip: full prompt text for the row under the cursor ----
+      const hp = deck.hoverPos;
+      if (hp && hp[0] >= listX && hp[0] <= listX + listW - SCROLLBAR_W) {
+        const row = Math.floor((hp[1] - listY) / ROW_H);
+        const e = row >= 0 && row < rows ? entries[top + row] : null;
+        if (e && !e.blank && ctx.measureText(e.disp).width > textMaxW) {
+          const tipMaxW = listW - 24;
+          // word-wrap the full text
+          const words = e.disp.split(/\s+/);
+          const lines = [];
+          let cur = "";
+          for (const w of words) {
+            const cand = cur ? cur + " " + w : w;
+            if (ctx.measureText(cand).width > tipMaxW && cur) {
+              lines.push(cur);
+              cur = w;
+            } else {
+              cur = cand;
+            }
+          }
+          if (cur) lines.push(cur);
+          const tipH = lines.length * (ROW_H - 4) + 10;
+          const tipW = Math.min(tipMaxW, Math.max(...lines.map((l) => ctx.measureText(l).width))) + 16;
+          const rowY = listY + row * ROW_H;
+          let ty = rowY + ROW_H + 2;
+          if (ty + tipH > listY + listH) ty = rowY - tipH - 2;
+          const tx = listX + 8;
+          ctx.fillStyle = "#26262e";
+          ctx.strokeStyle = "#4a4a55";
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.roundRect(tx, ty, tipW, tipH, 5);
+          ctx.fill();
+          ctx.stroke();
+          ctx.fillStyle = "#e0e0e6";
+          ctx.textAlign = "left";
+          for (let i = 0; i < lines.length; i++) {
+            ctx.fillText(lines[i], tx + 8, ty + 5 + i * (ROW_H - 4) + (ROW_H - 4) / 2);
+          }
+        }
+      }
+
       ctx.restore();
     },
 
@@ -416,9 +462,11 @@ function setupNode(node) {
   const res = widget(node, "resolved");
   if (res?.inputEl) {
     res.inputEl.readOnly = true;
-    res.inputEl.style.opacity = "0.65";
+    res.inputEl.style.opacity = "0.75";
     res.inputEl.placeholder = "resolved prompt appears here after each run";
+    res.inputEl.style.minHeight = "96px";
   }
+  if (res) res.options = { ...(res.options ?? {}), minHeight: 96 };
   const fp = widget(node, "file_path");
   if (fp) {
     const cb = fp.callback;
@@ -440,6 +488,24 @@ function setupNode(node) {
       return r;
     };
   }
+
+  // hover tracking for the full-prompt tooltip
+  const onMouseMove = node.onMouseMove;
+  node.onMouseMove = function (e, pos) {
+    onMouseMove?.apply(this, arguments);
+    if (this._deck) {
+      this._deck.hoverPos = [pos[0], pos[1]];
+      this.setDirtyCanvas(true, false);
+    }
+  };
+  const onMouseLeave = node.onMouseLeave;
+  node.onMouseLeave = function () {
+    onMouseLeave?.apply(this, arguments);
+    if (this._deck) {
+      this._deck.hoverPos = null;
+      this.setDirtyCanvas(true, false);
+    }
+  };
 
   node.addCustomWidget(makeDeckWidget(node));
   node.setSize(node.computeSize());

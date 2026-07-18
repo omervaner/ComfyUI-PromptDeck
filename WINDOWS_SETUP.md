@@ -20,7 +20,7 @@ Target machine: the Windows box running the real ComfyUI
 
 ## Verify
 
-- Add the node: right-click canvas → Add Node → **PromptDeck → Prompt Deck 🎴**
+- Add the node: right-click canvas → Add Node → **PromptDeck → Prompt Deck**
   (or double-click and search "prompt deck").
 - Point `file_path` at an existing prompt file, e.g.
   `C:\Users\omerv\Documents\ComfyUI\workspace\prompts_newer.txt`
@@ -51,6 +51,6 @@ Same file works unchanged. Mapping:
 | starting_index | type it into `line_index`, or click the line in the list |
 | reset_counter | set `line_index` to 0 / click line 1 |
 | reload_file | ↻ button (file changes are also picked up automatically) |
-| Search and Replace node | `replacements` box (`search -> replace`, one per line) |
+| Search and Replace node | `search` / `replace` fields |
 | JoinString pre/after | `pre_text` / `after_text` boxes |
 | skip_lines | not carried over (was unused) |
