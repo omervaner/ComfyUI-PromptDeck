@@ -464,9 +464,14 @@ function setupNode(node) {
     res.inputEl.readOnly = true;
     res.inputEl.style.opacity = "0.75";
     res.inputEl.placeholder = "resolved prompt appears here after each run";
-    res.inputEl.style.minHeight = "96px";
   }
-  if (res) res.options = { ...(res.options ?? {}), minHeight: 96 };
+  if (res) {
+    // ask the layout engine for a taller slot — never inflate the DOM element
+    // directly, or it overlaps the canvas widgets below it
+    res.computeSize = function (width) {
+      return [width ?? 300, 110];
+    };
+  }
   const fp = widget(node, "file_path");
   if (fp) {
     const cb = fp.callback;
