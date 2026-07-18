@@ -17,9 +17,14 @@ gives you transport controls.
 ## Features
 
 - **Visible prompt list** in the node: numbered rows, the currently running
-  line highlighted, the next-up line marked. `+` / `−` buttons grow/shrink the
-  list. Hovering a truncated row shows the **full prompt in a floating box**.
-  The header shows `position / total · word count`.
+  line highlighted, the next-up line marked. **Resize the node and the list
+  grows** (the text boxes stay put). Hovering a truncated row shows the
+  **full prompt in a floating box**. The header shows
+  `position / total · word count`.
+- **Scrolls like it should**: mouse wheel over the list scrolls it (with
+  acceleration — flick gently or spin through thousands), the scrollbar thumb
+  drags, and clicking the track pages. Scrolling pauses auto-follow; jumping,
+  stepping, or queueing re-engages it.
 - **Click a line to jump** to it. ◀ ▶ step backward/forward. **hold** pins the
   current line (repeat until released). ↻ reloads the file.
 - **Ratings**: ★ good / ✕ bad per line, saved to a sidecar file

@@ -7,7 +7,6 @@ const PAD = 6;
 const CELL = 15; // width of checkbox / star / cross cells
 const SCROLLBAR_W = 8;
 const MIN_ROWS = 3;
-const MAX_ROWS = 40;
 const DEFAULT_ROWS = 7;
 
 // keep in sync with _NUMBERING_RE in prompt_deck.py
@@ -132,16 +131,25 @@ function makeDeckWidget(node) {
     serializeValue: () => null,
     hits: [],
 
+    // minimum size only — draw() expands the list to fill the node, so
+    // dragging the node taller grows the list (not the text boxes)
     computeSize(width) {
-      const rows = node._deck?.rows ?? DEFAULT_ROWS;
-      return [width ?? 320, HEADER_H + rows * ROW_H + PAD];
+      return [width ?? 320, HEADER_H + MIN_ROWS * ROW_H + PAD];
     },
 
     draw(ctx, drawNode, width, y) {
       const deck = node._deck;
       if (!deck) return;
       const info = deckInfo(node);
-      const rows = deck.rows;
+      // fill all remaining node height below this widget
+      const avail = node.size[1] - y - HEADER_H - PAD;
+      const rows = Math.max(MIN_ROWS, Math.floor(avail / ROW_H));
+      deck.rows = rows;
+      // computeSize reports only the 3-row minimum (so the node can shrink);
+      // the frontend's click hit-test uses computedHeight, so keep it synced
+      // to what we actually draw — otherwise clicks below the minimum height
+      // fall through and drag the node
+      this.computedHeight = HEADER_H + rows * ROW_H + PAD;
       const listX = PAD;
       const listW = width - PAD * 2;
       const listY = y + HEADER_H;
@@ -159,8 +167,6 @@ function makeDeckWidget(node) {
         { id: "next", label: "▶" },
         { id: "hold", label: held ? "HOLD" : "hold" },
         { id: "reload", label: "↻" },
-        { id: "less", label: "−" },
-        { id: "more", label: "+" },
       ];
       let bx = PAD;
       for (const b of btns) {
@@ -215,6 +221,7 @@ function makeDeckWidget(node) {
         top = deck.scroll;
       }
       top = Math.max(0, Math.min(top, entries.length - rows));
+      if (deck.scroll != null) deck.scroll = top; // keep manual scroll in bounds
       deck.top = top;
 
       // ---- rows ----
@@ -292,32 +299,43 @@ function makeDeckWidget(node) {
         }
         ctx.fillText(t, textX, cy);
         if (!e.blank) {
-          this.hits.push({ x: cellsW + CELL, y: ry - y, w: listW - cellsW - CELL, h: ROW_H, id: "jump", n: e.n });
+          // jump zone stops before the scrollbar so it can't swallow its clicks
+          this.hits.push({
+            x: listX + cellsW + CELL, y: ry - y,
+            w: listW - cellsW - CELL - SCROLLBAR_W - 6, h: ROW_H,
+            id: "jump", n: e.n,
+          });
         }
       }
 
       // ---- scrollbar ----
+      deck.sb = null;
       if (entries.length > rows) {
         const sbX = listX + listW - SCROLLBAR_W - 2;
+        const trackY = listY + 2;
+        const trackH = listH - 4;
         ctx.fillStyle = COLORS.scrollbar;
         ctx.beginPath();
-        ctx.roundRect(sbX, listY + 2, SCROLLBAR_W, listH - 4, 3);
+        ctx.roundRect(sbX, trackY, SCROLLBAR_W, trackH, 3);
         ctx.fill();
-        const thumbH = Math.max(12, (rows / entries.length) * (listH - 4));
-        const thumbY = listY + 2 + (top / (entries.length - rows)) * (listH - 4 - thumbH);
-        ctx.fillStyle = COLORS.scrollThumb;
+        const maxTop = entries.length - rows;
+        const thumbH = Math.max(12, (rows / entries.length) * trackH);
+        const thumbY = trackY + (top / maxTop) * (trackH - thumbH);
+        ctx.fillStyle = deck.sbDrag ? "#7a7a88" : COLORS.scrollThumb;
         ctx.beginPath();
         ctx.roundRect(sbX, thumbY, SCROLLBAR_W, thumbH, 3);
         ctx.fill();
-        this.hits.push({
-          x: sbX - listX + PAD, y: listY - y, w: SCROLLBAR_W + 4, h: listH,
-          id: "scrollbar", thumbY: thumbY - y, thumbH,
-        });
+        // widget-relative geometry for hit-testing and drag math
+        deck.sb = {
+          x: sbX - 4, w: SCROLLBAR_W + 8,
+          trackY: trackY - y, trackH,
+          thumbY: thumbY - y, thumbH, maxTop,
+        };
       }
 
       // ---- hover tooltip: full prompt text for the row under the cursor ----
       const hp = deck.hoverPos;
-      if (hp && hp[0] >= listX && hp[0] <= listX + listW - SCROLLBAR_W) {
+      if (hp && !deck.sbDrag && hp[0] >= listX && hp[0] <= listX + listW - SCROLLBAR_W) {
         const row = Math.floor((hp[1] - listY) / ROW_H);
         const e = row >= 0 && row < rows ? entries[top + row] : null;
         if (e && !e.blank && ctx.measureText(e.disp).width > textMaxW) {
@@ -361,10 +379,45 @@ function makeDeckWidget(node) {
     },
 
     mouse(event, pos, mouseNode) {
-      if (event.type !== "pointerdown" && event.type !== "mousedown") return false;
       const deck = node._deck;
+      if (!deck) return false;
       const lx = pos[0];
       const ly = pos[1] - (this.last_y ?? 0);
+
+      // ---- scrollbar thumb dragging ----
+      if (event.type === "pointermove" || event.type === "mousemove") {
+        if (deck.sbDrag && deck.sb) {
+          const t = (ly - deck.sbDrag.grab - deck.sb.trackY) / (deck.sb.trackH - deck.sb.thumbH);
+          deck.scroll = Math.round(Math.max(0, Math.min(1, t)) * deck.sb.maxTop);
+          node.setDirtyCanvas(true, false);
+          return true;
+        }
+        return false;
+      }
+      if (event.type === "pointerup" || event.type === "mouseup") {
+        if (deck.sbDrag) {
+          deck.sbDrag = null;
+          node.setDirtyCanvas(true, false);
+          return true;
+        }
+        return false;
+      }
+      if (event.type !== "pointerdown" && event.type !== "mousedown") return false;
+
+      // ---- scrollbar first, so list rows can never swallow its clicks ----
+      if (deck.sb && lx >= deck.sb.x && lx <= deck.sb.x + deck.sb.w &&
+          ly >= deck.sb.trackY && ly <= deck.sb.trackY + deck.sb.trackH) {
+        if (ly >= deck.sb.thumbY && ly <= deck.sb.thumbY + deck.sb.thumbH) {
+          deck.sbDrag = { grab: ly - deck.sb.thumbY };
+        } else if (ly < deck.sb.thumbY) {
+          deck.scroll = (deck.top ?? 0) - deck.rows;
+        } else {
+          deck.scroll = (deck.top ?? 0) + deck.rows;
+        }
+        node.setDirtyCanvas(true, true);
+        return true;
+      }
+
       const hit = this.hits.find((h) => lx >= h.x && lx <= h.x + h.w && ly >= h.y && ly <= h.y + h.h);
       if (!hit) return false;
 
@@ -397,14 +450,6 @@ function makeDeckWidget(node) {
         case "reload":
           fetchLines(node);
           break;
-        case "less":
-          deck.rows = Math.max(MIN_ROWS, deck.rows - 2);
-          node.setSize(node.computeSize());
-          break;
-        case "more":
-          deck.rows = Math.min(MAX_ROWS, deck.rows + 2);
-          node.setSize(node.computeSize());
-          break;
         case "toggle": {
           const dl = widget(node, "disabled_lines");
           if (dl) {
@@ -431,16 +476,51 @@ function makeDeckWidget(node) {
           }
           break;
         }
-        case "scrollbar": {
-          if (ly < hit.thumbY) deck.scroll = (deck.top ?? 0) - deck.rows;
-          else if (ly > hit.thumbY + hit.thumbH) deck.scroll = (deck.top ?? 0) + deck.rows;
-          break;
-        }
       }
       node.setDirtyCanvas(true, true);
       return true;
     },
   };
+}
+
+// ---- mouse wheel over the list scrolls it (with acceleration) instead of zooming ----
+function onCanvasWheel(e) {
+  const canvas = app.canvas;
+  if (!canvas?.graph) return;
+  const rect = canvas.canvas.getBoundingClientRect();
+  const gx = (e.clientX - rect.left) / canvas.ds.scale - canvas.ds.offset[0];
+  const gy = (e.clientY - rect.top) / canvas.ds.scale - canvas.ds.offset[1];
+  for (const node of canvas.graph._nodes ?? []) {
+    if (node.type !== "PromptDeck" || !node._deck || node.flags?.collapsed) continue;
+    const dw = widget(node, "deck");
+    if (!dw || dw.last_y == null) continue;
+    const lx = gx - node.pos[0];
+    const ly = gy - node.pos[1];
+    const deck = node._deck;
+    const rows = deck.rows ?? MIN_ROWS;
+    const listTop = dw.last_y + HEADER_H;
+    if (lx < PAD || lx > node.size[0] - PAD || ly < listTop || ly > listTop + rows * ROW_H) continue;
+    if ((deck.lines?.length ?? 0) <= rows) return; // nothing to scroll, let canvas zoom
+
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    // acceleration: single flicks move gently, sustained spinning speeds up
+    const now = performance.now();
+    deck.wheelStreak = now - (deck.wheelT ?? 0) < 150 ? (deck.wheelStreak ?? 0) + 1 : 0;
+    deck.wheelT = now;
+    const speed = 1 + Math.min(Math.floor(deck.wheelStreak / 5), 7); // 1x → 8x
+
+    const delta = e.deltaMode === 1 ? e.deltaY * 20 : e.deltaY; // line-mode wheels
+    deck.wheelAccum = (deck.wheelAccum ?? 0) + delta;
+    const steps = Math.trunc(deck.wheelAccum / 60);
+    if (steps) {
+      deck.wheelAccum -= steps * 60;
+      deck.scroll = (deck.scroll ?? deck.top ?? 0) + steps * speed;
+      node.setDirtyCanvas(true, false);
+    }
+    return;
+  }
 }
 
 function setupNode(node) {
@@ -471,6 +551,16 @@ function setupNode(node) {
     res.computeSize = function (width) {
       return [width ?? 300, 110];
     };
+  }
+  // fixed height for pre/after so node resizing feeds the list, not these;
+  // long text scrolls inside the boxes
+  for (const name of ["pre_text", "after_text"]) {
+    const w = widget(node, name);
+    if (w) {
+      w.computeSize = function (width) {
+        return [width ?? 300, 70];
+      };
+    }
   }
   const fp = widget(node, "file_path");
   if (fp) {
@@ -513,12 +603,21 @@ function setupNode(node) {
   };
 
   node.addCustomWidget(makeDeckWidget(node));
-  node.setSize(node.computeSize());
+  // computeSize only guarantees the 3-row minimum; open fresh nodes at a
+  // comfortable width and DEFAULT_ROWS worth of list
+  const min = node.computeSize();
+  node.setSize([
+    Math.max(node.size[0], 360),
+    min[1] + (DEFAULT_ROWS - MIN_ROWS) * ROW_H,
+  ]);
   fetchLines(node);
 }
 
 app.registerExtension({
   name: "PromptDeck.UI",
+  setup() {
+    app.canvas.canvas.addEventListener("wheel", onCanvasWheel, { capture: true, passive: false });
+  },
   async beforeRegisterNodeDef(nodeType, nodeData) {
     if (nodeData.name !== "PromptDeck") return;
 
