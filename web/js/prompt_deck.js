@@ -571,6 +571,38 @@ function setupNode(node) {
       return r;
     };
   }
+  // recent-files dropdown, right under the path
+  const recentBtn = node.addWidget("button", "recent ▾", null, (value, canvas, btnNode, pos, event) => {
+    api.fetchApi("/promptdeck/recents")
+      .then((r) => r.json())
+      .then((data) => {
+        const recents = (data.recents ?? []).filter((p) => p !== fp?.value);
+        if (!recents.length) return;
+        const items = recents.map((p) => {
+          const parts = p.split(/[\\/]/).filter(Boolean);
+          return {
+            content: parts.slice(-2).join("/"),
+            title: p,
+            callback: () => {
+              if (fp) {
+                fp.value = p;
+                fp.callback?.(p);
+                node.setDirtyCanvas(true, true);
+              }
+            },
+          };
+        });
+        new LiteGraph.ContextMenu(items, { event, title: "recent files", className: "dark" });
+      })
+      .catch(() => {});
+  });
+  recentBtn.serializeValue = () => null;
+  const btnIdx = node.widgets.indexOf(recentBtn);
+  const fpIdx = node.widgets.indexOf(fp);
+  if (fp && btnIdx > fpIdx + 1) {
+    node.widgets.splice(btnIdx, 1);
+    node.widgets.splice(fpIdx + 1, 0, recentBtn);
+  }
   // keep the hold button in sync if the user flips the control combo by hand
   const ctrl = controlWidget(node);
   if (ctrl) {
@@ -625,6 +657,18 @@ app.registerExtension({
     nodeType.prototype.onNodeCreated = function () {
       onNodeCreated?.apply(this, arguments);
       setupNode(this);
+    };
+
+    // migrate workflows saved before the "recent ▾" button existed
+    // (pre-1.3: 13 widget slots) — insert its slot so values don't shift.
+    // Must wrap configure(), not onConfigure(): values are assigned before
+    // onConfigure fires.
+    const configure = nodeType.prototype.configure;
+    nodeType.prototype.configure = function (info) {
+      if (Array.isArray(info?.widgets_values) && info.widgets_values.length === 13) {
+        info.widgets_values.splice(1, 0, null);
+      }
+      return configure.apply(this, arguments);
     };
 
     const onConfigure = nodeType.prototype.onConfigure;

@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-promptdeck"
 description = "Prompt feeder that shows you the list: running-line highlight, click-to-jump, hold, ratings, per-line disable, and text surgery. No line limits, no dependencies."
-version = "1.2.0"
+version = "1.3.0"
 license = { file = "LICENSE" }
 dependencies = []
 

@@ -32,6 +32,9 @@ gives you transport controls.
   workflow switches, and file reordering (keyed by line text, not line number).
 - **Rating filter**: run `all`, `good only`, or `hide bad`.
 - **Per-line disable** checkboxes (stored in the workflow).
+- **Recent files**: the `recent ▾` button under the path lists the last 10
+  prompt files you loaded (remembered server-side, survives restarts) — one
+  click to switch between your scattered prompt collections.
 - **Restart-proof position**: the line index is a widget, saved *in your
   workflow*, not hidden server state. Come back a week later, it's where you
   left it. Batch-queue 20 runs → 20 different lines (native

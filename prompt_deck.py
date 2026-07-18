@@ -9,6 +9,34 @@ _SLUG_RE = re.compile(r"[^0-9A-Za-z]+")
 
 RATING_FILTERS = ["all", "good only", "hide bad"]
 
+_RECENTS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "recent_files.json")
+_RECENTS_MAX = 10
+
+
+def _load_recents():
+    try:
+        with open(_RECENTS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        recents = data.get("recents", [])
+        return recents if isinstance(recents, list) else []
+    except (OSError, ValueError):
+        return []
+
+
+def _remember_recent(path: str):
+    recents = _load_recents()
+    if recents and recents[0] == path:
+        return  # already freshest, skip the disk write
+    if path in recents:
+        recents.remove(path)
+    recents.insert(0, path)
+    del recents[_RECENTS_MAX:]
+    try:
+        with open(_RECENTS_PATH, "w", encoding="utf-8") as f:
+            json.dump({"recents": recents}, f, ensure_ascii=False, indent=1)
+    except OSError:
+        pass
+
 
 def _sidecar_path(file_path: str) -> str:
     return file_path + ".deck.json"
@@ -237,7 +265,12 @@ def _register_routes():
                 lines = f.read().splitlines()
         except OSError:
             return web.json_response({"ok": False, "lines": [], "ratings": {}})
+        _remember_recent(path)
         return web.json_response({"ok": True, "lines": lines, "ratings": _load_ratings(path)})
+
+    @routes.get("/promptdeck/recents")
+    async def promptdeck_recents(request):
+        return web.json_response({"recents": _load_recents()})
 
     @routes.post("/promptdeck/rate")
     async def promptdeck_rate(request):
