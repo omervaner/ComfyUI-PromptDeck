@@ -9,6 +9,6 @@ dependencies = []
 Repository = "https://github.com/omervaner/ComfyUI-PromptDeck"
 
 [tool.comfy]
-PublisherId = "omervaner"
+PublisherId = "vaner"
 DisplayName = "Prompt Deck"
 Icon = ""
