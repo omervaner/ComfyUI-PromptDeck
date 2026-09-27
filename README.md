@@ -68,6 +68,30 @@ gives you transport controls.
 (Position, totals, and remaining lines are shown in the node header instead of
 cluttering the outputs.)
 
+## Keeper 💾 (second node)
+
+Save Image keeps *everything*; Preview Image makes you right-click → open →
+save the good ones by hand. **Keeper** previews like Preview Image and saves
+only what you tell it to.
+
+- The image fills the node, like Save Image. One slim bar underneath:
+  `◀ 3/10 ▶` on the left, `Save as…` and `💾` on the right.
+- **💾** saves the shown image to the output folder using `filename_prefix` —
+  same formatting as Save Image (`MyModel/%date:yyyy-MM-dd%/%date:hhmmss%`),
+  dates resolved at queue time, so the name reflects when it was generated.
+  No dialogs. A ✓ appears on saved images; 💾 won't save the same one twice.
+- **Save as…** asks for a name (pre-filled with the auto one). Slashes make
+  subfolders; it never overwrites (appends `_2`, `_3`…).
+- **History**: the last 10 images. ◀ is older, ▶ newer; ←/→ keys work while the
+  node is selected. A new run jumps to the first image of the new batch.
+- Saved PNGs keep the workflow/prompt metadata, so they drag back into
+  ComfyUI like any Save Image output.
+- Unsaved previews live in ComfyUI's temp folder and vanish on restart —
+  that's the point. History is per page session (a browser refresh clears it).
+- Passes `images` through, so it can sit mid-chain.
+
+Under **PromptDeck → Keeper**.
+
 ## Install
 
 ```
@@ -75,7 +99,7 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/omervaner/ComfyUI-PromptDeck
 ```
 
-Restart ComfyUI. The node is under **PromptDeck → Prompt Deck**.
+Restart ComfyUI. The nodes are under **PromptDeck → Prompt Deck** and **PromptDeck → Keeper**.
 
 No pip installs. See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for a hand-holding version.
 
