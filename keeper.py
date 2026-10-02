@@ -45,14 +45,27 @@ class Keeper:
                                "e.g. MyModel/%date:yyyy-MM-dd%/%date:hhmmss%",
                 }),
             },
+            "optional": {
+                # the "all" toggle in the bar: save everything at generation time,
+                # exactly like Save Image
+                "keep_all": ("BOOLEAN", {"default": False}),
+            },
             "hidden": {"prompt": "PROMPT", "extra_pnginfo": "EXTRA_PNGINFO"},
         }
 
-    def preview(self, images, filename_prefix="ComfyUI", prompt=None, extra_pnginfo=None):
-        temp_dir = folder_paths.get_temp_directory()
-        tag = "".join(random.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5))
-        full_folder, filename, counter, subfolder, _ = folder_paths.get_save_image_path(
-            f"keeper_{tag}", temp_dir, images[0].shape[1], images[0].shape[0])
+    def preview(self, images, filename_prefix="ComfyUI", keep_all=False, prompt=None, extra_pnginfo=None):
+        w, h = images[0].shape[1], images[0].shape[0]
+        if keep_all:
+            out_dir = folder_paths.get_output_directory()
+            full_folder, filename, counter, subfolder, _ = folder_paths.get_save_image_path(
+                filename_prefix, out_dir, w, h)
+            kind, compress = "output", 4
+        else:
+            out_dir = folder_paths.get_temp_directory()
+            tag = "".join(random.choice("abcdefghijklmnopqrstuvwxyz") for _ in range(5))
+            full_folder, filename, counter, subfolder, _ = folder_paths.get_save_image_path(
+                f"keeper_{tag}", out_dir, w, h)
+            kind, compress = "temp", 1  # fast like Preview Image; re-encoded on save
 
         metadata = None
         if not _DISABLE_METADATA:
@@ -66,16 +79,18 @@ class Keeper:
         results = []
         for batch_number, image in enumerate(images):
             arr = np.clip(255.0 * image.cpu().numpy(), 0, 255).astype(np.uint8)
-            file = f"{filename}_{counter:05}_.png"
-            # compress_level 1 like Preview Image: fast, and re-encoded on save
-            Image.fromarray(arr).save(os.path.join(full_folder, file), pnginfo=metadata, compress_level=1)
-            results.append({
+            file = f"{filename.replace('%batch_num%', str(batch_number))}_{counter:05}_.png"
+            Image.fromarray(arr).save(os.path.join(full_folder, file), pnginfo=metadata, compress_level=compress)
+            result = {
                 "filename": file,
                 "subfolder": subfolder,
-                "type": "temp",
+                "type": kind,
                 # resolved at queue time by the JS; %batch_num% is ours to fill
                 "prefix": filename_prefix.replace("%batch_num%", str(batch_number)),
-            })
+            }
+            if keep_all:
+                result["saved"] = os.path.join(subfolder, file).replace("\\", "/")
+            results.append(result)
             counter += 1
 
         # custom ui key, so the frontend's stock image preview stays out of our way
@@ -139,11 +154,13 @@ def _register_routes():
             subfolder = data.get("subfolder", "")
             prefix = data.get("prefix", "")
             name = data.get("name", "")
+            kind = data.get("type", "temp")
         except Exception:
             return web.json_response({"ok": False, "error": "bad request"})
-        temp_dir = folder_paths.get_temp_directory()
-        src = os.path.join(temp_dir, subfolder, filename)
-        if not filename or not _inside(temp_dir, src) or not os.path.isfile(src):
+        # Save as… also works on images that "all" mode already wrote to output
+        src_dir = folder_paths.get_output_directory() if kind == "output" else folder_paths.get_temp_directory()
+        src = os.path.join(src_dir, subfolder, filename)
+        if not filename or not _inside(src_dir, src) or not os.path.isfile(src):
             return web.json_response({"ok": False, "error": "preview is gone (temp cleared?)"})
         try:
             saved = _save(src, prefix, name)

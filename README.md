@@ -75,15 +75,22 @@ save the good ones by hand. **Keeper** previews like Preview Image and saves
 only what you tell it to.
 
 - The image fills the node, like Save Image. One slim bar underneath:
-  `◀ 3/10 ▶` on the left, `Save as…` and `💾` on the right.
+  `◀ 3/10 ▶` on the left, `all`, `Save as…` and `💾` on the right.
 - **💾** saves the shown image to the output folder using `filename_prefix` —
   same formatting as Save Image (`MyModel/%date:yyyy-MM-dd%/%date:hhmmss%`),
   dates resolved at queue time, so the name reflects when it was generated.
   No dialogs. A ✓ appears on saved images; 💾 won't save the same one twice.
+  **Double-click the image** or press **S** (node selected) to do the same —
+  handy when you're zoomed in and the bar is off-screen.
 - **Save as…** asks for a name (pre-filled with the auto one). Slashes make
   subfolders; it never overwrites (appends `_2`, `_3`…).
-- **History**: the last 10 images. ◀ is older, ▶ newer; ←/→ keys work while the
-  node is selected. A new run jumps to the first image of the new batch.
+- **all** toggles save-everything mode: every image is written to output at
+  generation time, exactly like Save Image (arrives with the ✓ already on).
+  Stored in the workflow.
+- **History**: the last 5 / 10 / 20 / 50 images — click the `3/10` counter to
+  pick. ◀ is older, ▶ newer; ←/→ keys work while the node is selected. A new
+  run jumps to the first image of the new batch. Only the current image and
+  its neighbours stay decoded, so 50 won't eat your laptop's RAM.
 - Saved PNGs keep the workflow/prompt metadata, so they drag back into
   ComfyUI like any Save Image output.
 - Unsaved previews live in ComfyUI's temp folder and vanish on restart —
