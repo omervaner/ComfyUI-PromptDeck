@@ -99,6 +99,49 @@ only what you tell it to.
 
 Under **PromptDeck → Keeper**.
 
+## Cue 🎬 (third node)
+
+Type an intent — `undressing`, `fighting`, `superman saving people`, or a whole brief — plug in
+a picture or not, pick the target model, and a small **local** vision model writes the prompt in
+the format that model actually wants. No hosted API: it talks to [Ollama](https://ollama.com) on
+your machine with an abliterated Qwen3-VL (2B/4B), so violence and undress-and-cut-to-black
+scenes are not refused. The model is unloaded the moment it answers, so it never shares the GPU
+with your image or video model.
+
+- **MiniMax H3** gets the exact rewriter format local H3-Base was trained on (MiniMax never
+  open-sourced the rewriter): `t2v`, `i2v`, `first+last`, `last`, and `ref2v` with labelled
+  reference slots (`ref_1…9` + `label_1…9`; three slots labelled `woman` become one
+  `<Subject 1>` defined from three `<Picture N>`s). The node writes the fixed scaffolding itself
+  (header lines, `subject_definitions`), the model writes the creative text, and the node
+  validates sections, labels, timestamps and dialogue, retrying once. Label a ref slot
+  `first frame` (or plug the start picture into `image`) and ref2v starts from that frame. Two continuation flavours:
+  `continuation (DaSiWa)` writes only the next action for the Director's continuity field,
+  `continuation (Reel)` writes a whole window prompt with the seam policy.
+- **Krea 2** and **Generic** get prose. A new target model is a new text file in `templates/`.
+- **Subjects are swappable tokens.** The body says `{man}`; the description lives in one place.
+  `prompt` has the descriptions filled in, `prompt_tokens` keeps the tokens, and
+  `subjects_override` (lines like `man = tall woman with red hair`) swaps a character without a
+  model call. Two Prompt Decks, one of actions into `intent` and one of characters into
+  `subjects_override`, give actions × characters with the writer running once per action.
+- **Dialogue**: quoted text in the intent lands verbatim in `<d>[Language] …</d>`;
+  `dialogue_language` sets the tag. **Duration** shapes the shot plan (a 15 s prompt is not a
+  5 s prompt); the `duration_seconds` output can be linked into the Director's duration.
+- **Standing notes** travel with every request and live in the workflow: world, house rules,
+  LoRA trigger words. Nothing project-specific is in the code.
+- The prompt **streams into the node** as it is written. Slim bar: `◀ 2/5 ▶` history, `↻`
+  reroll (new seed and queue), `🔒` lock (the box becomes editable and is used verbatim), `⚠`
+  lists validation warnings. `models ▾` lists Ollama's installed models and pulls a recommended
+  one with progress.
+- Pictures are described once and cached by content; prompts are cached by all inputs, so
+  re-queues and Prompt Deck repeats cost nothing.
+- Runs standalone (output node), so you can iterate prompts without loading any model.
+- Feeding the DaSiWa Director: `prompt` → the Director's `external_prompt_overwrite` socket.
+  Reference slot N must be the Director's N-th image tile. Its continuity ignores that socket;
+  paste the `continuation (DaSiWa)` text into its continuity prompt field.
+
+Under **PromptDeck → Cue**. Needs Ollama running (`ollama serve`); the node tells you if it is not.
+Design notes in [docs/CUE_DESIGN.md](docs/CUE_DESIGN.md).
+
 ## Install
 
 ```
@@ -106,9 +149,9 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/omervaner/ComfyUI-PromptDeck
 ```
 
-Restart ComfyUI. The nodes are under **PromptDeck → Prompt Deck** and **PromptDeck → Keeper**.
+Restart ComfyUI. The nodes are under **PromptDeck → Prompt Deck**, **PromptDeck → Keeper** and **PromptDeck → Cue**.
 
-No pip installs. See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for a hand-holding version.
+No pip installs. Cue additionally needs [Ollama](https://ollama.com) running locally. See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for a hand-holding version.
 
 ## Notes
 

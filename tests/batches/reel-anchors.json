@@ -1,0 +1,46 @@
+{
+  "comment": "Runbook §3 row 2 / H3_REEL_PLAN §6.2: 3 sources x {extend, bridge, prequel} x head {5, 22, 39} x 2 seeds = 54 items. Question: seam quality, identity, saturation climb. Each source is a dict so its clip, its reference pictures and its name travel together ({source.file}, {source.refs}). Seams assume 5 s sources and a 5 s new window: extend and prequel have one seam at 5.0 s of the decoded output, bridge has two (5.0 and 10.0). Adjust if the workflows use other lengths. head_frames is read by bridge and prequel; extend uses tail_frames only.",
+  "workflow": {
+    "by": "op",
+    "map": {
+      "extend": "tests/workflows/reel_extend.json",
+      "bridge": "tests/workflows/reel_bridge.json",
+      "prequel": "tests/workflows/reel_prequel.json"
+    }
+  },
+  "matrix": {
+    "sources": [
+      {"name": "char1", "file": "promptdeck_tests/sources/char1_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char1"},
+      {"name": "char2", "file": "promptdeck_tests/sources/char2_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char2"},
+      {"name": "char3", "file": "promptdeck_tests/sources/char3_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char3"}
+    ],
+    "ops": ["extend", "bridge", "prequel"],
+    "head_frames": ["5", "22", "39"],
+    "seeds": [1, 2],
+    "tail_frames": "22",
+    "new_seconds": 5.0,
+    "intents": ["Continue the same uninterrupted shot: the person keeps doing what they were doing, then turns toward the camera."]
+  },
+  "set": [
+    {"node": "Source", "input": "file", "value": "{source.file}", "_comment": "the loader for the source clip or latent; rename node/input to match the exported workflow"},
+    {"node": "Next Source", "input": "file", "value": "{source.file}", "when": {"op": "bridge"}, "_comment": "bridge needs the clip to the right; placeholder uses the same clip, point it at a second clip per character if wanted"},
+    {"node": "Reel Guide", "input": "op", "value": "{op}"},
+    {"node": "Reel Guide", "input": "head_frames", "value": "{head_frames}"},
+    {"node": "Reel Guide", "input": "tail_frames", "value": "{tail_frames}"},
+    {"node": "Reel Guide", "input": "new_seconds", "value": "{new_seconds}"},
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Noise", "input": "noise_seed", "value": "{seed}", "_comment": "RandomNoise node of SamplerCustomAdvanced; use KSampler/seed if the graph uses KSampler"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct",
+  "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
+  "judge": {
+    "kind": "video",
+    "seam_frames": true,
+    "primary": "seam",
+    "seams": {"by": "op", "extend": [5.0], "prequel": [5.0], "bridge": [5.0, 10.0]},
+    "refs": "{source.refs}"
+  },
+  "timeout_seconds": 1800
+}

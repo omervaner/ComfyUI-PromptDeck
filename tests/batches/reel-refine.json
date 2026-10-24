@@ -1,0 +1,42 @@
+{
+  "comment": "Runbook §3 row 4 / H3_REEL_PLAN §7: the best anchor setting from reel-anchors (fill op and head_frames below from its results.csv), with and without the 10-step 0.15 refine of the window before splicing. Question: does the refine help the seam. tests/workflows/reel_refine.json is the chosen reel_* workflow exported with a second sampler pass titled 'Refine' on the window; denoise 0.0 means no refine. 3 sources x 2 x 2 seeds = 12 items.",
+  "workflow": "tests/workflows/reel_refine.json",
+  "matrix": {
+    "sources": [
+      {"name": "char1", "file": "promptdeck_tests/sources/char1_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char1"},
+      {"name": "char2", "file": "promptdeck_tests/sources/char2_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char2"},
+      {"name": "char3", "file": "promptdeck_tests/sources/char3_5s.mp4", "refs": "../../input/promptdeck_tests/refs/char3"}
+    ],
+    "refine_denoises": [0.0, 0.15],
+    "seeds": [1, 2],
+    "refine_steps": 10,
+    "op": "extend",
+    "head_frames": "22",
+    "tail_frames": "22",
+    "new_seconds": 5.0,
+    "intents": ["Continue the same uninterrupted shot: the person keeps doing what they were doing, then turns toward the camera."]
+  },
+  "set": [
+    {"node": "Source", "input": "file", "value": "{source.file}"},
+    {"node": "Reel Guide", "input": "op", "value": "{op}"},
+    {"node": "Reel Guide", "input": "head_frames", "value": "{head_frames}"},
+    {"node": "Reel Guide", "input": "tail_frames", "value": "{tail_frames}"},
+    {"node": "Reel Guide", "input": "new_seconds", "value": "{new_seconds}"},
+    {"node": "Refine", "input": "denoise", "value": "{refine_denoise}"},
+    {"node": "Refine", "input": "steps", "value": "{refine_steps}"},
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Noise", "input": "noise_seed", "value": "{seed}"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct",
+  "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
+  "judge": {
+    "kind": "video",
+    "seam_frames": true,
+    "primary": "seam",
+    "seams": {"by": "op", "extend": [5.0], "prequel": [5.0], "bridge": [5.0, 10.0]},
+    "refs": "{source.refs}"
+  },
+  "timeout_seconds": 1800
+}

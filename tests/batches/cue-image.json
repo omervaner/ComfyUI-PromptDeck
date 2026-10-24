@@ -1,0 +1,22 @@
+{
+  "comment": "Runbook §3 row 5: 20 image intents x Krea 2 with the best writer (4b placeholder). Question: prompt quality, by judge and by eye. Images last because they are the cheapest to redo.",
+  "workflow": "tests/workflows/cue_krea2.json",
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_image.txt",
+    "writers": ["huihui_ai/qwen3-vl-abliterated:4b-instruct"],
+    "seeds": [1],
+    "detail": "medium"
+  },
+  "set": [
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "writer", "value": "{writer}"},
+    {"node": "Cue", "input": "detail", "value": "{detail}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "KSampler", "input": "seed", "value": "{seed}", "_comment": "sampler seed; rename to match the exported workflow"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct",
+  "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
+  "judge": {"kind": "image", "seam_frames": false, "primary": "intent_match"},
+  "timeout_seconds": 900
+}

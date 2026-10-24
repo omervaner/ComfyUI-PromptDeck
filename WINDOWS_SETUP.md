@@ -54,3 +54,9 @@ Same file works unchanged. Mapping:
 | Search and Replace node | `search` / `replace` fields |
 | JoinString pre/after | `pre_text` / `after_text` boxes |
 | skip_lines | not carried over (was unused) |
+
+## Maintainer runbook
+
+For the Claude session that sets up and tests new nodes on this machine, see
+[docs/WINDOWS_RUNBOOK.md](docs/WINDOWS_RUNBOOK.md): setup is allowed any time, test generations
+only on Omer's go-word.

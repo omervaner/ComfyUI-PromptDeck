@@ -1,0 +1,37 @@
+{
+  "comment": "Runbook §3 row 3: best writer (set from cue-format results; 4b placeholder), 20 intents x {i2v, ref2v}, 5 s. Question: does the video do the intent; identity vs refs; the Turkish line. Start frame and reference pictures are wired by the `when` entries so each mode touches only the loaders its workflow has.",
+  "workflow": {
+    "by": "mode",
+    "map": {
+      "i2v": "tests/workflows/cue_h3_i2v.json",
+      "ref2v": "tests/workflows/cue_h3_ref2v.json"
+    }
+  },
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_video.txt",
+    "modes": ["i2v", "ref2v"],
+    "writers": ["huihui_ai/qwen3-vl-abliterated:4b-instruct"],
+    "seeds": [1],
+    "detail": "long",
+    "duration": 5.0,
+    "character": "char1"
+  },
+  "set": [
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "mode", "value": "{mode}"},
+    {"node": "Cue", "input": "writer", "value": "{writer}"},
+    {"node": "Cue", "input": "detail", "value": "{detail}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Cue", "input": "duration_seconds", "value": "{duration}"},
+    {"node": "Start Frame", "input": "image", "value": "promptdeck_tests/starts/{character}.png", "when": {"mode": "i2v"}},
+    {"node": "Ref 1", "input": "image", "value": "promptdeck_tests/refs/{character}/1.png", "when": {"mode": "ref2v"}},
+    {"node": "Ref 2", "input": "image", "value": "promptdeck_tests/refs/{character}/2.png", "when": {"mode": "ref2v"}},
+    {"node": "Ref 3", "input": "image", "value": "promptdeck_tests/refs/{character}/3.png", "when": {"mode": "ref2v"}},
+    {"node": "Noise", "input": "noise_seed", "value": "{seed}", "_comment": "sampler seed; rename to match the exported workflow"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct",
+  "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
+  "judge": {"kind": "video", "seam_frames": false, "primary": "intent_match", "refs": "../../input/promptdeck_tests/refs/{character}"},
+  "timeout_seconds": 1800
+}
