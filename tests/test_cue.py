@@ -166,7 +166,7 @@ def test_repairs_17_1():
     ok("speaker: word before verb", cue.guess_speaker('the bartender says "no"', "no") == "The bartender")
     body, n = cue.append_dialogue("[Shot 1] She turns", 'she turns and whispers "go"', ["go"], "Turkish")
     ok("append: speech added once", n == 1 and body.endswith("She (S1) says: <d>[Turkish] go</d>") and cue.append_dialogue(body, "x", ["go"], "Turkish")[1] == 0)
-    ok("palette: no person axis for a place", "subject person" not in cue.draw_palette(3, "a rainy street") and "subject person" in cue.draw_palette(3, "a woman in the rain"))
+    ok("palette: scene axes only, two per run", "subject person" not in cue.draw_palette(3, "a woman in the rain") and cue.draw_palette(3, "a rainy street").count(" — ") == 2)
     ok("palette: intent changes the draw", cue.draw_palette(3, "a rainy street") != cue.draw_palette(3, "a desert road"))
     # dropped dialogue through the node: both answers lack the line -> appended after the retry
     ans = json.dumps({"subjects": [], "beats": [{"start_seconds": 0, "action": "x"}], "integrated_multimodal_description": "[Shot 1] A detective lights a cigarette.", "overall_soundscape": "s", "non_diegetic_music": "m"})
