@@ -25,6 +25,12 @@ Rules:
   required sections, shot markers and timing inside the duration), and set identity_match, seam and
   artifacts to null.
 - If KIND is image, seam is null and the timing part of prompt_match means composition order.
+- If KIND is seam there is no INTENT and no PROMPT: set intent_match and prompt_match to null. Only
+  frames around each SEAM are attached, in time order, two before and two after the join (labels
+  seamN_1..seamN_4). Score seam (is the join invisible: same shot, pose continued, no jump, restart,
+  repeated action, freeze), identity_match (is it the same person on both sides of the join; use the
+  REFERENCE pictures when attached, else compare the two sides) and artifacts (burn, saturation or
+  contrast change across the join, melted detail). Do not judge what the clip is about.
 - If frames are missing or unreadable, score what you can and say so in the note.
 - Do not give a 5 unless you checked every frame; do not give a 1 for a partial miss.
 

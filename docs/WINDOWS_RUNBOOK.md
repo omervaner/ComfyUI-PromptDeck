@@ -104,3 +104,7 @@ tie-breaks; it is not the truth. Omer reviews in the morning.
 One message to Omer (or the Mac session): pass rates, the top and bottom three per batch with
 paths, anything that crashed, the Ollama tags actually used, the ComfyUI commit. Numbers and
 paths only; the conclusions are Omer's.
+
+## 6. What happened (2026-10-25)
+
+Runs 1-4 were executed on the box; results, verdicts and the open items are in `docs/WINDOWS_HANDOFF.md` (repo) and `output/promptdeck_tests/REPORT.md` (box). Read the handoff before touching the tests.

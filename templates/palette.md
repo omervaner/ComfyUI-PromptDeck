@@ -1,0 +1,260 @@
+Cue variety palette. Small writers fall into one house style whenever the intent leaves a choice
+open. Cue draws ONE line per axis below with random.Random(seed) and hands the draws to the
+writer as suggestions: used only where the intent leaves the choice open, dropped when they
+clash, the intent always wins. Same seed, same draws. Lines are concrete fragments, not rules.
+Edit freely; keep the "## axis" headings and the "- " prefix.
+
+## setting
+- a laundromat with one machine running
+- a dentist's waiting room
+- a tram stop at the edge of town
+- a wheat field at harvest
+- the open deck of a car ferry
+- a school gym set up for an exam
+- a night market between food stalls
+- a mosque courtyard with a fountain
+- a mountain hut with a wood stove
+- a hotel corridor with worn carpet
+- the back room of a bakery
+- a village bus with cloth seats
+- a rooftop water tank platform
+- a public pool changing room
+- a hardware shop aisle
+- a hospital car park at shift change
+- a riverside path under plane trees
+- an airport gate after the last call
+- a tailor's workshop with a cutting table
+- a greenhouse with the vents open
+- a stairwell of a 1970s apartment block
+- a petrol station forecourt
+- a university library reading room
+- a fishing harbour at low tide
+- a kitchen table in a farmhouse
+- a boxing gym between sessions
+- a tea garden with plastic chairs
+- a ski lift queue
+- a train compartment with the blind half down
+- a cemetery with cypress trees
+
+## time_weather
+- an hour after sunrise, thin fog
+- noon, hard sun, no clouds
+- mid-afternoon, overcast, flat light
+- first snow at dusk
+- just after a thunderstorm, wet ground, sun breaking through
+- a warm night with a dry wind
+- late morning, haze, washed-out sky
+- the blue half hour before sunrise
+- a humid evening with distant lightning
+- a bright winter day, long shadows
+- drizzle at lunchtime
+- golden hour with dust in the air
+- a windy spring afternoon, fast clouds
+- midnight under sodium streetlights
+- a cold clear morning with frost
+- a grey autumn afternoon, leaves blowing
+- early evening with the lights just switched on
+- a heatwave afternoon, everything still
+- fog rolling in off the sea
+- light snow falling under a lamp
+
+## light
+- one bare bulb overhead, hard
+- north window, soft, from the left
+- car headlights from behind
+- a candle at table height
+- fluorescent tubes, even and cold
+- low sun through a doorway, warm and raking
+- a neon sign from above, one colour
+- a phone screen lighting the face from below
+- open shade under an awning, soft and blue
+- a desk lamp pointed at the wall, bounced
+- firelight from a low grill, flickering
+- skylight from directly above
+- a bedside lamp with a warm shade
+- stage spotlight from the front, everything else dark
+- a shop window glowing from inside, night
+- hard flash straight on, like a passport photo
+- sunlight through blinds, striped
+- torchlight held by someone off frame
+- a computer monitor, bluish, from the side
+- diffuse snow light from everywhere
+
+## camera
+- from across the street, long lens, compressed
+- eye level, 35mm feel, everything sharp
+- low, close, wide, slightly tilted
+- a high shelf looking down, wide
+- a tight portrait, 85mm feel, background melted
+- waist height, medium distance, straight on
+- from the doorway, the subject small in the room
+- over the shoulder of someone else
+- knee height, looking slightly up
+- a phone held at arm's length
+- far back, the whole building in frame
+- close on the hands, face out of focus
+- through a window, reflections included
+- from the back seat of a car
+- at table height, across the table
+- a tripod at eye level, long exposure
+- from above the crowd, on a ladder
+- very close, macro feel, texture first
+- at the subject's shoulder, walking with them
+- centred and symmetrical, deep focus
+
+## finish
+- Kodachrome slide, saturated and clean
+- medium-format colour negative, soft and detailed
+- a phone snapshot with flash
+- gouache on paper
+- a risograph two-colour print
+- wet-plate collodion, silver and uneven
+- a flat vector illustration
+- a charcoal sketch on grey paper
+- 35mm colour negative, slightly faded
+- a newspaper halftone photograph
+- a watercolour with hard pencil lines
+- an oil painting with visible brushwork
+- a high-resolution digital photograph, no grain
+- a Polaroid with a colour cast
+- an engraving, fine crosshatching
+- a woodblock print, three colours
+- a black-and-white press photo
+- a studio catalogue photograph, clean white
+- an animation cel with painted background
+- a cyanotype, blue and white
+- a security camera still, soft and grey
+- an infrared photograph, white foliage
+- a chalk pastel drawing
+- a fashion editorial, glossy
+- a scanned family photo with rounded corners
+
+## mood
+- tender
+- bored
+- triumphant
+- uneasy
+- giddy
+- solemn
+- mischievous
+- exhausted
+- serene
+- impatient
+- proud
+- embarrassed
+- curious
+- defiant
+- relieved
+- lonely
+- playful
+- wary
+- content
+- nervous
+- amused
+- grieving
+- focused
+- smug
+- hopeful
+
+## subject_person
+- a stocky man in his sixties with a grey beard
+- a tall teenage girl with braids
+- a heavyset woman with short red hair
+- two elderly friends on a bench
+- a wiry cyclist in his forties
+- a young father with a toddler on his shoulders
+- a nurse at the end of a night shift
+- a boy of about ten with a gap in his teeth
+- a broad-shouldered woman in her fifties with cropped grey hair
+- a lanky student with glasses and a backpack
+- a market seller with forearms like rope
+- a bride in her thirties with her shoes off
+- a man in his twenties with a shaved head and a limp
+- an old woman with a cane and a bright headscarf
+- twin sisters in their teens
+- a chef in his fifties with burn marks on his hands
+- a small woman with long black hair in a bun
+- a bus driver with a moustache
+- a pregnant woman in her late twenties
+- a tall thin man with a stoop and a wool cap
+- a girl of six holding a dog's lead
+- a retired boxer with a flattened nose
+- a woman in her forties with freckles and a ponytail
+- three teenage boys with one bicycle
+- a monk in his thirties with a shaved head
+- a grandmother and a baby
+- a dark-skinned man in his thirties with a close beard
+- a pale woman with white-blonde hair and a long coat
+- a plump boy with a trumpet case
+- an athlete in her twenties with taped fingers
+
+## subject_other
+- a grey cat on a windowsill
+- a rusted tractor
+- a delivery van with the door open
+- a bowl of lemons
+- a wet dog
+- a lighthouse on a rock
+- a brass band's instruments on chairs
+- a half-demolished house
+- a plate of grilled fish
+- an old sewing machine
+- a horse in a trailer
+- a stack of newspapers tied with string
+- a ferry at the quay
+- a vending machine lit at night
+- a beehive in an orchard
+- a motorcycle under a tarp
+- a bakery window full of bread
+- a crane over a building site
+- a goat on a wall
+- a pile of firewood under a lean-to
+
+## object
+- a dented thermos
+- a folded newspaper
+- a child's bicycle
+- a bowl of oranges
+- a cracked phone screen
+- a string bag of onions
+- a wristwatch with a worn strap
+- a pair of muddy boots by the door
+- a coffee cup with a lipstick mark
+- a transistor radio
+- a wet umbrella leaning on a wall
+- a chipped enamel mug
+- a set of keys on a hook
+- a bus ticket in a hand
+- a half-eaten sandwich on paper
+- a rolled yoga mat
+- a cigarette behind an ear
+- a plastic chair with one short leg
+- a paper bag of pistachios
+- a bicycle pump
+- a bunch of parsley
+- a toolbox with the lid up
+- a school satchel
+- a mobile phone face down
+- a glass of tea in a tulip glass
+
+## colour
+- rust and teal
+- washed-out pastels
+- black, white and one red
+- olive and ochre
+- cold blue with a warm lamp
+- cream, brown and brass
+- saturated primaries
+- grey on grey with a yellow accent
+- deep green and off-white
+- dusty pink and concrete
+- navy and mustard
+- sun-bleached everything
+- burgundy and gold
+- pale blue and sand
+- monochrome with warm highlights
+- orange sodium light and black
+- mint, white and chrome
+- earth tones, no bright colour
+- violet dusk and streetlight amber
+- red brick and pale sky

@@ -387,6 +387,8 @@ def run_batch(batch, args):
                 outputs = hist.get("outputs") or {}
                 run["prompt_node"], run["prompt_text"] = extract_text(outputs, pnode)
                 run["validator"] = extract_validator(outputs, pnode)
+                if not run["prompt_text"] and isinstance(run["validator"], dict) and run["validator"].get("prompt"):
+                    run["prompt_text"] = run["validator"]["prompt"]  # Cue's ui carries the prompt in its dict
                 run["files"] = download_outputs(args.comfy, outputs, item_dir)
                 if run["prompt_text"]:
                     (item_dir / "prompt.txt").write_text(run["prompt_text"], encoding="utf-8")
@@ -420,9 +422,12 @@ def video_duration(ffmpeg, video):
     return float(m.group(1)) * 3600 + float(m.group(2)) * 60 + float(m.group(3)) if m else None
 
 
-def gather_frames(item_dir, seams, n_even=8, n_seam=4):
-    """Returns (frames_source, [(label, path)]). ffmpeg extraction when possible, saved stills otherwise."""
-    videos = sorted(p for p in item_dir.iterdir() if p.suffix.lower() in VIDEO_EXT)
+def gather_frames(item_dir, seams, n_even=8, n_seam=4, exclude=()):
+    """Returns (frames_source, [(label, path)]). ffmpeg extraction when possible, saved stills otherwise.
+    `exclude`: file names that are inputs copied alongside the outputs (Reel source clips) — run 1
+    judged the source clip because it sorted first."""
+    videos = sorted(p for p in item_dir.iterdir() if p.suffix.lower() in VIDEO_EXT and p.name not in set(exclude))
+    n_even = max(0, n_even)
     ffmpeg = shutil.which("ffmpeg")
     if videos and ffmpeg:
         video, fdir = videos[0], item_dir / "frames"
@@ -444,7 +449,7 @@ def gather_frames(item_dir, seams, n_even=8, n_seam=4):
             if frames:
                 return f"ffmpeg:{video.name}", frames
     stills = sorted(p for p in item_dir.iterdir() if p.suffix.lower() in IMAGE_EXT)
-    if stills:
+    if stills and n_even:
         step = max(1, len(stills) / n_even)
         picked = [stills[int(i * step)] for i in range(min(n_even, len(stills)))]
         return "saved_frames", [(f"t{i + 1:02d}", p) for i, p in enumerate(picked)]
@@ -486,7 +491,14 @@ def parse_scores(raw):
 def judge_item(batch, run, item_dir, args, system_prompt):
     kind = (batch.get("judge") or {}).get("kind", "video")
     seams = run.get("seams") or []
-    source, frames = ("none", []) if kind == "prompt" else gather_frames(item_dir, seams)
+    # input clips the driver copied next to the outputs (Reel sources) must not be judged
+    exclude = {Path(str(v)).name for v in walk_values(run["values"]) if str(v).lower().endswith(tuple(VIDEO_EXT))}
+    if kind == "prompt":
+        source, frames = "none", []
+    elif kind == "seam":  # only the frames around each cut; no intent, no prompt
+        source, frames = gather_frames(item_dir, seams, n_even=0, exclude=exclude)
+    else:
+        source, frames = gather_frames(item_dir, seams, exclude=exclude)
     refs = ref_pictures(batch, run["values"])
     images, legend = [], []
     for label, p in frames:
@@ -495,13 +507,21 @@ def judge_item(batch, run, item_dir, args, system_prompt):
     for p in refs:
         images.append(base64.b64encode(p.read_bytes()).decode("ascii"))
         legend.append(f"image {len(images)}: reference picture of the person ({p.name})")
-    user = [f"KIND: {kind}", f"INTENT: {run['values'].get('intent', '(none)')}",
-            f"PROMPT:\n{run.get('prompt_text') or '(no prompt text captured)'}",
-            f"SEAMS (seconds): {seams or 'none'}",
-            f"REFERENCES: {len(refs)} picture(s) attached" if refs else "REFERENCES: none, score identity_match null",
-            "IMAGES: " + ("; ".join(legend) if legend else "none, this is a prompt-only item")]
+    if kind == "seam":
+        user = [f"KIND: {kind}", f"SEAMS (seconds): {seams or 'none'}",
+                f"REFERENCES: {len(refs)} picture(s) attached" if refs else "REFERENCES: none, score identity_match null",
+                "IMAGES: " + ("; ".join(legend) if legend else "none, no seam frames could be extracted")]
+    else:
+        user = [f"KIND: {kind}", f"INTENT: {run['values'].get('intent', '(none)')}",
+                f"PROMPT:\n{prompt_of(run) or '(no prompt text captured)'}",
+                f"SEAMS (seconds): {seams or 'none'}",
+                f"REFERENCES: {len(refs)} picture(s) attached" if refs else "REFERENCES: none, score identity_match null",
+                "IMAGES: " + ("; ".join(legend) if legend else "none, this is a prompt-only item")]
+    # num_ctx: without it Ollama allocates the model's full 256k context (64 GB of KV for the
+    # 32B) and offloads most layers to CPU — 120 s per item. 32k covers ~19 images + prompt.
+    # keep_alive: 0 evicted the 20 GB model after every answer; keep it warm across the batch.
     payload = {"model": args.judge_model or batch.get("judge_model"), "stream": False, "format": "json",
-               "keep_alive": 0, "options": {"temperature": 0},
+               "keep_alive": "30m", "options": {"temperature": 0, "num_ctx": 32768},
                "messages": [{"role": "system", "content": system_prompt},
                             {"role": "user", "content": "\n".join(user), "images": images}]}
     result = {"id": run["id"], "model": payload["model"], "kind": kind, "frames_source": source,
@@ -520,6 +540,23 @@ def judge_item(batch, run, item_dir, args, system_prompt):
         result.update({k: None for k in SCORE_KEYS})
     write_json(item_dir / "judge.json", result)
     return result
+
+
+def walk_values(obj):
+    """Every scalar inside a matrix values dict (dict entries such as source.file included)."""
+    if isinstance(obj, dict):
+        for v in obj.values():
+            yield from walk_values(v)
+    elif isinstance(obj, (list, tuple)):
+        for v in obj:
+            yield from walk_values(v)
+    else:
+        yield obj
+
+
+def prompt_of(run):
+    """Prompt text of a run.json; items written before the validator fallback keep it in validator.prompt."""
+    return run.get("prompt_text") or (run.get("validator") or {}).get("prompt") or ""
 
 
 def judge_batch(batch, args):
@@ -560,7 +597,7 @@ def write_report(batch, runs, out_dir):
         judged = judged or {}
         video = next((f for f in run.get("files", []) if Path(f).suffix.lower() in VIDEO_EXT), "")
         row = {"id": run["id"], "intent": run["values"].get("intent", ""), "status": run["status"],
-               "seconds": run.get("seconds"), "prompt_chars": len(run.get("prompt_text") or ""),
+               "seconds": run.get("seconds"), "prompt_chars": len(prompt_of(run)),
                "note": judged.get("note"), "scored": judged.get("scored"), "frames_source": judged.get("frames_source"),
                "path": item_dir.as_posix(), "video": (item_dir / video).as_posix() if video else ""}
         row.update({k: run["values"].get(k) for k in var_keys})
@@ -603,8 +640,8 @@ def write_html(batch, runs, rows, out_dir, primary):
             f"</div><div><b>{e(run['id'])}</b> <span class='v'>{row['status']} {row['seconds']}s | {vals}</span></div>"
             f"<div>{e(run['values'].get('intent', ''))}</div><div class='v'>{e(judged.get('note') or '')}"
             f" {'' if judged.get('scored') or not judged else '(unscored)'} {e(' | '.join(run.get('errors') or []))[:300]}</div>"
-            f"<details><summary>prompt ({len(run.get('prompt_text') or '')} chars)</summary>"
-            f"<pre>{e(run.get('prompt_text') or '')}</pre></details><div class='v'>{e(rel)}</div></div></div>")
+            f"<details><summary>prompt ({len(prompt_of(run))} chars)</summary>"
+            f"<pre>{e(prompt_of(run))}</pre></details><div class='v'>{e(rel)}</div></div></div>")
     (out_dir / "index.html").write_text("\n".join(parts), encoding="utf-8")
 
 
@@ -650,12 +687,26 @@ def dry_run(batches, args):
                 allowed = {}
                 for group in ("required", "optional"):
                     allowed.update(spec.get("input", {}).get(group, {}))
+                # V3 autogrow inputs (e.g. MiniMaxH3ReferenceToVideo.ref_images) are one entry in
+                # /object_info but travel as dotted ids in prompt JSON: "<id>.<prefix><i>" or
+                # "<id>.<name>" (comfy_api/latest/_io.py finalize_prefix). Admit those too.
+                for key, entry in list(allowed.items()):
+                    opts = entry[1] if isinstance(entry, list) and len(entry) > 1 and isinstance(entry[1], dict) else {}
+                    tpl = opts.get("template") or {}
+                    if entry and entry[0] == "COMFY_AUTOGROW_V3" and tpl:
+                        names = tpl.get("names") or [f"{tpl.get('prefix', '')}{i}" for i in range(int(tpl.get("max", 0)))]
+                        for sub in names:
+                            allowed.setdefault(f"{key}.{sub}", ["*"])
                 for name, val in node.get("inputs", {}).items():
                     if name not in allowed and name not in spec.get("input", {}).get("hidden", {}):
                         log(f"{batch['_name']}: FAIL {wf.name} node {nid} ({node.get('class_type')}): no input '{name}'")
                         problems += 1
                     elif name in allowed and isinstance(allowed[name][0], list) and not isinstance(val, list) \
-                            and val not in allowed[name][0]:
+                            and val not in allowed[name][0] \
+                            and not (REPO.parent.parent / "input" / str(val)).is_file():
+                        # file combos (LoadImage/LoadVideo/LoadLatent) list only input/'s top level;
+                        # ComfyUI itself validates those by path on disk (VALIDATE_INPUTS ->
+                        # folder_paths.exists_annotated_filepath), so subfolder paths are fine.
                         log(f"{batch['_name']}: FAIL {wf.name} node {nid} input '{name}': {val!r} not in combo "
                             f"{allowed[name][0][:12]}")
                         problems += 1
@@ -731,6 +782,7 @@ def main(argv=None):
     ap.add_argument("--dry-run", action="store_true", help="validate against /object_info, queue nothing")
     ap.add_argument("--judge-only", action="store_true", help="skip queueing; judge existing items and rebuild reports")
     ap.add_argument("--rejudge", action="store_true", help="with --judge-only: re-score items that already have judge.json")
+    ap.add_argument("--no-judge", action="store_true", help="queue only; judge everything later with --judge-only --all")
     ap.add_argument("--selftest", action="store_true")
     ap.add_argument("--comfy", default="http://127.0.0.1:8188")
     ap.add_argument("--ollama", default="http://127.0.0.1:11434")
@@ -751,14 +803,24 @@ def main(argv=None):
     if args.dry_run:
         return 1 if dry_run(batches, args) else 0
     global _LOG_FILE
+    freed = False
     for batch in batches:
         out_dir = Path(args.out) / batch["_name"]
         out_dir.mkdir(parents=True, exist_ok=True)
         _LOG_FILE = open(out_dir / "log.txt", "a", encoding="utf-8")
         try:
+            ran = False
             if not args.judge_only:
                 run_batch(batch, args)
+                ran = True
+                if args.no_judge:
+                    log("judging deferred (--no-judge); run with --judge-only later")
+                    continue
+            # The judge needs the card: free Comfy after a run, and once up front in
+            # --judge-only mode (Comfy may still hold a model from an earlier session).
+            if ran or not freed:
                 free_comfy(args.comfy)
+                freed = True
             judge_batch(batch, args)
             log(f"report: {out_dir / 'index.html'}")
         finally:

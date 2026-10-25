@@ -15,7 +15,7 @@
     {"node": "KSampler", "input": "seed", "value": "{seed}", "_comment": "sampler seed; rename to match the exported workflow"}
   ],
   "outputs": {"node": "Cue"},
-  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct",
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
   "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
   "judge": {"kind": "image", "seam_frames": false, "primary": "intent_match"},
   "timeout_seconds": 900

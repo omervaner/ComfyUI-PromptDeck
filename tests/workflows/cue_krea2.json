@@ -1,0 +1,150 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "Krea2_Turbo_convrot_int8mixed.safetensors",
+      "weight_dtype": "default"
+    },
+    "_meta": {
+      "title": "UNET"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "CLIP"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "_meta": {
+      "title": "VAE"
+    }
+  },
+  "7": {
+    "class_type": "PromptDeckCue",
+    "inputs": {
+      "intent": "",
+      "notes": "",
+      "target": "Krea 2",
+      "mode": "t2v",
+      "duration_seconds": 5.0,
+      "dialogue_language": "English",
+      "detail": "medium",
+      "writer": "huihui_ai/qwen3-vl-abliterated:4b-instruct",
+      "endpoint": "http://127.0.0.1:11434",
+      "seed": 1,
+      "lock": false
+    },
+    "_meta": {
+      "title": "Cue"
+    }
+  },
+  "8": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "text": [
+        "7",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Encode"
+    }
+  },
+  "9": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "8",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Negative"
+    }
+  },
+  "10": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "_meta": {
+      "title": "Latent"
+    }
+  },
+  "11": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 1,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "8",
+        0
+      ],
+      "negative": [
+        "9",
+        0
+      ],
+      "latent_image": [
+        "10",
+        0
+      ],
+      "denoise": 1.0
+    },
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "12": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "11",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Decode"
+    }
+  },
+  "13": {
+    "class_type": "PromptDeckKeeper",
+    "inputs": {
+      "images": [
+        "12",
+        0
+      ],
+      "filename_prefix": "promptdeck_tests/cue_krea2",
+      "keep_all": true
+    },
+    "_meta": {
+      "title": "Keeper"
+    }
+  }
+}

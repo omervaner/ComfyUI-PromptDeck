@@ -1,0 +1,33 @@
+{
+  "comment": "Run 2: ref2v only with label_1..3 = char1 (one subject) and detail medium (run 1 long overshot the validator). Runbook §3 row 1: 20 intents x 3 H3 modes x 2 writers, prompts only, no video. prune_to keeps the Cue node (an output node) and what feeds it, so no sampler runs. Question: validator pass rate first try / after retry, seconds per prompt (v_* columns and seconds in results.csv).",
+  "workflow": {
+    "by": "mode",
+    "map": {
+      "t2v": "tests/workflows/cue_h3_t2v.json",
+      "i2v": "tests/workflows/cue_h3_i2v.json",
+      "ref2v": "tests/workflows/cue_h3_ref2v.json"
+    }
+  },
+  "prune_to": ["Cue"],
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_video.txt",
+    "modes": ["ref2v"],
+    "writers": ["huihui_ai/qwen3-vl-abliterated:4b-instruct", "huihui_ai/qwen3-vl-abliterated:2b-instruct", "huihui_ai/qwen3-vl-abliterated:8b-instruct"],
+    "seeds": [1],
+    "detail": "medium",
+    "duration": 5.0
+  },
+  "set": [
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "mode", "value": "{mode}"},
+    {"node": "Cue", "input": "writer", "value": "{writer}"},
+    {"node": "Cue", "input": "detail", "value": "{detail}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Cue", "input": "duration_seconds", "value": "{duration}"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge_model_comment": "replace with the tag that exists (ollama list): 30B-A3B or 32B instruct at Q4_K_M, else the 9B",
+  "judge": {"kind": "prompt", "seam_frames": false, "primary": "prompt_match"},
+  "timeout_seconds": 600
+}

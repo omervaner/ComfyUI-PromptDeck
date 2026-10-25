@@ -1,0 +1,25 @@
+{
+  "comment": "H3 motion calibration, run 2 after the system-prompt restructure (exhaustive description as identity, detail = coverage) (2026-10-25 end): 5 intents x 3 writers, t2v, prompts only. Judged by reading: continuous motion for face/hands/feet/camera/background, <=2 actions per 5 s, each with onset/development/end.",
+  "workflow": "tests/workflows/cue_h3_t2v.json",
+  "prune_to": ["Cue"],
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_motion.txt",
+    "modes": ["t2v"],
+    "writers": ["huihui_ai/qwen3-vl-abliterated:4b-instruct", "huihui_ai/qwen3-vl-abliterated:8b-instruct", "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M"],
+    "seeds": [4],
+    "detail": "long",
+    "duration": 5.0
+  },
+  "set": [
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "mode", "value": "{mode}"},
+    {"node": "Cue", "input": "writer", "value": "{writer}"},
+    {"node": "Cue", "input": "detail", "value": "{detail}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Cue", "input": "duration_seconds", "value": "{duration}"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge": {"kind": "prompt", "seam_frames": false, "primary": "prompt_match"},
+  "timeout_seconds": 900
+}

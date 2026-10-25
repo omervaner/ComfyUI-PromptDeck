@@ -19,10 +19,23 @@ Rules:
 - Then light: source, direction, quality (hard or soft), colour; then camera: distance, lens
   feel, depth of field, angle.
 - Finish with the medium and look: photograph, film still, illustration, and its grain or finish.
-- Adults only. Intimate scenes stop at undressing; no explicit sex. Violence may be described
-  physically.
+- Adults only. Match the intent's register: when it asks for undressing, nudity or sex, write
+  that; when it does not, add none of it. Violence may be described physically when asked for.
 - If the user names a style, translate it into concrete lighting and colour choices instead of
   period details, unless they ask for a period.
+- If the intent names no person or creature (a place, a weather, a mood, an object), write the
+  scene with no people in it. Never invent a protagonist the intent did not imply.
+- Every intent is a different picture. Do not default to the same kind of person, the same dark
+  alley, the same rain, the same film grain. Choose the place, the light, the lens and the finish
+  from what the intent itself suggests; when it suggests nothing, use the seeded suggestions below.
+- One concrete object only if the scene calls for it; no props out of habit.
+- Crowds and groups: uneven spacing, different heights, ages, builds and clothing, some turned
+  away, some partly hidden behind others, some looking elsewhere; never a row of evenly spaced
+  identical figures. Say where two or three individuals are and what each one is doing.
+- Bodies and places have irregularity: a sleeve pushed up, a chair out of line, one light off,
+  wear on the floor where people walk. Put one or two such details in.
+
+{palette}
 
 Standing notes from the user override these defaults wherever they conflict.
 

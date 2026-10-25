@@ -11,6 +11,7 @@ import hashlib
 import io
 import json
 import os
+import random
 import re
 import threading
 import time
@@ -497,8 +498,15 @@ def token_handle(tok):
     return "the " + word
 
 
+_ARTICLE_RE = re.compile(r"^(a|an|the)\s+", re.IGNORECASE)
+# a determiner within the last three words before the token: "The {w}", "A lone {w}", "by a {w}"
+_TRAILING_ARTICLE_RE = re.compile(r"(^|\W)(a|an|the)\s+(\w+\s+){0,2}$", re.IGNORECASE)
+
+
 def substitute_tokens(body, subjects):
-    """First mention of a token gets the full description, later mentions a short handle."""
+    """First mention of a token gets the full description, later mentions a short handle.
+    'The {woman}' + 'a young woman ...' must not become 'The a young woman': when the text before
+    the token already ends in an article, the description's own article is dropped."""
     seen = set()
 
     def rep(m):
@@ -508,8 +516,68 @@ def substitute_tokens(body, subjects):
         if tok in seen:
             return token_handle(tok)
         seen.add(tok)
-        return subjects[tok]
-    return _BRACE_TOKEN_RE.sub(rep, body)
+        desc = subjects[tok]
+        # the writer restated the description right next to the token ("{woman} in her twenties,
+        # slender, ..."): substituting the full description would double it and trip the
+        # repetition trimmer, so use the short handle instead
+        probe = _ARTICLE_RE.sub("", desc, count=1).lower()[:28]
+        around = m.string[max(0, m.start() - 160):m.end() + 160].lower()
+        if probe and probe in around:
+            return token_handle(tok)
+        if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]):
+            desc = _ARTICLE_RE.sub("", desc, count=1)
+        return desc
+    out = _BRACE_TOKEN_RE.sub(rep, body)
+    # a writer that wraps a whole description in braces ({an older woman in a cardigan}) is not
+    # using a token; the model must never see literal braces
+    return re.sub(r"\{([^{}]+)\}", r"\1", out)
+
+
+_META_LINE_RE = re.compile(r"(?im)^\s*[-—–(\[]*\s*(word count:?\s*)?\d+\s*words\s*[-—–)\]]*\s*$")
+
+
+_META_TAIL_RE = re.compile(r"\s*[-—–(\[]*\s*(word count:?\s*)?\d+\s*words\s*[-—–)\]]*\s*$", re.IGNORECASE)
+
+
+_META_PARA_RE = re.compile(r"(?is)\n\s*(?:[-—–]{2,}\s*)?\n\s*(?:note|notes|n\.b\.|nb|comment|explanation)\s*:.*$")
+
+
+def strip_meta_lines(text):
+    """Small writers append '— 120 words —', '(118 words)' or a trailing 'Note: ...' paragraph. Not prompt text."""
+    text = _META_PARA_RE.sub("", text)
+    text = _META_LINE_RE.sub("", text)
+    text = _META_TAIL_RE.sub("", text.rstrip())
+    return text.strip()
+
+
+_PALETTE_PATH = os.path.join(_HERE, "templates", "palette.md")
+_PALETTE_AXES = ("setting", "time_weather", "light", "camera", "finish", "mood", "subject_person",
+                 "subject_other", "object", "colour")
+
+
+def draw_palette(seed):
+    """One seeded line per axis of templates/palette.md, as a suggestion block for the writer.
+    Small models fall into one house style whenever the intent leaves a choice open; concrete,
+    seed-chosen material gives them something to vary on. Empty string if there is no palette."""
+    try:
+        with open(_PALETTE_PATH, "r", encoding="utf-8") as f:
+            lines = f.read().splitlines()
+    except OSError:
+        return ""
+    axes, current = {}, None
+    for line in lines:
+        if line.startswith("## "):
+            current = line[3:].strip().lower()
+            axes[current] = []
+        elif current and line.startswith("- ") and line[2:].strip():
+            axes[current].append(line[2:].strip())
+    rng = random.Random(int(seed) * 7919 + 17)
+    picks = [(axis, rng.choice(axes[axis])) for axis in _PALETTE_AXES if axes.get(axis)]
+    if not picks:
+        return ""
+    body = "; ".join(f"{axis.replace('_', ' ')} — {text}" for axis, text in picks)
+    return ("Seeded suggestions, use them only where the intent leaves the choice open (the intent "
+            "always wins; drop any that clash with it): " + body + ".")
 
 
 def trim_repetition(text):
@@ -851,6 +919,7 @@ class Cue:
             "words_medium": words.get("medium", 120), "words_long": words.get("long", 200),
             "tail_seconds": f"{22 / 24:.2f}", "detail": detail_level,
             "image_description": "", "image_last_description": "", "subject_definitions": "",
+            "palette": draw_palette(seed) if tpl.kind == "image" else "",
         }
 
         # ---- pictures -> words (stage A) ----
@@ -953,7 +1022,9 @@ class Cue:
             ask = user if attempt == 1 else (user + "\n\nYour previous answer had these problems:\n- "
                                              + "\n- ".join(errors) + "\nRewrite the complete answer.")
             raw = ollama_chat(endpoint, writer, system, ask, images=pictures_for_b or None,
-                              seed=int(seed) + attempt - 1, temperature=0.7, num_predict=max_tokens,
+                              seed=int(seed) + attempt - 1,
+                              temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
+                              num_predict=max_tokens,
                               on_chunk=job.chunk)
             built = self._build(tpl, mode, raw, fill, seconds, frames, defined_labels, subject_lines,
                                 predefined, overrides, quotes, language, use_brace_tokens, has_modes, is_cont)
@@ -992,8 +1063,10 @@ class Cue:
                 "Subject tokens: the user swaps characters later, so the body must not name main subjects "
                 "directly. Give each main person, creature or named character a one-word token in curly "
                 "braces, like {man}, {woman}, {superman}." + pre +
-                "\nStart your answer with the block\n\nsubjects:\n{token} = one sentence of visual description "
-                "(age range, build, hair, skin, clothing with colours, one distinguishing detail)\n\nthen a line "
+                "\nStart your answer with the block\n\nsubjects:\n{token} = a noun phrase that begins with 'a' or "
+                "'an' and names what they are, then age range, build, hair, skin, clothing with colours, one "
+                "distinguishing detail (for example {woman} = a woman in her forties, broad-shouldered, grey "
+                "cropped hair, olive skin, a navy work shirt, a scar on her left hand)\n\nthen a line "
                 "containing only\n\nprompt:\n\nand then the prompt itself, in which every mention of a subject is "
                 "its token, never a bare noun like 'the woman'. Pronouns (she, his) are fine. Tokens are the only "
                 "thing in curly braces.")
@@ -1078,10 +1151,17 @@ class Cue:
                     errors.extend(verr)
                     warnings.extend(vwarn)
                     imd = fields.get("integrated_multimodal_description", "")
+                    # System-side window framing, as DaSiWa's _window_context does: the writer is
+                    # told about the hidden overlap but rarely repeats it, and the model needs it.
+                    window = (f"This is a continuation window. Its opening {float(fill['tail_seconds']):.3f} seconds "
+                              "are hidden overlapping context from the end of the preceding shot. Weld to that tail "
+                              "at the seam: same subjects, space, and instantaneous motion, camera, and sound. Do not "
+                              f"freeze its tempo or camera for the rest of the clip. The following {seconds:.3f} "
+                              "seconds are the new visible continuation.")
                     if imd.startswith("[Shot 1]"):
-                        imd = "[Shot 1] " + SEAM_POLICY + " " + imd[len("[Shot 1]"):].strip()
+                        imd = "[Shot 1] " + window + " " + SEAM_POLICY + " " + imd[len("[Shot 1]"):].strip()
                     else:
-                        imd = "[Shot 1] " + SEAM_POLICY + " " + imd
+                        imd = "[Shot 1] " + window + " " + SEAM_POLICY + " " + imd
                     fields["integrated_multimodal_description"] = imd
                     body_tokens = "\n\n".join(f"{n}: {fields[n]}" for n in H3_FIELDS_BASE if n in fields)
                 else:
@@ -1094,7 +1174,7 @@ class Cue:
                         if q not in body_tokens:
                             errors.append(f'dialogue "{q}" missing verbatim')
         else:
-            body_tokens = body
+            body_tokens = strip_meta_lines(body)
             if not body_tokens:
                 errors.append("empty answer")
             for q in quotes:

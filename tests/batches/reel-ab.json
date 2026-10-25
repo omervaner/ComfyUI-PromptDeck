@@ -1,0 +1,24 @@
+{
+  "comment": "Reel seam A/B (2026-10-25). B = sample-exact source + Cue window sentence, run-3 sampler. C = same with Omer's Director sampler (res_multistep/simple/25, shift 11/4, no turbo LoRA). A is the existing run-3 clip reel-anchors/char1-extend-22-1. Judged by eye from seam sheets, not by the VLM.",
+  "workflow": {
+    "by": "variant",
+    "map": {
+      "B": "tests/workflows/reel_ab_B.json",
+      "C": "tests/workflows/reel_ab_C.json"
+    }
+  },
+  "matrix": {
+    "variants": ["B", "C"],
+    "seeds": [1],
+    "intents": ["Continue the same uninterrupted shot: the person keeps doing what they were doing, then turns toward the camera."]
+  },
+  "set": [
+    {"node": "Cue", "input": "intent", "value": "{intent}"},
+    {"node": "Cue", "input": "seed", "value": "{seed}"},
+    {"node": "Noise", "input": "noise_seed", "value": "{seed}"}
+  ],
+  "outputs": {"node": "Cue"},
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge": {"kind": "seam", "seam_frames": true, "primary": "seam", "seams": [5.0]},
+  "timeout_seconds": 1800
+}
