@@ -112,3 +112,25 @@ Runs 1-4 were executed on the box; results, verdicts and the open items are in `
 ## 7. 1.7 re-test (next on the box)
 
 Pull, restart ComfyUI, then re-run `cue-format`, `cue-format-i2v`, `cue-format-ref2v` and `cue-image-terse` with the 4B, and the same with the 32B writer (`--set` the writer or a copy of the batch). Compare `v_valid`, `v_retries` and beat counts against the 1.6 results. The JSON protocol needs Ollama >= 0.5; the box's version is in `ollama -v`.
+
+## 8. 1.8: writer bake-off and the palette (next on the box)
+
+1. Pull, restart. Set `writer` to a text model and keep `vision_writer` on the 4B VL.
+2. Pull every candidate now (Omer has the space; unused ones get deleted later with `ollama rm`).
+   If a tag does not exist, `ollama pull` says so: search `ollama.com/huihui_ai` for the current
+   spelling and note it in the handoff.
+
+   ```
+   ollama pull huihui_ai/qwen3-abliterated:8b
+   ollama pull huihui_ai/qwen3-abliterated:30b-a3b
+   ollama pull huihui_ai/mistral-small-abliterated:24b
+   ollama pull huihui_ai/gemma3-abliterated:27b
+   ollama pull huihui_ai/qwen3-vl-abliterated:8b-instruct
+   ```
+
+   Run `cue-image-terse` with each text model as `writers` (prompts only),
+   compare `v_valid`, words, time per prompt, and read ten prompts each by eye for register and variety.
+   Pick the daily writer from that; the 32B stays for `long` if nothing beats it.
+3. Palette: `python tools/make_palette.py --writer <best text model> --per-round 40 --rounds 25`
+   overnight (about 1000 new lines per axis; saves after every round, safe to interrupt). Commit
+   `templates/palette.md` afterwards.

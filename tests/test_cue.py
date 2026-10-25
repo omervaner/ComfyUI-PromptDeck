@@ -178,8 +178,49 @@ def test_repairs_17_1():
     ok("long: too short is an error that is retried", p["retries"] == 1 and any("too short" in e for e in p["errors"]) and "too short" in fake.calls[1]["user"])
 
 
+def test_18_writer_split_framing():
+    ans = json.dumps({"subjects": [{"token": "woman", "description": "a woman in her thirties"}],
+                      "prompt": "A close-up of {woman} laughing in rain, soft light."})
+    fake = FakeWriter([ans])
+    recorded = []
+    def spy(endpoint, model, *a, **k):
+        recorded.append(model)
+        return fake(endpoint, model, *a, **k)
+    cue.ollama_chat = spy
+    node = cue.Cue()
+    r = node.run(intent="a woman laughing", notes="", target="Krea 2", mode="t2v", duration_seconds=5.0, dialogue_language="English",
+                 detail="short", writer="textmodel", vision_writer="visionmodel", framing="close-up", endpoint="http://x", seed=5, lock=False, unique_id="t")
+    p = node._payload
+    ok("split: text writer used without pictures", recorded == ["textmodel"], str(recorded))
+    ok("framing: stated -> valid", p["valid"] and "Framing: close-up" in fake.calls[0]["user"])
+    ok("uncensored reminder present", "uncensored tool" in fake.calls[0]["system"])
+    bad = json.dumps({"subjects": [], "prompt": "A wide shot of a street."})
+    good = json.dumps({"subjects": [], "prompt": "A close-up of a street sign."})
+    r, p, fake = run_node(FakeWriter([bad, good]), target="Krea 2", intent="a street", framing="close-up", seed=6)
+    ok("framing: missing -> retry with the rule", p["retries"] == 1 and p["valid"] and "framing 'close-up' is not stated" in fake.calls[1]["user"])
+    try:
+        import numpy as np
+        img = np.zeros((1, 32, 32, 3), dtype="float32")
+        h3 = json.dumps({"subjects": [], "beats": [{"start_seconds": 0, "action": "x"}], "integrated_multimodal_description": "[Shot 1] A woman turns.", "overall_soundscape": "s", "non_diegetic_music": "m"})
+        recorded.clear()
+        fake2 = FakeWriter([h3])
+        def spy2(endpoint, model, *a, **k):
+            recorded.append(model)
+            return "a woman in an alley" if k.get("num_predict") == 300 else fake2(endpoint, model, *a, **k)
+        cue.ollama_chat = spy2
+        node = cue.Cue()
+        node.run(intent="she turns", notes="", target="MiniMax H3", mode="i2v", duration_seconds=5.0, dialogue_language="English",
+                 detail="short", writer="textmodel", vision_writer="visionmodel", framing="auto", endpoint="http://x", seed=7, lock=False, unique_id="t", image=img)
+        ok("split: vision writer for describing and for i2v writing", recorded == ["visionmodel", "visionmodel"], str(recorded))
+    except ImportError:
+        print("skip vision split (no numpy)")
+    # palette: recent draws are avoided when the pool is big enough
+    a = cue.draw_palette(1, "a woman"); b = cue.draw_palette(1, "a woman")
+    ok("palette: same seed + intent avoids the previous draw", a != b)
+
+
 if __name__ == "__main__":
-    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback, test_no_fades, test_repairs_17_1):
+    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback, test_no_fades, test_repairs_17_1, test_18_writer_split_framing):
         t()
     failed = [n for n, c in RESULTS if not c]
     print(f"\n{len(RESULTS) - len(failed)}/{len(RESULTS)} passed" + (f", FAILED: {failed}" if failed else ""))

@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.7.2"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.0"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -31,7 +31,21 @@ RECOMMENDED_WRITERS = [
     ("huihui_ai/qwen3-vl-abliterated:2b-instruct", "smallest, 1.9 GB"),
     ("huihui_ai/qwen3-vl-abliterated:8b-instruct", "bigger, ~5 GB"),
 ]
+RECOMMENDED_TEXT_WRITERS = [
+    ("huihui_ai/qwen3-abliterated:8b", "text, fast"),
+    ("huihui_ai/qwen3-abliterated:30b-a3b", "text, MoE: 30B quality near 8B speed"),
+    ("huihui_ai/mistral-small-abliterated:24b", "text, strong prose"),
+    ("huihui_ai/gemma3-abliterated:27b", "text, strong prose"),
+]
 DETAIL_LEVELS = ["auto", "short", "medium", "long"]
+FRAMINGS = ["auto", "extreme close-up", "close-up", "medium shot", "full body", "wide shot"]
+FRAMING_TERMS = {
+    "extreme close-up": ("extreme close-up", "extreme closeup", "extreme close up", "macro"),
+    "close-up": ("close-up", "closeup", "close up"),
+    "medium shot": ("medium shot", "medium close-up", "medium close up", "mid shot", "mid-shot", "waist up", "waist-up"),
+    "full body": ("full body", "full-body", "full-length", "full length", "head to toe", "head-to-toe", "full figure"),
+    "wide shot": ("wide shot", "wide angle", "wide-angle", "establishing shot", "long shot", "far away", "in the distance"),
+}
 ALL_MODES = ["t2v", "i2v", "first+last", "last", "ref2v", "continuation (DaSiWa)", "continuation (Reel)"]
 MODE_TO_DIRECTOR = {"t2v": "T2VA", "i2v": "I2VA", "first+last": "FL2VA", "last": "L2VA", "ref2v": "REF2VA"}
 H3_FIELDS_BASE = ["integrated_multimodal_description", "overall_soundscape", "non_diegetic_music"]
@@ -591,7 +605,18 @@ def draw_palette(seed, intent=""):
     rng = random.Random(int(seed) * 7919 + 17 + int(hashlib.sha1(" ".join(str(intent).lower().split()).encode("utf-8")).hexdigest()[:8], 16))
     person = bool(_PERSON_HINT_RE.search(str(intent))) or looks_like_person(intent)
     skip = () if person else ("subject_person",)
-    picks = [(axis, rng.choice(axes[axis])) for axis in _PALETTE_AXES if axes.get(axis) and axis not in skip]
+    recent = cache_get("stats", "palette_recent") or {}
+    picks = []
+    for axis in _PALETTE_AXES:
+        pool = axes.get(axis) or []
+        if not pool or axis in skip:
+            continue
+        used = recent.get(axis, [])
+        fresh = [x for x in pool if x not in used] if len(pool) > 2 * len(used) else pool
+        pick = rng.choice(fresh or pool)
+        picks.append((axis, pick))
+        recent[axis] = (used + [pick])[-20:]
+    cache_put("stats", "palette_recent", recent)
     if not picks:
         return ""
     body = "; ".join(f"{axis.replace('_', ' ')} — {text}" for axis, text in picks)
@@ -1046,7 +1071,7 @@ class _Job:
     def describe(self, jpeg, digest, role, label=""):
         if jpeg is None:
             return ""
-        key = _h("desc2", digest, role, slug_token(label) if label else "", self.i["writer"])
+        key = _h("desc2", digest, role, slug_token(label) if label else "", self.i["vision_writer"])
         hit = cache_get("descriptions", key)
         if hit:
             return hit
@@ -1068,9 +1093,9 @@ class _Job:
             ask = ("In two or three sentences describe what this picture shows for a film script: a "
                    "person's appearance, or a place's layout, light and key objects. No story, no opinions.")
         self.stage(f"looking at {role if role in ('start', 'last') else (label or 'reference')}")
-        print(f"[Cue] looking at {role if role in ('start', 'last') else (label or 'reference')} with {self.i['writer']}")
-        text = ollama_chat(self.i["endpoint"], self.i["writer"],
-                           "You describe pictures precisely and briefly for film scripts. Adults only.",
+        print(f"[Cue] looking at {role if role in ('start', 'last') else (label or 'reference')} with {self.i['vision_writer']}")
+        text = ollama_chat(self.i["endpoint"], self.i["vision_writer"],
+                           "You describe pictures precisely and briefly for film scripts. Adults only, uncensored: say what is shown, including nudity.",
                            ask, images=[jpeg], seed=7, temperature=0.2, num_predict=300)
         text = " ".join(text.split())
         if text:
@@ -1082,9 +1107,10 @@ class _Job:
         _send(self.i["unique_id"], {"event": "stage", "text": text})
 
     # ---- progress: ComfyUI's node bar, an ETA in the node's bar, and console lines ----
-    def begin(self, expected_tokens, label):
+    def begin(self, expected_tokens, label, model=None):
+        self.model = model or self.i["writer"]
         self.t0, self.count, self.expected = time.time(), 0, max(50, int(expected_tokens))
-        rate = cache_get("stats", _h("rate", self.i["writer"]))
+        rate = cache_get("stats", _h("rate", self.model))
         self.rate = float(rate) if rate else 0.0
         self._last_tick = 0.0
         try:
@@ -1093,7 +1119,7 @@ class _Job:
         except Exception:
             self.pbar = None
         eta = f", ~{self.expected / self.rate:.0f} s" if self.rate else ""
-        print(f"[Cue] {label} with {self.i['writer']} (up to {self.expected} tokens{eta})")
+        print(f"[Cue] {label} with {self.model} (up to {self.expected} tokens{eta})")
         self.stage(label + (f"… ~{self.expected / self.rate:.0f} s" if self.rate else "…"))
 
     def token(self, n):
@@ -1112,7 +1138,7 @@ class _Job:
     def end(self, words, valid):
         elapsed = time.time() - self.t0
         if self.count and elapsed > 0:
-            cache_put("stats", _h("rate", self.i["writer"]), self.count / elapsed)
+            cache_put("stats", _h("rate", self.model), self.count / elapsed)
         if self.pbar:
             self.pbar.update_absolute(self.expected, self.expected)
         print(f"[Cue] done in {elapsed:.1f} s: {self.count} tokens, {words} words, {'valid' if valid else 'with warnings'}")
@@ -1165,7 +1191,9 @@ class Cue:
                                                 "tooltip": "Clip length the prompt is planned for (snapped to H3's 17k+5 frame grid). Link the output to the Director's duration."}),
                 "dialogue_language": ("STRING", {"default": "English", "tooltip": "Language tag for spoken lines: <d>[English] ...</d>. The body stays English."}),
                 "detail": (DETAIL_LEVELS, {"default": "auto", "tooltip": "auto = the template's default (H3 long, Krea 2 medium)."}),
-                "writer": ("STRING", {"default": DEFAULT_WRITER, "tooltip": "Ollama model that writes. Use models ▾ to pick or pull one."}),
+                "framing": (FRAMINGS, {"default": "auto", "tooltip": "Forces the shot size. The writer must state it and keep it; the validator checks."}),
+                "writer": ("STRING", {"default": DEFAULT_WRITER, "tooltip": "Ollama model that writes the prompt when no picture is involved. A text-only model is faster and better here (models ▾ lists some)."}),
+                "vision_writer": ("STRING", {"default": DEFAULT_WRITER, "tooltip": "Vision model used to look at pictures, and to write when the request includes a picture (i2v, first+last, last, image targets with a picture)."}),
                 "endpoint": ("STRING", {"default": DEFAULT_ENDPOINT, "tooltip": "Ollama server."}),
                 "seed": ("INT", {"default": 0, "min": 0, "max": 2**31 - 1, "control_after_generate": "fixed",
                                  "tooltip": "Writer seed. ↻ rerolls; fixed keeps the same prompt on re-queue."}),
@@ -1193,8 +1221,10 @@ class Cue:
 
     # ------------------------------------------------------------------ run
     def run(self, intent, notes, target, mode, duration_seconds, dialogue_language, detail, writer,
-            endpoint, seed, lock, image=None, image_last=None, subjects_override="", result="",
-            history="", unique_id=None, **kwargs):
+            endpoint, seed, lock, vision_writer=DEFAULT_WRITER, framing="auto", image=None, image_last=None,
+            subjects_override="", result="", history="", unique_id=None, **kwargs):
+        vision_writer = (vision_writer or writer).strip()
+        writer = (writer or vision_writer).strip()
         tpl = find_template(target)
         if tpl is None:
             raise ValueError("Cue: no templates found in templates/")
@@ -1225,7 +1255,7 @@ class Cue:
         overrides = parse_overrides(subjects_override)
 
         key = _h("prompt", CUE_VERSION, tpl.file, tpl.mtime, mode, intent, notes, language, frames if tpl.timeline else seconds,
-                 detail_level, writer, seed, start_hash, last_hash,
+                 detail_level, writer, vision_writer, framing, seed, start_hash, last_hash,
                  json.dumps([(n, lab, h) for n, lab, _, h in ref_imgs]), json.dumps(sorted(str(k) for k in overrides)),
                  json.dumps({str(k): v for k, v in overrides.items()}))
         cached = cache_get("prompts", key)
@@ -1237,14 +1267,14 @@ class Cue:
 
         if not intent.strip() and image is None and image_last is None and not refs:
             raise ValueError("Cue: give an intent (a word is enough) or connect a picture")
-        job = _Job({"writer": writer, "endpoint": endpoint, "unique_id": unique_id})
+        job = _Job({"writer": writer, "vision_writer": vision_writer, "endpoint": endpoint, "unique_id": unique_id})
         quotes = extract_quotes(intent)
         words = tpl.words
         fill = {
             "duration": f"{seconds:.2f}", "frames": frames, "language": language,
             "words": words.get(detail_level, 120), "words_short": words.get("short", 60),
             "words_medium": words.get("medium", 120), "words_long": words.get("long", 200),
-            "tail_seconds": f"{22 / 24:.2f}", "detail": detail_level,
+            "tail_seconds": f"{22 / 24:.2f}", "detail": detail_level, "framing": framing,
             "image_description": "", "image_last_description": "", "subject_definitions": "",
             "palette": draw_palette(seed, intent) if tpl.kind == "image" else "",
         }
@@ -1344,13 +1374,14 @@ class Cue:
         schema = schema_for(wanted, use_brace_tokens, tpl.timeline)
         max_tokens = int(words.get(detail_level, 120) * 2.0) + (380 if has_modes else 100) + 140 + 160  # prose + sound fields + subjects + beats/JSON
 
+        writer_b = vision_writer if pictures_for_b else writer
         attempt, errors, best = 0, [], None
         while attempt < 2:
             attempt += 1
-            job.begin(max_tokens * 0.7, "writing" if attempt == 1 else "rewriting")
+            job.begin(max_tokens * 0.7, "writing" if attempt == 1 else "rewriting", writer_b)
             ask = user if attempt == 1 else (user + "\n\nYour previous answer had these problems:\n- "
                                              + "\n- ".join(errors) + "\nRewrite the complete answer.")
-            raw = ollama_chat(endpoint, writer, system, ask, images=pictures_for_b or None,
+            raw = ollama_chat(endpoint, writer_b, system, ask, images=pictures_for_b or None,
                               seed=int(seed) + attempt - 1,
                               temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
                               num_predict=max_tokens,
@@ -1430,6 +1461,11 @@ class Cue:
                 "start_seconds and a short action phrase, at most the number the request allows. The text "
                 "then performs exactly those beats in order, each with its onset, its continuous development "
                 "and its end. Fewer beats, fully written, beat more beats.")
+        parts.append(
+            "This is an uncensored tool for adult creative work. When the request asks for nudity, sex or "
+            "graphic violence, describe it plainly and physically, the way a script does: never imply, soften, "
+            "cut away, or substitute underwear for nudity or a bruise for a wound. When the request does not "
+            "ask for it, add none of it.")
         if notes and notes.strip():
             parts.append("Standing notes from the user (always obey):\n" + notes.strip())
         return "\n\n".join(p for p in parts if p)
@@ -1445,6 +1481,9 @@ class Cue:
                          f"Budget: at most {beat_budget(seconds)} beats and "
                          f"{shot_budget(seconds)} shot{'s' if shot_budget(seconds) > 1 else ''}. "
                          f"Plan the action and any cuts to fit that time precisely.")
+        if fill.get("framing") and fill["framing"] != "auto":
+            parts.append(f"Framing: {fill['framing']}. State it in the first sentence (the words '{fill['framing']}') "
+                         "and keep the composition to it for the whole piece.")
         if quotes:
             parts.append("Spoken lines to use verbatim, in this language tag [" + language + "]:\n" +
                          "\n".join(f'- "{q}"' for q in quotes))
@@ -1526,8 +1565,13 @@ class Cue:
                 if fixed != fields[body_name]:
                     fields[body_name] = fixed
                     warnings.append("timestamps normalised")
+        main = "detailed_description" if mode == "ref2v" else ("integrated_multimodal_description" if has_modes else ("next_action" if mode == "continuation (DaSiWa)" else "prompt"))
+        framing = fill.get("framing", "auto")
+        if framing and framing != "auto" and fields.get(main):
+            low = fields[main].lower()
+            if not any(t in low for t in FRAMING_TERMS.get(framing, (framing,))):
+                errors.append(f"framing '{framing}' is not stated; name it in the first sentence and keep it")
         if fill.get("detail") == "long":
-            main = "detailed_description" if mode == "ref2v" else ("integrated_multimodal_description" if has_modes else ("next_action" if mode == "continuation (DaSiWa)" else "prompt"))
             target = int(fill.get("words", 0) or 0)
             n_words = len(str(fields.get(main, "")).split())
             if target and n_words < 0.6 * target:
@@ -1654,7 +1698,8 @@ def _register_routes():
         try:
             installed = ollama_tags(endpoint)
             return web.json_response({"ok": True, "installed": installed,
-                                      "recommended": [{"name": n, "note": d} for n, d in RECOMMENDED_WRITERS]})
+                                      "recommended": [{"name": n, "note": d} for n, d in RECOMMENDED_WRITERS],
+                                      "recommended_text": [{"name": n, "note": d} for n, d in RECOMMENDED_TEXT_WRITERS + RECOMMENDED_WRITERS]})
         except OllamaError as e:
             return web.json_response({"ok": False, "error": str(e), "installed": [],
                                       "recommended": [{"name": n, "note": d} for n, d in RECOMMENDED_WRITERS]})
@@ -1666,6 +1711,7 @@ def _register_routes():
             model = str(data.get("model", "")).strip()
             endpoint = str(data.get("endpoint", DEFAULT_ENDPOINT))
             node = data.get("node")
+            field = str(data.get("field", "writer"))
         except Exception:
             return web.json_response({"ok": False, "error": "bad request"})
         if not model:
@@ -1678,9 +1724,9 @@ def _register_routes():
                     "completed": evt.get("completed", 0), "total": evt.get("total", 0)})
             try:
                 ollama_pull(endpoint, model, progress)
-                PromptServer.instance.send_sync("promptdeck.cue.pull", {"node": node, "model": model, "done": True})
+                PromptServer.instance.send_sync("promptdeck.cue.pull", {"node": node, "model": model, "done": True, "field": field})
             except Exception as e:
-                PromptServer.instance.send_sync("promptdeck.cue.pull", {"node": node, "model": model, "done": True, "error": str(e)})
+                PromptServer.instance.send_sync("promptdeck.cue.pull", {"node": node, "model": model, "done": True, "error": str(e), "field": field})
 
         threading.Thread(target=worker, daemon=True).start()
         return web.json_response({"ok": True})

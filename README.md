@@ -128,6 +128,13 @@ with your image or video model.
   5 s prompt); the `duration_seconds` output can be linked into the Director's duration.
 - **Standing notes** travel with every request and live in the workflow: world, house rules,
   LoRA trigger words. Nothing project-specific is in the code.
+- **Two writers (1.8):** `writer` is the text model that writes prompts (an abliterated text
+  model is faster and better here); `vision_writer` looks at pictures and writes when a picture
+  is part of the request. Each has its own `models ▾`. `framing` forces the shot size
+  (close-up, full body, wide shot…), stated and checked. The system prompt reminds the writer
+  it is an uncensored tool: nudity and violence are written plainly when asked, never
+  softened. `tools/make_palette.py` grows the variety palette with a local writer, and Cue
+  avoids the last twenty draws per axis.
 - **Structured, budgeted writing (1.7):** the writer answers JSON against a schema, so fields
   can't go missing or out of order, and plans its `beats` first: at most one action per 2.5 s
   and one shot per 5 s, enforced by the validator with one retry and format-only repairs.

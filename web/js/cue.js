@@ -122,7 +122,7 @@ function onDone(node, d) {
 }
 
 // ---- writer models menu ----
-async function pickModel(node, event) {
+async function pickModel(node, event, field = "writer") {
   const endpoint = widget(node, "endpoint")?.value || "";
   let data = { ok: false, installed: [], recommended: [] };
   try {
@@ -131,7 +131,7 @@ async function pickModel(node, event) {
   } catch {
     /* menu shows the error line below */
   }
-  const writer = widget(node, "writer");
+  const writer = widget(node, field);
   const current = writer?.value;
   const items = [];
   if (!data.ok) items.push({ content: data.error ? `⚠ ${data.error.slice(0, 90)}` : "⚠ Ollama not reachable", disabled: true });
@@ -144,29 +144,30 @@ async function pickModel(node, event) {
       },
     });
   }
-  const missing = (data.recommended || []).filter((r) => !(data.installed || []).includes(r.name));
+  const wanted = field === "vision_writer" ? data.recommended || [] : data.recommended_text || data.recommended || [];
+  const missing = wanted.filter((r) => !(data.installed || []).includes(r.name));
   if (missing.length) {
     if (items.length) items.push(null);
     for (const r of missing) {
       items.push({
         content: `↓ pull ${r.name}  (${r.note})`,
         disabled: !data.ok,
-        callback: () => pullModel(node, r.name),
+        callback: () => pullModel(node, r.name, field),
       });
     }
   }
-  new LiteGraph.ContextMenu(items, { event, title: "writer model", className: "dark" });
+  new LiteGraph.ContextMenu(items, { event, title: field === "vision_writer" ? "vision model (pictures)" : "writer model (text)", className: "dark" });
 }
 
-async function pullModel(node, model) {
+async function pullModel(node, model, field = "writer") {
   const c = node._cue;
-  c.pull = { model, status: "starting", completed: 0, total: 0 };
+  c.pull = { model, status: "starting", completed: 0, total: 0, field };
   node.setDirtyCanvas(true, false);
   try {
     await api.fetchApi("/promptdeck/cue/pull", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ model, endpoint: widget(node, "endpoint")?.value || "", node: String(node.id) }),
+      body: JSON.stringify({ model, endpoint: widget(node, "endpoint")?.value || "", node: String(node.id), field }),
     });
   } catch {
     c.pull = null;
@@ -336,13 +337,16 @@ function setupNode(node) {
     };
   }
 
-  // models ▾ right after the writer field
-  const btn = node.addWidget("button", "models ▾", null, (value, canvas, btnNode, pos, event) => pickModel(node, event));
-  btn.serializeValue = () => null;
-  const wi = node.widgets.indexOf(widget(node, "writer"));
-  if (wi >= 0) {
-    node.widgets.splice(node.widgets.indexOf(btn), 1);
-    node.widgets.splice(wi + 1, 0, btn);
+  // a models ▾ button right after each writer field
+  for (const field of ["writer", "vision_writer"]) {
+    const btn = node.addWidget("button", field === "writer" ? "models ▾ (text)" : "models ▾ (vision)", null,
+      (value, canvas, btnNode, pos, event) => pickModel(node, event, field));
+    btn.serializeValue = () => null;
+    const wi = node.widgets.indexOf(widget(node, field));
+    if (wi >= 0) {
+      node.widgets.splice(node.widgets.indexOf(btn), 1);
+      node.widgets.splice(wi + 1, 0, btn);
+    }
   }
 
   node.addCustomWidget(makeBarWidget(node));
@@ -409,7 +413,7 @@ app.registerExtension({
       const c = node._cue;
       c.pull = { model: d.model, status: d.status || "", completed: d.completed || 0, total: d.total || 0, done: !!d.done, error: d.error };
       if (d.done && !d.error) {
-        const w = widget(node, "writer");
+        const w = widget(node, d.field || c.pull?.field || "writer");
         if (w) w.value = d.model;
         setTimeout(() => {
           if (c.pull?.done) c.pull = null;
