@@ -63,7 +63,7 @@ class FakeWriter:
         self.calls = []
 
     def __call__(self, endpoint, model, system, user, images=None, seed=0, temperature=0.7, num_predict=1200,
-                 on_chunk=None, timeout=180, schema=None):
+                 on_chunk=None, timeout=180, schema=None, on_token=None):
         self.calls.append({"system": system, "user": user, "schema": schema, "seed": seed})
         ans = self.answers.pop(0) if self.answers else self.answers_last
         self.answers_last = ans

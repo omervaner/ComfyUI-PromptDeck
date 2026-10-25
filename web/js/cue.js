@@ -393,7 +393,7 @@ app.registerExtension({
         c.stage = d.text || "";
         c.streaming = true;
       } else if (d.event === "chunk") {
-        c.stage = "writing";
+        if (!c.stage || !c.stage.startsWith("writing") && !c.stage.startsWith("rewriting")) c.stage = "writing";
         c.streaming = true;
         const res = widget(node, "result");
         if (res && !widget(node, "lock")?.value) res.value = d.text || "";

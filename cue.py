@@ -21,9 +21,9 @@ import urllib.request
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
-_CACHE_MAX = {"descriptions": 600, "prompts": 300}
+_CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.7.1"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.7.2"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -294,7 +294,7 @@ def _raise_interrupt():
 
 
 def ollama_chat(endpoint, model, system, user, images=None, seed=0, temperature=0.7,
-                num_predict=1200, on_chunk=None, timeout=180, schema=None):
+                num_predict=1200, on_chunk=None, timeout=180, schema=None, on_token=None):
     """Streamed /api/chat. Returns the full text. keep_alive 0 frees the VRAM right after."""
     endpoint = _endpoint(endpoint)
     message = {"role": "user", "content": user}
@@ -327,7 +327,7 @@ def ollama_chat(endpoint, model, system, user, images=None, seed=0, temperature=
     except (urllib.error.URLError, OSError) as e:
         raise _unreachable(endpoint, e)
 
-    out, last = [], 0.0
+    out, last, n_tokens = [], 0.0, 0
     with resp:
         for raw in resp:
             if _interrupted():
@@ -344,6 +344,9 @@ def ollama_chat(endpoint, model, system, user, images=None, seed=0, temperature=
             piece = (evt.get("message") or {}).get("content", "")
             if piece:
                 out.append(piece)
+                n_tokens += 1
+                if on_token:
+                    on_token(n_tokens)
                 now = time.time()
                 if on_chunk and now - last >= STREAM_EVERY:
                     last = now
@@ -1065,6 +1068,7 @@ class _Job:
             ask = ("In two or three sentences describe what this picture shows for a film script: a "
                    "person's appearance, or a place's layout, light and key objects. No story, no opinions.")
         self.stage(f"looking at {role if role in ('start', 'last') else (label or 'reference')}")
+        print(f"[Cue] looking at {role if role in ('start', 'last') else (label or 'reference')} with {self.i['writer']}")
         text = ollama_chat(self.i["endpoint"], self.i["writer"],
                            "You describe pictures precisely and briefly for film scripts. Adults only.",
                            ask, images=[jpeg], seed=7, temperature=0.2, num_predict=300)
@@ -1076,6 +1080,42 @@ class _Job:
     def stage(self, text):
         self.stages.append(text)
         _send(self.i["unique_id"], {"event": "stage", "text": text})
+
+    # ---- progress: ComfyUI's node bar, an ETA in the node's bar, and console lines ----
+    def begin(self, expected_tokens, label):
+        self.t0, self.count, self.expected = time.time(), 0, max(50, int(expected_tokens))
+        rate = cache_get("stats", _h("rate", self.i["writer"]))
+        self.rate = float(rate) if rate else 0.0
+        self._last_tick = 0.0
+        try:
+            import comfy.utils
+            self.pbar = comfy.utils.ProgressBar(self.expected)
+        except Exception:
+            self.pbar = None
+        eta = f", ~{self.expected / self.rate:.0f} s" if self.rate else ""
+        print(f"[Cue] {label} with {self.i['writer']} (up to {self.expected} tokens{eta})")
+        self.stage(label + (f"… ~{self.expected / self.rate:.0f} s" if self.rate else "…"))
+
+    def token(self, n):
+        self.count = n
+        if self.pbar:
+            self.pbar.update_absolute(min(n, self.expected - 1), self.expected)
+        now = time.time()
+        if now - self._last_tick >= 1.0:
+            self._last_tick = now
+            elapsed = now - self.t0
+            rate = n / elapsed if elapsed > 1.0 else self.rate
+            pct = int(100 * min(n, self.expected) / self.expected)
+            left = f" · ~{max(0.0, self.expected - n) / rate:.0f} s left" if rate else ""
+            _send(self.i["unique_id"], {"event": "stage", "text": f"writing {pct}%{left}"})
+
+    def end(self, words, valid):
+        elapsed = time.time() - self.t0
+        if self.count and elapsed > 0:
+            cache_put("stats", _h("rate", self.i["writer"]), self.count / elapsed)
+        if self.pbar:
+            self.pbar.update_absolute(self.expected, self.expected)
+        print(f"[Cue] done in {elapsed:.1f} s: {self.count} tokens, {words} words, {'valid' if valid else 'with warnings'}")
 
     def chunk(self, text):
         _send(self.i["unique_id"], {"event": "chunk", "text": json_stream_preview(text)})
@@ -1307,14 +1347,14 @@ class Cue:
         attempt, errors, best = 0, [], None
         while attempt < 2:
             attempt += 1
-            job.stage("writing" if attempt == 1 else "rewriting")
+            job.begin(max_tokens * 0.7, "writing" if attempt == 1 else "rewriting")
             ask = user if attempt == 1 else (user + "\n\nYour previous answer had these problems:\n- "
                                              + "\n- ".join(errors) + "\nRewrite the complete answer.")
             raw = ollama_chat(endpoint, writer, system, ask, images=pictures_for_b or None,
                               seed=int(seed) + attempt - 1,
                               temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
                               num_predict=max_tokens,
-                              on_chunk=job.chunk, schema=schema)
+                              on_chunk=job.chunk, schema=schema, on_token=job.token)
             built = self._build(tpl, mode, raw, fill, seconds, frames, defined_labels, subject_lines,
                                 predefined, overrides, quotes, language, use_brace_tokens, has_modes, is_cont)
             errors = built["errors"]
@@ -1323,6 +1363,7 @@ class Cue:
             if not errors:
                 break
         p, pt, subj = best["prompt"], best["tokens"], best["subjects"]
+        job.end(len(p.split()), not best["errors"])
         if best["errors"] and tpl.timeline:
             # last resort for a writer that keeps cutting at the end: drop those cuts, re-validate
             fixed_p, n1 = repair_end_cuts(p, seconds)
