@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.8.1"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.2"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -608,10 +608,13 @@ def draw_palette(seed, intent=""):
     person = bool(_PERSON_HINT_RE.search(str(intent))) or looks_like_person(intent)
     skip = () if person else ("subject_person",)
     recent = cache_get("stats", "palette_recent") or {}
+    # two axes per run, from the ones that make a scene; ten fragments at once make a collage
+    scene_axes = [a for a in ("setting", "time_weather", "light", "mood", "finish") if axes.get(a)]
+    chosen = rng.sample(scene_axes, min(2, len(scene_axes))) if scene_axes else []
     picks = []
     for axis in _PALETTE_AXES:
         pool = axes.get(axis) or []
-        if not pool or axis in skip:
+        if not pool or axis in skip or axis not in chosen:
             continue
         used = recent.get(axis, [])
         fresh = [x for x in pool if x not in used] if len(pool) > 2 * len(used) else pool
@@ -622,8 +625,8 @@ def draw_palette(seed, intent=""):
     if not picks:
         return ""
     body = "; ".join(f"{axis.replace('_', ' ')} — {text}" for axis, text in picks)
-    return ("Seeded suggestions, use them only where the intent leaves the choice open (the intent "
-            "always wins; drop any that clash with it): " + body + ".")
+    return ("Two seeded suggestions for this picture, to use only where the intent leaves the choice open "
+            "(the intent always wins; drop either if it clashes): " + body + ".")
 
 
 def trim_repetition(text):
