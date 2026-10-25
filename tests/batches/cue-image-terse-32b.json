@@ -1,0 +1,49 @@
+{
+  "comment": "1.7 re-test with the 32B writer. Calibration: terse intents through Cue for Krea 2, prompts only (prune_to Cue). Tone (sexy vs explicit) and soul (flat intent -> flat prompt?). Judged by reading, not by the VLM.",
+  "workflow": "tests/workflows/cue_krea2.json",
+  "prune_to": [
+    "Cue"
+  ],
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_terse.txt",
+    "writers": [
+      "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M"
+    ],
+    "seeds": [
+      1
+    ],
+    "detail": "medium"
+  },
+  "set": [
+    {
+      "node": "Cue",
+      "input": "intent",
+      "value": "{intent}"
+    },
+    {
+      "node": "Cue",
+      "input": "writer",
+      "value": "{writer}"
+    },
+    {
+      "node": "Cue",
+      "input": "detail",
+      "value": "{detail}"
+    },
+    {
+      "node": "Cue",
+      "input": "seed",
+      "value": "{seed}"
+    }
+  ],
+  "outputs": {
+    "node": "Cue"
+  },
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge": {
+    "kind": "prompt",
+    "seam_frames": false,
+    "primary": "intent_match"
+  },
+  "timeout_seconds": 600
+}

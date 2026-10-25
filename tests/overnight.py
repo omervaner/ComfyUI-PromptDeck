@@ -310,7 +310,8 @@ def extract_validator(outputs, prefer_node=None):
         for val in (outputs.get(nid) or {}).values():
             for d in val if isinstance(val, list) else [val]:
                 if isinstance(d, dict) and {"valid", "errors", "retries", "retry_count"} & set(d):
-                    return {k: v for k, v in d.items() if isinstance(v, (str, int, float, bool)) or v is None}
+                    return {k: (" | ".join(map(str, v)) if isinstance(v, list) else v) for k, v in d.items()
+                            if isinstance(v, (str, int, float, bool, list)) or v is None}
     return None
 
 

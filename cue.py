@@ -63,6 +63,7 @@ _ANGLE_LABEL_RE = re.compile(r"<(Subject|Picture|Video|Audio)\s+(\d+)>")
 _SHOT_RE = re.compile(r"\[Shot\s+(\d+)\]")
 _TIMESTAMP_RE = re.compile(r"\bAt\s+(\d{1,2}):(\d{2})(?:\.(\d{1,3}))?")
 _THINK_RE = re.compile(r"<think>.*?</think>\s*", re.S)
+_FADE_RE = re.compile(r"\b(?:fade[sd]?\s+(?:in|out|to)|(?:cuts?|goes|smash\s+cuts?)\s+to\s+black|freeze[\s-]frame|title\s+card)\b", re.I)
 _D_TAG_RE = re.compile(r"<d>\s*\[([^\]]*)\]\s*(.*?)</d>", re.S)
 
 
@@ -903,6 +904,8 @@ def validate_h3(fields, mode, seconds, defined_labels, quotes, language):
             (errors if is_cut else warnings).append(
                 f"{'cut' if is_cut else 'beat'} at {t:.3f}s is at or past the clip end ({seconds:.2f}s)")
     whole = "\n".join(fields.values())
+    if _FADE_RE.search(whole):
+        errors.append("no fades, cuts to black, titles or freeze frames: end on the action still in motion")
     for kind, num in _ANGLE_LABEL_RE.findall(whole):
         if f"<{kind} {num}>" not in defined_labels:
             errors.append(f"undefined label <{kind} {num}>")

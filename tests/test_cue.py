@@ -147,8 +147,16 @@ def test_text_fallback():
     ok("fallback: plain text still parsed", p["valid"] and r["result"][0].startswith("integrated_multimodal_description: [Shot 1] a tall man walks."), str(p["errors"]))
 
 
+def test_no_fades():
+    bad = json.dumps({"beats": [{"start_seconds": 0, "action": "turns"}], "integrated_multimodal_description": "[Shot 1] She turns. At 00:04.800, the frame cuts to black.", "overall_soundscape": "s", "non_diegetic_music": "m"})
+    good = bad.replace(" At 00:04.800, the frame cuts to black.", " She keeps turning.")
+    r, p, fake = run_node(FakeWriter([bad, good]), intent="she turns")
+    ok("fade: first answer rejected, retry clean", p["valid"] and p["retries"] == 1 and "cuts to black" not in r["result"][0], str(p["errors"]))
+    ok("fade: error names the rule", "no fades" in fake.calls[1]["user"])
+
+
 if __name__ == "__main__":
-    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback):
+    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback, test_no_fades):
         t()
     failed = [n for n, c in RESULTS if not c]
     print(f"\n{len(RESULTS) - len(failed)}/{len(RESULTS)} passed" + (f", FAILED: {failed}" if failed else ""))

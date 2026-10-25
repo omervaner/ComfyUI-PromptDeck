@@ -79,3 +79,18 @@ See the bottom of `setup_log.md` on the box for what landed and the before/after
 - `templates/palette.md` exists (written by the session itself after the subagent was stopped). `cue.py` also
   guards against writers restating a token's description inline, and strips trailing "Note:" paragraphs.
 - Final Krea 2 numbers and the remaining 4B weaknesses: `REPORT.md`, last section. Comfy left running.
+
+## 1.7 re-test on the box (2026-10-25 21:25–22:47)
+- Ran runbook §7 against b9ba9d6: 8 prompt-only batches (4 with 4B/2B/8B, the same 4 with the 32B, new
+  `tests/batches/*-32b.json`), 446 prompts, results in `output/promptdeck_tests/v17/` (`COMPARE.txt`,
+  `NOTES_17_RETEST.md` with per-batch notes, `compare_17.py`, `replay_errors.py`).
+- Verdict and the 7 findings: `output/promptdeck_tests/REPORT.md`, section "1.7 re-test". Headline: ref2v
+  fixed (10–14 % → 86–100 %), 32B is the `long` writer (95–100 % valid, 375–470 words).
+- Fixed here: `tests/overnight.py` kept only scalar validator keys, so 1.7's `errors`/`warnings` lists never
+  reached run.json — lists are now joined with " | ".
+- Applied on the box after Ömer's note that fades/cuts to black are never wanted in a prompt: H3 template rule
+  + `_FADE_RE` validator error in `validate_h3` (+ test), intents i06/i11 lose their "cuts to black" clause.
+- Mac items (not applied, in priority order): speech field or append-repair for dropped dialogue; `fix_dialogue`
+  must not nest an existing untagged `<d>`; timestamp normaliser (`0.500`, `02:75`, `04:591` → `00:SS.mmm`);
+  `draw_palette` must mix in the intent and drop the person axes
+  for no-person intents; minimum-words check for `long`.

@@ -39,6 +39,8 @@ Rules that always apply:
   "[Shot 2] At 00:04.500, the camera cuts to ..." using target-video time with three decimals.
   Clips up to 5 seconds are one shot. 6 to 10 seconds: one or two shots. 11 to 15 seconds: two
   or three shots. Never place a cut at or after the end of the clip.
+- No fades, no cuts to black, no titles, no freeze frames, ever — not even when the intent asks for one.
+  The clip ends on the action still in motion; transitions are added afterwards in the edit.
 - Camera: give motion type, amplitude and speed, for example "the camera slowly pushes in a short
   distance", "a fast whip pan to the right", "the camera holds perfectly static".
 - Nothing is static unless the user asks for stillness. H3 animates only what is written; an
