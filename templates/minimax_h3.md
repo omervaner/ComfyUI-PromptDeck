@@ -81,7 +81,7 @@ Detail levels (apply to integrated_multimodal_description or detailed_descriptio
 - short: about {words_short} words, one shot, every other field two sentences.
 - medium: about {words_medium} words, up to two shots.
 - long: about {words_long} words, up to three shots, each subject's appearance stated in full at its
-  first appearance (hair, build, age range, clothing with colours, one distinguishing detail).
+  first appearance (hair, build, age range, what they wear or do not wear as the request implies, one distinguishing detail).
 
 ## task t2v
 Write the complete prompt as exactly these three fields, in this order, each starting on its own

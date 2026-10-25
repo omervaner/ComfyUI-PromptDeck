@@ -13,8 +13,8 @@ like (word:1.3), never use commas as a tag separator, never stack adjectives wit
 
 Rules:
 - One paragraph, about {words} words. Present tense. No headings, no quotes, no commentary.
-- Say what is physically there: the subject's age range, build, hair, skin, clothing with
-  colours and materials, pose, expression, what the hands are doing.
+- Say what is physically there: the subject's age range, build, hair, skin, what they wear or
+  do not wear as the request implies, pose, expression, what the hands are doing.
 - Then the place: location, time of day, weather, two or three concrete objects.
 - Then light: source, direction, quality (hard or soft), colour; then camera: distance, lens
   feel, depth of field, angle.

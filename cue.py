@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.8.0"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.1"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -540,6 +540,8 @@ def substitute_tokens(body, subjects):
         if tok not in subjects:
             return m.group(0)
         if tok in seen:
+            if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]):
+                return tok.replace("_", " ")  # "A tall {woman}" -> "A tall woman", never "A tall the woman"
             return token_handle(tok)
         seen.add(tok)
         desc = subjects[tok]
@@ -549,7 +551,7 @@ def substitute_tokens(body, subjects):
         probe = _ARTICLE_RE.sub("", desc, count=1).lower()[:28]
         around = re.sub(r"[{}]", "", m.string[max(0, m.start() - 160):m.end() + 160]).lower()
         if probe and probe in around:
-            return token_handle(tok)
+            return tok.replace("_", " ") if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]) else token_handle(tok)
         if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]):
             desc = _ARTICLE_RE.sub("", desc, count=1)
         return desc
@@ -1451,8 +1453,8 @@ class Cue:
                 "directly. Give each main person, creature or named character a one-word token, like man, "
                 "woman, superman." + pre +
                 "\nList them in `subjects` as {token, description}: the description is a noun phrase that begins "
-                "with 'a' or 'an' and names what they are, then age range, build, hair, skin, clothing with "
-                "colours, one distinguishing detail, all invented for this request. In the text fields "
+                "with 'a' or 'an', names what they are, and describes the subject as this request implies, "
+                "including what they wear or do not wear. In the text fields "
                 "every mention of a subject is its token in curly braces, {woman}, never a bare noun like "
                 "'the woman'. Pronouns (she, his) are fine. Tokens are the only thing in curly braces.")
         if tpl.timeline:

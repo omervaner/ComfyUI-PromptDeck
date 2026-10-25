@@ -217,6 +217,8 @@ def test_18_writer_split_framing():
     # palette: recent draws are avoided when the pool is big enough
     a = cue.draw_palette(1, "a woman"); b = cue.draw_palette(1, "a woman")
     ok("palette: same seed + intent avoids the previous draw", a != b)
+    out = cue.substitute_tokens("{woman} laughs. A tall {woman} waits. Then {woman} leaves.", {"woman": "a woman in her twenties"})
+    ok("article: later mention after an article is the bare word", out == "a woman in her twenties laughs. A tall woman waits. Then the woman leaves.", out)
 
 
 if __name__ == "__main__":
