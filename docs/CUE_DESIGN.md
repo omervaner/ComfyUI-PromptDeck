@@ -207,6 +207,26 @@ only when it is a cut (`[Shot N] At …` or "cuts to"), a beat there is a warnin
 found at all, the text becomes the description so the box is never empty. Token budget is
 derived from the detail level's word count, `repeat_penalty` 1.15, `num_ctx` 16384, `keep_alive` 0.
 
+### 7.5 As built in 1.7: JSON protocol, beat budget, repairs
+
+- **The writer answers JSON against a schema** (Ollama `format`), so the structure can no longer
+  break: keys in generation order are `subjects` (token + description), `beats`
+  (start_seconds + action, timeline targets only), then the prose fields (`integrated_multimodal_description`,
+  `overall_soundscape`, `non_diegetic_music`; the five ref2v fields; `prompt`; or `next_action`).
+  Strings have `minLength` 1 so an empty sound field cannot pass. A truncated answer is
+  salvaged key by key; a writer that ignores the schema falls back to the old text parser.
+- **Beat budget:** one action per 2.5 s (5 s → 2, 10 s → 4, 15 s → 6) and a shot budget (≤5.5 s one
+  shot, ≤10.5 s two, else three), both stated in the request. The model plans `beats` before
+  it writes, the validator rejects more beats than the budget, beats past the end, and more
+  shots than allowed; the retry message names the budget.
+- **Repairs after a failed retry** (format only, never content): a cut at the clip end is
+  dropped, shots beyond the budget lose their marker and run on as one shot, a description
+  without `[Shot 1]` gets it, single- and double-quoted lines become `<d>` speech.
+- **Examples removed from the system prompt.** Small writers copied them verbatim (the kitchen
+  mug scene turned up in a bar fight). The schema carries the format now.
+- The node streams a readable preview from the partial JSON (the prose field being written),
+  not raw JSON.
+
 ## 8. Templates folder
 
 `templates/<name>.md`, scanned at startup and on ↻. A header block of `key: value` lines, then

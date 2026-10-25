@@ -47,5 +47,5 @@ Detail levels:
   light source.
 
 ## task
-Write the prompt as one paragraph. If reference descriptions are given, keep those people exactly
+Write the prompt as one paragraph, in the JSON field `prompt`. If reference descriptions are given, keep those people exactly
 as described.

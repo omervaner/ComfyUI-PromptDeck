@@ -19,4 +19,4 @@ Standing notes from the user override these defaults wherever they conflict.
 - long: about {words_long} words, with background detail and texture.
 
 ## task
-Write the prompt.
+Write the prompt in the JSON field `prompt`.

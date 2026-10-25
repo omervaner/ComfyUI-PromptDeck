@@ -47,6 +47,8 @@ Box facts and gotchas (Comfy restart, Ollama, pip) are in the Claude memory note
 
 ## Open items (for the Mac / product)
 
+Status 2026-10-25 evening (Mac, v1.7): items 1, 4 and 6 are done (beat/shot budget with JSON beats planning; cache salted with CUE_VERSION; `valid`/`errors`/`retries` in the ui dict). Item 3 is covered by the article-safe substitution plus description cleaning. Re-run `cue-format*` on the box to compare 1.7 against the 1.6 numbers.
+
 1. Cue pacing: beats-per-duration rule in the H3 template (≤5 s → one shot, ≤2 beats, no cutaways).
 2. Cue image variety: seeded palette + "no person unless implied" + content rule by register (in progress).
 3. `substitute_tokens`: drop the preceding article / require a noun phrase for token descriptions.

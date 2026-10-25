@@ -108,3 +108,7 @@ paths only; the conclusions are Omer's.
 ## 6. What happened (2026-10-25)
 
 Runs 1-4 were executed on the box; results, verdicts and the open items are in `docs/WINDOWS_HANDOFF.md` (repo) and `output/promptdeck_tests/REPORT.md` (box). Read the handoff before touching the tests.
+
+## 7. 1.7 re-test (next on the box)
+
+Pull, restart ComfyUI, then re-run `cue-format`, `cue-format-i2v`, `cue-format-ref2v` and `cue-image-terse` with the 4B, and the same with the 32B writer (`--set` the writer or a copy of the batch). Compare `v_valid`, `v_retries` and beat counts against the 1.6 results. The JSON protocol needs Ollama >= 0.5; the box's version is in `ollama -v`.

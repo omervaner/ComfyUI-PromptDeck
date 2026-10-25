@@ -101,14 +101,8 @@ the result or reaction. The picture is the starting point, not the subject of th
 What the picture shows:
 {image_description}
 
-Write exactly these three fields, in this order, each starting on its own line with the field
-name followed by a colon:
-
-integrated_multimodal_description: [Shot 1] ...
-
-overall_soundscape: ...
-
-non_diegetic_music: ...
+Fill these JSON fields: integrated_multimodal_description (starts with [Shot 1]),
+overall_soundscape, non_diegetic_music.
 
 ## task first+last
 <Picture 1> is the first frame at 0.00 seconds. <Picture 2> is the last frame at {duration}
@@ -122,14 +116,8 @@ Picture 1 shows:
 Picture 2 shows:
 {image_last_description}
 
-Write exactly these three fields, in this order, each starting on its own line with the field
-name followed by a colon:
-
-integrated_multimodal_description: [Shot 1] ...
-
-overall_soundscape: ...
-
-non_diegetic_music: ...
+Fill these JSON fields: integrated_multimodal_description (starts with [Shot 1]),
+overall_soundscape, non_diegetic_music.
 
 ## task last
 <Picture 1> is the last frame of the video at {duration} seconds. Infer a plausible opening that
@@ -138,14 +126,8 @@ leads to it, and converge on exactly what the picture shows by the end.
 Picture 1 shows:
 {image_last_description}
 
-Write exactly these three fields, in this order, each starting on its own line with the field
-name followed by a colon:
-
-integrated_multimodal_description: [Shot 1] ...
-
-overall_soundscape: ...
-
-non_diegetic_music: ...
+Fill these JSON fields: integrated_multimodal_description (starts with [Shot 1]),
+overall_soundscape, non_diegetic_music.
 
 ## task ref2v
 This is a full-reference prompt. The reference labels below are already defined; use them
@@ -154,8 +136,7 @@ redefine them.
 
 {subject_definitions}
 
-Write exactly these five fields, in this order, each starting on its own line with the field
-name followed by a colon:
+Fill these JSON fields:
 
 summary: one paragraph. Start with the task type in square brackets, for example
 [multi-subject reference] or [single-subject reference], then say what the target video shows
@@ -177,8 +158,8 @@ non_diegetic_music: ...
 ## task continuation (DaSiWa)
 Write ONLY the next visible action for a continuation of a shot that is already running:
 {duration} seconds of new footage. Plain prose, present tense, {words_short} to {words} words.
-No field names, no shot markers, no timestamps, no instructions about matching the seam (the
-system adds those). Keep the subjects, the space and the camera as they are and describe what
+Put it in the JSON field next_action. No shot markers, no timestamps, no instructions about
+matching the seam (the system adds those). Keep the subjects, the space and the camera as they are and describe what
 changes: movement, performance, sound, and any camera move. If the user quoted dialogue, place
 it as speech in the format <d>[{language}] ...</d>.
 
@@ -190,31 +171,5 @@ the subjects, the space, the instantaneous motion, the camera and the sound are 
 were; after that, the next action unfolds. Do not restart the action, repeat completed
 dialogue, introduce a cut, a fade, a title, a freeze, a loop, or swap identity.
 
-Write exactly these three fields, in this order, each starting on its own line with the field
-name followed by a colon:
-
-integrated_multimodal_description: [Shot 1] ...
-
-overall_soundscape: ...
-
-non_diegetic_music: ...
-
-## examples
-A short t2v example at the short detail level (notice the concreteness, the timeline, the
-sound fields):
-
-integrated_multimodal_description: [Shot 1] Realistic photographic style, a medium shot at eye
-level inside a narrow kitchen lit by one warm pendant lamp. A man in his forties with a shaved
-head and a grey hooded sweatshirt stands at the counter, both hands flat on the wood, breathing
-hard. A chipped white mug sits by his right hand. The camera holds static. He straightens, lifts
-the mug, and hurls it at the wall to his left; it shatters, white shards and brown coffee
-spraying across the tiles. He stares at the mark, shoulders rising and falling, then lowers his
-head and grips the edge of the counter again, knuckles whitening, as the camera slowly pushes in
-a short distance toward his face.
-
-overall_soundscape: Low refrigerator hum and the faint tick of a wall clock. Heavy nasal
-breathing, the scrape of ceramic on wood, a sharp crack as the mug bursts against the tiles,
-shards skittering across the floor, then breathing again, slower.
-
-non_diegetic_music: A single sustained low cello note enters just after the mug breaks and holds
-under the final push-in; nothing else.
+Fill these JSON fields: integrated_multimodal_description (starts with [Shot 1]),
+overall_soundscape, non_diegetic_music.

@@ -128,6 +128,9 @@ with your image or video model.
   5 s prompt); the `duration_seconds` output can be linked into the Director's duration.
 - **Standing notes** travel with every request and live in the workflow: world, house rules,
   LoRA trigger words. Nothing project-specific is in the code.
+- **Structured, budgeted writing (1.7):** the writer answers JSON against a schema, so fields
+  can't go missing or out of order, and plans its `beats` first: at most one action per 2.5 s
+  and one shot per 5 s, enforced by the validator with one retry and format-only repairs.
 - The prompt **streams into the node** as it is written. Slim bar: `◀ 2/5 ▶` history, `↻`
   reroll (new seed and queue), `🔒` lock (the box becomes editable and is used verbatim), `⚠`
   lists validation warnings. `models ▾` lists Ollama's installed models and pulls a recommended

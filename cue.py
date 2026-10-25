@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300}
 
-CUE_VERSION = "1.6.1"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.7.0"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -293,7 +293,7 @@ def _raise_interrupt():
 
 
 def ollama_chat(endpoint, model, system, user, images=None, seed=0, temperature=0.7,
-                num_predict=1200, on_chunk=None, timeout=180):
+                num_predict=1200, on_chunk=None, timeout=180, schema=None):
     """Streamed /api/chat. Returns the full text. keep_alive 0 frees the VRAM right after."""
     endpoint = _endpoint(endpoint)
     message = {"role": "user", "content": user}
@@ -307,6 +307,8 @@ def ollama_chat(endpoint, model, system, user, images=None, seed=0, temperature=
         "options": {"temperature": temperature, "seed": int(seed) & 0x7FFFFFFF,
                     "num_predict": int(num_predict), "num_ctx": 16384, "repeat_penalty": 1.15},
     }
+    if schema:
+        body["format"] = schema  # Ollama constrains the output to this JSON schema
     req = urllib.request.Request(endpoint + "/api/chat", data=json.dumps(body).encode("utf-8"),
                                  headers={"Content-Type": "application/json"}, method="POST")
     try:
@@ -627,7 +629,7 @@ def fix_dialogue(body, quotes, language):
     for q in quotes:
         if any(q in words for _, words in _D_TAG_RE.findall(body)):
             continue
-        for opener, closer in (('"', '"'), ("\u201c", "\u201d"), ("\u00ab", "\u00bb")):
+        for opener, closer in (('"', '"'), ("\u201c", "\u201d"), ("\u00ab", "\u00bb"), ("'", "'"), ("\u2018", "\u2019")):
             needle = opener + q + closer
             idx = body.find(needle)
             if idx < 0:
@@ -644,6 +646,184 @@ def fix_dialogue(body, quotes, language):
             body = before + tag + after
             break
     return body
+
+
+# ------------------------------------------------------------ JSON protocol
+
+def field_names(mode, has_modes, is_cont):
+    if has_modes and mode == "ref2v":
+        return list(H3_FIELDS_REF)
+    if has_modes and mode == "continuation (DaSiWa)":
+        return ["next_action"]
+    if has_modes:
+        return list(H3_FIELDS_BASE)
+    return ["prompt"]
+
+
+def beat_budget(seconds):
+    """How many actions fit: one per ~2.5 s. 5 s -> 2, 10 s -> 4, 15 s -> 6."""
+    return max(1, int(round(float(seconds) / 2.5)))
+
+
+def shot_budget(seconds):
+    return 1 if seconds <= 5.5 else (2 if seconds <= 10.5 else 3)
+
+
+def schema_for(fields, use_brace_tokens, with_beats):
+    """JSON schema handed to Ollama's `format`. Key order is generation order: subjects, then
+    the beat plan, then the prose fields, so the model plans before it writes."""
+    props = {}
+    if use_brace_tokens:
+        props["subjects"] = {"type": "array", "items": {"type": "object", "properties": {
+            "token": {"type": "string"}, "description": {"type": "string"}},
+            "required": ["token", "description"]}}
+    if with_beats:
+        props["beats"] = {"type": "array", "items": {"type": "object", "properties": {
+            "start_seconds": {"type": "number"}, "action": {"type": "string"}},
+            "required": ["start_seconds", "action"]}}
+    for f in fields:
+        props[f] = {"type": "string", "minLength": 1}  # an empty sound field is a missing field
+    return {"type": "object", "properties": props, "required": list(props)}
+
+
+def _unescape(text):
+    try:
+        return json.loads('"' + text + '"')
+    except ValueError:
+        return text.replace("\\n", "\n").replace('\\"', '"')
+
+
+_JSON_STR = r'"((?:[^"\\]|\\.)*)'  # a JSON string body, closing quote optional (truncation)
+
+
+def parse_json_answer(raw, fields):
+    """{"subjects": {token: desc}, "beats": [{"start", "action"}], "fields": {name: text}} or
+    None when the answer is not JSON. A truncated answer is salvaged key by key."""
+    text = raw.strip()
+    start = text.find("{")
+    if start < 0:
+        return None
+    text = text[start:]
+    data = None
+    try:
+        data = json.loads(text)
+        if not isinstance(data, dict):
+            return None
+    except ValueError:
+        data = None
+    out = {"subjects": {}, "beats": None, "fields": {}}
+    if data is not None:
+        for item in data.get("subjects") or []:
+            if isinstance(item, dict) and item.get("token") and item.get("description"):
+                out["subjects"][slug_token(item["token"])] = str(item["description"]).strip().rstrip(".")
+        if isinstance(data.get("beats"), list):
+            out["beats"] = []
+            for b in data["beats"]:
+                if isinstance(b, dict):
+                    try:
+                        out["beats"].append({"start": float(b.get("start_seconds", 0)), "action": str(b.get("action", ""))})
+                    except (TypeError, ValueError):
+                        pass
+        for f in fields:
+            v = data.get(f)
+            if isinstance(v, str):
+                out["fields"][f] = v
+    else:
+        # salvage from a cut-off answer: every string field we can find, then subjects and beats
+        for f in fields:
+            m = re.search(r'"' + re.escape(f) + r'"\s*:\s*' + _JSON_STR, text)
+            if m:
+                out["fields"][f] = _unescape(m.group(1))
+        for m in re.finditer(r'"token"\s*:\s*"([^"]*)"\s*,\s*"description"\s*:\s*' + _JSON_STR, text):
+            out["subjects"][slug_token(m.group(1))] = _unescape(m.group(2)).strip().rstrip(".")
+        beats = [{"start": float(a), "action": _unescape(b)} for a, b in
+                 re.findall(r'"start_seconds"\s*:\s*([0-9.]+)\s*,\s*"action"\s*:\s*' + _JSON_STR, text)]
+        if beats:
+            out["beats"] = beats
+        if not out["fields"]:
+            return None
+    return out
+
+
+_PREVIEW_KEYS = ("integrated_multimodal_description", "detailed_description", "summary", "retention_analysis",
+                 "overall_soundscape", "non_diegetic_music", "prompt", "next_action")
+
+
+def json_stream_preview(text):
+    """What the node shows while JSON streams in: the prose fields so far, readable."""
+    if not text.lstrip().startswith("{"):
+        return text
+    parts = []
+    for m in re.finditer(r'"(' + "|".join(_PREVIEW_KEYS) + r')"\s*:\s*"', text):
+        val = re.match(r'(?:[^"\\]|\\.)*', text[m.end():])
+        parts.append(f"{m.group(1)}: {_unescape(val.group(0)) if val else ''}")
+    if parts:
+        return "\n\n".join(parts)
+    if '"beats"' in text:
+        return "planning beats…"
+    if '"subjects"' in text:
+        return "defining subjects…"
+    return "…"
+
+
+_END_CUT_RE = re.compile(r"\[Shot\s+\d+\]\s*At\s+(\d{1,2}):(\d{2})(?:\.(\d{1,3}))?\s*,?\s*(?:the\s+camera\s+cuts\s+to\s*)?", re.I)
+
+
+def repair_end_cuts(text, seconds):
+    """A cut at or past the clip end is dropped: its shot marker and timestamp go, the sentence
+    continues the previous shot. Returns (text, removed_count)."""
+    removed = 0
+
+    def rep(m):
+        nonlocal removed
+        t = int(m.group(1)) * 60 + int(m.group(2)) + (int(m.group(3).ljust(3, "0")) / 1000.0 if m.group(3) else 0)
+        if t >= seconds - 0.05:
+            removed += 1
+            return ""
+        return m.group(0)
+    out = _END_CUT_RE.sub(rep, text)
+    if removed:
+        out = re.sub(r"\s{2,}", " ", out).strip()
+        out = out[0].upper() + out[1:] if out else out
+    return out, removed
+
+
+_SHOT_MARKER_RE = re.compile(r"\[Shot\s+(\d+)\]\s*(?:At\s+\d{1,2}:\d{2}(?:\.\d{1,3})?\s*,?\s*(the\s+camera\s+cuts\s+to\s*)?)?", re.I)
+
+
+def repair_extra_shots(text, max_shots):
+    """Shots beyond the budget lose their marker and cut timestamp; the text runs on as the
+    previous shot. Returns (text, removed_count)."""
+    removed = 0
+
+    def rep(m):
+        nonlocal removed
+        if int(m.group(1)) > max_shots:
+            removed += 1
+            return "The camera moves to " if m.group(2) else ""
+        return m.group(0)
+    out = _SHOT_MARKER_RE.sub(rep, text)
+    if removed:
+        out = re.sub(r"\s{2,}", " ", out).strip()
+    return out, removed
+
+
+def validate_beats(beats, seconds, budget):
+    errors, warnings = [], []
+    if len(beats) > budget:
+        errors.append(f"too many beats: {len(beats)} actions for {seconds:.1f}s, at most {budget}; "
+                      "keep the essential ones and give each its onset, development and end")
+    last = -1.0
+    for b in beats:
+        t = b.get("start", 0.0)
+        if t >= seconds - 0.05:
+            errors.append(f"beat at {t:.2f}s starts at or past the clip end ({seconds:.2f}s)")
+        if t < last:
+            warnings.append("beats are not in time order")
+        last = t
+    if not beats:
+        warnings.append("no beats planned")
+    return errors, warnings
 
 
 # ------------------------------------------------------------------- H3 math
@@ -797,7 +977,7 @@ class _Job:
         _send(self.i["unique_id"], {"event": "stage", "text": text})
 
     def chunk(self, text):
-        _send(self.i["unique_id"], {"event": "chunk", "text": text})
+        _send(self.i["unique_id"], {"event": "chunk", "text": json_stream_preview(text)})
 
 
 def _ref_slots(kwargs):
@@ -1019,7 +1199,9 @@ class Cue:
         self._no_examples = is_cont
         system = self._system(tpl, fill, detail_level, notes, use_brace_tokens, predefined)
         user = self._user(tpl, mode, fill, intent, seconds, language, quotes, has_modes, is_cont, predefined)
-        max_tokens = int(words.get(detail_level, 120) * 2.0) + (380 if has_modes else 100) + 140  # body + sound fields + subjects block
+        wanted = field_names(mode, has_modes, is_cont)
+        schema = schema_for(wanted, use_brace_tokens, tpl.timeline)
+        max_tokens = int(words.get(detail_level, 120) * 2.0) + (380 if has_modes else 100) + 140 + 160  # prose + sound fields + subjects + beats/JSON
 
         attempt, errors, best = 0, [], None
         while attempt < 2:
@@ -1031,7 +1213,7 @@ class Cue:
                               seed=int(seed) + attempt - 1,
                               temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
                               num_predict=max_tokens,
-                              on_chunk=job.chunk)
+                              on_chunk=job.chunk, schema=schema)
             built = self._build(tpl, mode, raw, fill, seconds, frames, defined_labels, subject_lines,
                                 predefined, overrides, quotes, language, use_brace_tokens, has_modes, is_cont)
             errors = built["errors"]
@@ -1039,8 +1221,23 @@ class Cue:
                 best = built
             if not errors:
                 break
-        warns = job.warnings + best["warnings"] + ([f"validation failed after retry: {'; '.join(best['errors'])}"] if best["errors"] else [])
         p, pt, subj = best["prompt"], best["tokens"], best["subjects"]
+        if best["errors"] and tpl.timeline:
+            # last resort for a writer that keeps cutting at the end: drop those cuts, re-validate
+            fixed_p, n1 = repair_end_cuts(p, seconds)
+            fixed_pt, n2 = repair_end_cuts(pt, seconds)
+            if n1 or n2:
+                p, pt = fixed_p, fixed_pt
+                best["warnings"].append(f"{max(n1, n2)} cut(s) at the clip end removed")
+                best["errors"] = [e for e in best["errors"] if "past the clip end" not in e]
+            if any("too many shots" in e for e in best["errors"]) and mode != "continuation (DaSiWa)":
+                fixed_p, n1 = repair_extra_shots(p, shot_budget(seconds))
+                fixed_pt, n2 = repair_extra_shots(pt, shot_budget(seconds))
+                if n1 or n2:
+                    p, pt = fixed_p, fixed_pt
+                    best["warnings"].append(f"{max(n1, n2)} extra shot(s) merged into one")
+                    best["errors"] = [e for e in best["errors"] if "too many shots" not in e]
+        warns = job.warnings + best["warnings"] + ([f"validation failed after retry: {'; '.join(best['errors'])}"] if best["errors"] else [])
         cache_put("prompts", key, {"prompt": p, "tokens": pt, "subjects": subj, "warnings": warns,
                                    "errors": best["errors"], "retries": attempt - 1})
         self._ui(unique_id, p, pt, subj, warns, seed, False, mode, tpl, seconds, frames,
@@ -1060,27 +1257,32 @@ class Cue:
         rules = tpl.sections.get("rules", "")
         if rules:
             parts.append(self._render(rules, fill) + f"\nUse the {detail_level} level.")
+        parts.append(
+            "Answer with one JSON object that matches the schema you are given, nothing else. Fill the keys "
+            "in order: subjects (if present), beats (if present), then the text fields. Every text field is "
+            "plain prose exactly as described; no markdown, no field names or headings inside a value.")
         if use_brace_tokens:
             pre = ""
             if predefined:
                 pre = ("\nPredefined tokens you must use for these subjects (do not describe them again in the "
-                       "body, the system fills them in):\n" + "\n".join(f"{{{k}}} = {v}" for k, v in predefined.items()) + "\n")
+                       "text, the system fills them in):\n" + "\n".join(f"{{{k}}} = {v}" for k, v in predefined.items()) + "\n")
             parts.append(
-                "Subject tokens: the user swaps characters later, so the body must not name main subjects "
-                "directly. Give each main person, creature or named character a one-word token in curly "
-                "braces, like {man}, {woman}, {superman}." + pre +
-                "\nStart your answer with the block\n\nsubjects:\n{token} = a noun phrase that begins with 'a' or "
-                "'an' and names what they are, then age range, build, hair, skin, clothing with colours, one "
-                "distinguishing detail (for example {woman} = a woman in her forties, broad-shouldered, grey "
-                "cropped hair, olive skin, a navy work shirt, a scar on her left hand)\n\nthen a line "
-                "containing only\n\nprompt:\n\nand then the prompt itself, in which every mention of a subject is "
-                "its token, never a bare noun like 'the woman'. Pronouns (she, his) are fine. Tokens are the only "
-                "thing in curly braces.")
+                "Subject tokens: the user swaps characters later, so the text must not name main subjects "
+                "directly. Give each main person, creature or named character a one-word token, like man, "
+                "woman, superman." + pre +
+                "\nList them in `subjects` as {token, description}: the description is a noun phrase that begins "
+                "with 'a' or 'an' and names what they are, then age range, build, hair, skin, clothing with "
+                "colours, one distinguishing detail, all invented for this request. In the text fields "
+                "every mention of a subject is its token in curly braces, {woman}, never a bare noun like "
+                "'the woman'. Pronouns (she, his) are fine. Tokens are the only thing in curly braces.")
+        if tpl.timeline:
+            parts.append(
+                "Beats: before writing, plan the clip in `beats`: the actions that will happen, each with "
+                "start_seconds and a short action phrase, at most the number the request allows. The text "
+                "then performs exactly those beats in order, each with its onset, its continuous development "
+                "and its end. Fewer beats, fully written, beat more beats.")
         if notes and notes.strip():
             parts.append("Standing notes from the user (always obey):\n" + notes.strip())
-        ex = tpl.sections.get("examples", "")
-        if ex and not self._no_examples:
-            parts.append(self._render(ex, fill))
         return "\n\n".join(p for p in parts if p)
 
     def _user(self, tpl, mode, fill, intent, seconds, language, quotes, has_modes, is_cont, predefined):
@@ -1091,6 +1293,8 @@ class Cue:
         if tpl.timeline:
             kind = "new visible footage" if is_cont else "total clip length"
             parts.append(f"Duration: exactly {seconds:.2f} seconds of {kind} ({fill['frames']} frames at 24 fps). "
+                         f"Budget: at most {beat_budget(seconds)} beats and "
+                         f"{shot_budget(seconds)} shot{'s' if shot_budget(seconds) > 1 else ''}. "
                          f"Plan the action and any cuts to fit that time precisely.")
         if quotes:
             parts.append("Spoken lines to use verbatim, in this language tag [" + language + "]:\n" +
@@ -1114,73 +1318,114 @@ class Cue:
                overrides, quotes, language, use_brace_tokens, has_modes, is_cont):
         raw = _THINK_RE.sub("", raw).strip()
         errors, warnings = [], []
-        raw, trimmed = trim_repetition(raw)
-        if trimmed:
-            warnings.append("repetition trimmed")
+        wanted = field_names(mode, has_modes, is_cont)
+        data = parse_json_answer(raw, wanted)
         subjects = dict(predefined)
-        body = raw
+        beats = None
+        if data is not None:
+            # ---- the normal path: a JSON answer constrained by the schema ----
+            if use_brace_tokens:
+                subjects.update(data["subjects"])
+            beats = data["beats"]
+            fields = {}
+            for name in wanted:
+                value = " ".join(str(data["fields"].get(name, "")).split())
+                if value:
+                    value, trimmed = trim_repetition(value)
+                    if trimmed:
+                        warnings.append(f"repetition trimmed in {name}")
+                if value.strip():
+                    fields[name] = value.strip()
+                else:
+                    errors.append(f"missing field '{name}'")
+            if quotes and has_modes:
+                fields = {k: fix_dialogue(v, quotes, language) for k, v in fields.items()}
+            body = fields.get("prompt") or fields.get("next_action") or ""
+        else:
+            # ---- fallback: a writer that ignored the schema and wrote text ----
+            raw, trimmed = trim_repetition(raw)
+            if trimmed:
+                warnings.append("repetition trimmed")
+            body = raw
+            if use_brace_tokens:
+                found, body = split_subjects_block(raw)
+                subjects.update(found)
+            if quotes and has_modes:
+                body = fix_dialogue(body, quotes, language)
+            if has_modes and mode != "continuation (DaSiWa)":
+                fields, ferr = extract_fields(body, wanted)
+                errors.extend(ferr)
+                if not fields and body:
+                    fields = {wanted[2] if mode == "ref2v" else wanted[0]: body}
+            elif has_modes:
+                fields = {"next_action": body}
+            else:
+                fields = {"prompt": body}
         if use_brace_tokens:
-            found, body = split_subjects_block(raw)
-            subjects.update(found)
             for tok, desc in overrides.items():
                 if isinstance(tok, str):
                     subjects[tok] = desc
             subjects = {t: clean_description(d, looks_like_person(t)) for t, d in subjects.items()}
-        if quotes and has_modes:
-            body = fix_dialogue(body, quotes, language)
 
+        if has_modes and mode != "continuation (DaSiWa)":
+            body_name = "detailed_description" if mode == "ref2v" else "integrated_multimodal_description"
+            if fields.get(body_name) and "[Shot 1]" not in fields[body_name]:
+                fields[body_name] = "[Shot 1] " + fields[body_name].lstrip()
+                warnings.append("[Shot 1] opener added")
+
+        # ---- timeline budget: beats and shots against the duration ----
+        if tpl.timeline:
+            if beats is not None:
+                berr, bwarn = validate_beats(beats, seconds, beat_budget(seconds))
+                errors.extend(berr)
+                warnings.extend(bwarn)
+            if mode != "continuation (DaSiWa)":
+                body_name = "detailed_description" if mode == "ref2v" else "integrated_multimodal_description"
+                shots = shots_in(fields.get(body_name, ""))
+                if shots > shot_budget(seconds):
+                    errors.append(f"too many shots: {shots} for {seconds:.1f}s, at most {shot_budget(seconds)}")
+
+        # ---- assemble per mode ----
         if has_modes and not is_cont:
-            names = H3_FIELDS_REF if mode == "ref2v" else H3_FIELDS_BASE
-            fields, ferr = extract_fields(body, names)
-            errors.extend(ferr)
-            if not fields and body:
-                # nothing labelled at all: keep the text as the description so the box is not empty
-                fields = {names[2] if mode == "ref2v" else names[0]: body}
             if fields:
                 verr, vwarn = validate_h3(fields, mode, seconds, defined_labels, quotes, language)
                 errors.extend(verr)
                 warnings.extend(vwarn)
-            body_tokens = "\n\n".join(f"{n}: {fields[n]}" for n in names if n in fields) or body
+            body_tokens = "\n\n".join(f"{n}: {fields[n]}" for n in wanted if n in fields) or body
             header = h3_header(mode, seconds, shots_in(fields.get("integrated_multimodal_description", "")))
             if mode == "ref2v":
                 body_tokens = "subject_definitions:\n" + "\n".join(subject_lines) + "\n\n" + body_tokens
             elif header:
                 body_tokens = header + "\n\n" + body_tokens
-        elif has_modes and is_cont:
-            if not body:
-                errors.append("empty answer")
-            if mode == "continuation (Reel)":
-                fields, ferr = extract_fields(body, H3_FIELDS_BASE)
-                errors.extend(ferr)
-                if fields:
-                    verr, vwarn = validate_h3(fields, mode, seconds, defined_labels, quotes, language)
-                    errors.extend(verr)
-                    warnings.extend(vwarn)
-                    imd = fields.get("integrated_multimodal_description", "")
-                    # System-side window framing, as DaSiWa's _window_context does: the writer is
-                    # told about the hidden overlap but rarely repeats it, and the model needs it.
-                    window = (f"This is a continuation window. Its opening {float(fill['tail_seconds']):.3f} seconds "
-                              "are hidden overlapping context from the end of the preceding shot. Weld to that tail "
-                              "at the seam: same subjects, space, and instantaneous motion, camera, and sound. Do not "
-                              f"freeze its tempo or camera for the rest of the clip. The following {seconds:.3f} "
-                              "seconds are the new visible continuation.")
-                    if imd.startswith("[Shot 1]"):
-                        imd = "[Shot 1] " + window + " " + SEAM_POLICY + " " + imd[len("[Shot 1]"):].strip()
-                    else:
-                        imd = "[Shot 1] " + window + " " + SEAM_POLICY + " " + imd
-                    fields["integrated_multimodal_description"] = imd
-                    body_tokens = "\n\n".join(f"{n}: {fields[n]}" for n in H3_FIELDS_BASE if n in fields)
-                else:
-                    body_tokens = body
+        elif has_modes and mode == "continuation (Reel)":
+            if fields:
+                verr, vwarn = validate_h3(fields, mode, seconds, defined_labels, quotes, language)
+                errors.extend(verr)
+                warnings.extend(vwarn)
+                imd = fields.get("integrated_multimodal_description", "")
+                # System-side window framing, as DaSiWa's _window_context does: the writer is
+                # told about the hidden overlap but rarely repeats it, and the model needs it.
+                window = (f"This is a continuation window. Its opening {float(fill['tail_seconds']):.3f} seconds "
+                          "are hidden overlapping context from the end of the preceding shot. Weld to that tail "
+                          "at the seam: same subjects, space, and instantaneous motion, camera, and sound. Do not "
+                          f"freeze its tempo or camera for the rest of the clip. The following {seconds:.3f} "
+                          "seconds are the new visible continuation.")
+                rest = imd[len("[Shot 1]"):].strip() if imd.startswith("[Shot 1]") else imd
+                fields["integrated_multimodal_description"] = "[Shot 1] " + window + " " + SEAM_POLICY + " " + rest
+                body_tokens = "\n\n".join(f"{n}: {fields[n]}" for n in H3_FIELDS_BASE if n in fields)
             else:
-                body_tokens = re.sub(r"(?im)^\s*(next action|prompt)\s*:\s*", "", body).strip()
-                body_tokens = re.sub(r"^\s*\[Shot\s*1\]\s*", "", body_tokens)
-                if quotes:
-                    for q in quotes:
-                        if q not in body_tokens:
-                            errors.append(f'dialogue "{q}" missing verbatim')
+                body_tokens = body
+                errors.append("empty answer")
+        elif has_modes:  # continuation (DaSiWa): the next action only, the Director wraps it
+            body_tokens = re.sub(r"(?im)^\s*(next action|prompt)\s*:\s*", "", fields.get("next_action", "")).strip()
+            body_tokens = re.sub(r"^\s*\[Shot\s*1\]\s*", "", body_tokens)
+            if not body_tokens:
+                errors.append("empty answer")
+            for q in quotes:
+                if q not in body_tokens:
+                    errors.append(f'dialogue "{q}" missing verbatim')
         else:
-            body_tokens = strip_meta_lines(body)
+            body_tokens = strip_meta_lines(fields.get("prompt", ""))
             if not body_tokens:
                 errors.append("empty answer")
             for q in quotes:
@@ -1193,7 +1438,7 @@ class Cue:
             used = {slug_token(t) for t in _BRACE_TOKEN_RE.findall(body_tokens)}
             missing = sorted(t for t in used if t not in subjects)
             if missing:
-                errors.append("tokens used but not defined in the subjects block: " + ", ".join("{" + t + "}" for t in missing))
+                errors.append("tokens used but not defined in subjects: " + ", ".join("{" + t + "}" for t in missing))
             unused = sorted(t for t in subjects if t not in used)
             if unused:
                 warnings.append("defined but unused tokens: " + ", ".join("{" + t + "}" for t in unused))
@@ -1203,7 +1448,7 @@ class Cue:
             prompt = body_tokens
             subjects_text = "\n".join(subject_lines)
         return {"prompt": prompt, "tokens": body_tokens, "subjects": subjects_text,
-                "errors": errors, "warnings": warnings}
+                "errors": errors, "warnings": warnings, "beats": beats}
 
     def _ui(self, unique_id, prompt, tokens, subjects, warnings, seed, cached, mode, tpl, seconds, frames, locked=False,
             errors=None, retries=0):
