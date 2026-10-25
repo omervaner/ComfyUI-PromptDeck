@@ -23,6 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300}
 
+CUE_VERSION = "1.6.1"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -437,9 +438,14 @@ def split_subjects_block(text):
         rest = "\n".join(lines[i:]).strip()
         rest = re.sub(r"(?im)^\s*prompt\s*:\s*", "", rest, count=1)
         return subjects, (rest if subjects else text.strip())
-    p_idx = next((i for i, l in enumerate(lines) if i > s_idx and l.strip().lower().rstrip(":") == "prompt"), None)
+    p_idx = next((i for i, l in enumerate(lines) if i > s_idx and re.match(r"(?i)^\s*\**prompt\**\s*:", l)), None)
     end = p_idx if p_idx is not None else len(lines)
     body_start = p_idx + 1 if p_idx is not None else None
+    if p_idx is not None:
+        tail = re.sub(r"(?i)^\s*\**prompt\**\s*:\s*", "", lines[p_idx]).strip()
+        if tail:
+            lines[p_idx] = tail
+            body_start = p_idx
     for i in range(s_idx + 1, end):
         line = lines[i].strip()
         if not line:
@@ -521,7 +527,7 @@ def substitute_tokens(body, subjects):
         # slender, ..."): substituting the full description would double it and trip the
         # repetition trimmer, so use the short handle instead
         probe = _ARTICLE_RE.sub("", desc, count=1).lower()[:28]
-        around = m.string[max(0, m.start() - 160):m.end() + 160].lower()
+        around = re.sub(r"[{}]", "", m.string[max(0, m.start() - 160):m.end() + 160]).lower()
         if probe and probe in around:
             return token_handle(tok)
         if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]):
@@ -897,7 +903,7 @@ class Cue:
         ref_imgs = [(n, lab) + image_to_jpeg(img) for n, img, lab in refs]  # (n, label, jpeg, hash)
         overrides = parse_overrides(subjects_override)
 
-        key = _h("prompt3", tpl.file, tpl.mtime, mode, intent, notes, language, frames if tpl.timeline else seconds,
+        key = _h("prompt", CUE_VERSION, tpl.file, tpl.mtime, mode, intent, notes, language, frames if tpl.timeline else seconds,
                  detail_level, writer, seed, start_hash, last_hash,
                  json.dumps([(n, lab, h) for n, lab, _, h in ref_imgs]), json.dumps(sorted(str(k) for k in overrides)),
                  json.dumps({str(k): v for k, v in overrides.items()}))

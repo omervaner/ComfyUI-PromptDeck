@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 recent_files.json
 cue_cache.json
+.claude/
