@@ -155,8 +155,31 @@ def test_no_fades():
     ok("fade: error names the rule", "no fades" in fake.calls[1]["user"])
 
 
+def test_repairs_17_1():
+    ok("ts: loose shapes", cue.normalize_timestamps("At 0.500 a. At 2.5 s b. At 04:591 c. At 02:75 d. At 00:04.500 e. at 0.920 seconds f") ==
+       "At 00:00.500 a. At 00:02.500 b. At 00:04.591 c. At 00:02.750 d. At 00:04.500 e. at 0.920 seconds f")
+    ok("fade: lighting phrase allowed", not cue._FADE_RE.search("the light fades to amber") and cue._FADE_RE.search("it fades to black"))
+    ok("d-tags: untagged normalised, quotes stripped", cue.normalize_d_tags('<d>Go.</d> <d>[English] "Stay."</d>', "English") == "<d>[English] Go.</d> <d>[English] Stay.</d>")
+    ok("d-tags: never nested", cue.fix_dialogue('He says <d>Not tonight.</d>', ["Not tonight."], "English").count("<d>") == 1)
+    ok("speaker: pronoun", cue.guess_speaker('she turns and whispers "go"', "go") == "She")
+    ok("speaker: noun from the intent", cue.guess_speaker('a detective lights a cigarette and says "Not tonight."', "Not tonight.") == "The detective")
+    ok("speaker: word before verb", cue.guess_speaker('the bartender says "no"', "no") == "The bartender")
+    body, n = cue.append_dialogue("[Shot 1] She turns", 'she turns and whispers "go"', ["go"], "Turkish")
+    ok("append: speech added once", n == 1 and body.endswith("She (S1) says: <d>[Turkish] go</d>") and cue.append_dialogue(body, "x", ["go"], "Turkish")[1] == 0)
+    ok("palette: no person axis for a place", "subject person" not in cue.draw_palette(3, "a rainy street") and "subject person" in cue.draw_palette(3, "a woman in the rain"))
+    ok("palette: intent changes the draw", cue.draw_palette(3, "a rainy street") != cue.draw_palette(3, "a desert road"))
+    # dropped dialogue through the node: both answers lack the line -> appended after the retry
+    ans = json.dumps({"subjects": [], "beats": [{"start_seconds": 0, "action": "x"}], "integrated_multimodal_description": "[Shot 1] A detective lights a cigarette.", "overall_soundscape": "s", "non_diegetic_music": "m"})
+    r, p, _ = run_node(FakeWriter([ans, ans]), intent='a detective lights a cigarette and says "Not tonight."', seed=9)  # seed 1 is cached by an earlier test
+    ok("node: dropped line appended as speech", p["valid"] and "The detective (S1) says: <d>[English] Not tonight.</d>" in r["result"][0] and any("appended" in w for w in p["warnings"]), str(p["errors"]) + str(p["warnings"]))
+    # long needs words
+    short_long = json.dumps({"subjects": [], "beats": [{"start_seconds": 0, "action": "x"}], "integrated_multimodal_description": "[Shot 1] A man walks.", "overall_soundscape": "s", "non_diegetic_music": "m"})
+    r, p, fake = run_node(FakeWriter([short_long, short_long]), intent="a man walks", detail="long")
+    ok("long: too short is an error that is retried", p["retries"] == 1 and any("too short" in e for e in p["errors"]) and "too short" in fake.calls[1]["user"])
+
+
 if __name__ == "__main__":
-    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback, test_no_fades):
+    for t in (test_parse_json, test_preview, test_budgets, test_h3_t2v_retry, test_i2v_header_and_last, test_krea_and_continuation, test_text_fallback, test_no_fades, test_repairs_17_1):
         t()
     failed = [n for n, c in RESULTS if not c]
     print(f"\n{len(RESULTS) - len(failed)}/{len(RESULTS)} passed" + (f", FAILED: {failed}" if failed else ""))

@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300}
 
-CUE_VERSION = "1.7.0"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.7.1"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -63,7 +63,7 @@ _ANGLE_LABEL_RE = re.compile(r"<(Subject|Picture|Video|Audio)\s+(\d+)>")
 _SHOT_RE = re.compile(r"\[Shot\s+(\d+)\]")
 _TIMESTAMP_RE = re.compile(r"\bAt\s+(\d{1,2}):(\d{2})(?:\.(\d{1,3}))?")
 _THINK_RE = re.compile(r"<think>.*?</think>\s*", re.S)
-_FADE_RE = re.compile(r"\b(?:fade[sd]?\s+(?:in|out|to)|(?:cuts?|goes|smash\s+cuts?)\s+to\s+black|freeze[\s-]frame|title\s+card)\b", re.I)
+_FADE_RE = re.compile(r"\b(?:fade[sd]?\s+(?:in|out|to\s+black|to\s+white)|(?:cuts?|goes|smash\s+cuts?)\s+to\s+black|freeze[\s-]frame|title\s+card)\b", re.I)
 _D_TAG_RE = re.compile(r"<d>\s*\[([^\]]*)\]\s*(.*?)</d>", re.S)
 
 
@@ -564,10 +564,15 @@ _PALETTE_AXES = ("setting", "time_weather", "light", "camera", "finish", "mood",
                  "subject_other", "object", "colour")
 
 
-def draw_palette(seed):
+_PERSON_HINT_RE = re.compile(r"(?i)\b(he|she|they|him|her|his|hers|man|woman|men|women|girl|boy|guy|lady|person|people|couple|crowd|child|kid|someone|anyone|face|portrait|body|hand|hands|self|selfie|\w+ing)\b")
+
+
+def draw_palette(seed, intent=""):
     """One seeded line per axis of templates/palette.md, as a suggestion block for the writer.
     Small models fall into one house style whenever the intent leaves a choice open; concrete,
-    seed-chosen material gives them something to vary on. Empty string if there is no palette."""
+    seed-chosen material gives them something to vary on. The draw mixes in the intent, so
+    two intents never share a palette on the same seed, and the person axis is dropped when the
+    intent names no person. Empty string if there is no palette."""
     try:
         with open(_PALETTE_PATH, "r", encoding="utf-8") as f:
             lines = f.read().splitlines()
@@ -580,8 +585,10 @@ def draw_palette(seed):
             axes[current] = []
         elif current and line.startswith("- ") and line[2:].strip():
             axes[current].append(line[2:].strip())
-    rng = random.Random(int(seed) * 7919 + 17)
-    picks = [(axis, rng.choice(axes[axis])) for axis in _PALETTE_AXES if axes.get(axis)]
+    rng = random.Random(int(seed) * 7919 + 17 + int(hashlib.sha1(" ".join(str(intent).lower().split()).encode("utf-8")).hexdigest()[:8], 16))
+    person = bool(_PERSON_HINT_RE.search(str(intent))) or looks_like_person(intent)
+    skip = () if person else ("subject_person",)
+    picks = [(axis, rng.choice(axes[axis])) for axis in _PALETTE_AXES if axes.get(axis) and axis not in skip]
     if not picks:
         return ""
     body = "; ".join(f"{axis.replace('_', ' ')} — {text}" for axis, text in picks)
@@ -624,15 +631,38 @@ def auto_tokenize(body, subjects):
     return body
 
 
+_D_ANY_RE = re.compile(r"<d>(.*?)</d>", re.S)
+
+
+def normalize_d_tags(body, language):
+    """<d>words</d> without a language tag gets one; quotes directly inside a tag go."""
+    def rep(m):
+        inner = m.group(1).strip()
+        lang = language
+        lm = re.match(r"^\[([^\]]*)\]\s*(.*)$", inner, re.S)
+        if lm:
+            lang, inner = lm.group(1).strip() or language, lm.group(2).strip()
+        inner = inner.strip().strip('"\u201c\u201d\u00ab\u00bb').strip()
+        return f"<d>[{lang}] {inner}</d>"
+    return _D_ANY_RE.sub(rep, body)
+
+
+def _inside_d_tag(body, idx):
+    return any(m.start() <= idx < m.end() for m in _D_ANY_RE.finditer(body))
+
+
 def fix_dialogue(body, quotes, language):
     """A line the user quoted that sits in plain quotes gets wrapped as H3 speech."""
     verbs = ("says", "whispers", "shouts", "asks", "replies", "mutters", "adds", "answers", "yells", "murmurs")
+    body = normalize_d_tags(body, language)
     for q in quotes:
         if any(q in words for _, words in _D_TAG_RE.findall(body)):
             continue
         for opener, closer in (('"', '"'), ("\u201c", "\u201d"), ("\u00ab", "\u00bb"), ("'", "'"), ("\u2018", "\u2019")):
             needle = opener + q + closer
             idx = body.find(needle)
+            while idx >= 0 and _inside_d_tag(body, idx):
+                idx = body.find(needle, idx + 1)
             if idx < 0:
                 continue
             before, after = body[:idx], body[idx + len(needle):]
@@ -767,7 +797,75 @@ def json_stream_preview(text):
     return "…"
 
 
+_SPEAKER_RE = re.compile(r"(?i)\b([a-z]+)\s+(?:says|whispers|shouts|asks|replies|mutters|yells|murmurs|answers)\b")
+_NOT_SPEAKERS = {"and", "then", "who", "that", "which", "but", "or", "as", "while", "before", "after"}
+
+
+def guess_speaker(intent, quote):
+    before = intent[: intent.find(quote)] if quote in intent else intent
+    word = None
+    for m in _SPEAKER_RE.finditer(before):
+        word = m.group(1).lower()
+    if not word or word in _NOT_SPEAKERS:
+        m = re.match(r"\s*(?:(?:the|a|an)\s+)?([A-Za-z]+)", intent)
+        word = m.group(1).lower() if m else "voice"
+    if word in ("she", "he", "they"):
+        return word.capitalize()
+    if word in _PROPER_NAMES:
+        return word.capitalize()
+    return "The " + word
+
+
+def append_dialogue(body, intent, quotes, language):
+    """A quoted line the writer dropped is added at the end of the description as speech, in the
+    user's exact words. Speaker from the intent ("she says", "the detective says") or 'a voice'.
+    Returns (body, appended_count)."""
+    n = 0
+    for q in quotes:
+        if any(q in words for _, words in _D_TAG_RE.findall(body)):
+            continue
+        who = guess_speaker(intent, q)
+        body = body.rstrip()
+        if body and not body.endswith((".", "!", "?")):
+            body += "."
+        body += f" {who} (S1) says: <d>[{language}] {q}</d>"
+        n += 1
+    return body, n
+
+
 _END_CUT_RE = re.compile(r"\[Shot\s+\d+\]\s*At\s+(\d{1,2}):(\d{2})(?:\.(\d{1,3}))?\s*,?\s*(?:the\s+camera\s+cuts\s+to\s*)?", re.I)
+
+
+_LOOSE_TS_RE = re.compile(r"\bAt\s+(\d{1,2})(?:[:.](\d{1,3}))?(?:[:.](\d{1,3}))?(\s*(?:s|sec|seconds?)\b)?")
+
+
+def normalize_timestamps(text):
+    """Cut markers in the shapes small writers produce become 'At 00:SS.mmm':
+    'At 0.500' / 'At 2.5 s' (seconds), 'At 04:591' (seconds:millis), 'At 02:75' (seconds.hundredths),
+    'At 00:04.500' (already right)."""
+    def rep(m):
+        a, b, c, unit = m.group(1), m.group(2), m.group(3), m.group(4)
+        sep = m.group(0)[len("At ") + len(a): len("At ") + len(a) + 1] if b is not None else ""
+        try:
+            if b is None:
+                secs = float(a)
+            elif c is not None:
+                mm, ss, ms = int(a), int(b), int(c.ljust(3, "0"))
+                secs = mm * 60 + ss + ms / 1000.0 if ss < 60 else None
+            elif sep == "." or unit:
+                secs = float(f"{a}.{b}")
+            elif len(b) == 3:
+                secs = int(a) + int(b) / 1000.0           # 04:591 -> 4.591
+            elif int(b) >= 60:
+                secs = int(a) + int(b) / 100.0            # 02:75 -> 2.75
+            else:
+                secs = int(a) * 60 + int(b)               # mm:ss
+            if secs is None:
+                return m.group(0)
+        except ValueError:
+            return m.group(0)
+        return f"At {int(secs // 60):02d}:{secs % 60:06.3f}"
+    return _LOOSE_TS_RE.sub(rep, text)
 
 
 def repair_end_cuts(text, seconds):
@@ -1108,7 +1206,7 @@ class Cue:
             "words_medium": words.get("medium", 120), "words_long": words.get("long", 200),
             "tail_seconds": f"{22 / 24:.2f}", "detail": detail_level,
             "image_description": "", "image_last_description": "", "subject_definitions": "",
-            "palette": draw_palette(seed) if tpl.kind == "image" else "",
+            "palette": draw_palette(seed, intent) if tpl.kind == "image" else "",
         }
 
         # ---- pictures -> words (stage A) ----
@@ -1233,6 +1331,13 @@ class Cue:
                 p, pt = fixed_p, fixed_pt
                 best["warnings"].append(f"{max(n1, n2)} cut(s) at the clip end removed")
                 best["errors"] = [e for e in best["errors"] if "past the clip end" not in e]
+            if quotes and any("must appear verbatim" in e for e in best["errors"]) and has_modes:
+                fixed_p, n1 = append_dialogue(p, intent, quotes, language)
+                fixed_pt, n2 = append_dialogue(pt, intent, quotes, language)
+                if n1 or n2:
+                    p, pt = fixed_p, fixed_pt
+                    best["warnings"].append(f"{max(n1, n2)} dropped line(s) appended as speech")
+                    best["errors"] = [e for e in best["errors"] if "must appear verbatim" not in e]
             if any("too many shots" in e for e in best["errors"]) and mode != "continuation (DaSiWa)":
                 fixed_p, n1 = repair_extra_shots(p, shot_budget(seconds))
                 fixed_pt, n2 = repair_extra_shots(pt, shot_budget(seconds))
@@ -1375,6 +1480,17 @@ class Cue:
             if fields.get(body_name) and "[Shot 1]" not in fields[body_name]:
                 fields[body_name] = "[Shot 1] " + fields[body_name].lstrip()
                 warnings.append("[Shot 1] opener added")
+            if fields.get(body_name):
+                fixed = normalize_timestamps(fields[body_name])
+                if fixed != fields[body_name]:
+                    fields[body_name] = fixed
+                    warnings.append("timestamps normalised")
+        if fill.get("detail") == "long":
+            main = "detailed_description" if mode == "ref2v" else ("integrated_multimodal_description" if has_modes else ("next_action" if mode == "continuation (DaSiWa)" else "prompt"))
+            target = int(fill.get("words", 0) or 0)
+            n_words = len(str(fields.get(main, "")).split())
+            if target and n_words < 0.6 * target:
+                errors.append(f"too short for long: {n_words} words in {main}, about {target} expected; describe every motion continuously")
 
         # ---- timeline budget: beats and shots against the duration ----
         if tpl.timeline:

@@ -90,7 +90,8 @@ See the bottom of `setup_log.md` on the box for what landed and the before/after
   reached run.json — lists are now joined with " | ".
 - Applied on the box after Ömer's note that fades/cuts to black are never wanted in a prompt: H3 template rule
   + `_FADE_RE` validator error in `validate_h3` (+ test), intents i06/i11 lose their "cuts to black" clause.
-- Mac items (not applied, in priority order): speech field or append-repair for dropped dialogue; `fix_dialogue`
+- Status 2026-10-25 late (Mac, 1.7.1): all five Mac items below are done (append repair for dropped dialogue with a speaker guessed from the intent; d-tag normalisation, no nesting; timestamp normaliser for `At` cut markers; palette mixes in the intent and drops the person axis for no-person intents; minimum words for `long`). `_FADE_RE` no longer matches lighting phrases like 'fades to amber'.
+- Mac items (applied, were in priority order): speech field or append-repair for dropped dialogue; `fix_dialogue`
   must not nest an existing untagged `<d>`; timestamp normaliser (`0.500`, `02:75`, `04:591` → `00:SS.mmm`);
   `draw_palette` must mix in the intent and drop the person axes
   for no-person intents; minimum-words check for `long`.
