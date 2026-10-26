@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.8.4"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.5"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -969,6 +969,19 @@ def validate_beats(beats, seconds, budget):
         last = t
     if not beats:
         warnings.append("no beats planned")
+        return errors, warnings
+    starts = sorted(b.get("start", 0.0) for b in beats)
+    if len(starts) > 1 and seconds >= 4:
+        if starts[-1] < seconds * 0.55:
+            errors.append(f"dead tail: the last beat starts at {starts[-1]:.1f}s of {seconds:.1f}s; spread the "
+                          f"beats so the last one starts after {seconds * 0.6:.1f}s and ends at the clip end")
+        gaps = [b - a for a, b in zip(starts, starts[1:])] + [seconds - starts[-1]]
+        avg = seconds / len(starts)
+        if max(gaps) > 2.2 * avg:
+            errors.append(f"uneven pacing: a {max(gaps):.1f}s stretch with no new beat in a {seconds:.1f}s clip; "
+                          f"space the beats about {avg:.1f}s apart")
+    elif seconds >= 4 and starts[0] > seconds * 0.4:
+        warnings.append("the single beat starts late; the opening may be dead time")
     return errors, warnings
 
 
@@ -1535,7 +1548,11 @@ class Cue:
             parts.append(f"Duration: exactly {seconds:.2f} seconds of {kind} ({fill['frames']} frames at 24 fps). "
                          f"Budget: at most {beat_budget(seconds)} beats and "
                          f"{shot_budget(seconds)} shot{'s' if shot_budget(seconds) > 1 else ''}. "
-                         f"Plan the action and any cuts to fit that time precisely.")
+                         f"Pacing: the action fills the whole clip. Each beat owns about "
+                         f"{seconds / beat_budget(seconds):.1f} s of continuous motion, the beats are spread evenly, "
+                         "the last one ends at the clip's end. Nothing is finished with time to spare, and there is "
+                         "no stretch of stillness longer than a second unless the request asks for stillness. "
+                         "Describe beats as motion unfolding, not as clock readings.")
         if fill.get("framing") and fill["framing"] != "auto":
             parts.append(f"Framing: {fill['framing']}. State it in the first sentence (the words '{fill['framing']}') "
                          "and keep the composition to it for the whole piece.")
