@@ -435,6 +435,13 @@ app.registerExtension({
     const onConfigure = nodeType.prototype.onConfigure;
     nodeType.prototype.onConfigure = function (info) {
       this._cueConfigured = true;
+      // widget values are saved by position: a 1.7 workflow (24 values) lacks framing (after detail)
+      // and vision_writer (after writer); insert their defaults so nothing lands one slot off
+      const v = info?.widgets_values;
+      if (Array.isArray(v) && v.length === 24) {
+        v.splice(7, 0, "auto");
+        v.splice(9, 0, v[8] || "huihui_ai/qwen3-vl-abliterated:4b-instruct");
+      }
       onConfigure?.apply(this, arguments);
       if (this._cue) {
         const items = readHistory(this);

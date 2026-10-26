@@ -219,6 +219,10 @@ def test_18_writer_split_framing():
     ok("palette: same seed + intent avoids the previous draw", a != b)
     out = cue.substitute_tokens("{woman} laughs. A tall {woman} waits. Then {woman} leaves.", {"woman": "a woman in her twenties"})
     ok("article: later mention after an article is the bare word", out == "a woman in her twenties laughs. A tall woman waits. Then the woman leaves.", out)
+    out = cue.substitute_tokens("a young {woman} smiles.", {"woman": "a young woman in her twenties"})
+    ok("overlap: no 'young young'", out == "a young woman in her twenties smiles.", out)
+    out = cue.substitute_tokens("{man} waits. A middle-aged {man} nods.", {"man": "a man in his fifties"})
+    ok("overlap: hyphenated word before a later mention", out == "a man in his fifties waits. A middle-aged man nods.", out)
 
 
 if __name__ == "__main__":

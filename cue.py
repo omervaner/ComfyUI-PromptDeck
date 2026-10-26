@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.8.3"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.4"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -526,7 +526,18 @@ def token_handle(tok):
 
 _ARTICLE_RE = re.compile(r"^(a|an|the)\s+", re.IGNORECASE)
 # a determiner within the last three words before the token: "The {w}", "A lone {w}", "by a {w}"
-_TRAILING_ARTICLE_RE = re.compile(r"(^|\W)(a|an|the)\s+(\w+\s+){0,2}$", re.IGNORECASE)
+_TRAILING_ARTICLE_RE = re.compile(r"(^|[^\w-])(a|an|the)\s+([\w-]+\s+){0,2}$", re.IGNORECASE)
+
+
+def _drop_overlap(before, desc):
+    """'a young {woman}' + 'a young woman in her twenties' -> 'a young ' + 'woman in her twenties':
+    words the writer already put in front of the token are not repeated by the description."""
+    bw = before.rstrip().split()
+    dw = desc.split()
+    while bw and dw and bw[-1].lower().strip(",.;") == dw[0].lower().strip(",.;"):
+        bw.pop()
+        dw.pop(0)
+    return " ".join(dw)
 
 
 def substitute_tokens(body, subjects):
@@ -552,8 +563,10 @@ def substitute_tokens(body, subjects):
         around = re.sub(r"[{}]", "", m.string[max(0, m.start() - 160):m.end() + 160]).lower()
         if probe and probe in around:
             return tok.replace("_", " ") if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]) else token_handle(tok)
-        if _TRAILING_ARTICLE_RE.search(m.string[:m.start()]):
+        before = m.string[:m.start()]
+        if _TRAILING_ARTICLE_RE.search(before):
             desc = _ARTICLE_RE.sub("", desc, count=1)
+        desc = _drop_overlap(before, desc) or desc
         return desc
     out = _BRACE_TOKEN_RE.sub(rep, body)
     # a writer that wraps a whole description in braces ({an older woman in a cardigan}) is not
