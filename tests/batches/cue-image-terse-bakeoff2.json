@@ -1,0 +1,50 @@
+{
+  "comment": "Bake-off round 2: the two HF-sourced writers (Gemma 3 12B abliterated Q8_0, Cydonia 24B v4.3 Q6_K) on the same 13 terse intents, to slot into the §8 table.",
+  "workflow": "tests/workflows/cue_krea2.json",
+  "prune_to": [
+    "Cue"
+  ],
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_terse.txt",
+    "writers": [
+      "hf.co/bartowski/mlabonne_gemma-3-12b-it-abliterated-GGUF:Q8_0",
+      "hf.co/bartowski/TheDrummer_Cydonia-24B-v4.3-GGUF:Q6_K"
+    ],
+    "seeds": [
+      1
+    ],
+    "detail": "medium"
+  },
+  "set": [
+    {
+      "node": "Cue",
+      "input": "intent",
+      "value": "{intent}"
+    },
+    {
+      "node": "Cue",
+      "input": "writer",
+      "value": "{writer}"
+    },
+    {
+      "node": "Cue",
+      "input": "detail",
+      "value": "{detail}"
+    },
+    {
+      "node": "Cue",
+      "input": "seed",
+      "value": "{seed}"
+    }
+  ],
+  "outputs": {
+    "node": "Cue"
+  },
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge": {
+    "kind": "prompt",
+    "seam_frames": false,
+    "primary": "intent_match"
+  },
+  "timeout_seconds": 600
+}

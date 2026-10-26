@@ -34,8 +34,9 @@ RECOMMENDED_WRITERS = [
 RECOMMENDED_TEXT_WRITERS = [
     ("huihui_ai/qwen3-abliterated:8b", "text, fast"),
     ("huihui_ai/qwen3-abliterated:30b-a3b", "text, MoE: 30B quality near 8B speed"),
-    ("huihui_ai/mistral-small-abliterated:24b", "text, strong prose"),
-    ("huihui_ai/gemma3-abliterated:27b", "text, strong prose"),
+    ("huihui_ai/mistral-small-abliterated:24b", "text, strong prose, daily pick (box bake-off 2026-10-26)"),
+    ("hf.co/bartowski/mlabonne_gemma-3-12b-it-abliterated-GGUF:Q8_0", "text, Gemma 3 12B, 12.5 GB (huihui's gemma3 files do not load)"),
+    ("hf.co/bartowski/TheDrummer_Cydonia-24B-v4.3-GGUF:Q6_K", "text, Cydonia 24B v4.3, 19 GB"),
 ]
 DETAIL_LEVELS = ["auto", "short", "medium", "long"]
 FRAMINGS = ["auto", "extreme close-up", "close-up", "medium shot", "full body", "wide shot"]

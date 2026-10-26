@@ -113,3 +113,8 @@ See the bottom of `setup_log.md` on the box for what landed and the before/after
   +6514 lines (535–795 per axis, no duplicates); committed in `templates/palette.md`. Worth a prune pass on the
   camera axis (mash-ups like "pallbearer's shoes reflecting streetlight downwards quick left").
 - API graphs `tests/workflows/cue_*.json` carry the 1.8 required inputs `vision_writer` and `framing`.
+- 2026-10-26 afternoon: huihui's gemma3 files do not load on Ollama 0.40.11 either (vocab 262145 vs tensor 262208);
+  both removed. Pulled `hf.co/bartowski/mlabonne_gemma-3-12b-it-abliterated-GGUF:Q8_0` and, on Ömer's request,
+  `hf.co/bartowski/TheDrummer_Cydonia-24B-v4.3-GGUF:Q6_K`; both are in RECOMMENDED_TEXT_WRITERS and in the bake-off
+  batch, plus `cue-image-terse-bakeoff2.json` (just those two) to slot them into the §8 table. Not yet run — Ömer
+  is testing them by hand first.
