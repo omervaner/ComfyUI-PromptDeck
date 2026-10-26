@@ -23,7 +23,7 @@ _TEMPLATES_DIR = os.path.join(_HERE, "templates")
 _CACHE_PATH = os.path.join(_HERE, "cue_cache.json")
 _CACHE_MAX = {"descriptions": 600, "prompts": 300, "stats": 50}
 
-CUE_VERSION = "1.8.2"  # salts the prompt cache: a code or template change must not serve old prompts
+CUE_VERSION = "1.8.3"  # salts the prompt cache: a code or template change must not serve old prompts
 DEFAULT_ENDPOINT = "http://127.0.0.1:11434"
 DEFAULT_WRITER = "huihui_ai/qwen3-vl-abliterated:4b-instruct"
 RECOMMENDED_WRITERS = [
@@ -1071,6 +1071,30 @@ class _Job:
         self.i = node_inputs
         self.warnings = []
         self.stages = []
+        self._hb_stop = threading.Event()
+        self._hb_thread = None
+        self._hb_text = ""
+        self._hb_t0 = time.time()
+
+    # ---- heartbeat: a status message every 2 s for as long as Ollama keeps us waiting, so the
+    # websocket never sits idle while a big model loads (an idle socket through a proxy dies
+    # without a close frame, and the tab then looks connected but is not) ----
+    def heartbeat_start(self, text):
+        self._hb_text, self._hb_t0 = text, time.time()
+        if self._hb_thread and self._hb_thread.is_alive():
+            return
+        self._hb_stop.clear()
+
+        def loop():
+            while not self._hb_stop.wait(2.0):
+                if _interrupted() or time.time() - self._hb_t0 > 1800:
+                    break
+                _send(self.i["unique_id"], {"event": "stage", "text": f"{self._hb_text} {int(time.time() - self._hb_t0)} s"})
+        self._hb_thread = threading.Thread(target=loop, daemon=True)
+        self._hb_thread.start()
+
+    def heartbeat_stop(self):
+        self._hb_stop.set()
 
     # ---- descriptions (stage A, cached per picture) ----
     def describe(self, jpeg, digest, role, label=""):
@@ -1097,11 +1121,16 @@ class _Job:
         else:
             ask = ("In two or three sentences describe what this picture shows for a film script: a "
                    "person's appearance, or a place's layout, light and key objects. No story, no opinions.")
-        self.stage(f"looking at {role if role in ('start', 'last') else (label or 'reference')}")
-        print(f"[Cue] looking at {role if role in ('start', 'last') else (label or 'reference')} with {self.i['vision_writer']}")
-        text = ollama_chat(self.i["endpoint"], self.i["vision_writer"],
-                           "You describe pictures precisely and briefly for film scripts. Adults only, uncensored: say what is shown, including nudity.",
-                           ask, images=[jpeg], seed=7, temperature=0.2, num_predict=300)
+        what = role if role in ("start", "last") else (label or "reference")
+        self.stage(f"looking at {what}")
+        print(f"[Cue] looking at {what} with {self.i['vision_writer']}")
+        self.heartbeat_start(f"looking at {what} ({self.i['vision_writer'].split('/')[-1]})…")
+        try:
+            text = ollama_chat(self.i["endpoint"], self.i["vision_writer"],
+                               "You describe pictures precisely and briefly for film scripts. Adults only, uncensored: say what is shown, including nudity.",
+                               ask, images=[jpeg], seed=7, temperature=0.2, num_predict=300)
+        finally:
+            self.heartbeat_stop()
         text = " ".join(text.split())
         if text:
             cache_put("descriptions", key, text)
@@ -1126,6 +1155,7 @@ class _Job:
         eta = f", ~{self.expected / self.rate:.0f} s" if self.rate else ""
         print(f"[Cue] {label} with {self.model} (up to {self.expected} tokens{eta})")
         self.stage(label + (f"… ~{self.expected / self.rate:.0f} s" if self.rate else "…"))
+        self.heartbeat_start(f"loading {self.model.split('/')[-1]}…")
 
     def token(self, n):
         self.count = n
@@ -1135,12 +1165,14 @@ class _Job:
         if now - self._last_tick >= 1.0:
             self._last_tick = now
             elapsed = now - self.t0
-            rate = n / elapsed if elapsed > 1.0 else self.rate
+            rate = n / elapsed if (elapsed > 1.0 and n >= 20) else self.rate  # early tokens include the load time
             pct = int(100 * min(n, self.expected) / self.expected)
             left = f" · ~{max(0.0, self.expected - n) / rate:.0f} s left" if rate else ""
+            self._hb_text, self._hb_t0 = "writing…", self.t0  # the heartbeat reports elapsed time, tokens report progress
             _send(self.i["unique_id"], {"event": "stage", "text": f"writing {pct}%{left}"})
 
     def end(self, words, valid):
+        self.heartbeat_stop()
         elapsed = time.time() - self.t0
         if self.count and elapsed > 0:
             cache_put("stats", _h("rate", self.model), self.count / elapsed)
@@ -1386,11 +1418,15 @@ class Cue:
             job.begin(max_tokens * 0.7, "writing" if attempt == 1 else "rewriting", writer_b)
             ask = user if attempt == 1 else (user + "\n\nYour previous answer had these problems:\n- "
                                              + "\n- ".join(errors) + "\nRewrite the complete answer.")
-            raw = ollama_chat(endpoint, writer_b, system, ask, images=pictures_for_b or None,
-                              seed=int(seed) + attempt - 1,
-                              temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
-                              num_predict=max_tokens,
-                              on_chunk=job.chunk, schema=schema, on_token=job.token)
+            try:
+                raw = ollama_chat(endpoint, writer_b, system, ask, images=pictures_for_b or None,
+                                  seed=int(seed) + attempt - 1,
+                                  temperature=0.9 if tpl.kind == "image" else 0.7,  # images: more variety, validator catches breakage
+                                  num_predict=max_tokens,
+                                  on_chunk=job.chunk, schema=schema, on_token=job.token)
+            except BaseException:
+                job.heartbeat_stop()
+                raise
             built = self._build(tpl, mode, raw, fill, seconds, frames, defined_labels, subject_lines,
                                 predefined, overrides, quotes, language, use_brace_tokens, has_modes, is_cont)
             errors = built["errors"]
