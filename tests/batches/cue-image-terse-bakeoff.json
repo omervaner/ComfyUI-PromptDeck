@@ -1,0 +1,54 @@
+{
+  "comment": "Runbook §8 bake-off: the five 1.8 text-writer candidates on the 13 terse Krea 2 intents, prompts only; vision_writer stays the 4B VL. Compare v_valid, words, seconds, read ten per writer by eye for register and variety.",
+  "workflow": "tests/workflows/cue_krea2.json",
+  "prune_to": [
+    "Cue"
+  ],
+  "matrix": {
+    "intent_file": "../../input/promptdeck_tests/intents_terse.txt",
+    "writers": [
+      "huihui_ai/qwen3-abliterated:8b",
+      "huihui_ai/qwen3-abliterated:30b-a3b",
+      "huihui_ai/mistral-small-abliterated:24b",
+      "huihui_ai/gemma3-abliterated:12b-q8_0",
+      "huihui_ai/qwen3-vl-abliterated:8b-instruct",
+      "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M"
+    ],
+    "seeds": [
+      1
+    ],
+    "detail": "medium"
+  },
+  "set": [
+    {
+      "node": "Cue",
+      "input": "intent",
+      "value": "{intent}"
+    },
+    {
+      "node": "Cue",
+      "input": "writer",
+      "value": "{writer}"
+    },
+    {
+      "node": "Cue",
+      "input": "detail",
+      "value": "{detail}"
+    },
+    {
+      "node": "Cue",
+      "input": "seed",
+      "value": "{seed}"
+    }
+  ],
+  "outputs": {
+    "node": "Cue"
+  },
+  "judge_model": "huihui_ai/qwen3-vl-abliterated:32b-instruct-q4_K_M",
+  "judge": {
+    "kind": "prompt",
+    "seam_frames": false,
+    "primary": "intent_match"
+  },
+  "timeout_seconds": 600
+}

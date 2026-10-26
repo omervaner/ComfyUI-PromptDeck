@@ -35,6 +35,645 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a ski lift queue
 - a train compartment with the blind half down
 - a cemetery with cypress trees
+- a nursing home with vintage photographs on the wall
+- an old folk's home library, books lined up for storytime
+- an assisted living facility cafeteria during breakfast hours
+- a funeral parlor with faded wreaths
+- an empty church pew in the midday sun
+- a graveyard bench covered in moss
+- a crematorium garden with scattered ashes
+- a wake at a dimly lit family home
+- a florist shop with an arrangement of lilies
+- a hearse parked by a cobblestone street
+- a mourning room filled with empty chairs
+- an undertaker's prep room with silver tools
+- a graveside service in a light rain
+- a cemetery caretaker's cottage, unlit
+- an altar of flowers by the roadside
+- a church sanctuary with candle stands
+- a funeral director office cluttered with paperwork
+- a family chapel with a locked prayer book on stand
+- a cremation urn in a mahogany case
+- a mourning band on an armrest of a wheelchair
+- a columbarium alcove with empty niches
+- a hearse driver eating alone at the diner counter
+- a cemetery vault door slightly ajar
+- an altar boy with polished shoes, waiting to carry the cross
+- a cemetery's administration office littered with paperwork for permits
+- a gravestone carver in an unfinished grave
+- a headstone, chipped and weatherworn by the sea
+- a hearse following a motorbike escort on winding road
+- an old family photograph of ancestors by the memorials
+- a church's cemetery with unlit pathlights
+- a funeral director's coat hanging near the back entrance
+- a church pew with crumpled prayer cards on it
+- a wreath left at a gravesite, untouched for days
+- an abandoned hearse in a garage, a tarp covering its hood
+- a bus station under neon lights
+- an empty train carriage on a siding, weeds growing
+- a subway platform with graffiti-covered walls
+- a truck stop diner with broken neon sign outside
+- a train depot storage unit for retired steam engines
+- a boat dock, water lapping at the wood planks
+- a trolley car stuck on a steep incline, cable frayed
+- I have no access to external information to verify if this is true
+- a construction site crater filled with rainwater
+- an alleyway behind a bustling night market, steam rising from food stalls
+- a side street of neon signs reflected on wet pavement at dusk
+- a crowded street food stall with a wok flaming in the evening
+- a bustling bus station lost luggage counter
+- a dimly lit massage parlour doorway, with soft red light flickering in the window
+- an empty bus depot, littered with discarded flyers from a long-ago election campaign
+- an outdoor nightclub entrance under a neon sign of a woman dancing
+- a back alley used as an impromptu parking lot filled with motorcycles
+- a packed karaoke bar with a patron doing a dramatic rendition onstage
+- a sidewalk cafe at sunset, waiters in black and white rushing through the crowd
+- a bustling subway corridor after rush hour, passengers sleeping on benches
+- an empty movie theater lobby littered with discarded popcorn boxes,
+- a dimly lit underground pub where people shout over loud rock music at noon
+- a bustling pedestrian street blocked by a large protest banner,
+- an apartment building's laundry room with clotheslines full of dripping underwear
+- a busy noodle stall with patrons lining up under a neon sign
+- a train station's departure board lit up with departures for the suburbs
+- a cramped nightclub with strobing lights and a fog machine
+- a dark corner of the sidewalk used as makeshift shelter by homeless man sleeping
+- a dimly lit, deserted arcade with the neon lights off
+- an open-air theatre with empty seats in the morning light
+- a bustling shopping district at sunset, crowds streaming out from department stores
+- a narrow street full of packed motorbikes during a midday storm
+- an open-plan office with computer screens glowing after dark
+- an empty subway carriage with a solitary ticket on its floor
+- the last train station's snack bar closed for the day,
+- the last taxi stand in front of an apartment block, drivers waiting for fares
+- a factory assembly line paused at sunset
+- a power plant turbine spinning idle
+- a conveyor belt littered with discarded factory parts
+- an abandoned foundry casting shadow
+- an industrial printer still warm, ink drying
+- a scrapyard graveyard of rusting vehicles under the moonlight
+- a silo tower looming over a quiet farm field
+- a textile mill with threads tangled on machines
+- a smelting plant smokestacks emitting fumes in twilight
+- a recycling center full of sorted garbage bags during dawn light
+- an assembly worker walking back from a warehouse
+- a dockyard crane suspended over water, a ship's hull being cleaned
+- a meat processing plant with workers on break in the evening
+- an offshore rig with a helicopter landing pad in the rainy twilight
+- a chemical plant flaring off gases under moonlight
+- a paper mill where pulp is soaked at night
+- a coal mine elevator, caged and still
+- a refinery distillation tower lit up against a dark sky
+- a machine repair room with a broken drill press left for the day
+- a steel plant cooling station, empty and silent on a weekend
+- a glass foundry furnace's flame burning in the nighttime
+- a warehouse forklift stopped mid-task
+- a packaging unit conveyor belt at a standstill during dinner break time
+- an old industrial building's ventilation shaft full of pigeon nests at dawn
+- a mining cart filled with earth, empty tracks ahead
+- a grain elevator loft full of dust motes during noon sun light
+- an oil rig platform at sea under stormy skies in dusk
+- an aluminum smelter furnace glowing at night
+- a shipping dock with containers stacked under a foggy morning
+- a textile factory floor during break, machinery hums softly
+- a water processing facility pipes draining out into ocean
+- a coal power plant exhaust stack in the mist of dawn
+- a drive-in movie screen cracked and peeling from sunlight
+- an abandoned roller rink skylight with shards on the floor
+- a vintage bar with neon jukebox flickering, empty
+- a train's cab left idle at night, windshield fogging up in cold air
+- a closed drive-in theatre snack stand with rusty popcorn machine
+- an industrial kitchen of a chain restaurant shut down overnight
+- an old fashioned soda fountain counter lined with stools at close time
+- a retro gas station restroom mirror stained from years of smoke
+- a high school cafeteria sink, dishes stacked in the evening light
+- a vintage library card catalog abandoned and covered in dust
+- a warehouse of broken vintage cameras and film
+- a bowling alley with faded lanes under harsh fluorescent lights
+- a closed circus tent, faded posters curled up at nighttime
+- a high school's empty auditorium, stage light leaking into backstage
+- a pinball machine collection left to collect dust in an abandoned arcade
+- a vintage department store display window of mannequins with worn outfits
+- a car wash tunnel's conveyor belt idle and stained
+- a vintage toy factory assembly line littered with discarded plastic parts
+- an empty diner booth seat with worn vinyl cracking in the moonlight
+- a closed amusement park with a carousel left frozen on a rainy day
+- a motel room's TV playing static, bed rumpled after checkout
+- a vintage theater marquee burned out, faded posters flapping in the wind
+- a roller disco rink with worn-out rubber floor, neon light fading
+- a vintage movie camera left unattended on a film set
+- an empty bowling alley's lane filled with spilled beer cans in the morning
+- a vintage arcade machine cabinet cracked and left to rot at an abandoned bar
+- a boardwalk amusement park's broken ride seats, faded by sunlight
+- an old time saloon door swinging open at dawn after a long night
+- a retro train station booth with stained tickets left on the counter
+- a vintage bowling alley shoe rental stand littered with worn-out shoes
+- a motel swimming pool drained and empty for the winter
+- a closed carnival carousel horses faded in the rain
+- an abandoned hotel lobby with a grand piano covered by a sheet
+- an old time ice cream parlor, waffle cone machine idle overnight
+- an office building lobby clock frozen on noon, empty after hours
+- a vintage clothing store display window filled with mannequins of the seventies
+- a closed roller rink floor full of discarded wrappers from midnight snacks
+- a vintage motel poolside bar stool cushions worn down by heat
+- a bakery oven's crusty remnant of yesterday’s bread
+- a barbershop with scattered clippers on the countertop
+- a blacksmith’s forge glowing embers at daybreak
+- an auto mechanic's garage, car jack propping a vintage Mustang
+- a butcher shop freezer door ajar, frost building overnight
+- a carpenter’s workshop table sawdust piled from morning hours
+- a chemist’s lab beakers in disarray with bubbling solutions
+- a clockmaker’s workbench gear wheels scattered across the surface
+- a dentist's office dental chair left open on Friday night
+- an electronics shop repair desk with a soldering iron cooling down
+- a floral shop's cooler full of wilting daisies overnight
+- a funeral home’s parlor, urns polished and ready in the moonlight
+- a garage floor littered with old oil cans under faded lightbulb
+- A hairstylist station chair with curling iron left on
+- an optician’s shop display cases, empty glasses reflecting
+- A pawnshop counter cluttered with antique silverware on evening news break
+- A pottery studio kiln cools slowly after evening classes
+- a sign painter’s workshop brushes soaking in turpentine on Friday night
+- a tailor’s worktable cloth cuttings scattered everywhere on the floor
+- an upholsterer's shop with tools scattered, a torn sofa cushion under desk lamp light
+- A watch repair counter's jeweler loupe left behind for the day
+- a veterinary clinic examination table, leftover gauze and syringes
+- a zoo’s feeding station, empty bowls left out in night rain
+- A dentist’s office tray of metal instruments left overnight
+- A florist shop delivery van, back door open on Saturday dawn
+- A photographer's darkroom with trays of developing photos in red light
+- a printing press room ink smears everywhere at the day's end
+- A taxidermist studio full of half- finished wildlife on Friday night
+- an art studio’s canvas strewn on a paint-splattered floor
+- a locksmith’s desk, keys scattered on the surface overnight
+- a taxidermy eye patch missing under harsh light
+- a piano tuner's toolkit left open with screws inside
+- a bookbinder’s shop table cluttered by pages of books cut apart
+- a cobblers’ bench leather scrap piles stacked underneath
+- a jewelry store’s display case, gold chains left for polishing at nighttime
+- a cabinetmaker workshop filled with oak shavings under the afternoon sun
+- a cobbler's workshop shoe mold covered in rubber
+- a tailor’s cutting table fabric remnants scattered everywhere on the floor after dark
+- a dentist's office tool drawer full of metal instruments left overnight
+- a tattoo parlour, chair covered in disposable needles overnight
+- a leather worker’s bench scrap pile stacked and dried under sunlight
+- a watchmaker’s magnifying glass rests on half-assembled clocks at nighttime
+- an upholsterer's workbench scissors left open on the surface after hours
+- A florist shop counter empty vases for wilting daisies under afternoon light
+- a mechanic’s toolbox ratchets and wrenches exposed to sunlight in early morning
+- a hairdresser station, hairspray can emptied overnight
+- an optician’s lens polishing wheel spinning at nighttime
+- a barber shop, chairs left out for a late client in the moonlight
+- a glass blower bench full of glass shards scattered under neon light
+- a dentist's office exam chair left with a paper covering
+- a clockmaker’s workshop, screwdrivers resting on the surface after hours
+- an auto mechanic’s repair shop oil-stained gloves left for Monday morning by flashlight
+- a pastry chef’s workspace dough scraps piled up overnight under dim light
+- a veterinarian office x-ray film images of pets on a board covered by dust
+- a sign painter workbench left open with brushes scattered under late night lamp
+- a bowling alley lane, scattered pins from last throw
+- a golf course fairway, abandoned tee shot
+- a fenced soccer field, goal net sagging
+- a basketball court key, rim tilted out of place
+- a badminton court with net pulled high after tournament
+- a table tennis arena, a paddle lying flat on the tabletop
+- a baseball stadium, dirt path worn from frequent use
+- a swimming pool deck, lounge chair tilted
+- a dance studio mirror, leotards draped over
+- an archery range, target riddled with arrows under moonlight
+- a tennis court fence covered in leaves during the fall offseason
+- a racquetball court, a ball lodged by the glass window after hours
+- a hockey rink edge covered in snowdrifts in wintertime
+- a track and field area, hurdle knocked over
+- a yoga studio corner with one mat unrolled from last session
+- a martial arts dojo, a cracked wooden board under Friday night light
+- a billiards hall, a cue stick leaning against the wall after midnight
+- a darts room, the bullseye hit on the dartboard left overnight
+- an ice skating rink, ice melted into the bleachers at dawn
+- a curling club, broom handle broken under the dim light of the arena
+- an equestrian barn, horse stall unopened
+- a surfboard repair shop wet sandpaper hanging dry on racks after sunrise
+- a ski rental shop rack with skis missing after the weekend of snowfall
+- a rock climbing gym, a rope swing abandoned from the last challenge
+- an archery range, a bow string broken and laying flat on the ground
+- an indoor volleyball court, ball wedged into net
+- a trampoline gym corner with one pad folded over after Friday night practice
+- an exercise studio, yoga mats piled up in a corner for cleaning
+- a running track, cones scattered by early morning joggers
+- a carpenter's workshop sawdust piling under the table
+- a blacksmith forge coals glowing under harsh light
+- an electrician’s van toolbox open late at night under dim lamp
+- a plumber’s truck water pump hissing as air leaks out
+- a roofer’s ladder tar smeared and covered in bird poop on the roof deck
+- a bricklayer's bench mortar stains drying on concrete blocks by morning light
+- an acupuncturist room needles laid out on cloths under red light
+- a massage therapist's office table sheets wrinkled after sunset
+- a chiropractor’s adjustment bed left covered in blue paper overnight
+- a veterinarian surgery instruments blood stains left at nighttime
+- a veterinary clinic treatment area, oxygen tank emptied over the weekend
+- an eye doctor’s exam chair light off during the evening
+- A dermatologist's office table patient records laid out under early sunrise
+- a pediatrician office toy chest left open overnight with books scattered everywhere after dark
+- an optician’s repair bench eyeglass frames scattered in sunlight
+- a podiatrist clinic, foot baths covered under afternoon light
+- a dermatology clinic procedure bed sheets draped loosely on the side overnight
+- an anesthesiologist's cart syringes exposed to overhead lighting at nighttime after the shift
+- A therapist’s office couch crumpled tissues left by patients
+- a prosthetics lab workspace plastic mold fragments scattered everywhere during noon hour
+- a rooftop patio with unopened beers overnight
+- a rooftop greenhouse, water beads on leaves at sunrise
+- rooftop deck chairs, wet from morning rain
+- a rooftop bar empty whiskey glasses left out for Monday
+- a rooftop poolside table, sunscreen bottles scattered
+- A rooftop hot tub, foam floating with a towel over the rim under moonlight
+- rooftop BBQ grill covered by an ashtray
+- a rooftop doghouse, bowl empty in sunlight at noon
+- A rooftop clothesline, wet socks swaying against sky
+- A rooftop birdbath, water ripples from night rain under the morning sun
+- a rooftop air conditioner, dripping with a leaf clogged fan under afternoon light
+- rooftop TV antenna with broken wires at dawn before repairmen arrive
+- a rooftop pigeon coops empty feeders left out under harsh sunlight
+- A rooftop skate ramp scraped from previous use in the evening sunlight
+- A rooftop basketball hoop, ball resting at sunrise
+- A rooftop planter box dead leaves scattered under night lights
+- A rooftop wind chimes hanging in twilight stillness without a breeze
+- A rooftop chimney, black soot streaks covered with bird nests in sunlight at noon
+- A rooftop ladder, one leg left dangling at nighttime
+- rooftop fire escape, a blanket draped over rails overnight after the night shift ended
+- A rooftop chimney stacks smoking in a light breeze from an open roof door
+- A rooftop storage shed, tools left on the table under dim lamp
+- a rooftop generator, empty gas can by the wall under harsh light
+- A rooftop skylight covered with bird poop during the nighttime
+- rooftop solar panel with a smashed screen in the middle of the afternoon sun
+- A rooftop solar panel with a smashed screen and covered with dust after rain
+- A rooftop satellite dish, metal bent from last storm overnight at dawn
+- A rooftop deck table, ashtray with one cigarette butt left out under moonlight
+- A rooftop hot tub filter, leaves clogged from the fall storm night before
+- rooftop air conditioning vents covered in dead bugs after rain overnight
+- a flea market tent, a woman selling broken trinkets
+- a farmers market, empty crates scattered by afternoon breeze
+- a bazaar entrance, rugs rolled up at close nighttime
+- a market stall with a basket overflowing with overripe peaches
+- a festival stage backdrop ripped paper hanging in morning dew
+- a food stall with empty beer cans strewn on floor overnight after the show
+- an artisanal cheese display with rats nibbling leftovers during dawn
+- a flower stall petals scattered around at nightfall
+- a pottery tent shards of clay pots on dusty ground under noon sun
+- a vintage clothing stall a mannequin missing an arm during twilight stillness
+- a festival archway, banners torn by late-night winds overnight after the event
+- a puppet show stage with torn fabric marionettes scattered at close nightfall
+- This street performer, a clown face makeup smudged on floor after sunrise
+- a face painting stand smeared lipsticks on table in late afternoon sun
+- a live music stage, wires tangled together at the end of the concert
+- a festival food court, leftover kebab skewers piled under dim light during dawn hours
+- an open air cinema ticket booth empty roll tickets after sunset
+- The puppet theatre, marionette string hanging from ceiling
+- an arcade stand game prizes scattered on the floor under dim moonlight
+- an ice cream truck with a melted popsicle left out in the afternoon heat
+- a factory assembly line conveyor belt halted overnight
+- a power plant turbine blades caked with dust in sunset glow
+- a steel mill furnace smoldering embers during dusk hours
+- an oil refinery pipe labyrinth, rust flaking under sunlight
+- a textile factory loom threads tangled after day's end
+- a coal mine elevator shaft empty buckets at midnight
+- a lumberyard log pile teetering precariously in afternoon shadow
+- a paper mill conveyor belt, loose sheets scattered during noon
+- an assembly line workers tools left behind on the floor at dusk
+- a steel factory furnace glowing coals overnight
+- a water treatment plant pumps humming under moonlight
+- a brewery fermentation tank foam overflowing in dim lighting
+- a printing press ink smeared across paper in early morning
+- a bakery oven rack half-burned baguettes under the morning sun
+- a textile mill fabric rolls abandoned at nighttime
+- a paper factory conveyor belt, wet sheets strewn everywhere after rain overnight
+- a chemical plant storage tank, liquid sloshing beneath twilight shadow
+- a refinery control room keyboard sticky with soda overnight
+- a lumber yard chainsaw left outside under the sun
+- an engine workshop jack stand empty during late night
+- a coal mine elevator shaft dusty at noon time
+- a steel mill, conveyor belt stopped in a pile of scraps under the moon
+- a power plant control panel buttons flickering at sunset
+- a textile factory thread balls scattered everywhere after a storm
+- an oil refinery pipe labyrinth rusty joints in moonlight
+- a brewery bottling machine plastic bottles scattered during evening
+- a paper factory paper roll stuck in the conveyor belt under afternoon sunlight
+- a bakery dough mixer dirty spatula left overnight
+- a coal mine cart tracks covered with dust during noon hours
+- an engine workshop tool chest drawers open in dawn light
+- a lumberyard forklift parked under tree shadow at dusk
+- a paper mill conveyor belt water dripping from the edges
+- a steel factory furnace glowing after shutdown at nightfall
+- a laundromat window fogged from cold rain
+- a playground swing set ice coated at daybreak
+- a train platform bench damp from evening drizzle
+- a bus shelter floor muddy footprints in the morning mist
+- an amusement park empty ride seats swaying in wet wind
+- a carousel painted horses glistening after night rain
+- a hotel lobby foyer puddles reflecting chandelier lights
+- a convenience store door mat soaked from steady downpour
+- a gas station awning dripping during a storm
+- a motel parking lot muddy tire tracks in dawn light
+- a café sidewalk table umbrella flipped by sudden gusts
+- a bakery doorway dusted with frost overnight
+- a grocery store parking lot slick from icy rain at nightfall
+- a pharmacy window display wet from morning drizzle
+- a hardware store alley mud puddles after night thunderstorm
+- a movie theater sidewalk crowded umbrellas at sunset
+- an art gallery entrance matted leaves in afternoon showers
+- a library steps slick with morning dew under a gray sky
+- a zoo enclosure fence misted in drizzle during twilight
+- an aquarium entrance pond scummed from overnight rain
+- a museum courtyard fountain water overflowing onto ground at nightfall
+- a bookstore window foggy from humid air after rain
+- a café window seat wet streaks on glass during a storm
+- an alleyway beside a warehouse puddles forming after the rainfall
+- a park bench soaked with rain under an old tree before sunrise
+- a museum garden path muddy after rain in dusk hours
+- a hospital lobby entrance slick from steady downpour overnight
+- a hotel courtyard fountain spraying on wet benches after nightfall thunderstorm
+- a café patio chairs upside down on tables with a storm approaching
+- a restaurant alleyway littered trash cans overflowing in windy rain
+- a schoolyard jungle gym covered in slush at dawn
+- a museum exhibit hall flooded from leaky roof under twilight sky
+- an antique shop window fogged by morning frost under gray skies
+- a hospital emergency room sidewalk slick with dew at dusk
+- a bar patio table umbrella turned inside out in sudden rainstorm
+- a laundromat with a pile of soaking wet clothes overnight in the afternoon heat
+- a school bus stop bench soiled and wet from drizzling rain under morning light
+- a parking garage entrance ramp flooded after heavy downpour overnight
+- an office building lobby entrance flooded during noon storm
+- a border crossing booth windshield cracked by rocks
+- an immigration checkpoint line snaking through mud
+- a customs house door mat soaked from steady rain
+- a security gate wet paint smeared by passing cars
+- a passport control desk cluttered with empty coffee cups during a night shift
+- a border patrol truck tires caked with red clay in the evening sun
+- an inspection station conveyor belt, crates abandoned overnight in dawn light
+- a highway toll booth window foggy from sleet in dusk hours
+- a border guard shack radio crackling in the rain at twilight
+- a checkpoint tent canvas flapping during a stormy afternoon
+- an inspection station floor muddy footprints after a night storm
+- a barrier gate rusty joints in morning mist,
+- a warehouse roof ice sheets melting in early sun
+- an ice rink boards damp from drizzling rain at dawn
+- a greenhouse frost-kissed leaves under morning light
+- an observatory telescope lens dew-covered at dusk
+- a train bridge icicles hanging after snowfall night
+- a parking lot puddles reflecting city lights in evening
+- a boat house deck planks wet with sea spray at night
+- a garden statue moss-covered by persistent drizzle
+- an airport runway frozen tarmac under gray skies
+- a dockside crane icy chains creaking in morning wind
+- a tunnel entrance ice-glazed walls reflecting headlights
+- a subway platform tiles damp from evening train
+- a ferry pier ropes soaked with sea mist at daybreak
+- a forest path puddles forming under dripping leaves
+- a bridge support wet paint peeling in afternoon rain
+- an underground vault ice-coated bars after nightfall
+- a lighthouse staircase slippery metal railing in twilight
+- a construction site crane cab foggy windows at dawn
+- a subway tunnel walls wet with condensation during midnight
+- an office building elevator door frame damp from cold rain
+- a highway rest area picnic table covered in wet leaves under gray skies
+- a parking lot empty, snow dusted cars, early morning light
+- a motel swimming pool water surface misted in night chill
+- an auditorium stage wooden boards fogged from cold air
+- an abandoned theater dressing room mirror coated with frost overnight
+- a football stadium seating rows wet from drizzle before sunrise
+- a warehouse loading dock slippery pavement in afternoon rain
+- a movie set outdoor backdrop frozen snowman in foreground
+- a greenhouse glass panes misty in the morning frost
+- an alleyway dumpster bags soaked by night thunderstorm
+- an empty sports stadium bleachers glistening after midnight rain
+- a park fountain water droplets frozen in dusk hours
+- an abandoned factory courtyard flooded from rain overnight
+- a museum sculpture garden puddles reflecting night sky during sunset
+- a gas station bathroom door mat soaked with cold rain, after nightfall
+- a funeral parlor vase filled with wilting flowers
+- an empty chapel candlelit side aisle
+- the cemetery's graveyard fountain clogged with leaves
+- a hearses parking lot puddle muddied
+- a crematorium chimney smoldering embers
+- a mourners lounge coffee pot still warm
+- a flower arrangement stand toppled bouquet on the floor
+- a theater marquee fading letters in daylight
+- a carnival Ferris wheel caged seats empty with age
+- an amusement park ticket booth dirty floor strewn with faded papers
+- an abandoned movie set prop trees leaning
+- a circus big top canvas torn by weather
+- a dance club neon sign flickering alone in dawn
+- a fairground roller coaster empty cars rusting with decay
+- an arcade machine dusty joystick
+- a library reading corner book pages curled with neglect
+- a bakery display case empty, flour dusted countertops
+- a concert stage microphone stands unplugged in quiet hall
+- a zoo aviary wire cage emptied of birds for winter
+- an ice rink fence chain links rusty
+- a bookstore cafe chairs upturned on tables during cleaning hours
+- an aquarium filter system humming empty tanks with night lights dimmed
+- a restaurant bar stool empty glasses scattered across wooden planks
+- a theater orchestra pit music sheets abandoned after closing time
+- a toy store shelf half stocked and a broken cashier window
+- a school playground slide faded colors peeling in the sunlight during morning hours
+- an art gallery glass case, empty shelves covered with dirt
+- a bowling alley lane pins toppled over
+- a zoo gift shop stuffed animals discarded on the floor
+- a bowling pin racks emptied of pins and dusty
+- a library shelves, books pulled, spines broken
+- a skating rink locker room shower dripping cold water
+- a church pews benches damp in early hours with morning fog
+- an abandoned diner jukebox songs faded
+- a hospital waiting area chairs empty and a television on mute
+- a museum corridor, display cases covered in dust after a night shift
+- a hotel lobby elevator doors broken open with boxes from the rooms stacked inside
+- a movie theater concession stand, empty popcorn bags scattered underneath
+- a bowling alley scoreboard screen off
+- a school cafeteria tray left on table alone during lunch time
+- a classroom desk drawer rusted lock
+- a gymnasium bleachers dusty shadows in twilight
+- a playground jungle gym missing rungs and covered in grime after a winter
+- a locker room bench broken wood slats
+- a hallway floor tiles worn out from years of heavy foot traffic
+- an auditorium stage wooden boards with scribbles on it
+- a library bookshelf top layer, book pages torn with time
+- a classroom clock hands stuck during midnight rain
+- a janitors closet door half-open during the night shift
+- a teachers lounge coffee cup rings stained in the table
+- a science lab sink rusty faucet after a stormy evening
+- a school bus parking lot tire tracks muddy from the first autumn snowfall
+- an art room easel canvas paint dried up with old age and forgotten memories
+- a music practice room piano keys faded during late hours in twilight
+- a lunch queue line broken bench on a sunny day
+- a girls bathroom mirror smudged after prom night
+- a boys bathroom floor tiled, wet from dripping faucets at dawn
+- an outdoor track field empty and covered in autumn leaves
+- a band room instrument rack missing reeds for wind instruments
+- a school nurse office cot stained in twilight
+- an athletic training room ice bucket tipping over with water drops scattered and frozen
+- a chemistry lab countertop burner sooted from years of experiments at sunset
+- a school auditorium balcony railing rusty and squeaking
+- an empty library desk chair pushed out in the late afternoon light after hours
+- a gymnasium bleachers, broken metal seats from kids during day time sun
+- a swimming pool locker room wall lockers doors left open overnight and flooded
+- a music practice room piano bench stained with sweat during twilight
+- a school garden shed door ajar, tools rusted in the sunlight after spring break
+- a football field scoreboard lights flickering at dawn
+- a laundromat with one machine running empty with faded posters
+- an arcade dusty joystick button stuck down in morning hours
+- a bakery display case empty flour bags scattered in the sunlight
+- a concert stage microphone stands unplugged during midday heat
+- a library reading corner book pages curled with neglect and dusty lampshades,
+- a fairground roller coaster empty cars rusting in daylight with leaves covered on seats
+- a toy store shelf half stocked and broken toy parts scattered across the aisle
+- an ice rink fence chain links rusty and cracked from freezing temperatures overnight
+- a zoo aviary wire cage emptied of birds for winter and covered in snow
+- an abandoned movie set prop trees leaning and bent under a bright sun
+- a school playground slide faded colors peeling in the sunlight during evening hours
+- a church pews benches damp in early morning hours with dew drops and frost,
+- a bowling alley scoreboard screen off in the bright daylight during morning
+- a classroom desk drawer rusted lock and papers scattered across desk from overnight breeze
+- a library shelves books pulled, spines broken in bright afternoon sunlight
+- a skating rink locker room shower dripping cold water and condensation on the walls
+- an auditorium stage wooden boards with scribbles on it at dusk after rehearsal
+- a movie theater concession stand empty popcorn bags scattered underneath during the morning hours
+- a bowling pin racks emptied of pins and dusty in a closed building
+- a teachers lounge coffee cup rings stained, with books left open on a table
+- a school garden shed door ajar tools rusted under bright sunlight after spring break
+- an outdoor track field empty covered in autumn leaves, with crumpled papers strewn about
+- a science lab sink rusty faucet with droplets of water from a stormy evening
+- a band room instrument rack missing reeds for wind instruments after dark
+- a school nurse office cot stained during midday sunshine and open windows
+- a football field scoreboard lights flickering with an open book left on the ground
+- a gymnastics bleachers dusty shadows in twilight after a practice,
+- a school hallway poster peeling off its edges
+- a gymnasium trophy case covered in cobwebs
+- a blackboard chalkboard eraser crumbs scattered across the floor
+- a principal's office rug worn down by countless student shoes
+- a science classroom experiment lab table missing a bunsen burner
+- a detention room wall clock hands ticking loudly during silent hours
+- a school entrance door frame scratched by years of students entering and leaving
+- a chemistry classroom cabinet with bottles missing labels during a night shift
+- a janitor's bucket filled with rags, mop handles and brooms leaning on its side
+- a playground sandbox half-buried with children's toys scattered about
+- a teacher's whiteboard erased smudges from morning meeting
+- A science lab ceiling fan blades dusty and spinning slowly under an open door
+- A baseball bat left in the locker room by mistake during a spring thunderstorm
+- a cafeteria vending machine stuck, coins left abandoned within its crevices during noon hour
+- an empty auditorium piano's broken key stuck down, during night shift
+- A schoolyard basketball hoop bent and swaying gently in the wind
+- a chemistry lab beaker left abandoned on an unkempt lab counter top during twilight
+- a rooftop antenna rusted from years of rain
+- a rooftop chimney bricks crumbling into dust
+- a rooftop air vent covered in pigeon droppings
+- a rooftop satellite dish pointing at the sky aimlessly, a pigeon's feathers scattered nearby
+- a rooftop water tank rusty and peeling during rainstorms, algae growing
+- a rooftop window broken, glass shards glinting in moonlight
+- a rooftop skylight cracked, rainwater dripping on an open box below
+- a rooftop fence gate ajar, squeaking in the wind
+- a rooftop deck bench cushions faded, with a half-empty beer bottle near it
+- a rooftop planter boxes overgrown with weeds during summer days
+- a rooftop grill rusted and covered in soot from burnt charcoal
+- a rooftop bird feeder knocked over, seeds scattered
+- a rooftop ladder rungs worn down by frequent use under an afternoon sun
+- a rooftop basketball hoop rim bent after a night of heavy wind
+- a rooftop television antenna toppled during stormy weather
+- a rooftop clothesline sagging, empty after a day out in the cold rain
+- a rooftop picnic table legs rusted from exposure to harsh sunlight
+- a rooftop hot tub cover off and water evaporating during early morning fog
+- a rooftop movie projector lens cracked by a falling brick during a rainstorm
+- a rooftop Jacuzzi with deflated pool toys floating inside after a power outage
+- a rooftop garden hose kinked, water spraying onto a window
+- a rooftop telescope lens covered in dust after days without use
+- a rooftop fire pit ashes scattered and extinguished in the morning mist
+- a rooftop swing set ropes frayed, creaking at dawn
+- a rooftop trampoline frame rusting under fallen leaves during autumn nights
+- a rooftop hammock torn, dangling from a single hook under a cloudy afternoon sky
+- a rooftop gazebo columns cracked with a spider web on the ground underneath
+- a rooftop chessboard tiles cracked, pieces scattered in midday sun
+- a rooftop fountain water turned to ice after sunset
+- a rooftop wind chimes strings tangled, tarnished by oxidation during late hours
+- a rooftop yoga mat unrolled, abandoned during early morning light after a power outage
+- a rooftop sundial shadow skewed under stormy weather during a thunderstorm at dusk
+- a border crossing booth radio chattering in the stillness of night
+- an immigration kiosk touchscreen smashed and flickering in early dawn
+- a checkpoint barrier gate rusted and raised, with graffiti sprayed across it after sunset
+- a passport control desk stamp pad dried out during afternoon lull
+- a customs inspection conveyor belt empty of bags under harsh fluorescent lights late night
+- a checkpoint tent flap flapping loudly, its interior shadowy and untidy during twilight
+- a passport control line roped off, metal hooks rusted from rain
+- a toll booth window shattered on a deserted highway during midday sun
+- a customs xray machine screen flickering, no bags in sight after stormy weather
+- a security checkpoint mirror on the ground near a broken window
+- a passport control booth lights off, a stray dog passing by under moonlight
+- a lighthouse with barnacles peeling off its walls
+- a deserted beach with a solitary hermit crab digging a hole
+- a weathered pier where rope swings lazily in the ocean
+- an abandoned pier with seaweed tangled amongst its supports
+- a rusted lifeguard stand that leans on the sand after sunset
+- a faded, rotting wooden fence surrounding overgrown beach bushes
+- an ancient coconut tree with a hollow center during afternoon heatwaves
+- an isolated beach bonfire ash smoldering with one dying ember
+- a broken sea glass scattered along shore's edge under moonlight
+- a tide pool teeming with crabs scavenging for food at dusk
+- a seagull nest on a cliff edge where shells litter the ground
+- a faded red buoy floating on rough waters during an afternoon rainstorm
+- a coral reef underwater sea fan waving in the ocean currents
+- an island's peak with fog obscuring a mountaintop under a midday sun
+- a dense tropical forest vines dangling from branches at dusk
+- an island path overgrown with ferns leading to a waterfall
+- a hidden island lagoon, water still and clear, during late afternoon calm
+- a seashell-covered walkway that leads straight into the ocean
+- an old stone bridge that crosses an open river in the jungle
+- a cave entrance hidden behind vines and water dripping from the ceiling
+- a secluded island beach, palm fronds rustling during a windstorm
+- a small island village, windows lit up by kerosene lamps at night
+- a boardwalk leading out into the sea with broken pieces of wood scattered about
+- a boat house where a fishing net hangs down with seawater dripping
+- an open air market, fresh fish heads on ice blocks during midday heat
+- an island trail winding up to a lookout point overlooking ocean waters
+- a beach hut's thatched roof sagging, sand scattered around at dawn
+- a bird sanctuary with white birds nesting on an unlit shore at sunset
+- a wooden bridge leading across mangrove roots in the swamp
+- an island port with weathered boats tied up to rusty posts under moonlight
+- a coconut grove's trunk half-sawn through, a coconut shell near it during daytime rain
+- a fishing village, nets spread out to dry in the morning sun
+- a broken glass bottle laying amongst coral reefs under an underwater sun
+- A seaside graveyard, white headstones surrounded by overgrown weeds
+- a driftwood bonfire smoldering on a beach near a tide pool
+- an alleyway with puddles reflecting neon lights in the night
+- a boardwalk bench weathered, salt-spray worn
+- a car dealership's lot flooded at dawn
+- a city sidewalk where steam rises from manholes during an afternoon downpour
+- a coffee shop awning dripping, customers huddled inside for shelter after midnight
+- a construction site's cranes swinging in the gusty winds during a thunderstorm
+- a courtyard with puddle ripples reflecting a gray morning sky during a rainstorm
+- a dock with water lapping against the wood after the sea recedes at sunset
+- a farm field flooded, tractors stuck in muddy fields at sunrise
+- a fountain's spray reduced to droplets in the wind
+- a gas station awning rustling as hail hits during a cold front
+- a golf course fairway flooded and green in an early evening drizzle
+- a hot spring misty under heavy fog in the morning hours of autumn
+- a hotel lobby carpet dampened by dripping umbrellas at twilight
+- a lake's surface rippled, leaves floating on it after a storm during nighttime
+- a library entrance puddles reflecting lights on rainy days late afternoon
+- a market tent flapping under the morning sky as rain begins to fall
+- a museum steps flooded, tourists seeking cover at sunset
+- a office building's glass doors fogging up in a humid atmosphere after sunrise
+- a park bench where birds perch, protected by an umbrella during heavy rainfall midday
+- a parking lot flooded, tires spinning in puddles on a stormy afternoon
+- a playground's swings moving gently under the rain at twilight
+- a playground's slides slick with water during a misty night
+- a picnic area blankets soaked by drizzle at dusk
+- a rooftop grill covered in snowflakes after nightfall during winter storm
+- a school playground slide wet and glistening from rain during an afternoon shower
+- a sidewalk's drainpipe overflowing, water cascading down the gutter
+- a stadium seats wet by the morning fog after a thunderstorm
+- a street corner newspaper stand flooded on early hours in the morning light
+- a train station platform awash with rainwater under stormy skies during twilight
+- a zoo's petting area muddy from the previous night's downpour at midday sun
+- a driveway where raindrops fall into a puddle and create ripples
+- a parking lot's tire tracks filled with water on a stormy evening under moonlight
+- an art museum's entryway wet from the drizzling cold after sunset at night
+- a construction site fence, rusted and dented by hail during thunderstorms at dusk
 
 ## time_weather
 - an hour after sunrise, thin fog
@@ -57,6 +696,695 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a heatwave afternoon, everything still
 - fog rolling in off the sea
 - light snow falling under a lamp
+- dusk wet snow flakes tumbling
+- dawn chilly drizzle, children in rainboots
+- early morning calm breeze, trees swaying gently
+- sleet at recess, kids bundled up in coats
+- midnight ice crystals shimmering
+- late afternoon frost on the swing set
+- sunrise warm breath against chilly air
+- midafternoon grey clouds, children playing indoors
+- sunset first stars appearing over playground
+- noontime mist on the schoolyard window
+- morning fog obscuring the distant soccer field
+- midnight streetlight's hum under cold rain
+- twilight soft snow blanketing the empty jungle gym
+- dusk warm breeze carrying a hint of honeysuckle
+- lunchtime thunder clouds rolling, kids watching
+- afternoon autumn leaves crunching underfoot
+- late morning sun on ice
+- morning dew on freshly cut grass
+- evening crisp air, bare trees looming
+- after sunset first stars reflecting on puddles
+- midday sunlight streaming through a window into a classroom full of kids
+- sunrise pink clouds over the playground
+- midnight snowfall covering the soccer field
+- afternoon dark rainclouds and wind gusts at recess
+- evening warm summer air, cicadas humming in the trees
+- late afternoon soft light on playground equipment
+- midafternoon hot sun baking the schoolyard asphalt
+- morning heavy frost sparkling under a full moon
+- dusk golden light illuminating empty swings
+- after dawn mist hovering over dew-covered grass
+- early morning cold rain pitter-pattering on playground
+- late autumn bare trees silhouetted against sunset
+- evening thick fog muting streetlights' glow
+- sunrise pink and orange hues over a frosted yard
+- dusk, sleet stinging cheeks
+- dawn, biting wind whipping through clothes
+- noon, rain soaking everything
+- late night, icy cold wind howling
+- midday, drizzle dampening spirits
+- sunset, freezing rain hitting skin
+- morning, dark clouds threatening more snow
+- afternoon, bitter gusts snapping through clothes
+- evening, heavy frost under a new moon
+- midnight, bitter cold wind rattling windows
+- first light, frosty breath in the air
+- midafternoon, grey skies pressing down on playgrounds
+- dusk, last snowflakes disappearing before the snowstorm
+- night, thunder echoing through empty streets
+- early morning, dense fog hugging the ground
+- afternoon, sleet freezing as it hits the sidewalk
+- twilight, dark rainclouds hiding moon and stars
+- mid-afternoon, heavy frost glinting on broken fence
+- dusk, last rays of sunlight warming cold hands for a moment
+- night, warm breeze carrying the smell of smoke from chimneys
+- early evening, harsh wind picking up discarded trash
+- midafternoon, thick ice crystals on the slide in the park
+- mid-afternoon frost under a grey sky; children bundled in layers
+- dawn, first drops of rain landing on bare arms
+- noon, hard sun with no protection in sight
+- sunrise cold mist hanging low over empty alleys
+- midnight, heavy snowfall muffling sounds
+- morning, drizzle seeping through worn-out shoes
+- after sunset, dense fog blanketing the playground
+- dusk, first rain clouds gathering under the setting sun
+- late evening chilly mist rising from the ground; no lights on the streets
+- early morning, grey clouds obscuring the horizon
+- morning cold wind cutting through wet clothes
+- midnight streetlights flickering in a freezing downpour
+- dusk harbor, salty sea breeze rustling sails
+- midnight fishing boat lights bobbing on waves
+- sunrise fog lifting off docks and piers
+- early morning gulls crying against grey sky
+- late afternoon tide rushing into harbor basin
+- afternoon storm clouds unloading onto masts
+- noon sun reflecting off ship decks, boats glistening
+- midafternoon harbor seals lounging on the dock
+- evening seagulls circling over dark waves
+- dusk rain tapering into a misty drizzle
+- after sunset harbor lights illuminating the shore
+- midnight stars and moon casting shadows on boats
+- early morning icy gale howling through rigging
+- noon hot sun warming rotting wood on a pier
+- twilight ice forming around boat hulls
+- morning harbor mist freezing into slush
+- dusk, rainstorm soaking sailors' jackets
+- evening cold wind blowing through empty piers
+- night thunder rumbling through quiet harbor water
+- after sunset fog obscuring distant buoys
+- dawn icy frost sparkling on a fishing boat's rope
+- early afternoon snow flakes clinging to cables
+- midday rainwater pooling around the hulls of moored boats
+- evening seagull feathers drifting on cold harbor wind
+- after sunset icebergs drifting in shadowy harbour waters
+- The icy gales blowing through fishing boats and harbors
+- midnight, foggy clouds enveloping a dock
+- nighttime drizzle on the harbor
+- noontime thunder rumbles from the horizon over harbor water
+- late afternoon snow covering boat masts
+- afternoon freezing mist hanging heavily in the harbor
+- sunset rain clouds casting shadows on empty piers
+- twilight frozen sea waves crashing against a dock
+- morning, ice covered fishing nets and ropes
+- nighttime gale-force winds battering the harbor
+- morning harbor crimson sunlight glinting off wet decks
+- afternoon harbour stormy waters churning around pylons
+- sunset cold drizzle reflecting off boat hulls
+- dusk harbour gusts whipping through rigging on empty boats
+- early morning mist shrouding silent ships in the harbor
+- midnight harbors waves crashing against weathered boats and pier
+- dawn, last rays of sunlight disappearing into storm clouds above the waterline
+- early afternoon light rain drizzling onto sailors' worn caps
+- midmorning cold, wet snowflakes clinging to harbor's rusty nails
+- evening harbour gale tosses empty fishing boats against each other
+- noon grey skies reflecting on rough waves in the harbor
+- late morning freezing hail hitting metal decks with a clang
+- sunset harbor fog swirling between docks and hulls
+- morning cold rainwater sloshing through abandoned lifeboats
+- early evening harbor winds lash against wooden posts and nets
+- midday icy mist from the sea clinging to boat rails
+- after dark, harbors icy rain freezes into glistening ice around buoys
+- nighttime heavy frost outlining every deck plank with a sparkling lace
+- evening harbor rain drizzles down empty windows on boats tied at dock
+- noon freezing gales sweep through the harbour
+- sunrise grey mist hugging water's edge of the quiet harbour basin
+- after midnight harbors icy breeze howling around corners and over rooftops
+- morning foggy clouds dripping from ropes and nets on a deserted harbor
+- early morning cold rain pounding against moored boats, rocking them in place
+- dawn misty dew clinging to boat sails and anchor chains
+- late evening harbour ice floes drifting toward the docks
+- dusk harbor icy hail bouncing off ship decks
+- afternoon harbour rough seas swells hitting moored fishing boats hard
+- midnight, dark clouds unleashing torrential downpour on empty waterfront
+- morning, snow covered boat masts glistening in the early light
+- after sunset misty rain reflecting off of the quiet harbor waters'
+- afternoon, harbour cold sea breeze chilling deckhands
+- dawn frost glistening on upturned plows
+- early morning dew dripping from straw hats
+- morning mist shrouding bare wheat fields
+- noon hot sun scorching harvested stalks
+- afternoon rain showering empty tractor seats
+- dusk cold wind sweeping through fallow plains
+- midnight stars illuminating abandoned farmhouses
+- early afternoon hail battering green leaves
+- morning fog obscuring distant silos
+- late morning sleet covering broken fences
+- noon gray skies reflecting on flooded irrigation channels
+- afternoon freezing mist forming in empty paddocks
+- dusk snowflakes accumulating around the farmhouse
+- early evening hailstones pummeling barn roofs
+- midnight icy breeze whistling through cornstalks
+- dawn frost crystalizing on tractor treads
+- late afternoon cold rain dripping from farm machinery
+- morning mist freezing into hoarfrost on pumpkins
+- dusk sleet slanting over barren fields, snow covering tractor tracks
+- midnight fog settling over farm machinery
+- early morning gray drizzle falling on empty stalls
+- noon thunderclouds casting long shadows on plowed furrows
+- after dark frozen rain glistening around the silo
+- evening freezing mist hanging in orchard groves and apple trees
+- nighttime gusts bending wheat stalks to ground
+- late afternoon ice forming on hay bales
+- morning gray clouds pouring sleet onto dirt roads
+- noon cold wind whipping empty clotheslines around a farmstead
+- midnight snowstorm burying the outhouse in fluffy white
+- dusk frost outlining every barnyard fencepost with lace-like patterns
+- after dawn hailstorm pounding on tin roofs
+- evening, rainwater running into irrigation ditches
+- midday icy drizzle soaks through a lonely golfer's clothes
+- dusk blizzard blurs ice fishing shanties and frozen lake
+- afternoon fog blankets abandoned soccer goalposts
+- late night cold drizzles over the tennis court, leaving it spotty in areas
+- sunrise snow hides the tracks on the mountain bike trail
+- midmorning sleet freezes to golf club handles on the driving range
+- evening mist hangs heavy on a still baseball field
+- afternoon rain pelts basketball backboards and rims with an irregular rhythm
+- midday frost glazes the hockey rink for the first game of the season
+- dusk storm clouds gather over an empty football stadium
+- morning mist covers up the tracks on a mountain biking trail
+- noontime hot sunshine warms up softball players warming up before game time
+- evening hailstones pelt an empty baseball infield
+- midday blizzard covers the tennis court with white
+- midnight stars reflect over a tranquil lake for a late night fishing trip
+- morning sleet leaves behind dirty patches on the football field
+- dawn icy rain drips from the soccer stadium roof, then into an empty cup
+- afternoon hailstorms batter the tennis clubhouse
+- sunrise frost outlines every golf ball in the basket at the driving range
+- dusk light snow covers a baseball infield after a game with a large audience
+- midmorning ice on a hockey rink
+- late afternoon blizzard hits soccer fields and players alike, causing a white out
+- early morning freezing rain leaves behind a slippery basketball court
+- nighttime thunderstorm pounds the empty tennis courts
+- afternoon mist hides the empty baseball stadiums' seats in an ominous glow
+- sunrise fog creeps over a still lake fishing pond at dawn
+- midday freezing rain soaks through a basketball player's clothes after hours of play
+- nighttime snowfall covers the hockey rink in white for the morning games
+- evening mist creeps onto a football field after a long night game
+- noon fog obscuring the empty volleyball nets on the court
+- dawn frost blanketing silent country lanes
+- early afternoon drizzle soaking lonely guard stations at road construction sites
+- midnight ice pellets clinging to power lines in town
+- late night thunder rumbles over closed gas stations
+- sunrise sleet covering a lone stop sign
+- afternoon snow pelting abandoned highway rest stops
+- morning hail drumming on checkpoint tents and guardhouses
+- noon mist concealing the entry gate to the forest preserve
+- late morning frost glazing the toll booth windows
+- dusk sleet turning checkpoint gravel into slippery mess
+- after dark rainwater gathering in potholes along the city limits border
+- evening wind whipping through border fences and guard posts
+- midday downpour flooding small bridges at remote outposts
+- dusk fog creeping up a highway patrol station in suburbia
+- noon freezing drizzle glistening on barricades of the highway
+- sunrise dew collecting on traffic cones for road repair work
+- midmorning sleet muffling sounds at toll plazas along the road
+- evening ice forming on overpass railings in town
+- morning light snow dusting a patrol car
+- late afternoon hail clattering onto police cars and their officers in uniform
+- dusk rain soaking through a border agent's coat as he patrols
+- midnight frost coating the checkpoint barrier
+- early morning rain splashing on security cameras at a checkpoint
+- afternoon fog obscuring distant patrol towers along the highway
+- dusk wind sweeping through an empty toll booth at the road construction site
+- noontime blizzard burying the security post in town
+- evening frost outlining the borders of a country lane near a police station
+- midnight hail pounding on highway overpasses during a storm
+- after dark sleet accumulating on traffic cones and barrels by construction sites in town
+- morning fog hiding a lonely guard shack at an abandoned checkpoint along the road
+- sunset rain soaks forgotten swing set's chains
+- morning snow buries rusted out basketball hoop
+- late afternoon hailstones scatter around weathered bowling green signage
+- dawn frost crystallizes a forgotten playground slide
+- afternoon lightning streaks behind crumbling schoolyard jungle gym
+- evening snow hides empty bleachers of old ballpark
+- twilight ice clings to a rusty swing
+- dusk fog obscures worn-out merry-go-round in park
+- midnight sleet leaves a sheen on lonely benches
+- early morning mist hovers over long-abandoned seesaws
+- afternoon snow flakes fall on empty ice rink bleachers
+- sunrise rain washes dust from old soccer goals and nets
+- evening frost outlining cracked walkways of abandoned pool
+- morning dew glistens on the rusty chains of old playgrounds
+- midnight snow muffles footsteps near an aged playground fence
+- dusk mist shrouds the empty swings of an abandoned lot
+- early morning ice makes a slippery walk over a rotting bridge
+- afternoon rain pours down onto broken seesaws
+- midmorning frost freezes leaves around a worn-out tree house
+- sunrise ice forms on an old hockey net and sticks
+- after dark sleet hides the remains of a long-forgotten game
+- evening frost glazes a dusty and unused chess table in the park
+- midday downpour washes over a worn-out basketball hoop
+- nighttime snow drifts into an abandoned swing set's rusted chains
+- afternoon mist creeps through a decaying merry-go-round
+- morning dew reflects broken glass on shattered playground windows
+- late afternoon fog hides the forgotten remains of an old roller rink
+- midnight rain taps against the rusty metal of a disused soccer goal
+- dusk wind rattles a chipped and faded bowling green pin marker
+- early morning frost outlines cracked asphalt beneath abandoned playground equipment
+- evening snow leaves behind tracks to a lonely, ice-covered slide at play park
+- sunrise rain hammers against the metal roof of an empty baseball dugout
+- midmorning drizzle obscures a broken chain on a swing set
+- afternoon frost creeps over the empty seats of an old tennis club house
+- late night hail pummels a dilapidated guard shack, rattling loose metal sheets
+- midnight snow buries rotted picnic tables under white blanket
+- early morning drizzle hides forgotten playground's rusty slide
+- dusk rain floods the empty sandpit at abandoned playground
+- morning fog veils the remains of a weathered tree house fort
+- sunset hail dents a broken park bench along desolate lane
+- after dark mist reveals worn-out steps leading up to nowhere
+- late night snow blankets crumbling concrete foundation of old shelter
+- noon frost hardens muddy tire tracks in abandoned lot
+- twilight sleet glistens on weather-beaten skateboard ramp
+- midnight rain trickles down empty beer cans, hiding at the playgrounds fence
+- early morning frost freezes dirty puddle beneath swing set
+- dusk snow masks worn-out hopscotch pattern on cracked sidewalk
+- after dark hail clatters onto a broken glass bottle in alley
+- dawn mist lingers over rusty seesaw at old playground
+- midmorning rain washes mud off the torn-up soccer field
+- late afternoon sleet covers graffiti-marked walls of abandoned schoolyard
+- dusk drizzle seeps into cracks of broken basketball court
+- sunset frost outlines old tire tracks on a playground dirt track
+- after dark snow settles on the top of an empty and worn-out jungle gym
+- noon ice forms on the concrete steps to a decrepit, long-forgotten basketball hoop's base
+- midmorning hailstones clatter onto the broken pavement at playground
+- dusk fog hides overgrown grass that has swallowed up old play structures
+- late night frost glazes rusty swing chains at deserted playground
+- early morning snow blankets discarded plastic toys on forgotten field
+- afternoon rain drips from a broken roof onto old school's dusty floorboards
+- midnight hail pings off the metal lid of an empty dumpster by abandoned lot
+- sunrise frost outlines crumbling concrete benches at playground
+- late afternoon mist clings to barren branches at long-forgotten picnic area
+- dusk fog drifts through a shattered greenhouse window, long-abandoned playground
+- morning sleet muffles the sound of shattering glass in nearby alleyway
+- noontime blizzard swirls around crumbling guard post at highway junction
+- evening drizzle leaks through rusted tin roof of abandoned storage shed
+- morning rain drips from tired swings on empty playground
+- midday sun beats down on the empty sandbox at rundown park
+- Noon dew clings to broken merry-go-round as it turns in old schoolyard
+- afternoon storm rages at broken bench of a playground at end-of-day
+- evening sunlight peeks through trees of long-abandoned climbing gym
+- nighttime breeze chills the empty monkey bars, play yard closed at dusk
+- midmorning haze hides the graffiti that has covered up old school signs
+- dusk thunder rumbles over an aging basketball court's hoop, a park abandoned by all
+- early afternoon downpour reveals the empty sandbox filled with rainwater
+- A midnight hailstorm chills the forgotten sandpit of a local park
+- midday hail smacks against broken baseball bat in old field
+- afternoon frost freezes the abandoned tricycle that has been left behind at play yard
+- late evening thunder rolls over the deserted see-saw as kids go home at dusk
+- A nighttime fog hides all the memories of children playing in playground
+- Late morning rain washes dust off an old merry-go-round at playground end-of-day
+- sunny afternoon reveals broken tire swing, park abandoned, no one is near
+- The winter snow glistens on the long abandoned swing set chains in empty playground
+- dawn frost silences empty ice-rink bleachers during funeral
+- dusk rain pounds a lonely coffin at graveside under cemetery trees
+- morning fog blurs the outlines of mourners gathered for eulogy
+- midnight frost clings to lonely funeral wreaths under tree
+- The evening rain drips off the headstones during a funeral ceremony in abandoned park
+- twilight fog muffles the sobs of family and friends as they bid final farewell
+- The morning drizzle soaks through the crowd gathered for a graveside funeral
+- A nighttime mist swirls around candles that are burning by an open coffin
+- twilight snow silences eerie children's laughter, playground now empty
+- midnight blizzard whips over lonely park bench graffiti left behind
+- dusk fog whispers through abandoned slides, silent screams forgotten
+- late night sleet clings to empty swings, no warmth anywhere anymore
+- evening frost creeps over rusty slide's remains, playground lost to time
+- dawn frost covers old playground's seesaw now still and lonely
+- after dark rain falls on broken carousel, children have long gone
+- midmorning snow hides the graffiti that marks the old school wall
+- noon ice forms on playground's cracked merry-go-round now silent
+- late night fog obscures rusty swings, empty playground is haunted by the past
+- early morning frost freezes old rope swing at the playground's edge,
+- dusk rain washes over the broken glass and shards of a playground memory
+- after dark sleet blankets broken bottles near school's fence, playground empty now
+- morning mist veils crumbling wall, lonely bench sits, in abandoned park
+- sunrise frost outlines old monkey bars, children never return
+- midmorning fog drifts through the broken glass and shards of playground memory
+- afternoon hail bounces on cracked sidewalk, empty sandlot remains
+- dusk sleet silences old carousel that's now still and forlorn
+- midnight frost paints ice crystals on shantytown rooftops
+- dusk mist engulfs tent city under a bridge
+- early morning rain pounds on tin can shelter
+- afternoon snow piles up against cardboard box house
+- noontime blizzard obscures view of homeless encampment under a bridge
+- late afternoon hailstones pelt a row of tattered tents by riverbank
+- twilight drizzle seeps into the old blankets covering a shanty's roof
+- evening sleet clings to the frayed edges of a tarp shelter
+- dawn frost outlines the worn-out shoes scattered around tent doorways
+- morning hail bounces off a rusty dumpster at abandoned campground used by homeless
+- midday sun beats down on a clutter of broken bicycles at shanty town
+- nighttime breeze rattles loose sheets of plywood covering shelter's windows
+- sunset ice clings to the cracked windshield of a long-abandoned car's home
+- after dark frost outlines an empty needle syringe on the sidewalk
+- midmorning dew glistens on discarded fast-food wrappers at homeless encampment
+- early afternoon rain pours through gaps in tarpaulin covering a lean-to
+- late evening mist hides the faces of huddled figures around a trash can fire
+- dusk hailstones clatter onto a flatbed truck's makeshift bed, used as shelter by homeless
+- afternoon snowflakes accumulate on the torn awning of a vacant storefront's home
+- late morning rain drips from a broken awning onto a makeshift bed beneath
+- twilight snowflakes gather on top of a plastic sheeting shelter against the cold
+- midnight blizzard howls through gaps in tarpaulin shelter's walls made of old cardboard boxes
+- evening hailstones ping off the metal roof of a tool shed turned into home
+- nighttime drizzle taps on a plastic sheet shelter protecting people from wind and rain
+- a dawn mist silences quiet fishermen at the harbor edge
+- midmorning snow hushes boat hulls left adrift
+- noon heat bakes cracked paint on faded fishing buoy
+- afternoon drizzle mutes forgotten anchors of rust
+- late evening frost shimmers over docks with ice
+- a morning sleet coats the harbour's grimy weathered walls
+- midnight fog reveals old nets tangled around barnacles
+- morning hailstones tap on empty crates by a fisherman's stall
+- an early afternoon drizzle hides the harbor's eerie silence
+- late evening snowfall silences lonely boats in harbour bay
+- a midnight blizzard engulfs abandoned boat docked alone
+- midday rain soaks through the old sailor's worn out coat
+- dusk fog hides fishing rods left behind by fisherman who never came back
+- noon frost glistens on rotting hulls of abandoned boats tied in a harbor line
+- an afternoon downpour pelts the rusty metal roof of the seaside bar
+- midnight frost clings to old sea shanties' doors left ajar with no one inside
+- a morning mist veils the harbour’s crumbling warehouses
+- midday rain patters on an abandoned boat's deck that is now covered in rust
+- an afternoon hail smacks against a weathered harbour clock with no hands
+- early evening fog muffles the eerie silence of dockside sheds, no longer needed
+- a morning frost outlines sea gull tracks on wet sand near harbor edge
+- midmorning sleet clings to the rusty hooks hanging from harbour's old pole
+- afternoon rain drips off the tarpaulin covering the harbor’s abandoned market stalls
+- a nighttime frost paints ice crystals on the harbor master's vacant chair
+- late afternoon fog swirls around an abandoned seaplane tied to harbour docks
+- noon mist drifts through abandoned fishing shacks along the harbor's edge
+- midnight snow falls over a crumbling seawall where kids used to fish
+- morning sleet blankets a pile of old anchors left by fishermen
+- a noon frost shimmers over an empty ice-cream stall in harbour market
+- midnight thunder echoes through basement storage, damp smell fills air
+- dawn light filters through grimy windows, revealing cobwebs in abandoned space
+- early morning condensation drips from cold pipes, pooling on concrete floor
+- afternoon shadows stretch long across dusty basement furniture
+- twilight mist seeps into basement through cracked foundation
+- late night dew collects on old boxes, remnants of forgotten past
+- morning fog lingers in basement corners, chilling the air
+- dusk chill seeps through walls, making basement colder than ever
+- evening drizzle taps against basement's small window, barely visible from outside
+- midnight rain drums steadily on corrugated tin roof above basement
+- sunrise gleam peeks through cracked basement door, revealing clutter inside
+- afternoon sunlight streams into basement through broken window
+- dusk frost forms on basement's cold stone walls, glistening faintly
+- early evening mist hangs heavy in basement stairwell, barely visible
+- midday sun heats up basement's dirt floor, making it unbearably warm down there
+- after dark sleet patters against small basement cellar window
+- dusk wind rattles the basement door hinges
+- nighttime breeze chills the old boiler in basement utility room
+- sunset glow fades through narrow basement window
+- morning light reflects off dirty water inside a puddle in basement corner
+- midnight dew glistens on cobweb stretched across empty basement space
+- dawn frost outlines cracks in the concrete floor of an abandoned basement
+- late afternoon shadows creep into every corner of the basement
+- early morning rain drips from the ceiling of a musty old basement
+- midmorning sunlight beams through cracks in the walls of a neglected space
+- afternoon heat swells up from the floor and fills entire basement with warmth
+- dusk snowflakes gather on rotting wood outside basement door
+- morning frost paints ice crystals on small basement windowpane
+- midnight hailstones tap rhythmically against basement's old roof
+- evening fog seeping through cracked walls of a dimly lit space
+- morning mist clings to cobwebs hanging from the low ceiling of an underground room
+- midnight sleet taps on a wooden sign outside, faded lettering barely visible
+- dawn drizzle soaks into dusty cardboard boxes stacked at shop’s doorstep
+- early evening haze obscures old signs outside the small harbour shop
+- noon thunder crashes against the tiny shop, rattling windows of old frames
+- dusk rain taps softly on the worn tin roof, dripping into gutters outside
+- midmorning sun beams through grimy panes of old window in a forgotten space
+- late evening mist swirls around rusted nails hanging from shop’s walls
+- morning hail bounces off weather-beaten planks of the small storefront
+- afternoon fog settles into old cracks of wooden floorboards underfoot
+- midnight rain drums a steady beat on leaky awning outside of harbor shop
+- midday snowflakes cling to cobwebs in corners, dusting shop’s shelves
+- early morning frost paints intricate patterns on small shop window's pane
+- dawn chill creeps into every crevice of the deserted space, leaving a chill
+- afternoon light fades through dirty glass, casting eerie shadows across storefront
+- late evening mist clings to rusted hinges of the abandoned shop's door
+- midmorning dew gathers on weathered sign that reads “bait & tackle”
+- noontime sun reflects off dust particles floating in air of this harbor shop
+- twilight snow drifts against old fishing lures, collecting inside a window display
+- early evening fog shrouds a small harbour shop, concealing its faded signage
+- midnight rain beats relentlessly on the tin roof of an abandoned harbour shop
+- afternoon dew clings to dusty cobwebs beneath the worn awning outside a harbor shop
+- late morning sunlight slants through cracked panes of glass in storefront’s window
+- early afternoon fog drifts into harbor's old fishing shop, dampening its corners
+- dusk hailstones bounce off the tarpaulin covering an abandoned shop's front door
+- midnight mist hides faded lettering on signs outside of forgotten harbor shopfront
+- sunrise rays illuminate dust motes drifting through air inside of harbor shop
+- late morning mist obscures abandoned tackle boxes scattered around the harbor shop's corner
+- early afternoon drizzle seeps into cracks, soaking the wooden floor of this harbor shop
+- noon haze filters sunlight, casting dim shadows across old fishing gear in this shop
+- after dark snowfall collects on broken windowsills outside harbour's small storefront
+- dusk chill creeps through weathered planks, making the space cold and unwelcoming inside
+- morning fog seeps into cracks of a shop’s worn out walls, dampening its corners
+- evening rain drums against rusty metal roof of harbor shop
+- midnight frost clings to cobwebs hanging from the low ceiling in this harbour shop
+- afternoon thunder rumbles overhead, shaking dust off of an old harbor shop's shelves
+- island dawn breaks softly through palm fronds
+- midnight storm crashes into island’s shore
+- daybreak mist envelops island's lighthouse beacon
+- island twilight settles on weathered wood and sea foam
+- afternoon sun beats down hard on the island’s sand paths
+- late evening tide rolls in slowly, encroaching island's rock pool
+- island morning sun casts long shadows of palm trees onto sand
+- dusk breeze rustles through the dry leaves of the island’s abandoned house
+- midday heat bakes the island’s rocky beach, leaving nothing to hide
+- after dark wind whips around island's old ruins, making them shiver
+- island nighttime rain hammers against windows, forcing a leak
+- sunset glow reflects off water near the island's weathered pier
+- midday storm clouds gather over island’s peak, threatening the ground
+- This evening tide rolls out quickly from the island’s wet shore
+- mornin dew settles on wildflowers in the island’s untouched grassland
+- dawn chill freezes droplets of mist on the island’s old rope swing
+- island dusk fireflies blink softly beneath ancient trees
+- midmorning frost coats every blade of grass at a forgotten trail's end, island
+- This afternoon sun bleaches sand near the island's abandoned boat,
+- midnight storm lashes against truck cab's door
+- dusk rain drips from trailer canvas onto mud
+- early morning chill seeps into cabin interior of ice-covered trucker cabins
+- noon heat warms the old truck tires
+- after dark sun sets behind a caravan on this highway reststop
+- late afternoon sunlight creeps across worn dash of an idling sedan outside
+- pre dawn rain spits on the roof of a rusting sedan
+- dusk dew collects on rusty tailgate, wet grass visible through window
+- midnight snowflakes blanket old engine's hood under porch light
+- morning sun creeps over rooftop and warms an RV's windshield under clear sky
+- midday fog obscures the front window of a parked van
+- evening sunlight catches dust on rearview mirror, old motorhome interior visible
+- afternoon dew glistens on van’s faded bumper sticker outside in parking lot
+- late evening mist gathers around windshield wipers and side windows on car,
+- midnight thunder rolls inside pickup cab, its glass panes trembling with noise
+- evening rain taps on the hood of a van in the park-and-ride
+- afternoon chill creeps into caravan’s cracked doors
+- midnight fog seeping through rusted frame of old van
+- morning frost clings to rear windshield outside, ice crystals forming on windowpane
+- dusk snowflakes collect on car tire rim at a motel entrance under porch light
+- midnight sleet tap-taps a slow drum beat on SUV roof
+- morning drizzle collects on hood of a parked sedan, windshield visible through window
+- after dark hail pings against motorcycle's helmet and seat outside
+- midday storm clouds gather above bus roof on city’s highway exit
+- evening thunder shakes RV, rattling its windows to dust outside under night sky
+- late evening mist clings to truck’s door handle at the edge of town
+- morning haze muffles street noise coming into car window inside parking lot
+- afternoon snowflakes collect on SUV roof in the parking garage
+- dawn's first light reveals faded paint on old harbour shop
+- late night rain drips from harbor shops eaves, onto rusty bucket
+- early dawn frost bites at harbor shop's broken door frame outside
+- afternoon sunlight filters through harbor shop’s grimy windowpane inside
+- pre-dawn mist clings to harbor shops empty fishing trawler, dockside
+- midnight snow blankets harbor shop’s worn roof
+- late morning dew glistens on harbor shop’s weathered doorstep outside
+- noon shadow creeps into deserted harbour store, sunlight creeping
+- morning frost glazes over windows of abandoned harbour's shopfront
+- dusk fog rolls off harbor shops cobblestone path, cold air seeping in
+- late afternoon gale whips around old harbor shop’s signage, rustling
+- midnight drizzle darkens the entrance to harbor shops alleyway
+- early morning mist muffles the waves' roar near the harbour shop's windows
+- afternoon storm rattles empty fishing crates, harbour shop back entrance
+- island evening snowflakes dust the boardwalk’s railings
+- daybreak rain drips from palm fronds, wet beach sand visible through
+- evening frost bites island shore’s old buoy, frozen seagulls perched nearby
+- midnight fog hovers above the island’s sleepy docks
+- morning haze filters sunlight on a lighthouse keeper's window pane
+- late afternoon mist shrouds island’s craggy cliffs, dimming light
+- island noon storm clouds burst into torrents
+- after dark mist dampens island's abandoned cabin doorsteps
+- dusk frost kisses the island's broken fence, glistening
+- midday drizzle muffles a rusty hinge on the island’s closed gate
+- late afternoon sun shimmers on island’s abandoned pier
+- dusk heat warms the island’s empty hammock hanging from trees
+- morning mist swirls around island’s decaying dock, waterlogged wood visible in
+- evening sun sets on old truck's tire tread, muddy road reflected
+- noon dew glistens on highway rest stop’s rusty signpost
+- after dark frost nibbles at caravan’s side mirror
+- midnight rain spatters on a truck cab’s cracked windshield
+- dusk mist clings to an old engine, caravan in the distance visible through
+- nightfall rain soaks worn-out tent next to truck stop
+- early morning snow swirls around rusty camper
+- pre dawn frost crackles on broken bus window
+- midday sleet pounds on a trailer's rusted roof
+- afternoon haze shrouds battered pickup in the field
+- evening ice crystals form inside caravan door
+- late night drizzle dampens motorhome awning fabric, flapping
+- morning sleet covers cracked windshield with thick layer
+- early afternoon hailstorms pockmark faded truck hood
+- pre dawn dew glistens on old RV's faded curtains
+- midnight lightning illuminates abandoned sedan interior
+- afternoon rain drips from broken car antenna at rest stop
+- evening frost forms delicate patterns on cracked glass of caravan
+- late morning thunder roars over rusty trailer roof outside a diner
+- dusk rain taps against motorhome's leaky window, light visible through
+- evening frost bites on old pickup cab’s window
+- early morning storm clouds blanket harbor's derelict storefront
+- afternoon mist obscures the view out of old truck cabin windows
+- evening mist clings to old SUV’s wheel well at edge of town
+- dusk heat radiates off abandoned island’s cracked pavement road, windshield reflects the broken landscape,
+- midday sleet falls on empty bus stop bench, bench seat visible through dirty window
+- early dawn thunderclaps near the abandoned warehouse’s rusty roof at harbor dockside
+- pre midnight mist clings to a motorhome’s windshield wipers, caravan windows dark and uninviting
+- late evening snowflakes settle into rusted car door handles at truck stop
+- dusk haze filters light onto a parked old RV, trees in the distance
+- early morning frost creeps inside an abandoned bus's backseat, empty and forgotten by time
+- late afternoon hailstones pummel a car’s cracked windshield, wiper blades barely moving
+- midnight drizzle reflects off an old RV’s broken taillights, highway noise muffled in distance
+- rooftop, pre-dawn dew glistens on chimney bricks
+- midday sun beats down on peeling tar paper
+- dusk shadows lengthen across weathered skylight
+- afternoon thunder rumbles over rusty vent pipe
+- evening frost outlines faded antenna cable
+- morning mist conceals sagging power lines
+- late night snow collects in satellite dish curves
+- noon sun glints off scattered roofing tiles debris
+- midnight rain sluices across zinc gutters, noisily
+- dawning light graces a pigeon’s morning cooing
+- rooftop dusk fog muffles distant city hum
+- late afternoon wind rattles loose shingle nails
+- frosty dawn reveals spider webs on roof rake edges,
+- evening sunlight glares off old water heater tank
+- morning drizzle echoes in clogged drain pipes
+- midnight sleet taps on rusted TV antenna
+- pre-dawn hailstones bounce across corrugated iron
+- rooftop, evening thunder roars against chimney bricks
+- afternoon sun highlights roofing felt's worn edges,
+- dusk lightning flashes behind tallest chimney stack
+- frosty midnight reveals old radio aerial’s shadow
+- roof shimmer in afternoon drizzle on dirty solar panel
+- snow glistens on old vent pipe in the evening glow
+- Noon sun highlights old rooftop TV aerial, a faint shadow cast in morning fog
+- late night dew pools at gutter end’s broken corner
+- The dawn light casts a long shadow across rusty air conditioner
+- dusk haze swirls above old chimney stack, barely seen through the mist
+- afternoon rain sloshes around rusted water tank
+- rooftop late morning ice glistens on old TV antenna
+- drizzle echoes in clogged drain pipes early morning
+- old rooftop air conditioner rattles in noon storm gusts
+- pre dawn frost crackles under faded roofing felt,
+- evening sun dazzles on chimney’s crumbling brick
+- dusk wind chimes tinkle gently in the old satellite dish
+- pre dawn snow blankets playground's rusted slide
+- midday heat warps lonely basketball rim
+- afternoon rain soaks faded hopscotch grid
+- evening dew settles on empty swing set chains
+- late night fog hides deserted jungle gym
+- morning frost outlines cracked sidewalk chalk
+- early afternoon hail hits worn out tetherball pole
+- pre dawn rain taps on locked classroom windows
+- afternoon sun casts long shadows across empty playground
+- dusk frost glistens on faded recess bell rope
+- evening snowflakes land on broken window ledges at abandoned classroom school
+- early morning mist shrouds old soccer balls in the field;
+- pre midnight rain drips from rusted school sign
+- late afternoon sun highlights faded paint on playground equipment,
+- dusk ice crystals form on chain link fence surrounding empty basketball court
+- early dawn storm clouds darken worn out swing set,
+- midday snow piles high against old school entrance; snow drifts near the door
+- pre-dawn frost outlines a forgotten toy truck,
+- evening mist obscures faded mural on school wall,
+- late morning drizzle dampens rusty merry go round
+- early morning ice clings to abandoned jungle gym bars
+- midday sleet coats old sandbox toys under shelter
+- afternoon haze blurs view of rusted outdoor blackboard
+- dusk thunder rumbles over locked school gates,
+- pre dawn dew collects on chipped schoolyard bench
+- morning frost glazes over the worn out flag pole base
+- late afternoon sun reflects off old slide’s metal frame
+- evening sleet dusts weathered jump rope coil
+- midnight rain washes away chalk drawings on sidewalk
+- pre dawn fog wraps around lone baseball bat in the yard
+- dusk hailstones hit rusty school sign out front gate,
+- early morning mist settles on abandoned tricycle tires,
+- afternoon rain patters against locked school doors,;
+- evening thunder echoes through empty playground's rusted swing set,
+- 1960s pre dawn fog shrouds old television antenna’s shadow
+- noisy 1980s midnight wind clatters around corroded metal shed
+- 1970s morning hail pelts abandoned car tires
+- frosty 1950s rooftop dusk dims out old air conditioner rattling
+- 1990s nighttime sleet drifts across rusted trampoline frame
+- 1960s frosty noon shadows lengthen across forgotten football helmet
+- rainstorms batter 1980s evening rooftop vent pipe’s faded paint,
+- early morning frost bites old school bus windows
+- dusk hailstones ping on rusted basketball hoop rim
+- afternoon fog mutes abandoned seesaw’s rusty hinges
+- sunrise glows through dirty classroom window glass
+- late afternoon snow covers empty school bus seats’ upholstery
+- midday frost patterns on old slide's weathered steps
+- midafternoon drizzle dampens abandoned merry-go-round's faded paint,
+- evening wind gusts whistle through broken jungle gym bars
+- . evening fog hides the lonely school crossing guard flag
+- sunrise shadows lengthen across old teacher’s parking spot;
+- pre-dawn sun glints off cracked and worn playground tiles;
+- midnight rain drips off rusty chain link fence near dumpster
+- noisy midnight thunder claps against school’s tiled roof
+- pre dawn twilight reveals a lone lost shoe under the swings,
+- evening dusk shadows stretch across old 50s TV antenna;
+- dry dawn sun rays illuminate potholes on empty highway
+- morning mist shrouds distant headlights
+- predawn snow glitters on asphalt road shoulders
+- afternoon shadow of a dead animal on the pavement
+- nightfall drizzle reflects under street lights
+- sunset reveals broken traffic signs under overpass
+- snowfall flurries cover abandoned tire tracks
+- dusk highlights faded paint on guardrail bars
+- midday sun glares on puddle next to median strip
+- evening haze obscures distant car headlights
+- pre dawn snow shadows on the motorway
+- highway rumble strips rattle under a full moon
+- pre-dawn fog blurs highway lines under footbridge
+- dusk highlights old gas station sign with broken windows
+- early morning ice coats empty highway rest area picnic tables
+- late night frost cracks on the blacktop
+- sunrise gleams off icy windshield wiper blade on road shoulder
+- midafternoon storm clouds shadow lonely billboard along freeway
+- pre dawn mist clings to dead leaves in ditch
+- evening hailstones bounce off car hoods on highway parking lot
+- midday thunder rumbles under broken overpass lights
+- late night rain splashes across a dead animal by the roadside
+- dusk shadows lengthen across lonely motorway sign
+- pre dawn dew drips from rusty guardrail bolts along highway edge
+- morning sun glints off puddle left by overnight snowmelt
+- early morning mist blankets empty freeway tollbooths
+- afternoon fog hides abandoned car with flat tire on shoulder of the road
+- sunset highlights dead animal in headlights on the highway
+- pre dawn frost clings to rusted metal barrier along motorway edge
+- morning dew dampens old cigarette butts next to empty highway ditch
+- late night mist blurs distant highway lights
+- midday snow reflects off abandoned newspaper box by freeway
+- evening rain glistens on black asphalt road surface under overpass
+- midnight ice crystals form on guardrail's edge
+- pre dawn storm clouds darken lonely gas station in the distance of the motorway
+- morning rain drenches rusted highway signs with dead animals
 
 ## light
 - one bare bulb overhead, hard
@@ -79,6 +1407,645 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - torchlight held by someone off frame
 - a computer monitor, bluish, from the side
 - diffuse snow light from everywhere
+- streetlamp outside a window from below
+- a flickering gas lamp from across a courtyard
+- shooting stars above casting intermittent shadows
+- searchlight scanning across an adjoining rooftop
+- pink sunset reflecting off a puddle, diffused
+- an old TV in the room above
+- a string of bare holiday bulbs at eye level
+- a laptop screen lit up from behind
+- moonlit skyline reflecting on a wet surface
+- the glow of distant city lights
+- a projector beaming onto a wall
+- The blue light from a pool below reflecting
+- A television in an apartment window below
+- a lantern swaying gently in the breeze, casting dancing shadows
+- fireworks exploding to reveal a sky full of smoke
+- desk lamp with yellowed paper shade from behind
+- late afternoon sun through east-facing lace curtains, golden
+- street lights flickering through wet pavement, blurred
+- a small flashlight shining into an open book from above
+- soft lightbulb covered in a scarf, hidden from below
+- an old record player glowing from inside on the floor
+- red exit sign glowing ominously down a stairwell
+- a match striking, momentarily illuminating a face, up-close
+- glowing stove top eye through the open oven door, radiant
+- cigarettes in an ashtray, smouldering with warm red embers below
+- an old typewriter shining in the dark from above, stark white light
+- open fridge from a side-angle, cool and harsh
+- a boombox glowing under a seat, neon, up-close
+- old radio on top of an armchair, glowing yellow from the front
+- flickering 12 volt bulb from a campervan interior down low
+- an old projector showing slides onto the wall from behind
+- a bare foot stepping into a pool, ripples spreading up close
+- faded signboard light bleeding from above
+- old oil lamp flickering against a wall to right
+- open fireplace casting long shadows towards left
+- lanterns swinging on an old tree branch, soft glowing left
+- glow of a pocket watch shining under the bedsheets from front side
+- a string of broken bulbs barely illuminating an abandoned stage from below, dimmed
+- stained glass window projecting onto floor to rear-right
+- sunrise peeking over a hill far away, casting long shadows downwards
+- flickering neon tube behind old arcade machines above, pale blue and green
+- old camera flash reflecting off of a mirror from side
+- dull emergency exit light humming on the ceiling, red
+- a cracked open laptop displaying static, up close
+- street lamp illuminating raindrops running down windowpane outside to left
+- broken bulb on the ground, glass scattering shards of light upwards, sharp beams
+- old flashlight casting beam against a wall to right
+- cracked screen TV reflecting old movies onto a wall from behind, dim blue
+- swaying lantern inside a tent projecting a soft glow to bottom-right
+- old fashioned radio buzzing softly from below, lit up amber
+- flashbulb popping on a broken camera in foreground center-front
+- a small firework exploding against the night sky, casting long shadows downwards
+- distant explosion illuminating room with an orange glow, top-down
+- smoking cigarette left by someone standing off-frame, to lower right
+- lamp's warm glow filtered through faded lace curtains from above, soft
+- cracked lightbulb glinting in a puddle on the ground downwards
+- morning sun pouring through closed curtains
+- table lamp with stained glass shade casting colors
+- candles flickering in front of a mirror from below
+- overhead fan light reflecting on a polished floor from above
+- fireplace embers glowing through a grate from the side
+- floor lamp with an artsy shade shining towards bottom-right
+- light box leaking color onto walls rightwards
+- small nightlight in wall socket leftwards casting yellow glow
+- ceiling fan with lights spinning, illuminating corners up
+- fluorescent kitchen light flickering downwards
+- reading lamp glowing against a bookshelf from top-left
+- dimmer switch lowering ceiling light, softening
+- wall sconce lighting up framed paintings from the side
+- old-fashioned chandelier hanging down casting dim
+- pink bulb illuminating vintage poster from behind
+- lighted fan oscillating to illuminate far right corner
+- uplight against a wall creating shadows upward
+- standing floor lamp shining through colored paper shade leftwards
+- wall art lit up by backlight, vibrant colors up close
+- table lamp reflecting off brass fixtures above
+- a bright window at the top of stairs lighting up
+- pink candle flickering to reveal shapes against a wall
+- ceiling lamp creating circles on the carpet below upwards
+- vintage standing mirror illuminating vanity from behind, front-facing, dimly lit
+- table lamp glowing through glass paperweight from above
+- white bulb in bare socket lighting up dust particles up close
+- under cabinet lighting glaring onto countertops downwards
+- hanging pendant light illuminating dining table from above, dim yellow light
+- desk lamp with green shade pointing at a globe from the side
+- candelabra flickering in the corner to right behind
+- white halogen bulb shining onto an antique clock from behind
+- standing floor lamp projecting silhouette of a plant up close to lower left
+- candle flames dancing in procession leftward on altar
+- torch lit parade descending into cave frontwards slowly
+- sunlit street procession down long shadowed avenues upwards
+- prayer candles circling altar on the floor, dim glow forward
+- incense smoke wafting from censer to right of a robed priest
+- ceremony lanterns swaying on boat in canal from below
+- flickering votive candles reflecting off golden altar leftward
+- taper lights dripping wax into bowl at nighttime frontwards
+- beacon shimmering through mist far at end of dock rightward
+- candles lit inside jack o'lanterns on church porch down low
+- flickering tiki torches lining pathway to temple upward from a pit
+- firepit ablaze with smoke towards the sky leftwards
+- candlelight in window at sunset frontwards
+- carved pumpkin grinning, lit up by candle within forward-facing
+- flaming arrows launched into night sky for celebration upwards
+- lanterns illuminating processional way upwards slowly
+- campfire engulfing ritual offerings down to the ground leftwards
+- ceremonial bonfire burning on the beach towards top of screen at the horizon
+- incense sticks burning in a line across an altar from below upward
+- tapers flickering during midnight mass forwards
+- flashlights held by pilgrims climbing a hill frontwards up close
+- street lamps shining through fog onto church entrance downward right
+- bonfire ablaze for solstice ritual reflecting onto the faces of participants dimly leftward
+- flickering candles in an ornate menorah casting flicker upwards down low
+- sacred fire smoldering in cauldron on altar to the rear leftwards, shadowy
+- incense coils glowing red against a temple entrance from below forward, slowly dimming
+- fireballs spinning around performers at nighttime ritual down low
+- flame-throwers illuminating dancers in a procession downwards
+- lanterns bobbing on a lake, floating up close forwards towards horizon, flickering and dark
+- flaming brand carried by priest at funeral front-facing, up close
+- sunrise over sacred mountain during prayer service up high leftwards
+- desk lamp with brass shade pointing at ledgers from the side
+- surgical lights casting harsh shadows downward
+- projector shining film onto a white sheet from behind forward
+- floodlights illuminating football field upwards and out of stadium rightward
+- spotlight focused on dancer under the heat
+- green banker's lamp highlighting balance sheets leftwards toward the desk
+- stained glass window casting colored shadows downward across pews right
+- expertly shaded table light reflecting off gold bars in a vault down low
+- barber's strip light reflecting on scissors from behind front facing
+- mining helmet lamps bouncing around in dark tunnel upwards leftward toward miner
+- blacksmith forge illuminating anvil, sparks flying upwards dimly to the right
+- studio strobe flashing downward at model
+- salt shaker lamp illuminating a plate of food leftwards from above
+- tailor's work light searing into fabric under needle forward facing downward
+- lighthouse beacon sweeping across water toward distant horizon slowly leftward
+- bicycle generator powered headlight illuminating dark street up close forward
+- carbide mining lamp flickering on minecart handles downwards dimly
+- cobblestone lit by vintage streetlamps right and below, shadowy, low-lying fog
+- tailor's window reflecting onto street, creating a yellow glow frontward facing left
+- lighthouse lantern swinging wildly in storm downward from a cliff
+- policeman flashlight sweeping across dark alley upwards slowly right
+- car headlights illuminating foggy highway at night time downwards forward-facing
+- firework exploding mid-air during festival upward leftward
+- lighthouse lens focusing moonlight beam towards sea right downward
+- candle in a lantern illuminating map on tabletop from behind leftward
+- pocket watch revealing time with glowing hands at close range downwards front-facing
+- blacksmith torch illuminating molten iron rightward down low
+- temple lanterns flickering during meditation retreat upward from a distance slowly
+- moonlight filtering through clouds towards the ground leftwards
+- thunderstorm casting brief illumination of the field from above downward
+- sunlight shining through raindrops, prismatic reflection on leaf
+- flash floodlight illuminating city from right to left
+- drizzle sparkling in headlights down low
+- floodlights reflecting off wet cobblestone upwards slowly
+- glare of morning sun highlighting mist over lakefront rightward towards horizon dimly
+- streetlamps shining on puddles, creating a reflection forward facing downward
+- snowflakes glittering in porch lights upwards to the front leftwards
+- hazy sunlight peeking through fog slowly from above downward
+- floodlight glowing off raindrops leftward slowly down low
+- sun breaking through clouds to illuminate meadow upward diagonally toward right
+- sleet glistening on pavement in car headlights dimly towards horizon, up close
+- flickering street lights on a foggy night upward from below front facing
+- ice crystals sparkling under moonlight, slowly falling from above towards the ground leftwards
+- flashlights cutting through dense fog frontwards down low to the ground
+- sunlight reflecting on wet tree bark downward toward horizon dimly,
+- rainbow shining across the road forward facing upwards diagonally to the right
+- snowstorm lit by distant street lights upward slowly from below, dimly
+- fog illuminated by moonlight, glowing leftwards towards horizon low-lying fog, dimly
+- glow of sunset on a snowy rooftop downward toward the right
+- street lamps shining through dense fog frontwards up close, dimly
+- sunset highlighting clouds with orange glow leftward slowly towards the horizon
+- flood lights reflecting on wet ground towards the front
+- rain lit by street lamp upward from below dimly leftward
+- sun peeking through dense fog, illuminating trees down low forward facing rightwards
+- city lights reflecting on rain-soaked road upwards towards horizon slowly at distance
+- snow lit by distant lighthouse beam upward from below dimly towards the front leftward
+- flashlights cutting through dark rainstorm downward diagonally to the right slowly
+- moonlight casting shadows of barren trees down low to the ground towards horizon,
+- neon sign buzzing above empty pub door right
+- bare bulb swinging in dusty warehouse dimly upward
+- match igniting cigarette under grimy awning front-facing
+- lantern hanging from ceiling fan illuminating abandoned classroom leftwards downward
+- flashlight beam wandering through dumpster sideways, up close dimly
+- cracked porch light illuminating worn-out welcome mat from below upward dimly slow leftward
+- street lamp flickering on desolate road leftwards toward a corner
+- vending machine bulb barely lit in empty hallway downward
+- chipped nightlight glowing at power outlet under bed front facing dimly
+- cracked table lamp lighting empty chair rightwards slowly dimly from below
+- faded exit sign barely visible in dark alley upward
+- street lights revealing homeless man’s shadow on sidewalk frontwards downward
+- abandoned TV glowing blue static slowly upward diagonally towards right dimly
+- solitary lamp post illuminating puddle outside rundown motel from above leftward dimly down
+- bare compact fluorescent bulb lit in grimy office dimly forward facing, upward
+- distant fire illuminating sky red over burning house down low to the right slowly
+- abandoned refrigerator light casting eerie glow on cold pizza upwards front-facing
+- flashlight under tent dimly lighting face of scared camper downward rightwards towards tent entrance
+- cracked window letting in cold moonlight illuminating bedroom floor leftward from above
+- streetlamp reflecting off worn-out tire down low, slowly right to the edge
+- tattered curtain hiding dim street light through window leftwards downward
+- old lamp casting weak yellow glow on old newspaper rightwards towards a chair
+- barbed wire fence reflecting moonlight down low toward distant horizon
+- shop sign neon glowing in rain
+- flashlight inspecting dusty shelves below
+- bare bulb dangling from cracked ceiling upward dimly at rear of shop
+- flickering fluorescent lights above aisles frontwards
+- small fan on counter oscillating, highlighting dust in the light
+- Noticing a shadowy mannequin lit by sun rays downward
+- cash register glow from underneath dimming forward diagonally to right slow
+- flashlight shining into broken window upwards towards ceiling from outside dimly
+- lanterns flickering during power outage, up close revealing shop front
+- spotlights illuminating shop posters downwards slowly leftward
+- streetlight casting glow on closed entrance from below diagonally leftward
+- window display lit by warm lamp upward dimming slightly
+- paint cans reflecting headlamps rightwards forward from behind
+- headlights sweeping across empty parking lot leftwards towards street dimly
+- shop window reflection of night sky down low right to the back
+- light through broken shutters, leftward slowly downward
+- floodlit alleyway casting dim glow on dumpster front facing
+- security light shining on rusty door hinge leftwards from behind
+- headlights illuminating graffiti on side wall down low to the right
+- broken street lamp flickering shadows of alley downward diagonally leftward toward ground, slow
+- shop sign glowing under moonlight, upward diagonally towards left slowly
+- lantern casting warm light across dirty floor rightwards at distance
+- lamp in a dark corner, lighting up only dust dimly
+- light from door crack illuminating cobblestone ground down low
+- shop owner shining flashlight into locked fridge upwards from behind
+- distant streetlights casting shadows of broken glass slowly forward facing rightward dimly
+- headlight beams reflecting on rain-soaked shop windows downwards leftward
+- shadow cast by broken sign, highlighting crates rightward dimly down low
+- streetlight highlighting old posters at distance downward diagonally to the front leftward,
+- candles flickering in grand chandelier, illuminating marble floor upwards
+- champagne flutes glistening under soft overhead lighting gently from above
+- gold gilding sparkling in luxurious hallway dimly rightwards
+- opulent tapestry, bathed in light down low at distance slowly
+- jewels shining in display case front facing bright leftwards
+- crystal decanters reflecting chandelier's glow rightward downward, slowly dimly
+- silk curtains billowing with sunlight diagonally from the left
+- antique mirrors catching golden rays of afternoon sun dimly upwards towards right
+- garden fountain glistening under hidden spotlights down low forward facing at distance dimly upward
+- marble statues lit by warm pool lighting upwards slowly rightwards, dimly
+- french windows allowing sunlight to stream inward front-facing bright downward diagonally left
+- caviar bowl illuminated by low ceiling lights slow forward facing
+- sculptures casting shadows on ornate rug towards the front diagonally rightward at distance dimly
+- grand piano reflecting soft lamp glow upward, slowly from below
+- antique clock ticking in a lit study downwards rightwards dimly left to front;
+- vintage record player illuminated by desk lamp dimly upwards towards rear slowly
+- glassware sparkling under table setting, forward facing upwards at distance
+- tuxedo reflecting soft lighting bright diagonally left from behind
+- famous painting bathed in gallery lights at distance frontwards upward dimly slowly towards horizon
+- opulent rug catching sunlight through stained glass downward at distance slow rightward
+- grand fireplace casting warm glow on opulent furniture, forward facing upwards
+- crystal glasses catching candlelight dimly down low rightwards towards center
+- chestnut paneling glowing in dim study lighting upward leftwards from the front slowly
+- french door opening to lit patio downward diagonally leftwards at distance slowly bright
+- mahogany bookcase illuminated by antique lamp slowly downwards, dimly toward the ground
+- marble fireplace reflecting firelight bright towards horizon leftward
+- stained glass window projecting colors on polished floor down low slow rightwards
+- antique carpet glistening under overhead chandelier bright leftwards diagonally to the back
+- polished wood floors reflecting crystal chandeliers slowly downwards toward center
+- marble staircase bathed in natural light slow leftward dimly at the rear from above
+- golden frame lit by warm overhead lighting dimly upward toward center, bright slowly
+- expensive paintings catching gallery lights bright diagonally to the back rightwards up to front
+- flickering incense illuminating sacred text front facing
+- stained glass window casting shadows of worshippers towards aisle dimly forward
+- candles flickering at altar, lighting faces of priesthood downward softly
+- tall candle flames reflecting in polished choir seats slowly upwards from below rightward
+- sanctuary chandeliers glowing over congregation downward slowly leftwards
+- sacred music reflected by light, from behind altarpiece, down low to the right
+- ceremonial dagger gleaming on altar top towards back right at a distance dimly
+- garden of flowers lit by torchlight reflecting in water slowly up close rightward dimly
+- incense smoke swirling upwards towards stained glass windows frontwards in warm light
+- pulpit lit with spotlight down low diagonally facing right toward pulpit slowly dimly
+- religious icons glittering under soft chandelier lighting slowly upward from behind leftward
+- grand altar lit by ornate lamps, downwards from left to center slowly dimly upwards
+- church bells reflecting morning light diagonally down toward ground slowly forward facing rightward dimly
+- preacher bathed in spotlight, pulpit shadow reaching front left downwards slowly
+- baptismal font reflecting sunlight from above down low forward at distance
+- prayer book pages illuminating with the soft glow of stained glass towards back diagonally
+- ceremonial robes reflecting gold candlelight bright diagonally rightward facing left at a distance
+- congregation faces glowing in light from behind altar slowly up towards front
+- scripture open, illuminated by flickering candelabra upward dimly from below to the left
+- altar cross gleaming under spotlight downwards diagonally facing backwards toward center slowly leftward
+- altar boy's white robe reflecting sunlight forward right diagonally at distance
+- candle flame reflected in priest's eyes downward slightly diagonally towards ground frontwards slow
+- ritual bell gleams under low lighting slowly from below towards right at distance
+- ceremonial chalice, illuminated by soft lamp glow diagonally backwards facing upward at center
+- fairy lights strewn on playground fence glowing gently downward
+- lunar beams illuminating empty slide softly downwards dimly from above, diagonally to the left
+- neon sign buzzing behind jungle gym, rightwards bright slowly upwards from below
+- swirling disco ball sending sparkles onto dance floor downwards, quickly from above slowly rightward
+- carousel lights spinning and flickering horizontally around children’s faces slowly leftwards upward
+- playground clock glowing in dusk's fading light downward slowly to the front
+- merry-go-round's painted lights spinning horizontally forward
+- bouncing ball casting shadows on playground wall dimly from behind at a distance rightward
+- teacup ride's soft glow illuminating child's giggling face, up close facing upward slowly leftwards
+- kaleidoscope reflector showing colors through window front facing at an angle rightward dimly
+- bike tire glistening with sunlight in motion towards leftward dimly slowly upwards from below
+- kite soaring in wind, string glowing downward slow
+- puppet show's backlit stage dimly downward diagonally at a distance leftwards to center, slowly
+- swing set chains reflecting sunlight leftward upwards slowly from below
+- pinwheel spinning brightly diagonal at distance facing upward slow
+- .pink lemonade glass beaded with sweat dimly downward slowly frontwards
+- treehouse's interior, illuminated by flashlight up close bright towards the back left
+- water hose spraying onto grass under moonlight horizontally slowly forward facing to the rightwards
+- sidewalk chalk drawings reflecting in puddle diagonally at distance bright leftward down low slow
+- .painted face, glittery under fairground lights diagonally forward facing upward slow
+- clown's wig glinting under spotlight at distance dimly towards rear left
+- bouncy castle glowing from within horizontally downward, to front right slowly rightwards
+- .kids in ball pit jumping under fluorescent lights dimly bright downward slowly toward center
+- cotton candy machine, lit with pink glow diagonally forward facing slowly upward
+- merry-go-round horses reflecting colorful lights slowly downward from above
+- fountain's splashes glistening in fountain light frontward diagonal rightwards at a distance
+- fireworks exploding above playground brightly upward leftward slowly dimly to the back
+- carousel's center pole, casting shadows onto kids slowly forward facing diagonally down rightward dimly
+- lanterns swaying gently illuminate tent fabrics towards the back
+- fire pit's crackling light radiating upwards warm and fast
+- food stall's neon sign reflecting in vendor’s smile bright upward diagonally to front
+- ferris wheel's lit cars, sparkling from base upwards to the front dimly
+- carney calling out from under spotlight facing audience, rightward slowly upward at distance
+- food vendor's grill glowing embers illuminate his face sideways dimly towards the left
+- ferris wheel's top lit by rotating beam rightward slowly upwards frontwards from below
+- carnival barker, spotlight shining brightly upward diagonally forward facing to the back slowly
+- game booth prizes bathed in bright neon light frontward fast left towards center
+- balloon popping under spotlight upwards diagonally leftwards slowly fast from below
+- game booth prizes glowing, lit by strobe light towards the front sideways quickly upwards
+- carny tent's glow illuminating kids’ excited faces dimly downwards diagonally rightwards slow from behind
+- carnival ride lights streaking fast upwards bright, dimly to center at distance;
+- food stall’s glowing grill, shadowing customer’s face diagonally from below, forward facing rightward dimly
+- carnival tent illuminated by lanterns flickering on clown faces downward slowly leftwards diagonally fast
+- carnival tent illuminated by flickering spotlights shadowy faces downwards towards rear slowly;
+- market stall’s glow reflecting in customers’ eyes upwards facing front diagonally fast
+- lectern spotlit from below, gleaming upward towards reader's face
+- blackboard eraser catching late sunlight leftward sideways to the right
+- trophy case softly lit by display lights rightwards bright sidewards slowly
+- library doors reflect harsh hallway fluorescents forward dimly facing upwards front
+- hallway clock ticks under cold ceiling light downward slowly towards back
+- poster boards illuminate student projects from behind, downward leftward slowly
+- school nurse's eyes reflected in medical tray lit by desk lamp upward diagonally leftwards
+- science equipment reflecting lab lights from above downwards to the right slowly
+- playground's jungle gym shadowed by noon sun, downward dimly towards the right
+- lunchroom window reflecting sunny sky brightly forwards fast upwards diagonal to center;
+- gymnasium floor polished by reflected stadium spotlights downward slowly frontwards facing leftwards at distance
+- school bus's taillights illuminate exiting students down low forward diagonally towards rightward;
+- teacher’s coffee cup glowing under lamp down low forward towards the leftwards slowly
+- band uniforms gleam under practice room lights from behind left diagonally to center slowly
+- tardy bell glowing under hallway light upwards slow down leftward towards the back;
+- school mascot costume reflecting gym lights downward diagonally towards the right slow
+- soccer ball kicking up dirt, spotlight from above downward facing forward fast leftwards
+- school assembly trophy stand illuminated by spotlight diagonally bright to the back rightward slow
+- band uniform hats glowing under practice room fluorescents leftward downwards at distance slowly
+- gymnasium ceiling fans reflecting fluorescent lights down low forwards towards center, dimly fast sidewards;
+- locker room's bench lit by fluorescent ceiling lights up close dimly to the back
+- abandoned playground slide reflecting faded moonlight downward slow front
+- old school chalkboard, sunlight through window casting shadows leftward slowly facing diagonally down low
+- deserted locker, lightbulb flickering from above bright towards the rightwards
+- rusty swing creaking, late afternoon sun shining leftward dimly downward fast from behind
+- empty classroom, blackboard eraser catching late sunlight horizontally rightwards sideways quickly to center slow
+- old school lunch table reflecting sunlight upward facing forward to the leftwards
+- abandoned playground seesaw reflecting faded moonlight upward facing leftwards quickly fast
+- old band uniform shining under dusty gym light diagonally upwards towards front;
+- retired trophy shimmering under museum spotlight upward bright at a distance fast slow;
+- antique school bell reflecting sunlight downward fast from above, rightward dimly slow
+- vintage typewriter keys glowing under old desk light downwards slowly sideways to the back;
+- old band instrument reflecting gym light diagonally upwards towards front rightwards slowly; quickly fast
+- antique globe shining in dusty corner downward diagonal at a distance leftward dimly; slowly
+- old wooden desk, lamp illuminating faded notebooks diagonally upward front right slow dimly
+- antique lunch pail reflecting sunlight horizontally upwards at a distance towards the rightward fast
+- empty classroom, sunlight through window casting shadows upward leftwards quickly facing sideways
+- vintage chalkboard shining under old fluorescent light downwards from above diagonal to the right
+- old wooden bookcase reflecting light horizontally forward left slow from below; dimly
+- tennis ball bouncing, court lights flashing sharply downward fast diagonally toward the center
+- badminton shuttlecock, racket strings illuminated by gym ceiling lights fast sideways
+- baseball bat swinging under floodlights downwards slowly to rear
+- archery target hit by arrow under arena spotlights upwards diagonally left
+- ice skating blades cutting through rink, lights reflecting from below upward diagonal towards right
+- golf ball rolling across green, course lights shining from behind upwards diagonally right slow
+- volleyball net lit by arena beams dimly upward leftward fast to center
+- hockey stick hitting puck, rink lights gleaming downwards diagonal from below to the back;
+- darts board lit by bar lights upwards diagonally leftwards slow and dimly towards back
+- cyclist's helmet reflecting streetlamps downward diagonally left slow at a distance
+- kayak paddle dipping into water under dock lights upward sideways to the right fast
+- tennis racket, court lights glancing downwards front leftward quickly;
+- billiard balls clacking under club lights downward bright diagonal forward to center slowly
+- bowling ball rolling under alley lights upward sideways dimly quick
+- javelin launching under track lights upwards diagonally bright from behind frontwards
+- hiking boots kicking up dust, headlamp illuminating path downwards left
+- mountain climber's crampons ascending under tent lanterns upward towards back diagonally frontward slow
+- horse rider’s boots, arena lights reflecting diagonally upwards dimly right fast from below
+- frisbee soaring through park lit by lampposts upward towards back side slowly
+- gymnasts vaulting under stadium beams downward diagonally from above left towards center
+- swing set swaying gently, playground lights shining upwards dimly bright forward to back slow;
+- fishing rod tip glowing under campfire light dimly upwards slowly at a distance sidewards
+- bocce balls rolling on court lit by backyard strings upward leftward dimly from below
+- table tennis bat swatting ball under ping pong lamp, diagonally up right fast slow
+- roller skates reflecting rink lights downward bright to back diagonal sideways quickly
+- yo-yo spinning under bedroom nightlight upward leftward facing to the front quickly
+- hospital ward's ceiling lights illuminating empty beds downwards slowly from above
+- surgical room's spotlight hovering above patient rightwards towards left diagonally brightly slowly
+- x-ray machine beams patient, bright from below upwards diagonal fast
+- radiology lab's screen glowing leftwards sideways, reflecting dimly downward fast
+- examination room table lights reflected on stethoscope slowly from above down low
+- magnetic resonance imaging scanner light dimming upwards rightward slow from behind front diagonally
+- autoclave door ajar, red safety light shining rightwards sideways dimly
+- maternity ward's soft lighting reflecting on newborns cradle up front dim slowly bright
+- harbour lighthouse beams outward steadily downward to sea
+- fishing net glinting under dock floodlights upward diagonal slow side
+- worn mooring buoys gleam under street lamps dimly rightwards towards back
+- harbourmaster’s hut window lit by kerosene lamp, bright flickering leftward down fast
+- boat lanterns swaying in waves shining across water dimly toward back up diagonally fast
+- dockworkers’ boots illuminated by yellow harbor lights downward slowly sideways rightwards from front
+- sailboat masts reflecting moonlight, downward facing upwards front dimly
+- harbour wall light beams onto waves leftward down slowly diagonal to center
+- anchors rusting dim under pier light upwards diagonal back slow from front
+- oil drum reflecting harbor spotlights upward sideway diagonal fast slow towards the rightward
+- ferry deck lit by pier lights downwards facing upwards diagonal from behind front
+- life ring hanging, illuminated by rescue boat beacon upward diagonally leftward slow
+- foghorn reflecting dockside lights downward diagonal forward to the rear fast slow; quickly; fast
+- buoy chains creaking under lamp post bright dimly front rightwards diagonally up low
+- The fisherman’s net, shining under port lights upward sideway to the back fast
+- harbor seals lounging on docks reflecting moonlight upward diagonally slow; towards the back
+- bollard gleams under lamppost downwards diagonal toward the front from right
+- trawler netting under harbour searchlights dimly forward sideways bright slow
+- cormorants drying wings under harbour floodlights upwards sideway to center slowly fast
+- dive platform gleaming under diving spotlights downward diagonally back quickly
+- harbour wall bricks, spotlight down low facing up front diagonal leftward; bright dimly quick
+- deck railing glistening under ship lamps upward diagonally from below bright slow fast
+- oil slick shimmering under moonlight leftwards towards center upwards diagonal
+- fish scales glinting in net under torchlight, down and right diagonal dim
+- crab crawling over docks lit by lanterns slowly facing downward leftward
+- rooftop skylight casting downward square
+- streetlamp glow illuminating raindrops slowly
+- security light flickering across alley sideways
+- rooftop antenna reflecting moonlight frontward steady fast
+- neon sign flickering down onto pavement dimly diagonal slow towards the left
+- fire escape rungs reflecting firelight up diagonal to right
+- chimney smoke curling upwards under moonlit
+- air vent casting shadows horizontally forward
+- rooftop satellite dish gleaming downwards steady sideways right from above
+- smoke vent hissing upward sideways diagonally toward center
+- gargoyle silhouette cast by moonlight dimly down front
+- solar panel reflecting sunlight bright diagonal slow downward to left
+- ventilation fan rotating under security lights diagonal sidewards up fast
+- rooftop garden lit by string lamps up towards back dimly diagonal to the right
+- parapet stones illuminated by window glow upwards diagonal leftward front slowly to center
+- tv antenna glinting under streetlamp downward front side diagonally towards center;
+- rainwater gutter leaking under spotlight diagonal sidewards bright slow to rear right
+- rooftop radio tower lit by moonlight upward sideways steady dimly fast right;
+- smoke venting under spotlights dimly forward diagonal downwards toward center quickly;
+- helicopter pad reflecting searchlight beam diagonally up left slowly towards back;
+- solar panel array glistening under moonlight frontward upwards sideways dimly slow
+- air conditioner humming under spotlight side diagonal downwards
+- window pane reflecting city lights diagonally toward back from right
+- rooftop pigeon cooing under searchlights downward sideways towards center quick
+- satellite dish twirling under moonlight upwards diagonal left slow;
+- fire hydrant gleaming under streetlamp fast dim forward sidewards to the left slowly
+- air duct illuminated by neon glow diagonally downward frontward
+- rooftop pool shimmering under moonlit down side right slow diagonal back
+- smokestack puffing up slowly under spotlight sideways towards the center
+- vent cover reflecting starlight upward fast to the rear from the left;
+- roof access ladder shining upward front diagonally bright slow rightwards
+- parapet illuminated by neon glow downward diagonally dim from below
+- air vent casting shadows horizontally downwards steady diagonal towards the back
+- smoke stack puffing upwards diagonally dimly quick sideways fast towards the left
+- rooftop signboard lit by spotlight frontwards diagonal up slowly;
+- chimney smoke curls downward diagonal sideways quickly toward rear right;
+- abandoned swing set glowing under classroom glow diagonally downwards toward back
+- basketball hoop reflecting gymnasium spotlights upward sideways to center
+- broken blackboard eraser gleaming under principal's office lamp dimly up front
+- cafeteria clock shining in hallway floodlights sideways towards the right
+- cracked tile floor reflecting gym lights diagonal fast downwards from back
+- dentist's equipment illuminated by dental room spotlight diagonally right downward slow fast
+- hallway mirror reflecting classroom windows dimly left upwards slowly
+- locked storage closet gleaming under basement light downwards diagonal sideways to the center
+- nurse’s office nightlight illuminating hallway upward diagonal towards back
+- old auditorium curtains lit by stage lights facing up front diagonally slow
+- parking lot lampposts casting shadows horizontally down fast toward rightwards back
+- playground slide glinting under school floodlights downward slowly towards the center
+- sidewalk cracked beneath classroom spotlight diagonally upward fast slow left towards front
+- sports trophy reflecting auditorium light downwards sideways to the left;
+- stairwell window glowing with hall light sideways left diagonal up fast toward back
+- window air conditioner humming under office window leftwards downward diagonal to center slowly,
+- blackboard reflecting classroom sun light up toward front back diagonally side fast
+- desert campfire flickering on tent downwards
+- cactus silhouette cast by sunset rightwards back towards the center slowly
+- dune shadow stretching under sun high upwards
+- meteor streak across night sky towards left diagonal quick
+- palm trees swaying under desert stormlights up diagonal backwards slow dim
+- desert fox running under moonlight fast downward diagonally to left front
+- oasis waterfall glinting on rocks sideways from right down dimly
+- mesa top casting shadows diagonally towards the right back front under sun bright slowly
+- sand dunes reflecting moonlight steady dimly diagonal fast upwards
+- rock formation gleaming under starlight upwards diagonally to the center slow
+- desert cactus lit by camping lantern downwards toward right side diagonally slow fast dim
+- sandstorm glowing with flashlights towards back front
+- desert road reflecting headlights up diagonal forward fast
+- rock archway casting shadows under campfire light sideways from left
+- oasis mirroring sunlight bright upwards diagonally quick to the center
+- desert snake slithering under spotlight down diagonally towards back front slow fast dim
+- sandstorm swirling with flashlights diagonal front upwards to center slow dim fast;
+- ruined well casting shadows downward side from right leftwards front diagonal quickly slowly
+- desert shrubs glowing under moonlight diagonally slow up towards the rear front
+- cactus flower illuminated by flashlight fast down upwards diagonal to back slow from right;
+- meteorite reflecting on sand diagonal downward leftwards quickly slow dim bright
+- rock cliff illuminated by sunlit side fast diagonal left towards center upwards dimly
+- dune shadows reflecting starlight diagonally towards the rear back fast slowly dim
+- desert shrubs swaying in desert moonlight sideways facing down right from front;
+- palm tree leaves rustling under searchlight down diagonal forward quickly slow up fast;
+- desert floor illuminated by campfire downward leftwards towards front diagonally side dim bright;
+- rock formation casting shadows under sun diagonal fast upwards down towards left bright fast
+- sandstorm lit by torchlight forward up diagonally to center side quick dim
+- meteorite lit by headlights diagonal up right frontward slow dim
+- ruined well illuminated by flashlights front facing towards back left side
+- mesa top reflecting moonlight down sideways from rightwards rear fast slow dim;
+- rock wall gleaming under torchlight dim diagonally forward
+- desert shrubs silhouetted in campfire light diagonally upward dim toward the center slowly quick;
+- forest canopy filtered sunlight dappling downward
+- spotlit path leading inward fast down diagonal back
+- hidden campsite fire flickering up right side diagonally slow
+- treetop birds reflecting moonlight downwards sideways to the left slowly
+- beech forest leaves illuminated by flashlights diagonally upward towards center
+- tree trunk casting shadows downwards quickly diagonal back towards right
+- woods path dimly lit by flashlights frontward diagonally side fast up slow
+- moss covered rocks glinting under flashlight downward left diagonal slow
+- bamboo forest lit by lantern downward slowly diagonal to the center bright
+- forest floor illuminated by moonlight sideways quickly diagonally upwards rightwards
+- moonlit forest glade reflected in pond front diagonally upwards sideways
+- streamlet running under moonlit downward diagonal towards back fast dim
+- pine needles gleaming under torchlight downwards diagonal leftwards slow
+- tree roots casting shadows forward diagonally to center side dimly slow
+- frost-covered branches reflecting sunlight upwards diagonally to the rear
+- forest stream illuminated by flashlights right diagonal front up fast bright
+- woods path dimmed by lantern light downward slowly leftwards fast from back
+- dripping pine needles lit by moonlight upward sideways down diagonal towards center slow
+- bark casting shadows under spotlight diagonally to the rear upwards slowly
+- wooden bridge reflecting floodlights downward fast diagonal forward frontward bright
+- ferns glistening under torchlight dimly diagonal left downwards side slowly
+- woodpecker hole gleaming under spotlights fast up right diagonal from below back slow
+- frog in lily pad lit by moonlight upwards diagonally quick toward the center fast
+- river stones illuminated by flashlight downward diagonal side frontwards towards center bright
+- mossy tree roots reflecting spotlight left diagonal downwards slowly towards back
+- glowing eyes of animals glaring under torchlight diagonal front up right quickly dim slow
+- forest floor lit by moonlight diagonally upwards dim to the center slowly
+- tangled vines illuminated downward side diagonally left fast dim
+- fluorescent tubes flickering upward from below
+- security lights flashing down towards the right
+- exit signs glowing dimly front facing back
+- insects swarming around broken neon sign
+- bar stools lit by final call spotlight side diagonal
+- floorboards creaking under spotlight diagonal downwards center
+- last call glass slowly dimming downward from above front center
+- broken mirror flashing bright upward diagonally rear
+- pool balls reflecting spotlights downward fast up from sides towards back
+- chalk outlines fading left down on wooden floor
+- ice cubes melting in empty glasses spotlighting downward diagonally towards center slow
+- dusty bottles glowing with strobe lights upwards dimly
+- faded photographs lit by flashlight down diagonal
+- cracked ceiling reflecting headlights diagonally forward fast
+- bar tab sliding under spotlight diagonal up leftwards
+- vinyl records stacked reflecting spotlights diagonally towards right slow front side
+- jukebox flashing colors upward diagonally from below center
+- ashtray glowing with cigarette embers up frontwards diagonally dimly to the back
+- jukebox buttons reflecting downwards spotlights front right
+- drip coffee machine leftward diagonal spotlights quickly upwards dim
+- bar napkin slowly lit by downward side spotlight front facing
+- cash register drawer flashing open under spotlight diagonal towards center frontwards from left up
+- keyboard reflecting neon light fast down diagonal leftwards to the front
+- mouse pad glowing with flashlight upward diagonally slow from below rear centre back
+- faded concert posters lit by torchlight diagonal towards front dimly
+- empty bottles glowing under spotlight downwards slow towards center back right side diagonally
+- candles flickering downward diagonally frontward toward the left
+- old posters glimmering down sideways diagonal front left from below rear center
+- worn-out shoes reflecting spotlights upwards diagonally towards the right center back dimly fast
+- bar stool shining under floodlight dimmed down diagonally forward to center
+- dusty shelves lit by flashlights downward fast diagonal back towards left
+- empty shot glasses glinting under spotlight side diagonal fast upwards to front
+- candle flames swaying gently upwards left diagonal
+- headstone reflecting moonbeam sideways right
+- hearse taillights fading rearwards down diagonally slow
+- wreaths casting shadows downward diagonally center slowly
+- mourners' tears glistening under spotlight downward back
+- tombstones illuminated by lantern frontwards diagonal left slow dim
+- pallbearer's shoes reflecting streetlight downwards quick left
+- coffin handle gleaming under moonlight sideways right diagonally up slow
+- fresh grave mounded reflecting spotlight upward diagonal to the rear
+- victrola record spinning reflecting spotlight front upward fast dimly
+- old photos of departed lit by flashlights upward diagonal slowly
+- hands folding prayer cards glowing downward center
+- casket polished to a gleam under spotlight sideways quick left
+- cemetery gates reflecting moonlight diagonally upwards frontward
+- flower bouquets gleaming under spotlights diagonal right fast down
+- family photos in urn's glow upward diagonal slow from the rear dimly
+- preacher’s robes shimmering down under candlelight slowly diagonal to the center
+- grave digger’s spade glinting side diagonally downwards fast frontward bright
+- old hymnbooks lit by flashlights right down diagonal towards front slow
+- funeral carriage reflecting streetlamps downward fast towards back
+- mourner's veil reflecting moonlight upward diagonally rear to the left slowly dim
+- funeral procession lights flashing downwards front diagonal slow
+- grave markers casting shadows downward side diagonally to the center
+- winding roads leading under moonlight diagonal up fast bright
+- old sepulchral urns dimly lit by spotlight downwards sideways fast left diagonal
+- candles dripping tears under spotlight upward diagonal to the right front slow dim
+- prayer candles flickering downward diagonally back to the left slow
+- garden of remembrance illuminated by floodlights diagonal downward side towards center bright slowly
+- departed's favorite books lit by torchlight downward front right fast
+- funeral program shining under spotlight diagonally from below center frontwards up
+- morning sun rays filtering through lace curtains sideways left upwards dim
+- table lamp casting glow upward diagonally towards the front
+- string lights flickering slowly down diagonal to the center back
+- television screen reflecting bright fast diagonally downward
+- fridge light spilling out dimly as door opens upward from the right rear center
+- kitchen timer counting down glowing red downward diagonal from above
+- desk lamp shining sideways leftwards bright fast diagonal upwards to the front
+- clock radio displaying numbers lit green upwards diagonally rear center
+- nightstand lamp casting warm glow front upward slowly diagonal
+- floor lamp standing tall reflecting light fast diagonal downwards towards right back
+- curtains billowing revealing moonlight slow diagonal from top left downwards dimly to the front
+- mirror gleaming bright reflecting spotlight diagonally upwards center to the rear
+- lamp shadow stretching downward sideways diagonally fast front center
+- kitchen cabinet doors creaking open glowing light upward sideways fast to back right
+- reading lamp swinging gently casting light downwards diagonal towards the left
+- bookshelf glowing with soft glow dimly from below diagonally upwards to rear
+- stove reflecting heat dim light upwards diagonal to center
+- wine glasses catching spotlight side diagonal upward frontwards to the sides slow
+- dishwasher open illuminating dishes bright up diagonal from the back left slow
+- oven timer counting down dim glow downward slowly diagonal towards the right center
+- coffee machine brewing reflecting spotlights upwards diagonal to front center
+- kitchen phone ringing with red light shining upward diagonally fast
+- chandelier flickering candlelight downward diagonally center to the rear
+- toaster oven glowing warm orange diagonal downwards toward sides
+- microwave door open radiating bright side diagonal back left to front slowly
+- oven light illuminating food dimly upwards diagonally slow from rear bottom center
+- bathroom ceiling fan glows warm dim light up diagonal towards center back
+- living room floor lamp casting shadow downward sideways diagonal to the right center
+- nightlight glowing soft side diagonal upward back left
+- shower curtain beading water dimly reflecting spotlight down diagonally from top front
+- toothpaste cap illuminated by bathroom spotlights up diagonal sides front slow
+- faucet dripping water shimmering under light diagonal upwards to the rear
+- bathroom mirror misty with steam reflecting spotlight side diagonal right upwards
+- hairdryer glowing red dimly downward diagonally right fast towards center back
+- shaving mirror brightening up leftward diagonal to front slow
 
 ## camera
 - from across the street, long lens, compressed
@@ -101,6 +2068,696 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - very close, macro feel, texture first
 - at the subject's shoulder, walking with them
 - centred and symmetrical, deep focus
+- close, macro, through an open keyhole
+- distant, 20mm wide angle feel, distorted
+- at mid-air height during a dance leap, soft blur on the edges
+- high from the balcony, fish eye, downwards, looking at feet below
+- far back, very close to the ground, inky lines blurred
+- a high tree branch, telephoto, the world is small
+- mid distance, macro feel, 35mm
+- from inside a car trunk, 16 mm, slightly up
+- underneath the table, wide lens
+- tilted upwards from a doorway's floor, fisheye
+- behind the glass of a museum case, wide angle
+- above the skylight, deep focus, on a tripod looking down at people dancing
+- slightly ahead and above while laying in bed, 30 mm
+- at the end of a zoom lens, 24mm, distorted
+- at the foot of a staircase, below their face, wide angle
+- up from a low stool, medium telephoto lens feel, soft
+- through a pair of binoculars at a zoo, wide lens
+- from behind glass doors looking in on a room
+- at mid-leg height, 24 mm
+- very far back, a single person small in the frame
+- from beside a car wheel arch, tilted up towards them
+- at a distance, 135mm, face sharp with hair and clothing blurred
+- through the viewfinder of an old SLR, fish eye lens
+- tilted from the floor against a chair leg, high angle
+- looking through a keyhole in the door, distorted
+- from above, laying on their back, 16 mm
+- on the roof, through an open chimney, deep focus and wide
+- upwards while kneeling, macro feel
+- very close, in front, face melted away
+- frog's eye view, distorted
+- distant and tilted 40mm
+- from under a bridge, wide angle lens, through bars
+- standing on a high ladder with a zoom lens and a narrow frame
+- close up, above and looking down to a table
+- back alley, telephoto, the market stalls are tiny
+- street corner, 35mm feel, people walking by, festival banners swaying
+- behind the vendor, 16mm feel, wide
+- through a curtained window, medium lens, shoppers passing
+- inside a tent, close on the hands, soft edges
+- far back in the park, close to the ground, through legs walking past
+- on the street lamp looking down, 135mm feel
+- sitting next to the musician, face sharp
+- at the end of an aisle, medium telephoto lens feel, tight on face
+- back against a vendor cart, 28mm wide angle feel, distorted
+- leaning over the balcony, low fisheye lens, looking at feet below
+- at the front of a food stall from behind the signage
+- through an open gate, 35 mm, slightly tilted
+- underneath the bandstand legs, wide, looking up at the performer
+- leaning against a tree trunk, 70mm feel, sharp face
+- on the ground near their feet looking upwards with a low fisheye
+- at mid distance from below a canopy, medium wide angle lens, distorted faces
+- mid distance, macro feel and slightly up on a stool
+- up from the roof of a parked car, wide feel
+- distant, telephoto, from across the fence in the field
+- through an open window with blurred curtains, 50mm feel
+- tilted from near a bench leg, fish eye lens looking at feet
+- on the ground with a phone, tilted upwards towards the vendor
+- from above the treehouse, deep focus and wide angle
+- kneeling behind the vendor's cart with a wide lens through their legs
+- in front of their face, soft blur around the edges
+- through an open stall doorframe with medium telephoto and narrow frame
+- standing behind a row of bins, low fisheye lens through legs walking past
+- up close to the merchandise table, medium wide angle feel
+- on top of a tent from above looking down, deep focus and soft blurriness
+- up close at their side, walking with them, 24 mm face out of focus
+- from inside the food truck window looking out
+- underneath the canopy roof, tilted upwards towards performer
+- on top of a high stall, slightly angled downwards to crowd on ground
+- standing at table height, wide lens, legs in frame
+- far back by the fence, 18mm, sharp and narrow
+- sitting on the curb, through a fence, distorted
+- leaning from the doorway, shallow focus, distant
+- beside them with an extreme telephoto, out of focus
+- on top of the dumpster, 30 mm lens feel
+- far back behind a fence at low angle
+- down to the floor against a wall, 18mm
+- from beside their footstep, tilted from the grass
+- on the ground against a tree trunk, 28mm feel
+- on a streetlamp looking down on them through a gate
+- from behind the fence of an abandoned house
+- standing back under the awning looking up at the building, high fisheye lens
+- far back in a field against a barn, 135 mm feel
+- up from their shoes, tilted upwards on the sidewalk
+- leaning backwards against the building with a wide feel and distorted focus
+- tilted from below a railing looking at the roof line
+- looking into the open doorway with a fisheye lens
+- leaning to one side from behind the cart, 135mm feel sharp
+- far back in their yard sitting on the step, low wide angle lens
+- on top of the garage looking down at their yard with a macro lens
+- facing the old door frame, soft focus and deep
+- through an open kitchen window high fisheye feel
+- upwards to the attic from the base of the stairs with 24mm
+- underneath the old barn looking up through cracks in planks
+- at a distance leaning back against a wall, wide lens feel
+- behind their feet standing on a bridge, soft blurred edges
+- in front of them at eye level from under a window sill with 28mm
+- high above the old treehouse with fisheye distortion
+- through a narrow fence slat looking down at their garden
+- underneath the canopy roof looking up and out
+- on top of the brick wall looking down, wide focus
+- at waist height through some hanging clothes towards them
+- at an intersection midway in the city, 50mm feel, tight
+- from atop a towering skyscraper, wide lens feel, small faces below
+- standing across a street from a cafe, medium telephoto, distant
+- through an office window high in the building, 24mm wide lens
+- standing beside a statue looking up into the city sky with shallow focus
+- from under a canopy to the side of the performer 16 mm feel sharp
+- in front of their face, telephoto feel and out of focus legs
+- up on a platform at eye level, 85mm feel soft blur on the edges
+- from underneath the skyscraper entrance 30 mm feel looking down into the city
+- tilted from inside their doorway, soft focus; blurry face 14mm
+- in an attic window looking down onto their neighborhood with low angle fisheye
+- on top of a high balcony looking over the street below
+- down on the sidewalk behind them, 30 mm feel and legs in frame
+- from behind a fence post, fisheye view up at the sky and buildings
+- standing at an intersection, fisheye lens feel distorted
+- high up in the trees with fisheye lens looking into the city
+- up on a streetlamp tilted towards their face; wide
+- on top of a high balcony leaning against the railing with shallow focus
+- from atop a building, macro feel on the skyline
+- at an intersection, fisheye view up at tall buildings
+- close to the swings, medium zoom into blurry faces
+- next to their feet, macro lens focus, eyes are clear
+- among the children, long lens sharp onto smiles and laughter
+- hidden between the benches, shallow fisheye distortion
+- in front of the sandbox wide lens, close-up blurred faces,
+- behind the slide, telephoto lens with soft background blur
+- beside the ice cream truck, 24 mm feel legs sharp
+- between the parents, soft focus and legs in frame
+- on the grass far away, long zoom feel clear child on play structure
+- by the bench at a distance, high angle fisheye lens looking up
+- underneath the monkey bars looking up, sharp faces
+- between the merry-go-round bars 24 mm feel focus on child
+- behind them with an extreme telephoto feel out of focus
+- from a low-lying branch of a tree, 16 mm lens blur out buildings
+- through the sandbox looking up, medium wide lens feel
+- up close behind the bench's backrest, 50mm and blurred faces
+- on the rocky edge of their island fortress, fisheye lens distorts
+- through the fog rolling in towards them
+- from under a wooden pier jutting out into the sea
+- slight wide feel,
+- in the branches of the coconut palm looking down on them
+- against the sun and through some foliage 20mm feel
+- low down inside a car, rear window view, macro lens
+- looking in from the back seat wide-angle soft focus
+- on the dashboard looking up towards faces 35mm feel sharp edges;
+- hanging down from a rear window handle fisheye blur and distortion into interior
+- through an open side window at a low angle wide-angle soft focus on faces
+- in the car seat looking backwards, narrow deep telephoto, faces are blurry
+- at a high angle on the passenger seat 35mm look down
+- hanging upside down from roof rack wide lens feel
+- close to child's face inside a baby seat looking out;
+- through a window behind them with fisheye lens
+- in rearview mirror telephoto soft focus
+- wide shot through the front windscreen and onto their faces, narrow depth of field
+- low angle into back seats long wide look, children blurred
+- from in the footwell under passenger seat upwards 85mm feel
+- through the back window, 8 mm fisheye distortion,
+- across the room through a doorway to the balcony wide lens
+- underneath their feet high angle fisheye lens blurry sky
+- at street level fisheye view distorted looking upwards into buildings
+- through a wide-open gate on the sidewalk 30mm look across
+- on the beach in front of them close up at water line shallow focus
+- next to an alley 35mm feel with blurred people walking past
+- in front of the hotel, from the doorway, macro look onto the city
+- in the corner by the bar looking out to their face telephoto view
+- at their feet while they are standing fisheye view up at buildings
+- on a tree stump next to the path 24mm lens and people blurry
+- next to the fence in the backyard soft focus blurred buildings
+- underneath a porch railing, 16 mm feel sharp into the sky above
+- on the roof of their house on top wide-angle down towards faces
+- in the center of an alley behind them fisheye blurred buildings
+- above the canopy with macro lens, small children far away below
+- by the side of a cliff into the city sky soft telephoto focus
+- at their feet while walking, looking at buildings 10mm blurred and close-up
+- next to a wall behind the hotel with deep telephoto
+- next to a flowerbed outside the restaurant shallow focus into the faces
+- on top of a high hill overlooking the city 24mm feel soft edges
+- between an open fence to view in front of the house fisheye blur
+- at their feet looking up through the grill on the patio telephoto narrow
+- in front of the building looking inside fisheye distortion
+- under a window ledge near their face, wide lens distorted blurred faces
+- with shallow focus out-of-focus buildings through a doorframe
+- next to the statue at eye level fisheye wide-angle view up on buildings
+- on top of the hill behind them, looking over the city soft telephoto
+- between the trees looking down at the houses 35mm blurry edges
+- from underneath their balcony towards buildings with a high macro feel blur
+- above the crowd next to some flowers fisheye distortion up view on faces
+- in front of the fountain in wide-angle sharp focus up at buildings
+- by the gate with medium telephoto narrow distorted faces
+- through a small fence 30 mm blurred buildings behind them
+- from a rowboat, on the sea, a 28mm feel
+- through a hole in a wooden boat, close look towards the river
+- on a dock leaning over the water 50mm look into reflections
+- at shore level through sea grass telephoto blur at sea
+- a drone flies above the harbor 16 mm lens
+- near a lighthouse with deep fisheye, looking out at waves
+- from the bow of their sailboat 35 mm feel
+- in a canoe with medium wide shot into water
+- at the beach close to footprints on sand telephoto soft
+- through a break in the shore cliff edge 28mm lens sharp edges
+- at shore with macro looking out to sea blurrily
+- above their heads from a seagull's view fisheye blur
+- underneath a bridge, wide-angle sharp focus on river banks
+- from an island towards the coast soft telephoto focus
+- in a kayak with shallow depth into the water blurry
+- in a small rowboat looking up at a ship fisheye lens
+- on an anchor chain under water, fisheye view of sun rays
+- on their boat near waterline blurred telephoto sharp focus on horizon
+- from a riverbank with macro soft focus on water surface
+- at the dock next to old boats telephoto shallow depth into the horizon
+- in a gondola from the middle of the channel telephoto, narrow depth out-of-focus banks
+- at the back of a ferry at night 20mm feel into harbor lights
+- next to a waterway through reeds soft focus and blurred trees
+- in front of their yacht with a medium-wide lens blurry river
+- behind their boat looking out onto the sea 50 mm lens sharp edges
+- from behind a lighthouse through rocks 35mm wide-angle view
+- with 24 mm lens, in a small rowboat towards the distant island
+- by the harbor with shallow focus into water surface at dusk
+- on their boat on shore with fisheye distorted reflections
+- from the river bottom looking up with deep telephoto feel blurry
+- at a riverside cafe through open window 28mm narrow wide focus onto water
+- on the bank next to sea grass looking out at harbor fisheye blur
+- by the boat with wide angle soft focus into river reflection
+- from under a dock looking towards waves with macro lens blurry
+- at the base of a sand dune looking out over desert telephoto narrow
+- on a rock outcrop, sharp edges, fisheye blur on mountains
+- in front of cactus wide-angle blurred faces on rocks
+- from above the peak wide shot through binoculars 80 mm lens
+- by a cacti in bloom deep focus onto buildings
+- underneath an archway near ruins with telephoto feel blurry horizon
+- by the ruins on the edge of dunes, 16 mm distorted faces on rocks
+- from a ridge with fisheye lens sharp into sea beyond
+- on top of the hill near ruins 30mm soft focus out-of-focus
+- from within cacti wide-angle soft telephoto
+- near an oasis with deep telephoto sharp edges
+- inside the sand dune by rock formations telephoto narrow
+- near a well, fisheye distortion and sharp buildings at desert edge
+- at the cliff looking down towards sea telephoto narrow view on ruins
+- between the sand mounds near ruins 35mm blurry horizon
+- through a hole in a wall into the desert with 30 mm lens
+- with macro lens focused into a distant landscape
+- in a sand pit through the lens sharp rocks
+- on top of an old, weathered rock, macro shot
+- at ground level through cactus macro view on ruins
+- a drone flies above cacti towards ruins and sea 20mm focus into horizon
+- from the edge of sand near ruins at desert sky with medium telephoto feel
+- next to a cactus with shallow depth onto buildings
+- with fisheye lens looking down to distant ruins
+- from under a tree, through branches, blurred rocks
+- by a cliff edge over sand dunes sharp focus into horizon
+- on a rocky plateau with medium wide-angle sharp edges into sky
+- through a cacti 35mm blurry view into horizon
+- from behind the ruin on rock formation looking out to the sea telephoto
+- in front of an oasis, fisheye distortion into far mountains
+- at the cliff edge near sand formations 20 mm feel onto ruins at dusk
+- far above the lighthouse on the cliff fisheye lens sharp horizon
+- at the seashore from their dinghy looking inland with shallow depth of field
+- above the island through clouds with soft telephoto blur
+- through a gap in the cliffs 50 mm lens narrow focus into waves
+- beside the old pier by the lighthouse at sunset fisheye focus onto rocks
+- between boulders from an extreme close-up of the shore macro feel sharp edges
+- on top of the highest hill on the island wide-angle narrow soft focus
+- at a broken cliff edge near the ocean, telephoto lens blurry sky
+- behind the boat by the dock looking out 16mm lens soft into waves
+- on the water from their catamaran with fisheye wide shot into sand dunes
+- from a distance with telephoto view through broken wall towards ruins
+- behind the rocks on the shore through rocks and 35 mm feel sharp horizon
+- on top of a rocky hill, medium-wide shot at cliff with rough edges
+- through sea grasses near island's edge with wide-angle feel soft cliffs in the distance
+- with the seagulls behind them, fisheye blurred rocks
+- near the edge of the bay 24 mm lens distorted horizon onto ruins
+- facing a sandstorm on a beach from 50 feet away through reeds soft
+- behind an old stone ruin 80 mm feel blurry distant sea
+- at the water's edge behind sea grass wide-angle blur into sunrise
+- between two rocks at low tide telephoto feel onto distant ruins in soft focus
+- above a hill with cacti and rock formations telephoto narrow sharp edges
+- through rocks into sand dunes from the middle of the harbor soft focus
+- underneath a bridge looking out to sea telephoto distorted view on ruins
+- from a tree on the hilltop with macro sharp focus into sky
+- behind a rock near cacti 20 mm lens soft edges onto beach at sunset
+- a bird's-eye, fisheye gaze over highway underpasses
+- from behind guardrail overlooking traffic with 50mm lens distorted into far horizon
+- by the tollbooth, wide-angle view at oncoming cars through fencing
+- above a speeding semi-truck, wide feel looking down onto pavement patterns
+- between two speeding trucks at dawn with macro lens blurred lanes and sky
+- at roadside rest stop, soft telephoto focus into headlights approaching from far distance
+- a bird's-eye, wide-angle shot into the center of a traffic jam during sunset hours
+- between two cars in an intersection fisheye lens onto a crowded intersection
+- by a rest area map wide-angle narrow focus onto speeding motorcycles on highway
+- on top of a bridge through fence posts sharp edges at rush hour traffic
+- with macro feel focused into the exhaust from a speeding car and its trail
+- at highway exit, telephoto feel blurred edges onto an abandoned highway overpass
+- through a broken windshield towards the city's outskirts with 80 mm lens sharp
+- at a busy truck stop with shallow depth onto a highway through fence posts
+- by an abandoned vehicle at night, fisheye distortion blurred edges into far highway lights
+- by the highway near roadside memorials fisheye distorted edges into headlights and taillights
+- through an open window with soft telephoto blur onto traffic ahead from far distance
+- at harbour edge over waves telephoto feel rough waves
+- from a rusty ship at harbor side long wide lens distant waterfront
+- near the lighthouse top through weather vane macro view to harbor
+- underneath the pier with ultra-wide feel of boats and sky
+- on a sailboat towards harbor entrance ultra narrow telephoto horizon
+- in between shipping containers, 80 mm sharp on harbour
+- with a seagull from a buoy near harbor wide-angle shot into sea
+- from under dock, through rotten planks blurred view to waterfront
+- between two boats with medium-wide lens focus on harborside buildings
+- with a fisheye lens from the boat looking back at harbor entrance
+- through a porthole near the deck edge narrow soft edges onto bay
+- from a lighthouse rooftop down into harbor waterfront wide lens blurred horizon
+- behind a cargo container with ultra telephoto lens to boats and shore
+- in the crow's nest of an old ship, medium telephoto on the harbor
+- through a porthole looking at nightly docked yachts telephoto sharp focus
+- with a drone flying above harbour buildings wide shot blurry edges
+- from behind a buoy near seafood restaurants lens onto the ocean horizon
+- through a telescope from a boat into the horizon narrow focus on boats
+- on the water with a fisheye lens wide-angle shot at harbor entrance
+- in the wheelhouse of a boat, 24mm lens soft into horizon through windows
+- by a lifeboat looking out over the harbor's edge wide shot blurred waves
+- from the deck of a sailboat ultra-wide feel towards the bay edges
+- near the water with macro lens sharp focus on waves in distance
+- between two boats near docks, fisheye lens at boats and horizon
+- with macro lens from a boat onto sand dunes in harbour edge view
+- through a window from a restaurant into harbour wide-angle shot soft focus
+- on the harbor's edge over water with 80 mm feel on distant shoreline
+- from between ships, ultra telephoto narrow focus onto the harbor cityscape
+- at harbor edge with shallow depth onto boats and horizon through rocks
+- underneath a sailboat wide-angle soft edges into rocky shoreline
+- behind a dock crane, lens onto boat hulls with blurry horizon
+- between two docks at sunset fisheye focus on seagulls on waterfront
+- facing sunrise on beach from ferry near the horizon with long lens
+- below bridge telephoto edges towards waterfront
+- on pier through gap in decking, long lens onto sandbar in distance
+- from a speedboat at edge of dock, medium telephoto lens sharp focus toward horizon
+- by lighthouse steps ultra-wide feel toward horizon and waves
+- over the shoulder of a captain with wide-angle on distant yacht
+- a diver’s fisheye shot from under pier into harbor
+- from ferry near shoreline towards the sea ultra narrow telephoto feel
+- on fishing boat, medium lens blurred focus at ocean horizon
+- at edge of beach facing water, macro feel on sandbar at sunset
+- under a bridge in marina with fisheye shot onto distant shore
+- between boats in harbor with wide-angle soft edges to skyline
+- behind sailor steering wheel narrow telephoto shot into horizon
+- with seagull’s-eye view telephoto from rooftop on bay
+- by a buoy at docks, fisheye distortion sharp focus on boats
+- from ferry towards ocean ultra-wide soft edges
+- on the beach near shore wide angle shot of sea life
+- between two ships with shallow depth into horizon through rocks
+- above seagulls at harbor entrance telephoto feel onto bay's edge
+- by a buoy facing ocean ultra-telephoto narrow sharp focus on horizon
+- at docks macro view into far distance boats and shore
+- on yacht towards ocean wide-angle shot of sunset
+- between ships looking out, fisheye blurriness on harbor cityscape
+- from harbor edge with wide-angle feel onto boats and sea
+- over deck near bridge with narrow telephoto horizon
+- above the water macro sharp edges into sandy beach
+- with a seagull’s eye view from rooftop, ultra-wide soft focus towards bay
+- in between ships, medium lens blurred edges onto yachts
+- from ferry at shoreline through cabin window on ocean horizon
+- through a small shop's window towards the harbor with narrow telephoto feel
+- from inside the shop to boats with wide-angle lens shot through doorway
+- on top of the shop peering over edge towards bay with ultra-wide view
+- in shop alleyway with fisheye lens wide view on yachts and horizon
+- with telescope from shop roof into distant harbor narrow focus on buoys
+- through broken shop window near rooftop with long lens blurry horizon
+- between harbor side buildings through fisheye lens wide-shot towards boats
+- by the bay, 70mm sharp focus on seagulls from window frame of the shop
+- behind the building with narrow telephoto lens on the bay edge and ships
+- on top of the rooftop, ultra-wide shot towards ocean horizon
+- through a crack in shop wall narrow telephoto into rocky shoreline
+- underneath a sailboat with wide-angle soft edges to harbor cityscape
+- inside shop, ultra-narrow feel through window on sand dunes at sunrise
+- between ships, from window fisheye lens view of waterfront and sky
+- from shop front towards sea, blurred view through glass onto docked yachts
+- through a broken pane near roof's edge with ultra telephoto sharp horizon
+- by the beach through shop wall ultra-wide shot to seagull filled skies
+- on the small shops rooftop, telephoto feel into the bay and ocean
+- from between buildings, macro lens focus on boats from window frame
+- through a shop's door, long lens blurry view of the horizon
+- in small shops alleyway, ultra-wide shot into sunset filled bay
+- by the entrance with fisheye lens focus on far away ships
+- underneath a bridge at harbor edge wide-angle soft edges towards ocean horizon
+- in between buildings near shop, narrow telephoto feel on boats
+- from the rooftop of the shops with fisheye blurriness over bay's edge
+- through windows, ultra-wide view onto the ocean from alleyway behind shop
+- on top of small shop through a window, medium lens blurred focus towards waterfront
+- by a buoy near the small shops, wide-angle lens at harbor entrance
+- through a telescope from the roof into horizon narrow focus on boats
+- on mountain summit telephoto shot of lake at dawn
+- through rusted gate ultra-wide view to mountains and sky
+- by snow-covered rocks macro feel of icy formations
+- underneath cliff overhang, fisheye lens upwards towards peak
+- between dense pines, ultra-narrow feel on mountain trail
+- inside abandoned hut telephoto focus onto distant summit
+- from mountain lake's edge, wide-angle view across vast terrain
+- through narrow ravine with medium lens sharp rocks and cliffs
+- by a cliff edge fisheye distortion to the valley below
+- on snowy ledge ultra-wide feel of mountain range
+- from mountaintop at dawn with macro edges on forest canopy
+- below peak through telescope narrow focus on far away lakes
+- through dense fog, telephoto lens onto mysterious peaks
+- by rocky summit wide-angle shot towards clear skies
+- from snow-covered plateau ultra-wide lens on valley below
+- on treacherous cliff edge ultra-narrow telephoto feel into sky
+- between towering pines with medium lens blurred focus trees and trails
+- from mountaintop, ultra-wide soft edges to misty valleys
+- in front of a cave entrance telephoto feel onto the rocky mountainside
+- by snowdrift at peak ultra-telephoto narrow sharp focus on lake
+- through narrow path between peaks wide-angle shot towards horizon
+- on top of mountain ultra-wide lens soft edges towards valley
+- between steep rocks medium lens blurriness on jagged cliffs
+- from mountaintop in morning, long telephoto focus onto sunrise
+- by tall trees at mountain edge fisheye distortion to mountainside
+- at rocky ledge with wide-angle shot toward the horizon
+- through narrow passage ultra-wide feel towards rocky path
+- on steep slope macro sharp edges into the craggy landscape
+- from peak overlook, telephoto blurriness on distant lakes
+- between dense boulders with wide angle soft edges to peaks
+- by a lake near mountaintop, long lens focus on snowy terrain
+- underneath waterfall ultra-wide shot onto lush valley
+- at mountain's edge fisheye lens sharp focus towards the forest canopy
+- from high peak medium telephoto shot toward the ocean horizon
+- within a sailor's cabin, wide-angle view through porthole onto docked ship
+- above a boat with medium shot on harbor at twilight
+- between fishing vessels at shore long telephoto feel on the bay
+- by a lighthouse ultra-telephoto blurriness towards horizon and sea
+- behind net-filled shop with narrow lens sharp edge focus on boats in harbor
+- near rooftop with ultra-wide view from window to yachts' masts
+- inside cabin ultra-narrow feel through open door onto waves
+- along the coast, 80mm telephoto blurred edges to seagulls and bay
+- underneath a pier medium shot towards a boat with broken mast
+- from a captain's bridge wide-angle blur on dockside buildings
+- with binoculars narrow focus from rooftop on boats at sea
+- within the engine room, telephoto blurriness towards harbor wall
+- from a cabin window macro view of distant ship
+- by the beach with macro lens sharpness to sand beneath seagulls
+- through a hatch with ultra-narrow shot onto rocky shoreline
+- over waterfront buildings wide-angle lens blurriness at sunrise
+- at fishing village, ultra-wide shot through foggy window towards boats
+- from rooftop of marina shop towards horizon long telephoto feel
+- with sextant in hand from top deck to narrow focus on island
+- on a small boat 50mm sharpness view on sea cliffs and bay
+- inside the crow's nest ultra-wide lens soft edges of bay
+- behind dockside buildings, wide-angle blurred view into harbor
+- from stern towards horizon with ultra-narrow lens at twilight
+- below sea level telephoto feel to ships in calm seas
+- through porthole medium shot on the edge and boats in harbor
+- in a cabin's doorway narrow telephoto edges onto bay's horizon
+- by beach rocks telephoto feel from window towards sunset
+- between boats, ultra-wide soft focus onto harbor walls
+- underneath the pier with wide-angle lens on rocky shore
+- near cliff edge ultra-narrow telephoto blur at sea level
+- inside a sailboat, 50mm sharp shot to the ocean horizon
+- behind a telescope from shop rooftop towards distant boats
+- in boatyard narrow telephoto feel onto the rusted hulls
+- by harbor dock medium lens edges on fishing nets and bay
+- above sea level wide-angle blurriness at dusk
+- at shoreline long telephoto into dark waters
+- on riverbank medium-lens hazy focus into currents
+- beside a small boat, ultra-wide blur to waves
+- at the stern of ship, wide feel to river cliffs
+- through sea mist 50mm crisp view on islands
+- by dockside barrier medium shot at boats passing by
+- in kayak ultra-narrow sharp focus at sea horizon
+- on fishing deck telephoto blurriness on shoreline
+- with anchor telescope view onto a bay
+- at river bend narrow feel to water flowing
+- between rocky pillars long lens on distant coastline
+- above rowboat macro sharpness into the waves
+- from ferry ultra-wide blur at harbor mouth
+- inside a canoe wide angle soft edges at shore
+- by cliff edge ultra-telephoto focus onto the sea
+- with spyglass narrow sharp edges to river's source
+- on beach long lens sharp focus at sun-kissed rocks
+- above harbor narrow feel on passing ship's wake
+- by dock ultra-wide blurriness towards the sea cliffs
+- at pier, medium telephoto shot on distant buoy
+- on boat deck wide-angle soft edges to river islands
+- alongshore, narrow lens onto the bay shore
+- from boat ultra-narrow focus at beachgoers and harbor
+- inside yacht macro lens sharpness towards the sea horizon
+- in shipwreck telephoto blurriness on a small boat
+- on a cliff ultra-wide shot over the ocean to islands
+- through spyglass narrow telephoto feel into a river's bend
+- by canal entrance long lens crisp focus on ships
+- from ferry deck medium lens onto riverside homes
+- far above docks with ultra-narrow blurriness across the harbor
+- underneath barges wide-angle soft edges at sun-kissed waves
+- between ferry rails macro feel towards riverbanks' reflections
+- within ferry lounge telephoto blurriness to a sea horizon's edge
+- beyond the railing with wide lens on distant boats,
+- by the waterfront ultra-wide sharpness across ships and shores
+- from a ship's deck ultra-narrow shot into foggy seascape
+- inside shipwheel house wide angle sharp focus on water currents
+- through sea binoculars narrow feel towards ocean horizon
+- inboard with narrow lens at waves crashing against hull
+- at canal entrance, long telephoto crisp edges to boats passing by
+- from a bridge medium shot towards the river's edge
+- with telescope wide-angle blur from deck on ships in fog
+- beyond harbor pier medium feel towards river cliffs' edge
+- inside sailboat, ultra-narrow lens sharp edges onto distant buoy;
+- in shipwreck telephoto blurriness on a small boat passing by
+- underneath docks wide-angle feel of boats and bay in twilight's haze
+- along the canal shore medium-lens sharp focus to river traffic
+- by the dock medium feel to fishing boats leaving harbour
+- inboard with telephoto lens onto river's distant shoreline
+- through ferry window ultra-narrow sharp edges towards the sea's horizon
+- within harbor wall narrow lens sharpness towards incoming ferries
+- from a lighthouse long telephoto crisp shot on bay and islands
+- underneath bridge medium wide-angle blurriness of river waters
+- in cabin with binoculars ultra-narrow telephoto focus onto passing ships' edges
+- at marina, macro lens sharpness to rusted hulls and ropes
+- inside sailboat with ultra-wide lens hazy edges towards bay horizon
+- by the dock medium lens blur at cargo ships in port
+- from stern long telephoto shot of seagulls flying off cliffs
+- inboard long-lens soft edges on a distant lighthouse's glow
+- from a bridge, wide-angle blurriness to riverfront buildings' silhouettes
+- by ferry rail narrow feel towards distant shoreline in twilight haze
+- above water with macro lens towards the sea horizon,
+- inside ferry room medium-lens shot on river traffic and cliffs
+- within boatyard narrow telephoto blur of a ship passing by
+- on ferry deck ultra-wide blurriness across river islands
+- distant through trees wide-angle soft edges
+- deep in brush narrow feel onto hidden streams
+- hidden among leaves macro focus on forest floor
+- swaying in breeze telephoto blur of canopy tops
+- perched on boughs ultra-narrow shot into misty depths
+- from treetop wide-angle view of wooded hills below
+- through ferns medium lens onto distant trees' outline
+- inside leaf litter macro sharp edges to roots and bugs
+- between branches telescope focus on far-off glade
+- beneath canopy narrow telephoto towards the forest's edge
+- on mossy rock ultra-wide shot across wooded landscape
+- at forest's heart wide-angle blur of dappled sunlight
+- through thicket narrow lens onto hidden forest paths
+- above roots macro feel of bark and moss textures
+- within dense shrubbery telephoto blurriness towards forest clearing
+- by ancient tree long lens sharp focus on gnarled trunk
+- from fallen log medium lens at verdant understory
+- in hollowed tree narrow telephoto shot at sky above
+- on hillside macro lens onto the trees' edge in twilight's haze
+- through brush with ultra-wide blurriness on treeline edges in fog
+- by mossy tree trunk with wide lens on dense woods
+- from treetop branch medium shot of the forest floor, below
+- inside thicket with narrow lens to the glade
+- from underbrush ultra-wide shot of towering trees above
+- below tree line medium-lens sharpness towards distant forest's core
+- between boulders ultra-narrow blurriness on the forest trailhead
+- beyond twig pile, long telephoto focus onto the bay's far horizon
+- with spyglass narrow lens sharp edges at a glade opening
+- by fallen logs macro feel towards distant woods
+- inboard with wide lens on nearby trees in sunlight
+- far above treetops ultra-wide blurriness across misty forest
+- from cliff edge long telephoto shot onto the forest floor
+- across river, narrow telephoto focus to irrigation canal's flow
+- by haystacks medium lens crisp edges towards plowed field
+- within barn wide-angle shot of tractor against vast cornfield
+- dangling from tractor ultra-wide soft edges on tractor wheels in a puddle
+- beneath haystack macro feel of straw and earth textures
+- from tractor seat telescope sharpness at distant farm silo's glow
+- by barnyard medium telephoto blur across cows in pasture
+- on farmhouse roof, wide-lens blurriness on harvested wheat fields
+- through cornstalks, narrow lens edges towards the farmer's path
+- within silage pile ultra-narrow shot onto grainy texture
+- from combine cab macro lens toward farm equipment in dirt track
+- at cattle fence medium feel to cows grazing in open field
+- by windmill wide-angle blurriness on farmlands and livestock
+- in wheat field narrow telephoto towards the haybale's edge
+- on silo steps ultra-narrow shot into farmland twilight haze
+- from tractor cabin long lens blur of farmhouse in twilight
+- within farmer's boots ultra-wide blurriness on plowed earth
+- inside farm machinery narrow telephoto edges to barn interior
+- by farm pond macro sharpness of water reflections and crops' outline
+- above crop row wide-angle shot towards the tree line
+- between furrowed rows telescopic feel onto far-off field worker
+- from a car window, narrow lens on highway's endlessly retreating edge
+- on freeway overpass telescope focus on distant traffic lights
+- inside train cabin medium-lens view of passing suburbs' glow
+- by railroad tracks macro lens to rail junction's texture
+- through car windshield ultra-wide blurriness on roadside trees
+- above subway platform long telephoto onto moving trains in tunnel
+- within train seat wide-angle shot across carriage interior at night
+- on bus top narrow lens sharpness towards urban skyline
+- by subway railing telescopic blur of passing cars and lights
+- in subway tunnel ultra-narrow feel to distant glow from afar
+- inside tram car medium lens view on urban landscapes' speeding by
+- on truck bed narrow telephoto across rustic highway scenery in twilight
+- within railway carriage wide-angle soft edges on landscape through window
+- by train station medium-lens sharpness towards station's bustle inside
+- above subway stairs telescope blur of a distant platform and crowd
+- in the back of a truck narrow lens towards a lighthouse on horizon
+- from taxi window ultra-wide blurriness across cityscape in daylight
+- by train seat macro focus to passengers' faces in transit
+- from trolley car wide-angle view of old buildings and streetlights
+- on ferry deck telescope sharpness at distant dock lights flickering
+- within airplane cabin long-lens soft edges on a landscape below
+- through car's side mirror ultra-narrow shot across busy intersection
+- at subway entrance wide-angle blur across platform signage and people
+- inside tram seat telescopic feel onto streetlamps' glow in evening
+- on train track telephoto focus to passing fields' expanse as the sun sets
+- in the backseat of a bus ultra-wide lens on bustling cityscape at dusk
+- within car glove compartment medium feel on road signs and vehicles whizzing by
+- by bus stop macro sharpness towards street and sidewalk edges in rain
+- from bridge side, narrow telephoto onto water and shore in evening's haze
+- on highway overpass telescope edges to distant traffic lights in foggy nighttime
+- within steering wheel ultra-wide blurred reflection of the dashboard
+- across dash ultra-narrow focus on instrument cluster needles
+- beside gearshift, macro feel on knobs and levers
+- on center console medium lens crispness towards glove compartment
+- by windshield wiper telescopic blurriness through rain-droplet streaks on window
+- through back window ultra-narrow sharp edges towards following cars' headlights
+- under seat, wide-angle blurriness at shoe scrapes and lost coins on the floor mat
+- near passenger door handle macro sharpness of rusty hinges
+- beside rearview mirror narrow lens on passengers' reflection in the glass surface
+- through side window ultra-wide blurriness at passing vehicles' taillights and cityscape reflections
+- within cup holder telescopic focus on half-empty soda cup on the tray
+- by gearstick macro feel towards worn-out fabric seat texture
+- on floor mat medium telephoto blur across muddy footprints and crumbs
+- across glove box, wide-angle shot at assorted papers and receipts scattered inside
+- inside dashboard telescope soft edges on car’s speedometer needles in motion
+- by ashtray, narrow lens sharpness towards empty cigarette packs and ash remnants
+- at window's edge ultra-wide blur across roadside scenery speeding by
+- within overhead handle macro feel of rusty metal and fabric
+- through rear window medium lens blurriness to passing landscape in twilight
+- by dashboard display ultra-narrow sharpness on navigation map and route
+- in back seat, wide-angle soft edges to crumpled tissue and wrappers on the floor
+- within steering column telescopic view towards airbag at close range
+- on center console cup holder ultra-wide blurriness on spilled coffee stains
+- through window cracks macro feel of glass textures and frost patterns during winter driving
+- beside seatbelt buckle, medium lens sharpness to fabric weave of the safety belt
+- from gearstick telescopic soft edges on speedometer in nighttime road
+- by car charger macro feel towards tangled wires and frayed ends
+- through sunroof ultra-wide lens blurriness across blue sky and clouds during day driving
+- within front seat telescopic soft edges to leather upholstery’s stitching on the headrest
+- on soccer field close-up wide shot towards goalie diving
+- at skate park medium-lens sharpness on ramp jumps mid-air
+- above tennis court telephoto angle on players' serve motion
+- by hockey rink narrow lens focus on puck at goalie's feet
+- through ice skating rink ultra-narrow blurriness across skater's twirls
+- on volleyball net macro feel on ball’s impact close range
+- at swimming pool wide-angle blur on diver entering water
+- within gymnasium telephoto soft edges of track runner's stride
+- by running track macro sharpness on runner's feet pounding
+- in yoga studio medium-lens crispness of poses and stretches
+- at basketball court ultra-narrow focus on ball in hoop swoosh
+- from football field telephoto blur on running plays' endzone dash
+- on billiard table telescopic soft edges to cue stick’s impact to the ball
+- within dance studio macro sharpness on dancer's pointe shoe lace
+- by baseball diamond narrow lens at pitcher’s arm release and throw
+- through fishing net ultra-wide blurriness across water surface and sky
+- on rock-climbing wall medium-lens view of climber scaling
+- by archery target telephoto sharpness to archer's concentration on bow
+- in karate dojo narrow lens towards instructor’s demonstration kick
+- at horseback riding arena ultra-narrow shot at rider in saddle
+- from boxing ring macro feel on boxer's gloves and faceguard
+- within surfing beach medium-lens blur across waves and surfer's stance
+- on bowling lane telephoto focus at ball rolling towards pins’ strike
+- by golf course narrow lens view of driver swinging for tee shot
+- ahead public building ultra-wide sharpness of stone and brick wall
+- front entrance wide-angle blurriness of moving visitors against walls
+- within gallery medium-lens crisp edges on paintings
+- by exhibition case macro focus of art pieces' fine details in glass case
+- from auditorium's edge narrow lens at empty seats awaiting patrons
+- on stage ultra-wide blur of props and scenery from the backstage perspective
+- through lobby window telescopic feel towards busy city traffic
+- within stairwell medium lens sharpness on worn-out concrete steps
+- by elevator door macro feel of brushed aluminum edges and buttons
+- in museum corridor wide-angle shot at artworks' reflections in polished floor tiles
+- from atrium telephoto focus on people interacting in the vast open space
+- through skylight ultra-narrow sharpness to sunlight hitting the marble
+- at cafeteria table narrow lens crisp edges on empty trays and chairs scattered around
+- within classroom ultra-wide blur across chalkboard notes from student perspective
+- by lecture hall door telescopic soft edges of lecturers' gestures during speech
+- on library shelf macro sharpness towards book spines' worn-out titles and covers
+- at exhibition booth medium lens crispness on product displays under bright lighting
+- within gallery corridor narrow telephoto onto art prints’ fine details from afar
+- through museum window telescopic blurriness of bustling city life outside the building
+- by lobby fountain ultra-wide sharpness of water’s movement and patterns
+- on staircase railing macro feel on metal handrail’s intricate carvings
+- within conference room medium-lens blur towards attendees’ expressions during presentation
+- from museum balcony telescopic view of galleries and artwork displays from a height
+- by information desk ultra-wide blurriness across various signs and posters
+- within elevator medium lens sharp edges on buttons with floor numbers
+- on escalator telephoto focus on people’s feet walking up and down the stairs
+- in museum shop narrow-lens crispness towards souvenirs' displays and products
+- by theater stage ultra-wide blurriness of empty seats from a backstage angle
+- within concert hall medium lens sharpness towards stage lighting’s intensity
+- from gallery wall telephoto soft edges to art pieces' abstract forms
+- at exhibit door macro feel on glass display case's edges and contents inside
+- on museum floor ultra-wide blur across visitors’ paths in the crowded space
 
 ## finish
 - Kodachrome slide, saturated and clean
@@ -128,6 +2785,654 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a chalk pastel drawing
 - a fashion editorial, glossy
 - a scanned family photo with rounded corners
+- vintage village panoramic film negative, sepia tones
+- pinhole photo of stone cottage, blurry and pale
+- digital printout on parchment, warm and aged
+- glossy magazine ad, bright neon colours
+- large-format b&w print, stark high contrast
+- silk-screen portrait in earth-toned village scene
+- lithograph poster, vibrant and bold
+- painted village street, muted watercolour, thin lines
+- vintage silver gelatin print, subtle grainy texture
+- Aeon black-and-white photo on warm textured paper
+- hand-pulled photogravure, velvety smooth black and white
+- gelatin silver print in frame, 1970s village image
+- sepia-toned village picture, distressed paper edges,
+- desert dune silhouette, cyanotype
+- dry arroyo shadows, high-resolution infrared
+- cactus close-up, pinhole blurred
+- old map fragment, sepia-tone engraving
+- sandstorm chaos, 35mm b&w film
+- agave plant, soft-focus gelatin silver print
+- dry lakebed, high-contrast large format
+- desert landscape panorama
+- cactus bloom macro, soft focus wet-plate collodion
+- village ruins sketch, drypoint etching
+- windmill in distance, hand-coloured postcard
+- desert scene with people, faded Polaroid
+- barren hills printout on parchment paper
+- vintage postcard, sun-faded chromolithograph
+- desert rock formation, charcoal rubbing
+- rock formation, cyanotype texture
+- distressed vintage map, sepia-toned lithograph
+- desert path, infrared monochrome
+- desert plants in black-and-white
+- sand dune close-up, glossy photo print
+- vintage tourist postcard, desert scene tintype
+- ruined adobe house, photogravure on zinc plate
+- distressed paper village street, sepia tones
+- desert flowers, faded Kodak
+- faded vintage panoramic of a ghostly desert town,
+- a gelatin silver print on rough paper
+- cyanotype in black and white village churchyard
+- vintage map fragment, sepia-toned engraving
+- a Polaroid with blurry houses
+- ink jet of the abandoned streets
+- a vintage postcard with a faded printout of village buildings
+- gelatin silver print with scratches on old paper
+- distressed print on matte stock with village market scenes
+- vintage photo of a deserted village, dark sepia
+- large-format sepia of the empty square
+- a risograph one-colour print of village rooftops
+- watercolour with hard pencil lines on textured paper
+- silk-screen print on newsprint with an image of village fences
+- vintage chromolithograph on heavy cardstock, muted colour tones
+- desert sunrise tintype with a village silhouette in the distance
+- vintage photo of a deserted churchyard, faded cyanotype
+- high-resolution infrared image of a quiet square, soft hues and ghostly trees
+- black-and-white printout on warm-toned paper, cracked and peeled
+- cyanotype with bleach spots of the dilapidated schoolhouse
+- a Polaroid with visible light leaks
+- salted paper print from a ghostly village churchyard
+- 35mm b&w film in an aged photo frame
+- wet-plate collodion, silver on glass of a stone bridge
+- vintage village map, faded ink on vellum with the houses in sepia
+- cyanotype with fading edges of village ruins
+- high-contrast digital printout with village people in black and white
+- lithographic print on yellowed paper, showing old houses
+- a cyanotype on cotton paper
+- charcoal drawing on a crinkled white paper of a village well
+- saltwater-splattered beach hut, glossy finish
+- opulent palace interior, textured matt finish
+- diamond-encrusted jewelry box, mirror finish
+- frosted crystal chandelier, matte black background
+- golden filigree frames, hand-finished bronze glaze
+- leather-bound books, rich grain pattern leather
+- crystal candlesticks, faceted and highly polished
+- antique velvet curtains, luxurious crushed texture
+- hand-woven silk scarves, sheened metallic hues
+- platinum rings, highly buffed surface for reflection of light
+- tarnished copper vases, patina glaze from age
+- marble countertops, polished to high gloss
+- lacquered cherry wood, smooth and deep shine
+- hand-carved ivory chess set, natural finish with rich detail
+- furs draped on bed, lustrous sheen of mink
+- oyster pearls, luster from years of wear and care
+- antique porcelain plates, delicate bone china glaze
+- stained-glass window, vibrant iridescence with light
+- tiger's eye jewelry pendant, polished silky smooth surface
+- silk pillow cases on a luxurious king size bed
+- marquetry cabinet doors, intricate designs of rare wood species
+- silver-plated cutlery, mirror-like reflective surface for dining table
+- velvet-upholstered chaise lounge, deep pile softness
+- bronze figurine, patina and highly polished
+- hand-beaded evening gowns, shimmering from beads with sparkle effect on the fabric
+- antique Persian rugs, intricate weave of silken yarns
+- polished ebony musical instruments, smooth gloss finish
+- enamelled gold earrings, bright colors and glossy finish
+- gold coin display case, reflective acrylic and high-quality wood
+- hand-stitched suede jacket, soft supple leather with rich texture
+- jewelry cabinet interior, plush velvet lining for protection
+- antique silver tea set, highly polished silver
+- luxurious fur-lined coat, dense pelt texture for warmth
+- hand-engraved pocket watches, detailed patterns and finish of brass
+- mahogany writing desk with hand-carved details, antique leather inlay
+- gold brocade curtains, luxurious fabric on windows
+- enamel-covered silver bracelet with pearl clasp closure for style and class
+- funeral procession, bleached black and white print, aged edges
+- mourners at cemetery gate, platinum print on heavy stock with textured finish
+- black car on gravel road through empty parklands, gelatin silver print, slightly warped
+- wreaths in the hearse, soft-focus cyanotype print, faded to blueish tones
+- grieving couple by the graveside, vintage sepia toned print, cracked emulsion
+- crying baby at a funeral home, charcoal drawing, smudged edges
+- preacher on a gravestone platform, antique sepia photolithograph on parchment paper
+- funeral program in hand, high resolution color print with embossing
+- family gathering for mourning, matte finish of newsprint stock
+- mourners walking to funeral ceremony, soft-tinted black and white photo on fine art paper
+- crying widow in the front pew of church, risograph halftone print on newsprint
+- hearse moving down a narrow alleyway, darkroom-printed sepia toned silver gelatin print
+- flowers left at the headstone, soft black and white digital print on matte stock
+- cry in churchyard, cyanotype with an aged sepia tint, faded and creased
+- empty chair at home after the funeral
+- silver-embossed metal frame print, highly reflective
+- old woman sobs softly at a cemetery, old vintage silver gelatin photo
+- black veil on widow's head in front of casket, vintage cyanotype, aged to sepia
+- funeral ceremony with mourners around gravesite, inkjet print on watercolor paper
+- headstone with epitaph, high contrast glossy finish
+- weeping children at a funeral parlor
+- The black ribbon used for mourning
+- .The old family car, dusty with a cracked bumper
+- mourners leaving flowers and candles at the gravestone
+- an urn filled with ashes on a mantelpiece, faded color photo
+- funeral director with somber expression, sepia toned print, textured paper
+- river reflected on gloss varnish
+- salt-sprayed driftwood, bleached and faded
+- sea urchin in black and white
+- tarnished anchor on sandy shore
+- rusty rope against rustic barn wood
+- faded sign at deserted harbor, grainy texture
+- oyster shell, glistening pearlescent finish on beach sand
+- old life preserver with faded letters
+- wave crashing against rocky coast, digital print high gloss
+- seaweed clinging to wooden post, sepia matte print
+- abandoned lobster trap in water, aged metal and rough wood
+- rusty canoe on mossy riverbank
+- worn out life jacket with red lettering faded from the sun
+- river pebbles on gloss photo paper
+- cracked oars on weathered boat
+- sea shells on sand, glossy sepia toned print
+- paddle in hand, vintage brown and white photolithograph with aged edges
+- moss-covered fishing lure, silver gelatin print on rough stock
+- rusty harpoon, soft cyanotype finish on vintage paper
+- dock post, textured black print on watercolor paper
+- sunken rowboat in river bend; deep black and white digital print
+- river otter skin pelt with a patina of age
+- fishing net in sandy shallows; bleached cyanotype print
+- crabs in a rusty bucket, matte finish print on heavy stock
+- water lily petals, glossy sepia toned digital print on canvas
+- rusty hook with tangled fishing line on barn wood
+- fishing tackle box, rough paper with sepia tone
+- beach glass in hand, faded high-resolution color print;
+- sand dollars on beach towel, vintage cyanotype print, soft tones
+- sailboat keel in shallow water; charcoal drawing on newsprint
+- rusted metal flotsam and jetsam with rough finish
+- oar blade on sand beach, old sepia-toned photolithograph
+- seaweed tangled in driftwood; matte black and white print with textured edges
+- sad teacher at school bus with students, gelatin silver print, glossy finish
+- graduation ceremony in the gymnasium, digital photo on satin paper
+- students' shoes lined up during assembly, matte inkjet print
+- classroom chalkboard with equations, high gloss print
+- empty playground swing, vintage polaroid print, torn edges
+- school hallway with portraits, sepia-toned silver gelatin print with textured surface
+- teacher reading book to students, vintage silver halide print on matte paper
+- student running through campus, soft-focus matte digital print
+- graduation hats tossed in the air, glossy photo finish
+- student's hands holding report card; sepia tone photo, smooth finish
+- student with backpack walking uphill, grainy black and white digital print, aged finish
+- empty classroom on weekend, soft focus on fine art paper
+- school auditorium seats, high contrast photo with textured matte
+- lone student's book left at desk
+- cracked classroom window during recess. aged cyanotype, textured surface
+- students raising hand in classroom, soft-focus matte inkjet print
+- teacher writing on chalkboard, vintage silver gelatin print, glossy finish
+- student sitting alone in cafeteria, sepia toned photo on textured paper
+- school's exterior signage, high contrast photo with gloss varnish; slightly bleached from sun exposure
+- child's hand in teacher's hand, cyanotype print, soft focus; faded edges over time
+- old wooden door with painted words,
+- italian coast, cyanotype on vintage paper
+- french countryside road, silver gelatin with matte finish
+- japanese cherry blossoms, gloss digital photo, vibrant color
+- greek fishing village, textured black print on watercolor paper
+- icelandic lava fields, soft-focus matte inkjet print
+- russian birch forest, aged cyanotype, uneven edges
+- brazilian rainforest canopy, smooth sepia finish on canvas
+- canadian maple trees, glossy digital print on satin paper
+- australian outback dust trails, high contrast photo with textured matte
+- egyptian pyramids at dawn, vintage polaroid print torn edges
+- norwegian fjord boat ride, charcoal drawing newsprint, aged finish
+- turkish market spices, soft cyanotype finish on watercolor paper
+- indian street tea stall, vintage silver halide print matte paper
+- south africa savannah wildlife, textured sepia toned digital print
+- chinese great wall section, matte black and white print with uneven edges
+- swiss alps mountainside, high gloss digital print on fine art paper
+- thai rice paddies, silver gelatin print rough stock aged cyanotype finish
+- mexican mercado stalls, sepia-toned polaroid print torn edgesspices
+- mongolian desert yurt, matte inkjet print on textured surface, slightly bleached from sun exposure
+- korean hanbok fabric patterns high contrast sepia print
+- scottish loch view vintage polaroid print with slight tear
+- jordan petra ruins, cyanotype print soft focus canvas
+- vietnamese rice fields, matte inkjet print on aged paper
+- nepal mountain climbers digital photograph faded matte finish on canvas
+- maldives island beach, high gloss sepia toned digital print, vibrant color
+- cuban vintage car, silver gelatin vintage finish
+- new zealand sheep herding, rough matte print with uneven edges aged cyanotype
+- marshland of england, sepia-toned inkjet print faded
+- dutch tulip fields, aged photograph, textured paper
+- korean temple bells, digital photograph high gloss finish on canvas
+- moroccan souk marketplace, sepia tone photo, smooth finish
+- kenyan safari jeep, cyanotype print, soft focus
+- thai buddha statue, textured black print with uneven edges
+- iranian mosque tiles, soft-focus matte digital inkjet print on paper
+- night shift nurse charting patient statuses, glossy photo finish
+- tired factory worker's hands gripping wrench, sepia toned cyanotype, rough surface
+- oil rig platform at night, black and white textured silver gelatin
+- lonely security guard walking hallways after dark, digital print with matte finish on canvas
+- concrete pouring in the dark, aged digital photo, grainy black finish
+- dockworker's calloused hands on rope, sepia tone inkjet print on rough stock
+- late-night construction site with yellow cranes, glossy cyanotype on textured paper
+- gas station attendant at midnight, vintage matte photograph, uneven edges
+- midnight baker kneading dough, aged black and white digital photo faded, textured canvas
+- trucker on the road at dusk, sepia toned high contrast print with rough surface
+- pizza delivery driver in the rain, cyanotype print soft focus matte finish canvas
+- hospital lab technician handling test tubes, high gloss digital print on fine art paper
+- midnight factory assembly line, aged silver gelatin textured black print
+- night shift waitress at diner, sepia toned soft focus inkjet print on canvas
+- grocery store shelf stocking at night, digital photo high gloss finish
+- barista in cafe's early morning hours aged cyanotype print soft textured surface
+- cold warehouse worker inventory check, faded matte print on rough stock
+- garbage collector with glowing streetlights, glossy cyanotype, uneven edges, vibrant color
+- night shift hospital doctor filling out paperwork, silver gelatin print textured surface
+- fisherman mending nets at night, matte inkjet photo aged sepia toned rough canvas
+- roadside diner's nighttime parking lot, vintage digital photograph faded finish on canvas
+- firefighters waiting for call, black and white high gloss digital print
+- busy train station at midnight, textured sepia toned cyanotype with soft focus
+- waitress in late-night diner smoking, high contrast sepia tone print on watercolor paper
+- construction worker eating lunch late afternoon, sepia toned high gloss digital inkjet print
+- night shift taxi driver waiting for customer, vintage photo with slight tear
+- british coastal cliffs, rough matte cyanotype on aged paper
+- venetian canals at sunset, digital print on satin canvas high gloss
+- riverboat crew in southern u.s., faded sepia tone print on textured surface
+- trawlers returning to scandinavian shore, vintage black and white glossy print
+- hong kong harbor at twilight, matte inkjet on canvas soft focus
+- fisherman mending nets, indian ocean, gloss digital photo with rough edges;
+- maine lobster boats, textured cyanotype finish on watercolor paper
+- portuguese river docks, high contrast print vintage sepia tone, uneven edges
+- chilean fjords at dusk, sepia toned silver gelatin rough stock matte surface
+- newfoundland's coastline, digital photograph rough glossy surface faded
+- seaplane over alaskan glaciers, smooth black and white high gloss finish
+- portugal tuna boats, cyanotype print uneven edges aged textured canvas
+- alexandria library ruins, sepia toned digital photo with rough matte finish
+- cruise ship on sea voyage, faded matte cyanotype on newsprint paper; vintage
+- sea kayaking alaskan glacier bay, glossy digital print faded texture
+- coastal town sunset beach walk, sepia tone silver gelatin matte surface
+- seaside promenade during stormy night, vintage inkjet print uneven edges; sepia tone
+- riverboat captain's wheel, digital photograph rough matte finish on canvas
+- cruising ocean with dolphins, aged cyanotype finish on watercolor paper; faded black
+- venetian gondola ride at twilight, matte silver gelatin textured surface, slight tear
+- greek islands fishing boat, sepia toned high contrast digital print; rough canvas; faded
+- mystic river lighthouse, aged cyanotype matte finish on watercolor paper
+- cruise ship deck party at night, faded matte cyanotype on satin paper
+- ocean waves during sunrise, sepia toned digital print high contrast uneven edges rough
+- lighthouse in stormy weather, faded matte cyanotype on rough stock paper
+- riverbank fishing at sunset, gloss sepia toned digital print with high contrast edges
+- fisherman by sea shore at night, rough high contrast print aged cyanotype texture
+- trawlers at ocean sunrise, vintage silver gelatin faded sepia matte finish uneven edge
+- lone canoe in river mist, soft focus black and white digital print textured canvas
+- coastal fishing village storm, glossy cyanotype on fine art paper high contrast edges
+- sea otters at sunset, matte inkjet aged sepia tone rough canvas
+- riverboat passing lock, rough sepia toned vintage print with uneven edge
+- portuguese coastal docks, sepia toned silver gelatin gloss finish; faded;
+- barge tugboat in heavy fog, textured cyanotype uneven edges sepia toned digital photo
+- rooftop graffiti in fading light, sepia toned inkjet print on rough stock
+- roof-top solar panels under sunset, faded matte cyanotype uneven edges on canvas
+- drainage pipes with raindrops after storm, sepia toned textured silver gelatin gloss finish
+- satellite dishes during night snowfall, digital photo soft focus rough matte finish on canvas
+- chimney pots against blue hour sky, high contrast vintage inkjet print on watercolor paper
+- fiberglass antennas in early morning fog, aged cyanotype on fine art paper
+- rooftop air conditioning units at noon, sepia toned textured silver gelatin print
+- skylights with sunrise rays through the windowpane, vintage cyanotype uneven edges rough surface
+- gutter overflow in rainstorm, high gloss digital print with vibrant color on satin paper
+- rooftop gardens summer season under sunlight, matte inkjet soft focus uneven edges on canvas
+- flat roof roofline during sunset, sepia tone matte print
+- roof tiles with winter snow, faded textured cyanotype print aged uneven canvas texture
+- roof-top garden lush green trees at dawn, glossy digital print on aged textured canvas
+- city skyline from rooftop at dusk, sepia toned silver gelatin high gloss print
+- cracked concrete roof with plant growth, aged matte cyanotype faded finish rough edges
+- roof windows into an old building, textured vintage silver gelatin sepia tone uneven edge
+- gutter downspout with overflowing rainwater, glossy cyanotype high gloss finish on rough canvas
+- morgue attendant holding clipboard night shift glossy print on newsprint
+- janitor cleaning operating room floor early morning matte inkjet textured surface
+- orderly transporting medicine cart dim lit hallway black and white digital photo on canvas
+- emergency medical technician checking equipment textured high contrast sepia toner rough paper
+- radiologist studying x-rays in darkroom sepia toned aged cyanotype uneven edges on watercolor paper;
+- surgical team performing operation matte inkjet on canvas soft focus faded finish
+- nurse documenting patient records night shift high gloss digital print with slight tear
+- hospital security guard patrolling hallway late evening aged cyanotype uneven edges rough canvas texture
+- dentist examining x-rays sepia toned digital print textured surface, uneven edges
+- ambulance crew loading stretcher soft focus matte inkjet high contrast digital photo uneven edge
+- cardiologist studying heart monitor vintage silver gelatin glossy finish with uneven edge
+- x-ray technician adjusting equipment glossy cyanotype on fine art paper
+- hospital kitchen staff preparing meals high contrast black and white print on textured surface
+- occupational therapist working with patient night shift vintage digital photo
+- paramedics rushing to ambulance glossy sepia toned print uneven edges on canvas
+- pathologist examining tissue sample soft focus sepia toned cyanotype uneven edges aged paper texture
+- surgical nurse preparing instruments digital photo with slight tear vintage sepia tone on canvas;
+- pediatrician comforting child matte inkjet glossy print aged watercolor paper
+- ultrasound technician preparing equipment sepia toned cyanotype finish rough textured surface
+- orthopedic surgeon operating on knee vintage cyanotype sepia tone high contrast finish
+- hospital administrator at desk sepia toned matte inkjet soft focus finish rough canvas;
+- physical therapist assisting patient textured sepia toned print faded uneven edges
+- anesthesiologist preparing for surgery sepia toned digital photo glossy print with aged texture
+- dialysis technician monitoring machine vintage cyanotype rough textured matte finish;
+- surgical resident practicing stitches soft focus sepia toned print uneven edge on canvas
+- hospital volunteer reading to child glossy cyanotype digital print high contrast aged finish;
+- ophthalmologist examining patient sepia tone black and white vintage print uneven edges
+- respiratory therapist adjusting ventilator vintage silver gelatin matte surface, faded texture
+- emergency room waiting area textured cyanotype sepia toned with soft focus aged paper;
+- rooftop television antenna under moonlight
+- digital photo on canvas high contrast fade
+- solar hot water system glistening after rain
+- sepia toned print matte surface
+- rooftop deck chairs at sunset
+- aged cyanotype uneven edges faded finish
+- old ventilation pipes in snowfall
+- inkjet matte print sepia toned textured surface
+- skylight view of the moon
+- vintage digital photo uneven canvas edge
+- rooftop hammock with books scattered
+- matte inkjet high contrast texture paper
+- rainwater pool on rooftop at dusk
+- sepia toned vintage print glossy sepia finish
+- chimney smoke against sunset skyline
+- air duct exhaust in evening glow
+- glossy cyanotype vintage finish with matte texture, aged watercolor paper
+- rooftop planter boxes with blooming flowers
+- high contrast black and white digital photo on canvas
+- dusk rooftop patio with empty beer bottles
+- vintage cyanotype uneven edge, rough canvas high gloss sepia toned finish
+- silhouette of a rooftop cat against the moon
+- rough matte sepia print uneven edge vintage texture
+- rooftop clothesline under starlight
+- rooftop television aerial rusting away in sunlight
+- sepia toned inkjet high contrast digital print uneven edges
+- rooftop skylights reflecting night sky,
+- matte cyanotype sepia tone aged texture canvas
+- fire escape during winter snowfall
+- vintage sepia matte finish on textured paper with uneven edge
+- motorway pylon in sunset glow silver gelatin glossy print soft focus
+- reflective highway lines late at night matte digital high contrast fade
+- puddle forming on motorway during thunderstorm matte inkjet sepia tone
+- fuel tanker parked overnight by the side of road cyanotype uneven edge finish
+- high speed camera capturing car crash matte photo print, aged texture, uneven edges
+- rusty guardrail and trees beyond it glossy print high contrast vintage sepia tone
+- motorway intersection under heavy rain rough textured print matte sepia toned
+- concrete divider of the motorway black and white digital print
+- overpass pillars at dawn high contrast sepia tone aged cyanotype finish
+- tractor-trailer truck passing in distance inkjet sepia tone matte paper
+- motorway median with tall grass vintage silver gelatin, textured uneven edges
+- road kill on asphalt under moonlight black and white print rough texture
+- distant mountains from highway rest stop sepia toned high gloss cyanotype
+- highway patrol car speeding along motorway inkjet matte finish faded edge
+- cracked pavement of the motorway digital photo, aged sepia tone
+- overhead bridge with graffiti vintage print uneven canvas edges, black and white
+- motorway exit sign in twilight high gloss sepia toner rough texture
+- speedometer of moving car matte inkjet sepia tone, uneven edge
+- car engine under the hood textured cyanotype sepia finish soft focus aged paper
+- highway rest stop at dusk high contrast black and white, aged watercolor paper
+- motorcycle helmet lying on pavement black and white print matte texture
+- empty highway during twilight inkjet sepia toned uneven edges, vintage canvas texture
+- toll booth operator at night cyanotype sepia finish rough textured matte surface
+- road construction equipment silver gelatin matte finish soft focus uneven edge
+- truck breakdown emergency lights black and white digital print
+- motorway bridge reflection in water high gloss cyanotype sepia tone aged paper
+- night shift nurse charting notes by dim light inkjet print soft glow
+- late night diner patrons eating alone vintage silver gelatin texture rough edges
+- streetlamp illuminating wet roadside digital photo high contrast matte finish
+- taxi idling in alleyway at dawn sepia toned textured print uneven edge
+- soda machine humming in empty hallway matte cyanotype sepia tone soft focus
+- empty elevator reflecting hallway lights vintage cyanotype faded high gloss texture
+- security camera outside window matte print rough sepia edges, uneven texture
+- oil tanker parked in lot under neon light textured cyanotype soft focus aged finish
+- lone truck driver resting at rest stop matte inkjet print sepia tone uneven edge
+- office worker packing files at night matte black and white digital print faded edges
+- nighttime highway underpour with fog silver gelatin vintage high gloss print soft focus
+- motorcyclist at night riding through tunnel textured cyanotype finish rough edges, aged paper
+- street sweeper cleaning early morning street rough matte sepia print uneven edge
+- convenience store clerk scanning items matte cyanotype sepia tone soft focus uneven edge
+- empty warehouse under moonlight textured cyanotype faded sepia print with matte finish
+- delivery man walking into restaurant digital photo rough texture, uneven edges, aged paper
+- warehouse forklift moving pallets at night inkjet matte print high contrast sepia toned edge
+- fire hydrant under street lamp digital photo on canvas matte texture, faded edge
+- city bus in rainstorm headlights reflecting wet pavement sepia toned glossy print soft focus
+- night watchman patrolling empty building vintage silver gelatin uneven canvas edge faded finish
+- empty playground under moonlight digital photo sepia tone matte inkjet, uneven edge texture
+- taxi driver sleeping in cab rough sepia tone inkjet matte uneven edge print
+- shooting stars above rooftop under moonlight matte print high contrast texture, uneven edges
+- nightclub sign reflecting on wet street black and white glossy sepia toned cyanotype
+- dark forest trail silver gelatin matte uneven edge
+- dappled sunlight through dense canopy high gloss cyanotype finish
+- moss covered trees rough matte sepia print uneven edges
+- abandoned hunting cabin in forest black and white textured inkjet
+- forest river reflecting full moon glossy print high contrast sepia tone
+- deer grazing in clearing at dawn soft focus cyanotype sepia finish
+- fallen leaves on woodland floor matte sepia toned digital print rough edges
+- old growth trees in dense fog high contrast cyanotype uneven edge texture
+- wildflowers in sunlight digital photo textured aged paper vintage sepia tone
+- tree roots snaking through ground matte finish sepia toned inkjet print
+- forest canopy at dusk high gloss sepia toner soft focus rough edges
+- mushrooms growing on tree stump black and white digital print uneven texture
+- bear wandering forest path matte cyanotype sepia tone faded edge
+- bird's eye view of forest clear cut matte print sepia toned rough texture
+- pine needles scattered on ground aged canvas high gloss sepia finish
+- forest pond at twilight inkjet print soft glow uneven edges
+- wooden bridge over forest stream cyanotype sepia tone textured paper
+- forest glade with ferns digital photo matte finish, vintage canvas texture
+- tree branches entangled together rough matte sepia toner faded edge finish
+- fox kit in dense foliage vintage print uneven canvas edges black and white
+- forest fire smoldering under moonlight high gloss cyanotype finish aged paper
+- winter forest with snow-covered pines inkjet sepia toned matte print uneven texture
+- misty forest at dawn digital photo rough matte edge sepia tone soft focus
+- beech trees in full autumn color textured cyanotype sepia finished uneven edge
+- forest ravine with waterfall black and white glossy print faded edge sepia tone
+- sapling growing on forest floor sepia toned cyanotype uneven matte finish,
+- mushrooms in sunlight digital photo soft glow faded sepia print, textured uneven edges
+- frozen forest lake at twilight matte inkjet sepia toned uneven edge rough texture finish,
+- moose drinking from stream high gloss cyanotype sepia tone soft focus aged canvas finish
+- rooftop antennae under moonlight digital photo, matte black and white, uneven edges,
+- garden shed on rooftop, old school silver gelatin print, sepia textured uneven finish
+- cityscape from rooftop at dawn inkjet canvas high gloss matte texture, soft focus
+- rusted air duct high gloss cyanotype sepia edge soft focus
+- smoking area at rooftop night cyanotype matte finish faded edge
+- pigeons on rooftop under twilight digital print textured uneven rough edges
+- rooftop access ladder aged cyanotype print rough sepia toned texture, soft focus
+- water tower at sunset sepia matte digital print uneven edges vintage canvas
+- rooftop door weathered sepia inkjet high gloss sepia tone, matte finish
+- parapet wall and street view inkjet glossy cyanotype finish faded edge
+- fridge unit on rooftop night silver gelatin print sepia texture rough edges
+- air vents in moonlight high contrast digital black and white uneven matte edges
+- garden under rooftop skylight cyanotype soft focus high contrast sepia tone, matte texture
+- smoking patio on rooftop evening high contrast digital print, vintage canvas soft glow
+- roof top pool in night light inkjet print sepia edge high gloss texture
+- helicopter pad at dawn soft focus aged cyanotype sepia tone faded matte finish,
+- fire escape against blue hour, aged digital print high gloss uneven edges, sepia toner,
+- puddles on rooftop at daybreak textured inkjet, vintage canvas matte sepia edge, faded
+- roof top sign in sunrise rough sepia inkjet print matte texture, uneven edge
+- window cleaner at dusk silver gelatin, vintage cyanotype soft focus high gloss sepia tone,
+- antennae and power lines on roof inkjet print matte finish aged paper faded edges
+- solar panels high contrast digital print, high gloss sepia tone rough textured uneven edge
+- rooftop bar at dusk matte black and white digital print aged paper faded edge,
+- skyline with antennae in twilight sepia toned cyanotype faded edge matte finish,
+- roof terrace under moonlight high contrast matte inkjet uneven texture, soft focus, sepia tone
+- hose reel under rooftop skylight matte print, rough sepia edges, vintage canvas texture
+- gravel on rooftop at twilight soft glow digital photo textured uneven edges faded sepia
+- roof top patio in moonlight, inkjet matte black and white uneven edge vintage canvas
+- silo near skyline cyanotype sepia tone high gloss finish faded edges rough textured,
+- snowflakes at dawn silver gelatin sepia fade
+- rain-slicked path digital print vintage glossy sepia soft focus
+- garden patio rainstorm rough canvas aged sepia textured uneven edge
+- stormy sea shore cyanotype soft matte sepia finish
+- hazy river bend high contrast inkjet faded matte
+- wind-swept trees inkjet print sepia textured, uneven matte finish
+- dewdrops on leaves vintage print uneven rough edges glossy finish
+- frost-covered branches digital photo high gloss sepia tone soft focus
+- dry leaf scattered street sepia toned digital matte edge aged paper
+- thunderstorm over city inkjet canvas high contrast soft-focus uneven matte
+- sunrise over farmland sepia-toned cyanotype glossy finish uneven edge
+- desert dunes under moonlight sepia toned black and white high gloss fade
+- misty field at sunset textured digital sepia tone rough edges uneven matte print
+- clouds in deep blue hour sepia tone high contrast aged matte cyanotype
+- wind turbines twilight high contrast inkjet matte soft focus sepia tone aged canvas
+- storm drain under moonlight cyanotype rough sepia toned high gloss finish faded edge
+- rain-soaked windowpane at dawn matte print soft glow vintage matte digital print
+- sun halo on clouds, sepia tone aged paper uneven edges
+- ice patterns on glass digital photo sepia textured, matte, uneven edge
+- drizzle over lake black and white inkjet sepia tone aged canvas faded finish
+- snow-covered roof at dawn rough sepia cyantotype finish uneven textured edges
+- deer prints in snow sepia toned digital print vintage canvas uneven matte edge
+- raindrops on spider web soft focus sepia tone high gloss inkjet faded edge
+- rainforest canopy at dawn soft focus sepia tone high contrast cyanotype fade matte edge,
+- frost covered cobblestone at dawn sepia toned digital photo aged glossy finish, uneven texture
+- rain on tin roof high contrast sepia tone cyanotype rough uneven edge matte print
+- thunderclouds at night vintage print sepia toned soft focus textured edges uneven matte finish,
+- abandoned lighthouse at sunset high contrast matte cyanotype
+- beach hut against island storm silver gelatin faded texture
+- boats on sandy shore silver gelatin print matte finish sepia toned
+- coral reef at dusk cyanotype soft focus high gloss, uneven edges
+- dock and fishing net high contrast sepia tone inkjet finish rough textured
+- driftwood pile on sand matte canvas sepia tone faded edge
+- empty seashells at sunset vintage cyanotype soft focus uneven matte edges
+- exotic bird near coconut palm black-and-white matte inkjet print, aged paper
+- fishing village at night digital photo matte finish rough sepia toned edge
+- island hut through palm leaves matte digital print high contrast sepia tone
+- island lighthouse on rock outcrop high gloss cyanotype uneven edge sepia fade
+- kayak at beach sunrise matte sepia-tone inkjet finish aged canvas
+- lone fisherman at sea twilight silver gelatin rough textured faded edges
+- mermaid statue at tide's edge soft focus sepia tone cyanotype high gloss matte
+- moss-covered tree trunk digital print soft sepia glow faded uneven edge
+- old boat under palm leaves aged cyanotype high gloss texture sepia fade, soft focus
+- palm leaves in moonlight black and white inkjet sepia toned matte finish
+- pirate's cove at daybreak vintage cyanotype uneven edges high contrast sepia tone,
+- snowcapped peak silver gelatin print soft glow aged paper
+- mountain goat digital photo sepia tone faded edge
+- alpine meadow cyanotype uneven edges matte finish
+- rock climber near summit vintage print rough texture sepia toned
+- steep mountain trail rough sepia inkjet uneven matte
+- crystal blue waterfall silver gelatin high contrast, aged paper
+- lakeside mountainside inkjet canvas soft focus rough edge
+- forest covered hills sepia cyanotype faded edge glossy
+- wildflower meadow rough texture aged paper sepia toned print
+- mountain stream at dawn sepia tone uneven edges matte print
+- hiking trail at sunset vintage digital print soft glow
+- camping ground under starlight high contrast black and white canvas
+- tent on mountain peak silver gelatin uneven edges
+- summit at sunrise matte finish aged cyanotype sepia fade rough texture
+- mountain village twilight matte inkjet faded sepia toned, textured edge
+- snowflakes on trees high gloss digital print sepia toned soft focus uneven edge
+- valley in morning fog silver gelatin vintage matte finish rough texture
+- mountainscape reflection high contrast canvas sepia tone faded edges
+- wolf howling at moon rough sepia cyantotype textured edge
+- sheep grazing under clouds soft focus cyanotype faded matte edge
+- stone path into mountains sepia tone aged paper uneven edges, inkjet print
+- desolate mountain path silver gelatin black and white high gloss finish
+- mountain peak sunset soft sepia glow rough cyantype edge
+- cracked pottery on shelf, aged cyanotype
+- barn owl in window, high contrast matte inkjet
+- coffee beans in burlap sack, textured digital print sepia toned faded edge
+- empty wine bottle on tablecloth, vintage glossy sepia cyantotype uneven edges
+- lemon slices on wooden board, black and white high contrast canvas matte edge
+- handwritten note tucked into glass jar matte canvas sepia tone
+- dusty keys under a lamp matte print faded edge
+- chipped plaster of wall art, rough digital print sepia toned uneven edges
+- spilled tea stain on tablecloth soft focus vintage inkjet sepia fade, uneven edge
+- open book on worn couch, high gloss digital print aged edge sepia tone
+- cracked wooden spoon matte cyanotype sepia tone
+- antique keys in rusty lock rough sepia toned matte canvas
+- vintage bottle opener on bar, black and white digital print uneven edges
+- brown paper bag under table silver gelatin soft focus aged edge matte finish
+- rusty padlock on fence
+- rustic candle holders high gloss digital cyanotype uneven sepia toned faded texture
+- woven basket in sunlight rough texture aged paper sepia
+- splattered paint on worn pallete high contrast glossy cyanotype uneven edge
+- old pocket watch on cloth rough sepia cyantotype uneven matte textured edge
+- rusted metal pipe matte digital print
+- worn industrial conveyor soft focus matte
+- abandoned factory window silver gelatin
+- concrete silo at dusk high gloss cyanotype
+- industrial fan blades black and white
+- grain silo with worn paint rough sepia inkjet uneven edges
+- old iron bridge digital print
+- factory chimney against moon vintage sepia tone matte inkjet
+- crumbling brick wall aged paper cyanotype
+- dock crane at dusk high contrast sepia tone matte finish matte inkjet
+- rusted metal gate silver gelatin
+- old factory clock rough matte uneven texture print
+- industrial smokestack with worn paint uneven edge sepia tone cyanotype
+- rusted barrel sepia tone matte canvas
+- abandoned factory floor high contrast sepia toned inkjet
+- worn-out industrial ladder aged paper matte finish
+- factory sign with rusted paint faded texture digital print sepia
+- barn in stormy sunset uneven edges vintage cyanotype
+- dusty oil drums soft sepia glow matte digital canvas
+- old tractor near barn aged edge high gloss matte print sepia tone
+- rusty old bridge high contrast sepia tone inkjet finish
+- abandoned warehouse with broken window uneven sepia tone high gloss cyantotype textured edge,
+- empty warehouse at night matte canvas faded edge sepia toned
+- industrial gear soft focus sepia cyanotype
+- broken glass on warehouse floor digital print aged paper rough edge sepia tone
+- factory wheel matte inkjet uneven edges high contrast sepia
+- steel girders under factory soft glow textured digital sepia
+- abandoned train tracks faded texture high gloss cyanotype, sepia toned uneven edges
+- broken window matte digital sepia toned print,
+- barn wall with rusty nails rough texture aged paper sepia tone matte finish,
+- grunge old factory door rough textured aged canvas sepia-toned edges,
+- old truck near dilapidated barn sepia toned aged edge sepia tone high gloss cyanotype
+- grain silo under stormy sky soft sepia tone faded uneven matte inkjet finish
+- abandoned warehouse with broken window digital print sepia tone matte canvas,
+- dried leaves on rusty car hood rough texture sepia toned
+- crumbling brick chimney against gray sky high gloss cyantotype uneven
+- abandoned factory door soft focus sepia toner textured edge
+- old tire near dilapidated building sepia tone digital print matte finish;
+- industrial boiler high contrast sepia toned digital matte, uneven edges
+- broken glass on dirt road matte cyanotype faded texture, rough edge
+- peeling paint off factory wall black and white uneven gloss finish matte
+- grimy window in abandoned building silver gelatin textured aged matte
+- cracked asphalt with weed matte sepia tone digital print uneven edge;
+- abandoned chair near trash can high contrast faded cyanotype rough edge,
+- rusty metal drum near water black and white matte canvas uneven edges
+- dirt road into woods silver gelatin sepia toned high gloss finish faded texture
+- old rusty pipe on brick wall aged paper sepia tone rough textured edges;
+- cracked concrete wall with graffiti matte digital print sepia toner edge,
+- damp basement stairs vintage cyanotype rough edges
+- cobweb-covered light bulb high contrast sepia toned print faded texture
+- flooded basement floor high gloss matte inkjet aged finish
+- moldy basement wall silver gelatin faded uneven edges
+- broken basement window vintage sepia tone high gloss
+- dusty basement rafters uneven digital cyanotype faded edge rough texture
+- leaking pipe on basement ceiling soft focus sepia tone matte canvas uneven edge
+- stored boxes in dark basement uneven sepia tone cyantotype aged paper
+- old coal furnace high contrast digital sepia-toned print rough edges, texture sepia toned
+- water damaged drywall matte canvas uneven edge rough texture vintage inkjet
+- rusty tools on workbench soft focus cyanotype sepia toned uneven edges, faded sepia
+- stained basement carpet soft sepia tone high gloss cyanotype
+- mysterious symbol carved into joist matte inkjet faded texture uneven edge sepia toned
+- rotting wooden support beam rough sepia toned digital print uneven edges
+- worn out rags on floor soft focus sepia tone high gloss inkjet uneven edge
+- dirty mattress in basement room silver gelatin sepia toned vintage aged finish texture
+- old newspapers scattered about rough sepia toned matte digital print faded finish
+- pigeon sitting on beam black and white cyanotype high gloss textured finish, uneven edges
+- wreckage of child's bike matte inkjet soft focus sepia toner edge uneven finish
+- cobwebs in corners silver gelatin soft focus vintage faded edges, high contrast
+- concrete blocks high contrast black and white matte inkjet uneven edges faded
+- worn out rug in basement corner sepia tone high gloss vintage cyanotype faded texture
+- worn planks on pier black and white textured edge rough matte
+- harbour buoy with rusted rope aged edge uneven soft focus cyanotype sepia toned
+- rusty anchor faded texture sepia tone aged paper rough textured finish;
+- abandoned boat with peeling paint high gloss cyantotype uneven edge sepia toned
+- weathered lighthouse with chipped bricks matte digital sepia toned rough edge
+- harbour seagull in flight aged inkjet print uneven edges soft sepia tone
+- old fishing net on dock faded texture matte canvas uneven sepia tone, high contrast
+- harbour fog high gloss sepia tone vintage cyanotype soft focus textured edges;
+- torn net in seaweed uneven texture digital print matte sepia toned edge,
+- harbour storm clouds aged paper sepia tone textured edges; rough focus
+- harbor seal high contrast faded inkjet sepia toned matte finish; aged paper
+- rusty boat propeller digital print rough edge sepia tone matte canvas
+- oil stain on water rough textured uneven sepia-toned inkjet cyanotype; soft focus, faded edge
+- abandoned rowboat with moss high gloss cyantotype soft sepia tone uneven edges
+- harbour rocks high contrast black and white digital print uneven matte edges sepia toned
+- old wooden row boat soft sepia tone digital matte high gloss rough texture;
+- harbor sign textured edge inkjet sepia toned fade, uneven rough matte
+- rusty old ship wheel soft focus uneven sepia toned matte canvas rough edges
+- abandoned wooden float soft sepia tone high gloss inkjet texture
+- harbour gulls in flight soft focus vintage digital print uneven sepia toner edge
+- rusty ship anchor rough sepia toned digital print uneven edges high contrast
+- old harbour light rough texture faded sepia toner matte canvas, uneven edges;
+- moss on harbour rocks black and white textured edge inkjet matte print
+- harbour at sunset sepia toned aged paper soft focus, rough texture, uneven finish;
+- rusty harpooner's knife silver gelatin matte cyantotype faded sepia tone
+- water damaged wooden pole high gloss cyanotype uneven texture sepia tone
+- worn-out rope on dock digital print sepia toned uneven, aged paper; soft edge
+- rusty harpagon hook high contrast sepia-toned matte canvas; uneven edges; aged paper texture;
+- harbour gulls fighting over bread digital print sepia toned uneven edge, faded texture
 
 ## mood
 - tender
@@ -155,6 +3460,576 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - focused
 - smug
 - hopeful
+- sweat beading on furrowed brow
+- a flickering flame dancing wildly in the eye
+- clenched fists against scorching radiator
+- pale, burning skin under harsh sun
+- steam rising from a clenched cup of tea
+- smoldering cigarette held by trembling hands
+- reddening cheeks glowing beneath fever's grip
+- sunburnt shoulders sagging with heatstroke
+- blistered lips curled into a grimace
+- dazed eyes lost in the desert
+- fanning one's face to no avail under a sweltering breeze
+- melting wax pooling from burning candle
+- crackling embers escaping from an overflowing fire pit
+- ash falling onto exposed legs
+- a wavering heat mirage over barren hills
+- wavy lines in a sunlit pane of glass
+- faded, crumbling cactus leaves in the desert
+- a rusted, abandoned car left to bake on the pavement
+- sun-scorched fields where all crops have withered away
+- shimmering air above hot pavement
+- stirring flames from a roaring bonfire
+- reddened palms from holding onto a scalding metal pipe
+- a burning building with smoke billowing into the sky
+- steaming sidewalk after heavy rain during summer's peak heat
+- wavering flames of a stove burner turned on too high
+- tanned, weathered faces of fishermen returning from months at sea with tanned skin
+- ashy fingertips after lighting one cigarette too many in a row
+- sweat stains spreading across a dress shirt worn for work by the construction foreman
+- a shimmering puddle in an abandoned lot during a flash flood
+- cigarettes smoking on the balcony with sunlit palm trees behind it
+- a roaring fire in a hearth as winter draws near
+- a sunflower turning towards the blistering light,
+- a crumpled noticeboard littered with faded event posters
+- graffiti tags bleeding together in vivid hues on a brick wall
+- teachers huddled silently at the school's front steps after dismissal time
+- cracked sidewalks lined with faded political stickers
+- children, screaming wildly, running from the ice cream truck
+- a rusty bicycle chained to an iron post in a playground
+- couple in heated argument on a public bench overlooking the park
+- vintage maps, yellowing with age, covering a library wall
+- security guard dozing off under the glare of harsh fluorescent lights
+- fingerprints smudged all over a museum's glass display cases
+- a forgotten lunch box sitting alone in the school hallway's corner
+- police car parked haphazardly outside an old courthouse building,
+- tattered books abandoned by a bench under withering leaves from trees above
+- a discarded bouquet of flowers wilting on the courthouse steps
+- a line of voters snaking through a school’s damp, musty basement
+- library books stacked to ceiling height with a person standing inside the middle
+- a worn-out sofa in a waiting room, upholstery torn from too many restless hours
+- an angry mob of people shouting at a protest rally
+- school bus idling noisily as children board, parents waving goodbye
+- a broken swing, rope frayed and seat splintering, under a sullen sky
+- the public restroom door creaking open to reveal someone vomiting in it
+- a museum gift shop cashier flipping through a tattered magazine while on break
+- an overturned trash can near a park bench with its contents strewn
+- spectators holding signs that read, 'let them play' at the stadium after losing season
+- children's laughter echoing through empty hallways of a school
+- police officers arguing amongst themselves on an intersection's corner
+- broken window in classroom, shards glinting ominously under afternoon light
+- an overflowing garbage can outside the entrance to an office building
+- bloody handprints smudged across a hospital wall near the door frame
+- fountain water gushing from broken pipes with a kid swimming inside of it
+- shivering child bundled in tattered blankets, curled up on grimy mattress
+- old man hunched over a rusted stove, coaxing life from dying embers
+- woman rummaging through overflowing dumpster behind supermarket
+- frozen fingers trying to spark a match under a bare bulb
+- dirty shoes of homeless man hanging above the subway grate
+- huddled family huddles for warmth inside cardboard shelter, taped together
+- cracked, chipped mug filled with water from fire hydrant in alleyway
+- bare mattress on cold concrete floor, stinking of mildew and neglect
+- homeless woman’s gnarled hands clutching a worn-out blanket around her
+- child's bare feet tracking mud into a shabby room strewn with trash
+- old newspaper stuffed in cracked windowpane to keep out winter chill
+- empty syringes scattered across grimy alley, behind the clinic
+- tattered quilt covering a lumpy mattress on cold floorboards,
+- broken radiator leaking steam from cracks in ceiling’s plaster
+- a worn path through high weeds leading to an old house with broken door
+- pile of clothes strewn on rusted bedframe against concrete wall
+- homeless man's dirty shoes dangling above the alleyway grate under a fire escape
+- clotheslines crisscrossing narrow, grimy alley between buildings
+- rusted out metal box in front of a dumpster, smoldering with old rags
+- frost-covered windows obscuring view into rundown apartment
+- child's bare feet shuffling on dusty linoleum floor
+- tattered comforter draped over broken window during winter
+- ...faded, dirty handprints from children’s palms all over the kitchen window
+- old man sleeping on filthy mattress on an abandoned alleyway floor
+- shivering cat with matted fur huddling against cold brick wall
+- rusted tin can collecting rainwater in a grimy gutter
+- cracked porcelain sink stained by age and neglect
+- broken alarm clock beside an empty, dirty plate on chipped table
+- faded posters of missing people pinned to weathered fence boards
+- dirty children's shoes scattered across rickety steps leading to dilapidated home
+- tangled power cables hanging from ceiling in cramped, windowless room
+- ...worn out socks and dirty feet poking through a ragged mattress
+- broken mirror reflecting grimy walls of rundown bathroom
+- child’s coat too small, on nail behind front door inside trailer
+- cars idle aimlessly, smog thickens under gray sky
+- abandoned tire lies in the weedy ditch, rusted and deflated
+- graffiti tagged on concrete barrier screams 'why me'?
+- dented fender glints under harsh streetlight
+- tire tracks deepen in rain-puddled asphalt after heavy downpour
+- wind sweeps through the long abandoned toll plaza, signs creaking
+- crushed can rolling across pavement with broken glass strewn everywhere
+- faded traffic line on tattered highway's concrete lane peels away
+- wilted wreath from a grave lies by the roadside, dead and forgotten
+- tires skidding on slick highway, leaving smokey trails in their wake
+- rusted gas can leans against the pole of a faded billboard, unnoticed
+- battered hubcap rests beside guardrail's yellow paint, barely visible
+- highway sign reflects the headlights of speeding car, casting shadows on wet road
+- crushed cigarette packet lies in the gravel shoulder
+- overturned motorcycle lies against the wall, gas leaks slowly from tank
+- raindrops clinging to cracked windshield before another storm hits road
+- old oil-stained paper towels tucked under broken tire rims, forgotten debris
+- rusting tailpipe leaks fumes by bridge’s edge, under darkening skies
+- motorcycle helmet sits alone in the rain soaked field beside the highway
+- empty beer bottles strewn along a highway embankment after a car wreck
+- battered stop sign leans precariously on an empty roadside bench
+- a half-buried soda can poking out of the gravel shoulder during stormy season
+- dented car door leans against guardrail, with broken windowpane
+- oil slick shimmers across highway's concrete surface under sunlight’s glare
+- faded tire tread marks show sudden braking after an unexpected collision
+- cigarette butts smoldering on wet pavement, left behind by drivers waiting for someone
+- worn-out jacket tossed over guardrail on lonely stretch of road after dark night
+- dead leaves clinging to broken window on abandoned vehicle beside a tree
+- old gas station sign swings in the wind from weathered post beside old building
+- dented oil barrel stands sentinel by the bridge, rusted and forgotten
+- puddles form in highway pothole after storm as traffic rolls on
+- crushed fast food bags swirl in wind near old abandoned truck stop
+- empty gasoline cans scattered along the roadside’s ditch during summer heatwave
+- crashed car lies half-submerged by the side of the road, during flood season
+- smashed headlight lens reflects moonlight under cloudy sky
+- barn door creaks shut from rotten hinges, wind blows dust in
+- rusty farm tool lay discarded near empty silo after storm
+- cornstalk’s leaves rustle whispering memories lost to frost
+- broken milk jug lies in overgrown field, forgotten by dawn
+- wagon wheel with missing spokes leans against broken fence
+- barn’s roof gaping hole reveals moonlit sky above
+- hay bale’s edge worn down from animal’s persistent gnawing, hay loose
+- picket fence posts tilting due to gravity after years of neglect
+- scarecrow’s tattered clothes hang limp in still field air during drought
+- chipped paint peels off barn’s wooden siding revealing weathered wood underneath
+- weather-vane’s arrow spins wildly, uselessly in relentless wind
+- cracked horse trough overflows with rainwater after thunderstorm
+- farmhouse window’s screen torn from years of battling storms, flies buzzing inside
+- old wooden porch swing sways gently in breeze, rope fraying slowly
+- barn cat crouches, watching mice dart through hayloft’s shadows,
+- crimson wineglass toppled over on its side, dripping across tablecloth
+- faint lipstick smudge lingering on a coffee mug's rim
+- vibrant paintings sprawling across walls with wild abandon
+- polaroids scattered on bedsheets, capturing frozen moments in sunlight
+- crayon markings scrawled across torn wallpaper
+- empty pizza box crumpled by the bedroom door
+- yellowed newspaper stacked beneath a dusty rocking chair
+- lacy curtains dancing with the breeze through open window
+- snapshots taped on closet door, peeling off at the edges
+- child’s tiny sock hidden behind dresser leg where no one sees it
+- shoelaces dangling from an overstuffed hamper overflowing beside a bookshelf
+- dried mud prints leading to the backdoor's threshold
+- dirty laundry piled haphazardly at the foot of an unmade bed
+- worn out teddy bear tucked under mattress, only partially visible from under pillows
+- mismatched books tumbling off shelf, spines cracked from years of reading through
+- unfinished embroidery forgotten on a dusty sewing table by old window, light dims
+- battered shoe box filled with trinkets and mementos in closet corner gathering dust
+- winter boots drying awkwardly by the radiator, steam rising gently from worn-out soles
+- candle stubs melted together in a holder beside bed, wax spilling over onto nightstand
+- old photo album left open on sofa cushions, yellowed pictures smiling at nobody
+- basket overflowing with knitting yarn and crochet projects scattered throughout living room
+- fading bouquet wilting in vase by the door, petals falling softly onto rug below
+- dusty music sheets abandoned on piano keys, gathering cobwebs
+- shattered glass of wine spilled carelessly upon floor, remnants glistening beneath furniture
+- empty glasses standing together, companionship in their emptiness
+- papers strewn across office table, coffee-stained with urgency but still unaddressed
+- tattered love letters spill from rusted mailbox
+- cracked compact mirror reflects fading smile, alone in drawer
+- busted radio antenna sways atop vintage sedan’s roof, in the pouring rain
+- forgotten dance shoes gathering dust underneath 1950s sofa, under nightstand lamp's glow
+- fading pin-up girl poster peels off bedroom wall, revealing faded paint underneath
+- vintage record spins lazily, skipping through unheard lyrics on living room floor
+- pencil shavings litter the desk, forming a tiny mound beside sharpener
+- shattered porcelain doll lays half buried in yard's dirt, near 1960s bicycle’s back tire
+- abandoned typewriter sits alone in study, keys covered in grime and dust particles
+- television's flickering screen showcases forgotten sitcom on a static filled 1970's living room
+- lone high-heeled shoe lies abandoned under dusty chair by a 1980s kitchen sink
+- busted cassette tape hangs limp from player beside cluttered 1960s teenager’s vanity
+- cigarette burns on 1950s era diner countertop reveal years of smoldering thoughts
+- broken glass shards litter dance floor from last night’s disco party
+- a single faded sock lies in the alleyway behind the apartment building
+- empty picture frames lean against wall, void of memories lost long ago
+- cracked record album spins aimlessly within 1960s-era console stereo's tray
+- tattered vinyl records lay stacked in a corner behind old jukebox
+- a worn out teddy bear from the carnival sits on the shelf
+- vintage love letters tied together with faded ribbon spill out from desk drawer
+- a half-empty bottle of 1950s vintage perfume sits abandoned atop dresser
+- cracked leather jacket hangs forgotten in closet, zipper broken
+- faded photographs lay scattered across dusty tabletop, memories trapped
+- worn-out dance shoes sit by bed, no longer treading the floor,
+- bustling neon signs flickering dimly in abandoned 1980's bar window, reflections on wet pavement
+- faded concert poster adorns the back seat of a parked '65 Mustang
+- faded lipstick stain on cigarette left behind in an ashtray
+- a rusted anchor entwined with rotting seaweed, forgotten by water
+- fading graffiti etched into weathered river stone, memories erased
+- a ship's rope, frayed to breaking point, still tangled in driftwood, at shore
+- sea glass pebbles tumbled and polished by ceaseless waves
+- empty seashells abandoned, scattered along the shore line
+- A single water-lily withers atop a pond’s stagnant mirror
+- sailboat's canvas torn and flapping erratically against mast
+- a lifeboat hangs, forgotten on rusting chains in old port
+- a riverbank overflows muddy water, onto path, carrying debris
+- the wrecked hull of an old row boat left stranded on the sand
+- A mermaid's statue, mossy head bowed down to sea’s embrace
+- A child's small toy boat drifts alone into horizon line
+- seaweed floats aimlessly along river current. floating
+- abandoned lobster traps cluttering a sandy river bed,
+- a rooftop garden weeps, wilting flowers bowing under heavy rain
+- empty beer bottles clink together in the moonlight and broken chairs
+- a forgotten lullaby echoes from an open window as smoke gently drifts
+- a couple embraces beneath a rusted skylight frame, stars hidden above
+- A single glove dangles from a rooftop vent, waves through the sky
+- I’m sorry letter lays crumpled by an overturned bucket, ink bleeding in the rain
+- a cat prowls silently, eyes reflecting neon city lights in the misty air
+- an old radio hums softly through static, playing songs from long ago
+- A rooftop pool glimmers invitingly under twinkling night stars and the moon
+- He broke my heart last time we met beneath faded streetlights
+- That summer we danced barefoot, dancing on a warm rooftop tar roof
+- a woman stands alone, her silhouette framed by rain-soaked moonlight reflecting off the lake
+- a group of friends huddles together, laughter echoing through a moonlit haze,
+- We promised to never leave this place, but the world is calling my name,
+- rain-soaked japanese lanterns swing gently in breeze, lanterns casting eerie shadows
+- empty sake bottles pile up behind sake barrel in bar's back room
+- dried-out cherry blossoms litter a kimono in Kyoto
+- A lonely, empty rickshaw stands outside, in a small Chinese village
+- forgotten rice paddy field flooded under autumn moon, shanghai
+- a dragon lantern sways gently in Shanghai's breeze
+- tattered red envelopes pile high, forgotten during Chinese New Year celebration
+- broken tea cups shattered on stone floor in ancient temple
+- A weathered gong, left behind at an ancient village gate in the mountains
+- wilted lotus flowers float peacefully along the Yangtze River's shore
+- a silk ribbon lies discarded on a red paper cut-out dragon during Spring Festival
+- abandoned prayer flags flutter softly against stone wall
+- A Tibetan yak bell rusts on mountain peak, under snow-covered rocks
+- an ancient wooden boat rests, half-sunken in lake, near Angkor Wat, Cambodia
+- forgotten incense smolders inside ruined temple's inner sanctum, under a Buddhist shrine, Cambodia
+- a small buddhist idol lies broken, left forgotten on forest floor
+- A lone, abandoned sari hangs from a window by the Ganges, India
+- The tarnished brass bells hanging in Bangalore streets swing forlornly in wind and smoke
+- The broken marble statue of an elephant's head, rests in front of Taj Mahal
+- a discarded bindi mark stains a temple floor, in the sun
+- empty tea cups sit on rickety wooden table by lake, as birds squawk
+- A forgotten garland of marigolds wilts by a Hindu temple door
+- an Indian sarangi lies forgotten in dusty corner of music store, awaiting repair
+- Irrawaddy River dolphins dance freely while boat captains sleep ashore, Myanmar
+- a faded Japanese painting hangs askew, beneath a shattered window frame, in Tokyo’s alleys
+- A lonely slipper peeks from underneath the bed
+- A child's drawing of a broken home still clings to refrigerator, magnet missing
+- A forgotten music box plays a lullaby in a closet, lid open forlornly
+- Unopened mail piles up on the windowsill, bill collectors knocking
+- Crumpled-up ticket stubs lay underneath a pillow, memories still vivid despite absence
+- A dusty, empty birdcage hangs in the corner of the room
+- Scorched marks on the wall, left behind by cigarette burns
+- Fading rose petals littered across floor from Valentine's Day months ago
+- Tiny toy figures battle endlessly in a cardboard fort beneath mattress
+- A forgotten book lies open face down, cover peeling, dog-eared, next to couch
+- A broken chandelier dangles precariously from livingroom ceiling above empty couch, awaiting fix
+- A worn-out rocking chair sits silent, creaking gently beneath the window
+- a tattered teddy bear with missing eyes stares sadly at the room's blank walls
+- A child’s tiny handprint on kitchen wall, left behind by forgotten paintbrush
+- A family portrait, faces obscured in thick layer of grime and ash
+- An overflowing ashtray sits atop a coffee table, filled to brim with cigarette butts
+- Unmade bedclothes strewn across mattress, sheets tangled
+- Faded red lipstick kiss marks cover the bathroom mirror
+- Moldy bread peeks out from behind couch, crumbs trailing along carpet
+- Crumpled receipts fall from jacket pocket onto nightstand
+- an abandoned wine glass rests on a coffee table next to an empty bottle
+- playground swing swaying quietly in winter breeze
+- sidewalk chalk drawings fading in afternoon rain
+- jump rope lies forgotten in backyard grass
+- schoolyard gate closed, alone after hours at night
+- dandelion fluff floats from hands through a chain-link fence on breezy day
+- sandbox half-filled with puddles and autumn leaves
+- basketball net sags low, lonely on city street corner in dusk light
+- hopscotch grid still visible on concrete, but no one's playing
+- teeter-totter creaks softly in empty park, sun setting low
+- merry-go-round spins wildly without children in afternoon heat
+- ice cream truck bell rings empty in alley at sunset
+- treehouse perched high above bare branches in a frozen winter forest
+- snowman stands sentinel, alone in abandoned backyard
+- baby carriage wheels caught in broken fence by rusty playpen
+- tetherball pole stands tall, rope coiled tightly around base
+- sandbox toys half buried in the sand, with no child in sight
+- a single swing moves ever so slightly in breeze at an empty playground
+- see-saw teeters uneasily by itself in a quiet park's sunlit hours
+- merry-go-round slowly spinning down to rest at night after dark
+- toddler's trike discarded and upside-down on the driveway
+- school bus idling, waiting for children who aren't coming
+- jacket discarded atop playground fence on a windy day
+- bouncy ball lodged in a tree, too high to reach
+- pink plastic slide glows under moonlit night, empty
+- forgotten teddy bear leans against the playground gate
+- schoolyard full of snow covered playground equipment for days in the winter
+- trash barrel overflowing with popcorn boxes at empty baseball field
+- soccer ball wedged between chain-link fence and post at sunset
+- empty monkey bars rustling softly as the breeze moves across them
+- swing set, alone, under a lone tree at twilight
+- broken jump rope tangled by playground slide during dusk
+- puddle reflects empty playground equipment in late afternoon shadow
+- forgotten bike helmet on top of wooden jungle gym
+- candy wrappers strewn about the merry-go-round, empty
+- battered baseball glove sits on dusty field during nightfall
+- a faded carnival ticket fluttering beneath rain-spattered shoes
+- streets stained by spilled incense water under foot where no one walks
+- shrivelled cornstalks lean against wooden stall, empty of laughter
+- a deflated clown suit lies in a puddle next to the fairground
+- vultures circle a rotting watermelon on festival tabletop
+- candy floss machine sits idle, dusty strands clinging from wire
+- empty beer cans scattered around abandoned carnival game stall
+- face paint smears and tears dry on a discarded costume mask
+- a carousel horse's broken leg stuck in mud beneath the market
+- funnel cake stand empty, batter splatters across hotplate
+- ferris wheel rotates quietly, without music or laughter
+- empty cotton candy bags littered near ice cream parlor trashcan
+- fortune teller booth door creaks open, cards scattered by the wind
+- a single rose lies trampled on the ground beneath the stage
+- tent poles lean against each other in a pile of discarded fabric
+- hacky sacks collect dust beneath an abandoned games table
+- a balloon vendor's cart lies overturned at festival entrance
+- empty paint buckets sit next to forgotten sidewalk canvas
+- merry go-round animals stand still, eyes staring blankly into night
+- abandoned carnival booths, prizes spilling out from broken boxes
+- faded banners advertising long past events hang torn and lonely
+- a lone ferris wheel light flickers, buzzing in the deserted air
+- cracked plastic trays hold dried popcorn kernels at empty stand
+- drum set stands silent with microphone lying on a stand
+- painted signs for fortune telling and face painting lie discarded by tent
+- a lone balloon floats out of a festival trash can, tether broken
+- broken piñata hang from the ceiling by frayed string, empty
+- empty ice cream truck sits idle, doors left open in the alleyway
+- wilted bouquet of flowers lie scattered on pavement beneath stage
+- a worn poster advertising a puppet show flutters in breeze
+- cracked mirror at the end of the hall shows no one's reflection anymore
+- lone carnival barkers megaphone lies against booth wall, forgotten
+- tire treads trace lonely paths to unseen destinations, faded line
+- abandoned rest stop shelter a couple of empty cigarette cartons in the ashes
+- overhead sign flickers intermittently, motorist's warning unnoticed
+- faded fuel receipts cling to abandoned roadway's median strip, damp
+- a highway cat lounges lazily by the hot asphalt, basking in the day
+- rusted chain on guardrail glints sadly, as it sways in the breeze
+- oil stains from past accidents darken cracked pavement at an exit ramp
+- graffiti art of a ghostly hitchhiker's silhouette appears on roadway barrier
+- motorway signs sway gently, casting long shadows at dusk as cars speed by
+- an empty coffee cup rolls down a steep embankment, settling in mud below
+- roadside grave decorated with fresh flowers stands vigilant and alone
+- headlights of the lonely car cast a kaleidoscope onto the pavement during nighttime
+- a rusted truck bed sits on a dirt ramp off road, empty
+- tattered billboard advertises nonexistent hotel, faded
+- highway mile marker lies broken into pieces, numbers scattered across the shoulder
+- motorway's median strip filled with dry weeds and tall grass in summer
+- empty highway bridge looms above the roadway in twilight during heavy rain
+- a lone trucker's hat sits on guardrail post atop a dusty hillside during noon
+- cracked windshield of a wrecked car reflects distant highway traffic, empty
+- empty plastic bottles litter the ground along a rural motorway off-ramp during nighttime
+- a dead bird lies on the median strip of a busy highway
+- an old license plate with faded numbers, hangs loosely from a fence
+- a lonely pedestrian walks along the highway during nighttime, in pouring rain
+- trash can overfilled, debris scattered on pavement under dark street light
+- bloody rags lie on asphalt, car tire tracks leading to a distant exit
+- highway's shoulder littered with empty beer cans from a past road trip at dawn
+- a child's shoe found by the roadside, laces tangled and worn through, forgotten
+- a highway sign lies splintered, letters scattered like fallen leaves
+- bloodstains on a guardrail glisten in morning rain as the traffic speeds around it
+- highway divider filled with snowdrifts during a winter blizzard
+- cargo trailer door hangs off its hinge, empty, contents spilled onto pavement
+- a discarded newspaper lays damply, open to the classifieds on a wet highway curb
+- motorcycle's front wheel lies broken by shoulder, no body in sight
+- a faded clown costume dangles from rusty nails, left out backstage
+- a worn-out, dusty top hat sits tilted beside an old suitcase
+- an empty locket hangs on a broken chain, tarnished and forgotten
+- a cracked pair of reading glasses lay discarded on an unmade bed
+- a pile of yellowed newspapers teeter by the front door
+- an antique record player spins slowly with no needle and no music
+- a stack of faded photographs, faces half hidden by shadow
+- the remains of a broken pocket watch lie next to an empty chair
+- an antique doll's leg is lost as it leans against an abandoned cradle
+- a vintage camera rests on a dusty windowsill
+- an old leather shoe box holds nothing but yellowed ribbons inside
+- an empty baby blanket with a faded pattern lay in the corner
+- a broken rocking chair rests against a faded wallpaper backstage area
+- a collection of antique jewelry lies scattered on a vanity table, untouched for years
+- an abandoned child's tricycle leans against the back wall of an old shed
+- a vintage music box plays a silent tune without a key or a battery
+- a rusted rocking chair rocks gently, moved by some unseen force in the corner
+- tattered wedding dress still on display, left hanging by the closet door
+- tent's entrance flutters freely, no show inside
+- balloons dance in an empty playground
+- face paint splatters on a tent's torn floor
+- carnival ticket stubs littered around forgotten rides
+- festival bunting hangs from faded trees
+- a pair of empty high-heeled shoes lay by the campfire
+- soda cans and wine bottles strewn over grass at sunrise
+- empty marquee letters scattered on pavement
+- hand-drawn flyers for missing persons pinned to festival fence
+- confetti floats around on a lake, slowly dispersing
+- torn paper napkins cling to rusty tree bark
+- vomit stains mark the ground near the bathrooms
+- a discarded beer pong table lies abandoned in the field
+- empty water bottles are piled by the entrance to a concert venue
+- a couple of unopened condoms lie on the grass
+- condemned sign taped onto a festival stage, empty
+- tattered love poems tied around trees near park benches
+- frayed rope swings through an empty playground
+- empty beer cans are wedged in between wooden boards
+- loudspeaker hums quietly, no one left to hear it
+- soda fountain's metal tray is a graveyard of cigarette butts
+- an abandoned clown car sits upside down in the grass, wheels still spinning
+- festival wristbands hang from the tent poles, empty
+- cigarette burn holes cover a blanket on the ground
+- a faded photo of two lovers hangs on the fence
+- torn posters for a cancelled event fly around the field at night
+- a single flip flop is left behind near the food trucks
+- handcuffs left dangling from a tent pole, empty
+- scribbled notes of despair fill crumpled papers strewn on classroom floor during exam time
+- rain-soaked homework lays forgotten at entrance to locker room,
+- a single burning matchstick lies forgotten in an ash tray
+- smoldering campfire leaves glow in the quiet of a clearing
+- a hot grill covered in scattered flies
+- glowing tip of a cigarette glows from a darkened bedroom window
+- barbeque coals still smoulder with the dying embers of last night's feast
+- wilted petunias stand in pots by burning coals at the side of the house
+- embers glow under the metal frame where hot dogs roasted yesterday
+- a glass bottle filled with melted candle wax, a wick inside still alight
+- an outdoor stove sits on a beachside patio, embers still aglow from cooking fish
+- matchbox lies open by overturned bottle of alcohol on the kitchen table
+- cigarette ash piles up high and smoldering in the sink next to dirty dishes
+- pile of charred wood rests next to an extinguished campfire site at daybreak
+- burnt pancake scraps lie charring in a blackened frying pan on the stove top
+- barbecue chicken still sizzling on a grill outside
+- glowing coals in the fireplace still radiate heat despite lack of flames
+- burnt-out sparklers lay on concrete, red sparks dying slowly away
+- a cigarette butt in an ashtray on the table glows with a final ember
+- `a wooden crate filled with rotting embers is set by the fire pit
+- smoking bricks lay in the middle of the road after a housefire
+- hot coals glow under the blackened metal grate of an abandoned grill
+- burnt marshmallow sticks rest inside a fire pit filled with dead ashes
+- a discarded lighter left to smoulder on a bench from last night's drinking session
+- hot asphalt sizzles under a burning sun
+- wilted leaves curl over on a plant pot that hasn't been watered in days
+- burnt skin on bare feet after walking too long without shoes
+- fresh paint peels off the wallpaper from a newly built room
+- blood smudges stain the carpet next to a toppled lamp
+- dirty dishes pile up high, swarming with ants on the kitchen countertop
+- crumbled love letters are scattered on the bed, unread
+- a forgotten pizza box left to rot under the living room table
+- smoke alarm beeps quietly, low battery left unattended
+- a half-empty bottle of whiskey sits beside a knocked over glass on the nightstand
+- unfolded laundry piles high atop an untouched ironing board
+- cigarette burns mark the armrest of a recliner, smoke still lingering
+- faded drawings cover the walls, evidence of kids long gone
+- a shattered mirror reflects a room in disarray, broken glass everywhere
+- a half-eaten apple rots on a plate, flies circling it near open window
+- a used condom lay forgotten under the bedroom desk with an overturned chair
+- pillows scattered across the floor, no signs of recent sleep
+- spilled coffee rings stain the carpet and furniture around it left to dry overnight
+- a lonely sock dangles from a drawer slightly ajar, no pair to be found
+- broken photo frames litter the floor, glass shards scattered everywhere inside room
+- a wilted houseplant droops next to a tipped over watering can in the hallway
+- crushed beer cans form a trail leading towards an empty refrigerator
+- an open suitcase spills clothes across the bedroom carpet, unpacked for days
+- chunks of fallen plaster rest on the floor below a cracking ceiling
+- a wet bath towel hangs limply from a doorknob, drips onto the floor
+- soggy newspapers clutter the coffee table after a rainy day spent inside
+- an empty birdcage sways slightly in the breeze from an open window near sofa
+- dirty footprints track mud across once-clean tiles of kitchen's floor
+- a broken wine glass shimmers under harsh morning light on the living room carpet
+- splattered paint decorates the hardwood, evidence of a stormy night within the house
+- a pile of unopened mail teeters dangerously on the edge of a side table
+- unrinsed glasses stand tall with sticky liquid remains left in them at kitchen sink
+- the remnants of yesterday's takeout litter the end table, boxes strewn everywhere around it
+- a broken alarm clock shows the wrong time next to a rumpled bed
+- rusty bolt cutters sit idle on top of the counter
+- sagging posters peel off walls in empty theater
+- cold espresso grounds cake at bottom of forgotten mug
+- unplugged answering machine blinks with unseen messages
+- a lone high heel dangles from a hook behind door
+- faded red lipstick mark is left on edge of cocktail glass
+- chipped coffee cups litter table, rings mar the wood
+- a dusty piano bench stands in silence waiting to be played
+- a forgotten purse rests at the top of stairway
+- empty champagne bottles topple over next to a dirty ashtray
+- fresh lipstick stain on edge of white coffee cup
+- cigarette burns dot the vinyl seat of an abandoned barstool
+- splattered makeup streaks across the mirror's surface
+- dried up flowers droop out from a vase near a window
+- a forgotten umbrella leans against a dusty coatrack
+- stained and worn leather journal left to gather dust in a corner
+- empty pill bottles lie scattered next to an overflowing ashtray
+- dangling lights flicker with last gasps on the bar top
+- a dirty wedding veil draped across old chair
+- a broken wine cork on the coffee table with crumbs
+- worn-out socks lay bunched together under a toppled trash can
+- fading party hats lie strewn across sticky dance floor
+- an unmade bed still holds indentation of where a dream ended
+- pictures in faded frames show smiling faces of memories past
+- broken guitar string hang loose and useless at the base
+- soggy cigarette butt floats forgotten in half empty glass
+- busted clock hands remain motionless upon wall
+- shattered glass and melted wax puddles on top of dresser
+- a pair of dentures sit alone atop a nightstand in bedroom
+- loud, empty elevator music plays without an audience
+- a discarded wedding gown hangs from the back door knob
+- cobwebs hang thick from the exposed pipes, untouched for years
+- a rusty toolbox overflows with forgotten hardware on the concrete floor
+- frayed jump rope lies coiled next to an old bike tire in shadows
+- yellowed newspaper clippings paper cracked walls, words long ago read
+- the dim bulb overhead flickers, casting eerie shadows on boxes everywhere
+- a forgotten dartboard hangs askew, arrows still lodged inside it from years ago
+- a dusty old mirror reflects the broken light in the corner of basement
+- A shattered wine bottle glistens with remnants of a past celebration
+- caked mud coats dirty boots left by the basement door long ago
+- water stains on ceiling show where water leak was never fixed
+- rusted metal shelves bend under weight of dusty canning jars, labels faded with time
+- a broken string of Christmas lights dangles from exposed beam, bulbs shattered
+- A rusted anchor lays in a pool of rainwater collecting below leaky window
+- an old mattress leans against damp wall, stained and lumpy
+- The broken glass is scattered around it under the cold fluorescent light
+- a forgotten mannequin sits on floor in back corner, its clothes yellowed and worn
+- candle wax pooled on cracked plates and dusty wine bottles left untouched
+- an old record player spins a scratched record no one has heard for decades
+- the faded, broken chessboard displays frozen pieces in a game long since abandoned
+- frozen ice cubes sit unmelted in dirty glasses on the shelves
+- The musty old couch cushions show where the mouse has made its nest
+- a worn out teddy bear sits alone in the corner
+- pockmarks on the faded wallpaper from forgotten fights
+- a rusted hot water heater leaks brown water
+- a tattered blanket drapes over a bare mattress,
+- rusty chains dangle from ceiling hooks, cold and unused
+- a discarded doll lies face down on dusty floorboards
+- spilled paint colors form a dried up constellation beneath the stairs
+- a half-burnt candle creates wax pools on a chipped plate
+- faded blueprints roll in a corner untouched for years
+- a box of rotting photo negatives gather dust under a broken sink,
+- wedding cake topper lies in broken pieces on table
+- tear-stained tissue rests beneath the crumpled-up napkin
+- solitary guest slumps with their head in their arms at empty banquet table
+- empty wedding rings scatter across dusty piano lid, forgotten song lyrics still open to
+- a bouquet of wilted flowers, now dry and brittle on a mantelpiece
+- a wedding dress hangs abandoned in an empty closet, missing zipper
+- unplugged microphone lies on the ground in front of the stage,
+- frost-kissed summit pierces gray sky with no cloud
+- broken skis lie half-buried where avalanche tumbled down
+- a faded flag flutters alone against windswept crags
+- worn path leads to a solitary, moss-laden boulder of remembrance
+- bottle caps scatter around a campfire's cold ashes and soot
+- the sun dips behind the peak, leaving lonely shadows cast across rock
+- a weathered map pinned to a tree shows trails unmarked by joy or sorrow
+- crescent-moon scar on a boulder reveals the place where a man cried out
+- a forgotten journal crumbles near a frozen stream's bank
+- rusty ice pick juts from the cliff face, witnessing endless seasons of grief
+- the mountain hut's door swings in the cold breeze and the window shattered
+- a fallen tree bridges a chasm, its bark etched with names of lost souls
+- a lone eagle circles above, watching a desolate valley far below him
+- tattered prayer flags flutter in the relentless wind and sun on a mountaintop
+- the broken remains of an old rope bridge sway in the howling mountain winds
+- melted snow trickles, forming small pools at base of icy peak with no warmth
+- camping stove lies smashed and forgotten in the dirt amidst the rocky terrain
+- old bootprints mark trail where they climbed their last climb and left him forever
+- sun sets behind the peak, casting long shadows that swallow a fallen climber
+- crescent moon over the mountaintop reflects the tears he cried alone into the night
+- shadows creep across snowfields, as ghosts of lovers dance in an empty sky
+- wind howls through crevasse, echoing laughter fading into nothing
+- frost flowers bloom silently, like the tears of their forgotten souls
+- a discarded helmet rolls aimlessly near the edge of his final view from above
 
 ## subject_person
 - a stocky man in his sixties with a grey beard
@@ -187,6 +4062,511 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a pale woman with white-blonde hair and a long coat
 - a plump boy with a trumpet case
 - an athlete in her twenties with taped fingers
+- a frail seventy-year-old with liver spots, border patrol jacket
+- an underweight forty-something in combat boots with tattoos down one arm
+- a muscular woman with an eye patch and a tight-fitting tank top
+- a portly teenager with a bandage on his forehead and a hoodie
+- a short-sleeved police officer in her twenties
+- a thin old man with a tattooed neck, an oversized shirt
+- a broad-shouldered young woman with freckles wearing a flannel overalls
+- Ingesting an old fat man with suspenders and boots
+- an underweight thirty-something with piercings in both ears, camouflage clothing
+- a tall lean girl with bangs with her hands in pockets
+- a large girl with pigtails carrying a violin case
+- a muscular guy with a thick black mustache wearing a vest
+- a lanky seventy-year-old with wrinkles and leather jacket
+- A forty-something man with glasses and an earbud, holding a briefcase
+- a woman in her fifties with a nose ring and a beret
+- Ingesting an elderly lady with sunspots, carrying a purse
+- a pregnant thirty-something girl, holding an ice cream cone
+- an old woman with a necklace of flowers on the border
+- an old man with a straw hat in his hand
+- a large dark-skinned man with no hair, wearing a suit jacket
+- A woman in her thirties with short black hair and an ankle bracelet, backpack
+- a scrawny boy with a cast on one leg
+- a burly teenager with a pierced ear
+- an elderly woman with a veil and a walking cane
+- a small girl with dimples holding a doll
+- A twenty-something guy with tattoos on his forearms
+- a middle-aged man with an orange shirt and a beard
+- an old man with wrinkled hands and a worn-out fedora hat
+- A young mother in her early twenties
+- The young woman with curly hair and bright red lipstick
+- the old woman in her nineties, wearing glasses on the bridge of nose
+- a tall guy at his 30s with a scar running down cheek
+- a frail woman of fifty with a shaved head, a black dress
+- A teenage girl wearing a leather jacket with a ripped jeans
+- A muscular man in his fifties with one missing eye
+- a middle-aged mother in her mid-50s with 2 piercings on the eyebrow
+- an old lady at the border, wrinkled hand with a large ring
+- A young girl wearing a flower garland around neck
+- A forty-something woman with an eyepatch and an apron
+- The teenager in his early teens, wearing jeans and no shoes
+- a man in 1950s wearing a fedora with a cigarette dangling
+- a woman in her thirties with a leather jacket and combat boots
+- A middle-aged woman in 1982, carrying a walkman, high-waisted jeans and a sweater
+- an elderly woman at the beach with an umbrella in 1930s
+- A thin girl in her thirties in the forties, with a polka-dotted dress
+- an overweight man in his fifties 1960s a polyester suit and large sunglasses
+- a girl of nine in 1987 with a bright red shirt and pigtails
+- an underweight woman in her seventies in mid fifties with thick glasses and pearls
+- A girl in early eighties with crimped hair, carrying a boombox
+- a young mother at end of century, with a baby sling and flip-flops
+- A large man in the 1970s holding a can of beer and a cigar
+- A pregnant woman in her forties on a boat in mid-twenties
+- A twenty-something with ripped jeans and a band t-shirt in late seventies
+- an old man at the beach in 1970s, wearing aviator sunglasses
+- A slender woman in 1982 with a headband and leg warmers
+- a muscular teenager in 1950s shirtless with rolled-up jeans and leather shoes
+- A middle-aged guy in late sixties with a mustache and a polyester suit
+- an overweight lady in the nineties wearing a tank top, hot pants and sunglasses
+- a woman at her mid-forties in early fifties carrying a handkerchief, high heels shoes
+- A man in 1940s in his thirties with suspenders and a cap
+- an elderly man in late seventies with a white beard and a straw hat
+- A plump woman in 1987, wearing a denim jacket and ripped jeans, sneakers
+- an elderly man at the end of century, smoking pipe and carrying a cane
+- A forty-something woman in mid-80s with shoulder pads and a mullet
+- A seventy-year-old mexican with leathery skin, wearing a sombrero
+- a fifty-something indian with a long white beard, wrapped in a shawl
+- a slender young girl in tunisia, holding a lantern
+- an elderly woman in italy, wearing large sunglasses and a beret
+- A broad-shouldered man in norway carrying an axe wearing a sweater over his vest
+- A teenage boy in india, with a bright blue turban, jeans
+- a forty-something woman from mexico in sandals holding a basket of fruits
+- An old lady in greece with an ornate brooch and a colorful dress
+- an overweight guy in australia, wearing board shorts with flip-flops
+- A tall woman in ireland, holding a cup of tea, woolen shawl around shoulders
+- a thirty-something with braces, carrying a basket wearing a sweater in france
+- A middle-aged man in korea with a black cap and thick glasses
+- An indian in her twenties, holding an eggplant wearing a bright green sari
+- a thirty-something from south africa with gold teeth, wearing a red jacket
+- a middle-aged man in egypt with a headdress, holding an orange scarf around neck
+- An old man in spain, wearing a straw hat, holding cane
+- A large woman in england, holding a purse in her hand
+- A slender teenager from japan, with a backpack carrying books and wearing sneakers
+- An old man in india, sitting on a bench, wrapped in a blanket
+- A middle-aged woman from spain, with dark hair and a large hoop earrings
+- a thirty-something girl from egypt, with dark eyes holding an eggplant
+- a teenager in greece, with sunburnt skin, carrying a guitar
+- a forty-year-old in england carrying a small basket for fishing pole on her back
+- A slender young girl from africa wearing a headdress and leather bracelets and sandals
+- a stocky woman at dawn a faded denim shirt, calloused hands
+- the elderly male mechanic of late fifties with grimy overalls a missing front tooth
+- a man in the late twenties of african descent with a dark crew-cut
+- an elderly lady from india of sixty-something with deep lines on face, wearing sarongs
+- A large guy in his mid-thirties with a beard and bandanna headscarf
+- A woman of sixties from england, with a gray ponytail
+- an overweight man in mid-forties a wool sweater and boots
+- a tall woman in her forties with sunken cheeks wearing a knit cap
+- a middle-aged guy of fifty-something from australia in an oversized jacket
+- a thin woman in early twenties from south africa carrying an orange scarf
+- an elderly man of eighty from england wearing a hard hat and boots
+- a weathered fisherman in his sixties, holding a fishing net, worn cap
+- a girl of eight in her overalls, bare feet, in braids
+- A woman in 1930s, holding a vintage camera, a white pearl necklace
+- a heavy-set man in his forties with a tool belt, leather work gloves
+- a small boy of ten in a captain's hat, sailor's shirt with white collar
+- a slender girl of five with pigtails, freckles on nose
+- a teenage girl in her twenties with pink hair, wearing a fishnet dress
+- A young man of twenty-something with curly blonde locks and a Hawaiian shirt
+- an old man in his seventies from Italy in suspenders carrying a cane
+- a woman in her fifties from Spain wearing large gold hoop earrings and sunglasses
+- an elderly woman of forty-something with big white teeth, leather sandals from Greece
+- a middle-aged man in a hat and scarf, brown leather jacket
+- A skinny lady in her mid-thirties with a flower crown, white dress
+- a curly-haired girl at dawn, long red hair and a denim vest
+- A boy in his early teens with sunburned cheeks with a bucket and shovel
+- A young man of forty-something wearing a bright blue turban, leather pants, sandals
+- An old man from Spain holding a cigar, wide-brimmed hat
+- a thin man in his twenties with slicked back hair and mustache, leather jacket
+- twenty-something climber in ragged jeans
+- fifty-year-old guide with icy blue eyes, thick boots
+- forty-year-old woman in yellow raincoat
+- a middle-aged man's scarf billowing in wind
+- A youth of seventeen, a backpack and a helmet
+- The old lady from Nepal, her shawl bright
+- an elderly Tibetan, carrying a prayer wheel
+- A seventy year old German, a camera slung across his chest
+- Sixty-something trekker with hiking pole in his hand
+- a middle-aged Sherpa, with leather shoes and a red belt around waist
+- middle-aged Chinese man wearing thick gloves
+- A woman in her thirties, sunburnt nose
+- A fifty year old Japanese man's knit hat
+- forty year old guide with curly black hair with a compass
+- A teenage girl wearing hiking shorts, carrying water bottle, a backpack
+- A thin middle aged Indian woman and her wool sweater
+- a young boy, holding his mother’s hand
+- The old man from the Czech Republic, with a thick mustache
+- Middle aged guy of forty with white beard, a long brown tunic
+- twenty-something woman's hair in ponytail, wearing sneakers, sunglasses
+- sixty-year-old British climber, carrying axe, heavy jacket around shoulders
+- A woman in her fifties, walking stick and leather sandals
+- A guy of fifty with curly grey locks, an overcoat
+- Middle aged man from India's turban with gold embroidery
+- A forty year old Swiss man with black beard and dark eyes
+- A young girl in pink leggings, hiking shoes
+- a middle-aged lady in a purple dress with a wide brimmed hat
+- A thirty-something Russian woman in boots, carrying an ice axe
+- The tall young man of his twenties wearing leather gloves,
+- The old Chinese woman's shawl covering her head
+- A middle aged Thai lady, large hoop earrings
+- an elderly guy at dusk, glasses hanging from shirt
+- a teenager in evening, a ripped hoodie and a locket
+- middle-aged indian female at midnight wearing yellow dress
+- fifty-something swiss man at night with thick jacket
+- a frail elder at sunrise, wearing a thin sweater, a green stone ring
+- an elderly japanese lady at sunset in an apron and flip-flops
+- thirty-something indian man walking his dog at nighttime, grey t-shirt
+- a slim woman at midday in short shorts, sunglasses on top of her head
+- forty something thai man in his slippers at dusk
+- eighties european lady at midnight, red heels
+- fifty-something russian man at twilight with thick beard and mustache
+- a sixty year old in her denim capri pants at dawn
+- a girl in early morning in an overalls, a hairband around her arm,
+- a middle-aged russian woman at night carrying a bag of apples wearing black coat
+- tall fifty-something british in leather jacket
+- fifties european female from Germany with her bicycle at dawn, an army backpack,
+- a burly farmer in his forties with suspenders and muddy boots
+- a middle-aged rancher in a cowboy hat from texas, a pocket knife
+- a stout woman in her sixties carrying a wicker basket, a headscarf
+- A stocky young woman from mexico wearing an embroidered apron
+- A fifty year old man with calloused hands and heavy work pants
+- a plump teenager in high boots and rubber gloves carrying watering cans
+- A muscular shepherd wearing sandals and woolen socks
+- a lean man from england with his wool jacket and mud splashed jeans
+- A strong guy in his twenties, barefoot, carrying a sickle
+- a young lady of twenty-something wearing a straw fedora, sun-hat
+- The old man from the us with a wide-brimmed hat and sunglasses
+- A forty year old farmer with an olive green apron, his eyes bloodshot
+- a middle-aged woman in jeans and hiking sandals walking a goat
+- a teenage boy from india wearing a loose shirt and a belt around waist
+- ninety-year-old woman's thin cotton scarf, wrinkled hands
+- seventy year old man's heavy canvas pants
+- twenty-something girl with a tight tank-top at sunset, tattooed calf
+- thirty-five man, no-shirt sweaty torso, worn trousers
+- A middle-aged lady in black flip-flops and socks from Morocco, tanned ankles
+- a woman of sixty-two in a loose cotton blouse at dusk
+- A man of thirty-something, his denim shirt untucked at midday with sunburnt ears
+- thirty-something lady with sweat-drenched tracksuit top at twilight, dark eyes
+- A guy of seventy-five in a grey undershirt, faded hat at dusk in Turkey
+- fifty-year-old African man's dusty leather bracelet with red beads
+- a youth of eighteen in an open collar shirt, carrying a water bottle
+- A thirty-something lady from India with thick leather necklace
+- A middle-aged person, long red hair covered by a hat
+- A seventy year old man wearing dirty leather jacket and ripped trousers
+- a sixty-five-year-old swiss guy in a beige knitted cap and denim pants
+- an elderly Japanese woman wearing a white headband, gardening gloves
+- An eighty-two-year-old woman with wrinkled face and faded pink blouse, crocheted shawl
+- fifty-five years old guy in his khaki shorts, leather boots at dusk
+- A man from Africa, dark blue robe wearing amulet around neck
+- fifties guy with white turban and black shirt waiting at the station
+- A middle-aged German woman wearing sunglasses and brown sandals
+- A tall muscular guy in his forties wearing black gloves, an apron holding scissors
+- twenties farmer girl wearing a cotton dress
+- seventy year old with wrinkles, leather suspenders
+- Indian grandpa in faded jeans, wooden cane
+- a man of eighties at dawn with crumpled cap
+- French guy in his fifties walking his goat, rubber sandals
+- sixties lady in a floral headscarf, carrying grocery bags
+- twenty-year-old, barefoot woman with colorful bangles
+- forty year old man, denim vest and a leather pouch, sunburnt neck
+- a middle-aged farmer with straw hat and bandana around forehead
+- a forty years old lady of Egypt wearing an emerald necklace
+- old man in his nineties in his blue pajamas, black glasses
+- slim young guy with his baseball cap, walking sticks
+- thirties woman from Turkey's headscarf, carrying vegetables
+- young farmer lad wearing straw hat, red bandana around neck
+- forty-five year old man with his woolen waistcoat, leather boots
+- twentysomething woman with loose pants, carrying a broom
+- A fifty-some African guy in black boots and brown hat, heavy coat
+- twenty-year-old Indian guy carrying rope on shoulder, a headband
+- thirties man from France wearing a denim shirt and leather belt
+- A teenage girl at midnight with her flashlight, red socks
+- sixties woman in a long blue tunic, holding a watering pot
+- man of seventy years old, carrying a wicker basket, leather shoes
+- a young girl at dawn wearing a striped sweater and denim jacket
+- woman in her thirties wearing a denim dress, a bandana around wrist
+- a tall guy at sunset, barefoot, carrying pitchfork, worn-out jeans
+- man of forty-five in khaki shorts, leather gloves holding knife
+- an old lady of eighty-six with her walking stick and denim shirt
+- thirty something girl, long hair flowing, leather boots carrying a broom
+- thirties man in his jeans, t-shirt and carrying a shovel
+- man from Russia at midnight wearing a hat and thick jacket
+- thirty-something man, no shirt under grey vest, dirty pants
+- forty year old from Argentina in red undershirt, worn leather shoes
+- twenty-two woman of Venezuela with a pink blouse, torn skirt
+- seventeen girl, ripped jeans, carrying heavy box on head
+- fifties lady of Philippines wearing straw hat and blue shorts
+- A thirty year old farmer wearing a worn-out raincoat, muddy boots in the UK
+- old man from Italy in his brown slippers, faded white t-shirt
+- A young guy of Kenya with frayed jeans, torn t-shirt
+- forty-two woman in a thin dress, rubber sandals, India
+- elderly lady in grey cardigan, barefoot at dawn
+- fifty-year-old, no shoes with ragged shorts, old backpack
+- thirty something from Romania wearing green blouse at dusk
+- twenty year old guy with ripped shirt, mud on boots carrying bag
+- A forty five man of Australia in a faded blue hat and black pants
+- thirty years old woman in her denim jacket, carrying empty basket walking away
+- ninety-six-year-old Italian man sunbathing at dawn wearing brown sandals
+- thirty-year-old Egyptian farmer with leather wristwatch
+- ten-year-old girl, red hair braids, blue sandals
+- eighty years old Chinese lady holding umbrella, long white dress
+- man in his fifties, ripped denim pants and a leather belt at dusk
+- forty year old woman wearing black pants and a yellow turban in Kenya
+- woman of thirty-five in her blue overalls, red hat in Russia
+- eighties man from Italy with a straw hat and wooden cane
+- seventeen-year-old Japanese guy, barefoot in worn-out jeans
+- fifties woman from Mexico carrying grocery bags, faded flowery blouse
+- twenty-two-year-old Indian woman, black sari, holding water pot, heavy bangles
+- nineties old lady wearing a long yellow dress, straw hat
+- The young girl at midnight wearing shorts, t-shirt and flip-flops at the airport
+- thirty-something man in a thin leather jacket and jeans under a tree
+- woman of sixty from Italy holding umbrella, black raincoat, dark sunglasses
+- twenty-year-old guy with no shoes and ragged pants carrying a shovel and hat
+- sixties woman from Germany barefoot, long green dress, straw hat
+- No shirt under red vest, dirty pants, leather sandals at twilight in Venezuela
+- seventeen girl carrying a water bottle with green shorts wearing a turban
+- ten-year-old girl with a white blouse, blue sneakers
+- eighty-two-year-old guy with a frayed shirt and a baseball cap
+- A farmer, no shoes and worn out jeans with ragged shorts and a headband
+- sixties gentleman holding rope on shoulder, black shirt, white hat and boots
+- twenty-two girl with her yellow t-shirt and no shoes, backpack, long hair flowing
+- twenty-year-old boy in blue shorts, bandana, old tennis shoes
+- forty-five woman in her denim jacket leather boots, a bucket
+- a young guy, no shirt under his grey vest, torn pants
+- thirtysomething man from Japan carrying a water jug, muddy work boots
+- sixty-four-year-old woman with red skirt, black cardigan, barefoot, old backpack
+- thirties woman in her denim dress, carrying an umbrella
+- young Indian farmer wearing a brown scarf, torn jeans
+- sixties man in his beige overalls, leather belt
+- old man from Kenya in his gray hat with his walking stick
+- ten-year-old girl wearing her blue jeans, straw hat, heavy box on head
+- thirty-something farmer lad carrying a pitchfork, dirty pants and no shirt under red vest
+- twenty-two-year-old guy in his faded jeans, leather jacket
+- an old woman with her gray shawl, rubber sandals, barefoot at dusk
+- young African guy with a denim cap, muddy boots on shoulder
+- forty years old woman wearing white hat, rubber sandals in India
+- sixties farmer woman in brown overcoat and black sandals
+- ten-year-old boy with a backpack, mud on sneakers
+- twenty-something Indian guy in his blue jacket, leather gloves carrying a water pot
+- twenty-year-old woman from Kenya with a red blouse, straw hat and rubber sandals
+- eighteen-year-old boy at midnight from Mexico with his faded jeans
+- forty-two woman from USA in her gray dress, leather shoes carrying bucket
+- a young guy in dirty pants and no shoes under red vest, leather belt
+- nineties old lady from Italy wearing black shorts, a yellow shirt
+- ten-year-old girl with a pink hat, rubber sandals carrying empty basket walking away
+- eighty years old woman with her blue overcoat, barefoot at dusk
+- young guy in jeans, t-shirt and leather jacket under a tree at midnight
+- a twenty-something boy from Italy no shirt under his brown vest and jeans
+- twenty-two-year-old guy in his faded jeans, holding a rope on shoulder
+- sixties man from Argentina with red shirt, heavy backpack, no shoes carrying shovel
+- thirties woman with a denim jacket, pink pants, red scarf around wrist
+- eighty-year-old turkish farmer, straw hat, tattered boots
+- twenty-one-year-old french man, beret, suspenders on his jeans
+- nineteen-year-old guy in a white vest at dusk, sandals and a bandana from brazil
+- sixties man from india in torn pants and denim jacket, muddy work boots
+- fifty-four-year-old swedish lady barefoot with a leather wristwatch, holding umbrella, long yellow raincoat
+- forty-six-year-old greek woman carrying a basket of oranges, blue skirt
+- nineteen-year-old swedish farmer lad in no shoes, torn jeans and a white straw hat
+- eighty-five-year-old russian man, holding a walking stick with worn-out shorts on his skinny legs
+- thirty years old woman from the middle east wearing a black dress
+- twenty-one-year-old englishman in denim jacket, no shoes with a bucket of water
+- sixty-two-year-old french farmer lady in her blue overalls and brown boots
+- fifteen-year-old girl, no shirt under blue vest from argentina, barefoot, long brown hair
+- sixty-six-year-old portuguese woman in denim jacket, leather boots carrying a heavy basket
+- twenty-one-year-old german girl with pink shorts, straw hat at noon
+- thirty-six-year-old egyptian man holding water pot, wearing a yellow turban, leather gloves, jeans
+- sixty-four-year-old iranian farmer woman with red headband and denim jacket
+- eighty-three-year-old guy in ragged pants and black boots
+- forty-two year old from india, barefoot with white hat, muddy jeans carrying basket
+- eighty-nine-year-old indonesian woman with black overcoat barefoot at noon with an old backpack
+- thirty-something turkish man in worn-out jeans, no shoes at night, brown scarf
+- sixty-eight-year-old french lady wearing a long green raincoat, leather wristwatch, barefoot
+- forty-five-year-old chinese farmer woman, straw hat and blue jeans carrying bucket at dusk
+- thirty-two-year-old indian guy in worn-out jeans black vest carrying water pot at night
+- twenty-one-year-old swedish girl, no shirt under her green vest from spain leather belt barefoot
+- sixty-six-year-old guy in faded denim jeans and worn-out boots, straw hat
+- sixties billionaire with a gold watch, white polo, tan lines
+- seventy-something millionaire in linen pants, Cuban heels
+- thirties CEO with Gucci loafers and tailored suit
+- forty-five-year-old tycoon in Armani socks black sneakers with his leather belt
+- fiftysomething heiress, Prada shoes, Chanel skirt, pearls
+- eighties tycoon, ascot, monogrammed slippers and a gold chain
+- twenty-two-year-old trust-fund baby, flip-flops, and designer glasses
+- thirties magnate, black-tie tuxedo shirt, diamond cufflinks, and a top hat
+- sixties heiress wearing her french pearls with gold bracelet at noon
+- fourteen-year-old girl in overalls, bare feet, muddy sneakers
+- seventeen-year-old boy with white tank top, sandals under green trees
+- nine-year-old girl in polka-dot dress with leather belt bare feet, red bandana,
+- young girl in pink dress, barefoot with straw hat under the summer sky
+- fourteen-year old boy with a bucket, dirty tank top at night, muddy sneakers
+- sixty-eight-year-old man from India in ripped pants carrying shovel barefoot on his muddy boots
+- twenty-six-year-old man in blue shorts with leather work gloves
+- fifty-two year-old woman in her yellow jacket and leather shoes carrying a heavy toolbox
+- forty-seven-year-old german mechanic, in greasy shirt carrying metal rod
+- thirty-four-year-old indonesian guy with a torn sweater, worn-out boots carrying water pot
+- sixty-three-year-old polish farmer woman barefoot, with a plaid coat and a shovel
+- eighteen-year-old man in blue overalls and leather wristwatch holding water can at midnight
+- seventeen-year-old chinese farmer lad in faded vest, muddy boots, straw hat and red bandana
+- fifty-seven-year-old woman from mexico wearing a dirty shirt with heavy tool belt on waist
+- eighty-two-year-old man in his ragged overalls carrying a bucket
+- twenty-four-year-old guy from africa holding rope, muddy boots
+- sixty-five-year-old filipino man carrying a bucket, leather sandals at midnight barefoot in muddy water
+- sixty-four-year-old egyptian lady carrying a bucket full of tools leather shoes at dusk
+- fifty-three-year-old indian farmer guy in denim cap and yellow shirt bare feet carrying shovel
+- fifty-five-year-old guy from mexico in denim jacket and sandals
+- sixty-eight-year-old american farmer, ripped shirt, muddy boots carrying shovel
+- sixties nomad thin man with dusty bandana, brown hat
+- twenty-three-year-old bedouin woman faded blue dress, silver bracelets
+- fifty-two-year-old arab lady in tan skirt, leather sandals carrying a heavy bucket of water
+- eighteen-year-old guy from saudi no shirt under his khaki shorts on the camel back
+- thirty-five-year-old afghani farmer man wearing white turban torn pants and holding stick in hand
+- nineteen-year-old egyptian woman, in beige dress brown boots holding basket of fruit at noon
+- forty-nine-year-old berber woman in orange scarf carrying shovel with leather sandals
+- seventeen-year-old israeli girl in denim shorts and white shirt barefoot, straw hat at dusk
+- twenty-five-year-old egyptian guy, blue jeans and black vest brown boots
+- thirty-six-year-old syrian man in green pants and torn yellow shirt carrying water pot
+- sixties sudanese woman leather sandals, green veil with no shoes
+- forty-seven-year-old turkish man in black scarf on his neck carrying a basket
+- thirties libyan farmer wearing yellow scarf in the desert sun
+- twenty-eight year old kuwaiti woman in blue headscarf leather wristwatch, green pants barefoot
+- nineteen-year-old iranian woman, brown dress black sandals at dusk holding bucket of water
+- thirty-three-year-old indian man leather gloves carrying pot and his camel by the rope
+- six-year old iraqi boy in beige clothes with brown scarf on head muddy boots
+- sixties lebanese woman in blue dress red sandals, white turban
+- twenty-five-year-old libyan guy in orange pants and green vest leather sandals
+- forty-five-year-old egyptian man in ragged beige tunic torn shoes holding a walking stick
+- eighteen year old somalian farmer lad in blue shirt brown shorts with no shoes
+- thirty-two-year-old jordanian guy carrying water pot black vest, muddy boots leather sandals at midnight
+- thirties iraqi woman long green dress red scarf barefoot
+- twenty-six-year-old kuwaiti man in torn pants with blue shirt and no shoes
+- eighteen-year old sudanese guy holding a walking stick, wearing his ragged black vest
+- thirties egyptian man in orange scarf, worn-out jeans carrying water pot
+- forty-three-year-old arab woman in beige dress green veil on the camel
+- eighteen-year old iranian girl leather wristwatch, denim shorts holding a basket
+- sixties saudia man red turban black scarf around his neck on the camel
+- forty-six-year-old yemeni woman blue pants leather sandals in the desert sun with her child
+- thirties afghani guy brown shirt, muddy boots leather wristwatch carrying water pot
+- twenty-four-year old iraqi girl green skirt, straw hat carrying a heavy bucket of water
+- eighteen-year old palestinian woman leather sandals, blue tunic with no shoes
+- seventy-year-old berber farmer lady in ragged orange dress, red scarf at midnight on camel
+- thirties iraqi woman green veil black scarf barefoot
+- eighteen-year old egyptian girl blue headscarf leather wristwatch at the well
+- seventies american trucker ripped jeans with no shoes holding a water pot
+- forty-three-year-old indonesian man torn shirt, carrying shovel
+- eight-year-old arab girl in polka-dot shirt, red pants
+- thirties indian farmer in green shirt, yellow pants and no shoes holding walking stick
+- eighteen-year-old filipina woman with black bandana, muddy boots holding bucket of water
+- fifty-two-year-old german mechanic, wearing his denim shorts leather wristwatch carrying a bag of rice
+- twenty-eight year old egyptian guy in blue jeans and white shirt carrying a pot
+- thirties saudi man in green pants leather sandals barefoot on camel
+- eighteen-year old guy from israel with yellow scarf, torn pants leather wristwatch on camel
+- twenty-three-year-old lebanese woman in red headscarf white tunic holding water pot
+- seventies pakistani farmer man with green hat, torn pants on camel
+- twenty-year-old indian girl, tan dress leather sandals holding walking stick at dusk
+- twenty-eight-year-old turkish guy in black scarf, blue pants carrying water pot
+- thirty-seven year old palestinian girl green dress, yellow veil leather sandals barefoot on camel
+- thirties moroccan woman with orange headscarf, brown shirt holding bucket of water at dusk
+- six-year-old libyan boy in black scarf torn pants and no shoes carrying a pot
+- thirties indian woman red sari, muddy boots
+- eighty-four year old turkish farmer man with leather sandals barefoot on camel
+- seventy-two-year-old arab guy, blue jeans green scarf
+- eighteen-year old somalian guy in white shirt, torn pants, holding a pot
+- thirty-eight-year-old filipina lady carrying rope, no shoes
+- eighty-five-year-old sudanese man leather sandals at dusk barefoot with water jug
+- forty-two-year-old israeli woman wearing her yellow dress, denim shorts
+- thirties lebanese guy in blue turban green scarf holding shovel
+- sixties somali farmer lad, red scarf no shoes muddy sandals on camel at dusk
+- twenty-nine-year-old sudanese man leather sandals, green scarf carrying a pot
+- seventy-four-year-old libyan woman brown skirt, torn pants
+- forty-one-year-old pakistani man in red shirt holding rope, denim shorts no shoes
+- sixties berber farmer guy in tan pants torn yellow shirt carrying water pot
+- thirties egyptian guy blue shirt, leather sandals at the well
+- eighteen-year old afghani girl blue shirt, red pants, no shoes holding rope at dawn
+- sixties egyptian man yellow pants, no shoes leather sandals with his goat
+- thirty-one-year-old iranian woman denim shorts, brown sandals barefoot
+- seventeen-year old palestinian guy blue turban green scarf carrying shovel at dusk on camel
+- thirties sudanese woman green dress, leather wristwatch barefoot no shoes
+- twenty-nine-year-old yemeni girl blue veil brown tunic carrying shovel on camel at dusk
+- eighteen-year old indian guy red scarf leather wristwatch carrying rope holding pot of water
+- thirties kuwaiti woman blue dress no shoes at the well
+- eighty-seven-year-old egyptian farmer lady in green headscarf, brown sandals on camel at dusk
+- thirties yemeni guy black scarf, red pants barefoot with a pot carrying water
+- eighteen-year-old afghani woman green dress, brown pants no shoes at the well
+- seventies syrian lady in yellow headscarf denim skirt
+- fourteen-year-old kuwaiti boy blue turban, torn jeans sweatstained shirt on camel
+- twenty-seven-year-old jordanian woman in black dress holding rope barefoot at dawn
+- twenty-one-year old saudia girl blue pants no shoes with a shovel on camel
+- eight-year old turkish lad torn shirt, black pants and sandals barefoot at dawn
+- eighteen-year old sudanese guy denim shorts, sandals, barefoot with water jug in his hand
+- seventies moroccan farmer lady in torn brown skirt leather wristwatch holding shovel on camel
+- twenty-four year old egyptian woman blue pants leather wristwatch barefoot on camel
+- forty-two-year-old pakistani girl white sari, muddy boots carrying water pot at dawn
+- fifty-eight-year old yemeni woman blue dress leather wristwatch barefoot on camel at midday
+- eighteen year old omani guy denim shorts carrying shovel leather wristwatch
+- fifty-nine-year old turkish guy in black vest ragged pants leather wristwatch with goat
+- six year-old yemeni boy blue shirt ragged pants and no shoes
+- seventies kuwaiti lady brown dress leather wristwatch no shoes at dusk on camel
+- forty-eight-year-old egyptian man faded jacket, tattered hat carrying water jug
+- thirties tunisian woman pink skirt holding rope barefoot on the ground
+- fifty-year-old somali farmer red turban leather sandals in the dark
+- seventeen year old indonesian girl brown dress no shoes at midnight
+- thirtysomething syrian man brown pants, carrying bag of rice
+- sixties egyptian woman holding rope in blue skirt with water jug barefoot on camel;
+- thirty-year-old palestinian guy red shirt muddy sandals in his hand
+- six-year old iraqi boy denim shorts, no shoes at dawn
+- fiftysomething iranian girl white dress leather wristwatch in a bucket of water
+- twenty-five year old afghan man blue scarf tattered pants barefoot with a shovel
+- eighty-year-old libyan farmer lady green shirt torn jeans barefoot at sunset
+- sixties lebanese woman black tunic carrying a shovel no shoes in the dark;
+- eighties iranian guy denim shorts leather sandals holding a rope on camel at midnight
+- thirty-two-year-old sudanese man orange pants tattered jacket no shoes
+- fourties turkish woman red skirt, leather wristwatch barefoot with pot of water;
+- fifty-seven year old kuwaiti guy in ragged brown shirt green scarf with shovel
+- eighteen-year old indian girl in black dress at dawn on camel
+- fifties iranian man carrying rope yellow sandals, leather wristwatch on camel
+- thirties syrian woman in red turban, blue pants leather sandals with bucket
+- thirty-five year old somalian guy in green shirt torn jeans with goat;
+- seventy-five-year-old lebanese farmer lady ragged orange dress holding shovel barefoot
+- fifty-four-year-old pakistani man brown pants, muddy boots at sunset
+- fortysomething omani woman blue skirt, carrying a pot on camel at dawn
+- twenty-six year old saudia guy in denim shorts no shoes leather wristwatch carrying shovel
+- eighty-one-year-old kuwaiti farmer lady yellow scarf, green skirt barefoot at sunset;
+- twenty-two-year-old saudi girl red headscarf brown dress holding rope on camel at dawn
+- seventies palestinian guy tattered brown pants leather wristwatch with water jug at midnight
+- thirties turkish man denim shirt carrying a pot muddy boots barefoot
+- forty-seven year old egyptian guy red pants leather wristwatch carrying water pot
+- thirty-four-year-old palestinian man with green scarf, white shirt barefoot on camel;
+- twenty-nine-year-old sudanese guy black scarf ragged jeans carrying shovel at sunset
+- eighteen-year-old pakistani guy blue scarf, red shirt on camel no shoes
+- seventies palestinian woman with yellow dress muddy boots with shovel
+- nineties algerian man white tunic brown pants in the fields
+- twenty-three-year old sudanese boy brown tunic torn jeans with goat
+- fourties libyan woman red skirt no shoes carrying a jug
+- thirties turkish farmer lady ragged pink dress barefoot on camel in the fields
+- eighteen-year old omani man blue shirt, denim pants carrying shovel barefoot
+- twenty-year-old jordanian girl red tunic no shoes leather wristwatch with a goat
+- thirties somali farmer lady blue headscarf, torn pants holding rope at dusk
+- seventies turkish man ragged shirt, tan pants carrying pot of water at midday
+- sixties iranian guy in faded pants leather sandals no shoes carrying bag of wheat
+- fortysomething somali woman red dress leather wristwatch on camel at dawn
+- twenty-five year old jordanian guy tattered shirt no shoes with a cow
+- thirtysomething turkish woman green pants leather sandals carrying bag of rice
+- sixteen-year-old pakistani girl blue scarf, no shoes holding pot of water at dawn
+- twenty-nine-year-old indonesian man denim shorts barefoot carrying shovel in the fields
+- thirty-eight year old somali guy ragged pants leather wristwatch with a cow
+- seventies turkish farmer lady torn yellow dress carrying pot barefoot at sunset
+- fifty-three-year-old algerian girl green dress, leather sandals on camel at dusk
+- eightyear-old kuwaiti girl blue pants no shoes in the fields
+- thirty-two year old syrian guy brown scarf, tattered jacket carrying shovel barefoot
+- thirties iranian woman pink tunic leather wristwatch with goat at sunrise
+- forty-two-year-old kuwaiti guy in blue shirt no shoes holding a rope at sunset
+- thirties kuwaiti girl red scarf leather sandals barefoot carrying goat
+- eighteen-year old libyan girl denim shorts, muddy boots with goat
+- thirtysomething somali man faded tunic leather wristwatch barefoot carrying shovel at dawn
+- sixties jordanian guy ragged pants, green scarf leather sandals with a goat
+- eighty-eight-year-old syrian farmer lady yellow dress, brown headscarf carrying a water jug
+- thirty-five-year old saudi man blue shirt no shoes barefoot carrying shovel in the fields
 
 ## subject_other
 - a grey cat on a windowsill
@@ -209,6 +4589,701 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a crane over a building site
 - a goat on a wall
 - a pile of firewood under a lean-to
+- a lava serpent emerging from ash
+- a steamroller's black surface with smoke
+- an iron spider crawling in the dark
+- the heat haze from an active volcanic vent
+- a charred oak tree with blistered bark
+- a hot air balloon drifting into a sunset
+- a burning meteor streaking across night sky
+- The last ember of a bonfire's glow
+- a red dragon breathing fire over forest
+- a scalding spring bubbling in geothermal field
+- an old radiator's rusted metal coils
+- the scorched shell of an abandoned car
+- a roasted pig rotating on spit
+- the smoldering ruins of a burnt out farmhouse
+- a volcanic crater glowing at night
+- a boiling mudpot with sulfurous fumes, a melted cactus sagging over desert ground,
+- a combine harvester with grain pouring from its chute
+- a plowshare glinting in freshly turned earth
+- a scarecrow in a cornfield
+- a windmill's sails spinning slowly against sky
+- a tractor with mud-caked tires
+- a bale of hay stacked high on a flatbed truck
+- an irrigation pipe leaking water onto parched ground
+- a farmhand wielding an ancient pitchfork
+- a greenhouse filled with rows of seedlings under lights
+- a farmer's weathered boots next to the barn door
+- a chicken coop packed full with hens pecking at feed
+- a cow grazing near a barbed-wire fence
+- a silo towering over an empty landscape
+- an old wood chipper next to a pile of logs
+- a water trough teeming with thirsty livestock
+- a farm dog lying by the door
+- a flock of sheep huddled near a stone wall
+- a pitchfork leaning against a weathered wall
+- a field of sunflowers swaying in breeze
+- a farmer driving through a flooded field
+- an abandoned apple orchard with trees gnarled by age
+- a wooden crate filled with vegetables
+- a horse-drawn carriage with hay for mulch
+- a barn full of hay in late afternoon sunlight
+- an old windmill with faded paint
+- a chicken pecking at a corn cob on dirt ground
+- a farm cat lying next to the woodpile
+- a farmer in overalls holding a sickle
+- a field of barley ready for harvesting
+- a tractor pulling a plow
+- a field with rows of planted seedlings under a dark cloudy sky
+- a barn's wooden door left open wide
+- a row of empty glass milk bottles lined up on a porch
+- a pile of compost teeming with worms and maggots
+- the back of an old man driving tractor
+- an octopus writhing in a tide pool
+- a sea turtle floating amongst mangroves
+- a starfish clinging to a coral reef
+- a jellyfish pulsing through clear blue water
+- a stingray skimming over sandy ocean floor
+- a lobster scuttling behind a rock outcrop
+- a conch shell resting on the wet sand
+- an algae covered tree root sticking out of ground
+- a crab emerging from a coconut husk
+- a palm tree bent by constant ocean winds
+- a hermit crab lugging its shell home
+- a frigatebird perched atop dead trees
+- a sea anemone hiding under coral shelf
+- a seagull flying over an island cliff face
+- a seashell half-buried in damp sand
+- a bamboo shoot poking through earth
+- an iguana basking on a sun-warmed rock
+- a mangrove tree reflected in still water
+- a sea gull with fish guts in its mouth
+- an eel slithering between rocks under water
+- a sandpiper walking along the tide line
+- a jellyfish drifting near surface in open water
+- a snail sliding down a rocky cliff face
+- a seahorse dancing in water
+- a frog sitting quietly on lily pad
+- a kingfisher hovering over calm lake
+- an aloe plant spilling its sap onto a beach
+- a parrotfish nibbling at coral polyps
+- a fish jumping clear of surface water
+- a seahawk flying around cliff edge
+- a snake coiled around a driftwood log
+- a bird of paradise blooming under palm tree leaves
+- a banana tree loaded with green fruit bunches
+- a pelican swimming through calm open ocean
+- a lizard scampering over sun baked rocks
+- a crab claw sticking out of a shell
+- a coconut falling from the sky
+- a sand dollar nestled in a seaweed tuft
+- snapping turtle swimming under lily pads
+- venus flytrap by the window
+- robin's egg blue on an abandoned nest in the corner
+- shrimp stuck behind the radiator grate
+- a parrot with feathers of red and green perched on a toy car
+- sucking fish in a small fish tank on the desk top
+- stagnant water and dead beetles in a plastic cup on the windowsill
+- seahorse stuck behind the bookshelf
+- giant jellyfish clinging to ceiling in a corner of the room
+- hermit crab crawling from under the bed
+- octopus tentacles squirming behind the trash can
+- a snail sliding down the wall
+- a spider's web with dead fly caught by the door frame
+- eel hiding in the corner behind a box
+- tortoise trying to escape between couch cushions
+- a giant crab on the kitchen stove with its claw in a saucepan
+- dragonfly fluttering around the lampshade
+- shrimp stuck on a light fixture of an office lamp
+- eagle's nest made of old papers and books near top of book shelf
+- tropical parrot nibbling a child's crayons beside the coffee table
+- clown fish peeking out from the computer speakers
+- sea horse swimming behind the tv set on the stand
+- a goldfish flopping around in a bag
+- stink bug on a pillow in the bedroom
+- swarm of ants marching across the floor
+- turtle shells under the bed for years
+- hermit crab in its shell near the closet door
+- pigeons cooing by the front window in the attic room
+- lizards basking on the bookshelf
+- butterfly's wings crushed in a glass jar under table
+- beetles mating in an old shoebox near bed
+- a dead pigeon under the dresser
+- a giant spider hiding behind the door frame
+- dead butterfly on the floor by the window
+- ant colony beneath the kitchen cabinet
+- centipede emerging from between floor tiles
+- a tiger cub lounging inside silk curtains
+- an emu perched on gilded egg carton chair
+- a tortoise crawling across gold leaf plate
+- a swarm of locusts circling a chandelier
+- a peacock preening in front of an ornate mirror
+- a rhino snorting next to a marble fountain
+- an alligator sunbathing on a terracotta roof tile
+- a camel humping beside a jacuzzi's edge
+- a raccoon washing paws inside china sink
+- a piglet napping on the velvet settee
+- a bear cub sliding down a polished banister
+- an owl perched atop a crystal vase
+- a goat chewing on antique rope handles
+- a kangaroo boxing a crystal chandelier
+- a hippo floating in an indoor marble pool
+- a cheetah prowling around a golden piano
+- a dolphin leaping over a silver statue
+- an elephant trumpeting beside a grand fireplace
+- a flamingo standing on one leg on marble floor
+- a zebra grazing among a field of crystal flowers
+- a koala climbing the wooden railing at the top of the staircase
+- a lemur leaping over a silk armchair
+- an ostrich pecking around a chandelier
+- a jaguar lounging on an antique Persian rug
+- a giraffe reaching for leaves above an ornate painting
+- a lion roaring near an enormous gold clock
+- a penguin sliding on a marble floor
+- a gorilla pounding its chest inside a library of rare books
+- a mouse scampering behind a golden pocket watch
+- a hamster running in a golden exercise wheel
+- a fox curling up beside a fireplace mantel
+- a bison grazing among a field of porcelain flowers
+- a hyena laughing by an oversized grand piano
+- a wolf howling near a wallpapered staircase
+- an alpaca munching on velvet plants
+- a moped with racing stripes across the dashboard
+- ferry boat's wheelhouse covered in fog
+- caravan’s interior littered with empty bottles
+- steam train engine driver sitting in front of a wall with a ticking clock
+- hot air balloon gondola’s canvas roof dripping wet
+- paddleboat propeller stuck against the backseat,
+- tiger prowling through diamond-shaped tiles
+- stingray gliding over silver tiled floors
+- crane standing on ivory chess board
+- snake slithering around ruby earrings
+- pigeons circling an ornate bird cage
+- iguana lounging in a bathtub of gold coins
+- manatee floating near an oversized crystal glass
+- deer gazing through beveled mirrors on the walls
+- bobcat sitting on a pile of cash under bed
+- kittiwake nesting high on the rafters by an ornately carved door
+- leopard stalking around polished mahogany desk
+- duckling waddling among gold-plated tableware
+- cockroach in a bowl with gold dust on bedside table
+- foxglove hiding behind a vase filled with emeralds
+- basilisk coiled around a golden candle holder
+- capybara swimming in an indoor swimming pool of sparkling water
+- beaver chewing the golden handles of cabinets in the kitchen
+- lemur resting inside the chandelier’s brass frame
+- cassowary wandering in front of a silver wallpaper
+- moth fluttering beside the golden statue's base on the mantelpiece
+- turtle hiding under a marble dining table set
+- salamander resting on velvet armchair
+- hummingbird hovering above a crystal vase filled with roses
+- bunny hopping through an ornate gazebo
+- dragonfly fluttering around diamond-studded lampshade
+- ostrich strutting across a silver-painted floor
+- badger scratching the antique wooden cabinet
+- mongoose wrestling a diamond-studded snake figurine on top of a dresser
+- parakeet perched on a golden coffee pot handle
+- seal basking in a tub with gold faucets
+- eel swimming behind a glass wall fountain in the grand hallway
+- racoon balancing a pile of plates on its head near the table
+- peacock spreading tail feathers next to vintage vase
+- shrimp darting under crystal chandelier
+- owl perched atop grandfather clock
+- hermit crab scaling ivory sofa armrest
+- parrot pecking at emerald necklace, inside a drawer of the cabinet
+- bat hanging from crystal window shade's gilded frame
+- deer lying beneath glass table with crystal legs
+- cormorant swimming on marble pool
+- sloth draped around wooden curtain rod
+- chameleon climbing silk drapes at windowsill
+- dragonfly fluttering around gilded mirror frame, in a room of blue
+- swan floating inside indoor pool, made of glass
+- goose nestling on white plush sofa cushion
+- stork strutting on top of marble staircase railing
+- lizard basking atop golden bedframe
+- cow grazing on the velvet carpet's patterns
+- piglet wallowing in wooden tub, filled with rose petals
+- horse snorting inside leather armchair
+- camel snoozing near a crystal vase with roses
+- duck swimming across gold mosaic tiles floor
+- moose grazing on crystal flowers, indoors
+- toucan peeking through glass door knobs
+- penguin swimming inside crystal aquarium wall, in an ice-themed room
+- rhinoceros resting his head near marble mantelpiece, on the sofa
+- alligator lounging inside golden bathtub
+- swallow nesting inside silver candlestick's holder on bookshelf by the window
+- crab skittering across mosaic tiles floor
+- goat standing on a bed of granite
+- penguin gliding over snow-covered boulders
+- bear scouring a mountain's rocky face for honeycomb
+- seagull swooping around an abandoned miner's pickaxe
+- grizzly climbing across a stone staircase with a silver handle
+- dolphin leaping from a turquoise river that slices the mountain's center
+- wolf stalking through snow drifts over sharp black rocks
+- squirrel digging into a stump, next to golden leaves on the ground
+- beehive attached to a cliff with jagged granite edges in the sunlight
+- lamb perched atop a rugged ledge overlooking the valley
+- tortoise trekking along a moss-laden path
+- deer grazing on lichen beside a waterfall's icy spray
+- raccoon peeking from a crack in a boulder-covered slope
+- goat chewing on wheat stalks in an open field
+- tractor pulling plow through muddy earth
+- sheep bleating near rusted metal fence
+- beehive suspended beneath an oak tree’s gnarled branches
+- wasp circling ripe tomatoes in the greenhouse
+- caterpillar crawling over cabbage leaves on vineyard row
+- hen pecking at corn kernels spilled on barn floor
+- strawberry patch overflowing with red ripe fruit
+- chickadee perching near a silo’s grain spout
+- ducks waddling across soggy farmland
+- scarecrow standing guard over sunflower field
+- combine harvester traversing field of golden wheat
+- sap dripping from maple tree in sugarwood forest
+- barn owl nestling in hayloft above horse stall
+- cow grazed on clover patch inside the field's fence line
+- potato vine creeping up wooden stake in garden row
+- bail of hay near the weathered door of a barn
+- garden hose coiled next to an old watering can
+- piglet rooting around compost pile behind the barn
+- algae blooming beneath irrigation channel's clear surface
+- muskrat burrowing near pond’s murky edge covered with lily pads in backyard garden
+- seedling sprouting through mulch in greenhouse bed
+- squirrel snatching acorns from fallen oak leaves under trees
+- rooster strutting across dirt path behind silo fence
+- barley swaying beneath a clouded sky at the field's edge
+- pumpkin vine spreading over garden plot
+- cattle grazing on overgrown pasture near the tree line
+- horse drinking water from wooden trough inside paddock
+- piglet snoutling through slop bucket in pen
+- sheep flock grazing near stone farmhouse wall
+- barn door creaking open revealing shadows within the barn interior
+- hay bale stacked under an old oak tree’s shadow
+- chicken coop nestled beneath a willow tree with branches dipping into muddy water
+- shear's blade scraping against sheep’s wooly back inside the barn
+- plow blade turning over soil on freshly tilled ground outside
+- frog hopping across lily pads on pond's surface
+- A seagull standing by wedding chair
+- Anemone blooming beneath a lace tablecloth
+- Bicycle lying underneath bridal tent
+- Butterfly fluttering near bouquet of lilies, on top of an elegant cake stand
+- Caterpillar inching up satin-covered chair
+- Couple's shoes laying by the side of champagne bucket
+- rabbit grazing at twilight next to barn
+- crab scuttling around sandcastle’s moat
+- goose soaking itself in muddy pond under moonlight, next to a duck
+- mouse nibbling seeds near window’s ledge in afternoon
+- tulips poking through soil covered by snow at dawn, with raindrops
+- deer peeking from tall grass before sunrise, near tree trunk;
+- moon snail trailing slime on seashells under midnight moonlight
+- cow chewing hay beneath a full moon's glow at night
+- snake coiled around wooden post at sunset
+- fox trotting through cornstalks in pre-dawn light with dew
+- dragonfly resting near lily pad in evening sun’s rays
+- turtle basking on rock outcrop dawn breaks over mountainside
+- cactus blooming under desert stars at night;
+- swan gliding past pondweed's edge at dusk by moonlight
+- mushroom sprouting beneath pine trees during stormy night; with a bird’s nest on top
+- elephant strolling through field of goldenrod in afternoon sunlight
+- crab scuttling along beach pebbles in early morning sunshine, near a seashore
+- giraffe napping under acacia tree at midday sun peak
+- otter sliding down mudbank under gray overcast sky
+- shrimp skittering beside coral reef during nighttime; under a sea turtle
+- honeycomb dripping inside a beehive near a lake at dusk
+- moth fluttering around gas lantern in evening twilight, next to a flower pot
+- dragonfly hovering over lily pond at noon's height
+- toucan perched on banana leaf at dawn with mist;
+- butterfly sipping dew off flower petals before sunrise
+- badger foraging near riverbank under moonlit sky during nighttime, next to a bird bath
+- swan preening feathers by lake's edge at sunup
+- snail sliding up garden wall in early morning's light with dew;
+- kangaroo bounding across outback grasslands at midday’s height
+- cactus blooming beneath starlit desert sky at night; next to a tree stump,
+- crab clutching barnacle under harbour bridge pier
+- seal sunbathing on weathered float by water's edge
+- sailboat rocking gently alongside old fishing wharf
+- pigeon cooing atop rusty harpoon at boatyard’s end
+- starfish clinging to submerged harbour pylons
+- rowboat floating near barnacle encrusted bollard
+- pelican perched on crab trap buoy at dawn's first light
+- lobster scuttling along sunken wreck’s rotting beam
+- mussels clustered under pier’s damp, wooden planks
+- buoy bobbing lazily in harbour fog at dusk
+- pump boat floating by the harbor entrance
+- killer whale breaching near oil tanker hull
+- heron stalking along harbour beach pebbles before sunrise with the waves crashing around it
+- eel slithering through submerged harbour debris at night
+- gull crying overhead in rainy afternoon above abandoned ferry terminal
+- whale breaching in harbor near the oil rig
+- oyster bed hidden beneath harbour’s murky floor at midnight
+- sailor walking home from the tavern across harbor beach in twilight
+- barnacle-crusted hull of ship wreckage
+- gull soaring over harbour under full moon’s glow with a school nearby
+- clownfish darting around harbour’s coral remnants in late afternoon sun rays
+- hermit crab scuttling along tide-pool rocks at low tide near the docks
+- duck floating on inner tube alongside harbor beach on sunny day
+- shrimp hiding under harbour's decaying wooden pier planks with a school of fish nearby
+- tugboat pushing barge through harbour’s narrow channel before dusk
+- starfish hiding beneath harbour rocks and stones at high tide
+- eel swimming near abandoned motor boats in dark murky harbour water
+- seagull circling lighthouse lantern near the edge
+- dog sitting by abandoned guardhouse on night duty
+- squirrel darting through barrier fence on a morning hunt
+- bison grazing at campground checkpoint during noon sun
+- goat grazing around border marker with a flowerpot on top
+- salamander lurking under fence in the moonlight
+- bee hovering beside border sign after sunset
+- wolf padding across border crossing's woods by moonlight
+- mole digging near gatepost at nighttime
+- shark swimming around shipwreck barricade in midnight water
+- dolphin leaping over docks during twilight, past the checkpoint
+- tiger prowling around border gate’s fence under full moon
+- bat swooping near barrier wire on a summer's evening
+- camel walking by checkpoint with a lantern at dawn in the desert
+- mouse squeezing through gate slat at night's end
+- bull snorting next to border guard station with trees around
+- seal lounging near pier’s rope during noon sun
+- sheep grazing by customs shack at dawn's first light with a fence nearby
+- pigeon standing atop border marker in early morning's mist
+- beaver gnawing near checkpoint during noon sun by a stream
+- crane flying over border station’s roof
+- mule chewing hay next to roadblock under starry night sky
+- frog jumping across checkpoint's puddle with the rain falling around it; during midnight,
+- otter slipping through barrier’s gap at sunset
+- turtle wandering near gatehouse with morning fog rolling in and a guard
+- cicada singing from fencepost at midday sun peak
+- eagle perching on border patrol tower during dusk
+- ant crawling under checkpoint's flagstone path, with the rain falling around it
+- hedgehog snuffling shop corner’s old wood pile after dusk
+- ferret peeking shop’s backdoor’s crate’s shadow at nightfall
+- fox darting alleyway between crates and barrels during midday sun
+- rabbit nibbling near shop doorstep during sunset
+- skunk rummaging through bins’ behind shop during twilight
+- owl nesting in shop eaves during midnight hour’s quietness,
+- raccoon climbing shop roof at the break of dawn to look over market stalls
+- rat scurrying between empty milk bottles near shop corner
+- deer grazing by fence behind shop with a school nearby during twilight
+- squirrel darting along shop’s roofline during early morning dewfall
+- pug sniffing at shop’s front door’s welcome mat on sunny day
+- rat scuttling between old barrels near shop’s backdoor during sunset
+- moth circling the shop’s single window’s dim lamp at midnight, under the stars
+- frog croaking from shop’s watering can with leaves during dawn
+- mouse squeaking inside empty barrels near the shop’s backyard at midday,
+- crab scavenging beneath dock's rusty ladder
+- manta ray gliding through harbor's shallow cove
+- pelican diving for prey in sunlit harbor bay
+- manatee grazing on sea grasses near harbor’s edge
+- seahorse swaying amidst harbor's kelp forest
+- moray eel coiled around harbor's broken anchor
+- stingray gliding over sandy harbor floor at dawn
+- jellyfish pulsing near harbor buoy during sunset
+- octopus hiding in harbor's abandoned fishing net
+- starfish clinging to harbour’s weathered dock post
+- swallow nesting under harbour's old boat shed roof
+- seal basking on harbor rock at sunrise
+- barnacles encrusting harbor’s old lighthouse wall
+- frog croaking near the edge of harbour’s marshy inlet
+- mussels clinging to harbor’s rocky shoreline
+- swan gliding along harbor's tranquil waters at dusk, with a school nearby
+- oyster cluster attached to harbor’s pilings in the moonlight
+- shrimp scurrying near harbor’s tidal pool at noon
+- hermit crab moving into empty shell on harbour beach during sunrise tide
+- coconut palm leaning over harbor's sandy shore with a school nearby
+- seagull perched on harbour’s rocky outcrop during twilight,
+- turtle nesting in the soft sand of harbours' dunes under moonlight
+- parrotfish nibbling coral near harbor’s shallow reef at noon sun rays
+- squid changing colour whilst hiding near harbour entrance
+- crab emerging from water by harbor’s rocky beach during twilight
+- algae blooming beneath harbor's surface on a sunny day
+- dolphin pods playing around the submerged harbour's old concrete foundations
+- grouper lurking below harbor's pier at midnight with fish nearby
+- sardine school swimming near harbor’s surface at midday sun peak
+- barracuda circling wreckage of ship near harbour’s shore in the moonlight
+- seabird swooping over harbour island’s clifftop during sunset, looking out to sea;
+- shark fin cutting through shallow water by a rocky island cliff during twilight
+- penguin waddling along harbor’s rocky beach during noon sun rays under waterfalls
+- clownfish darting around coral in harbour waters
+- sea anemone attached to the rock, swaying in current with sea urchin nearby
+- killer whale breaching in harbour’s shallow waters near the ocean during sunset
+- jellyfish pulsing along harbours' calm shoreline at midnight
+- star fish clinging to rocks in harbour's tide pool near the lighthouse
+- barracuda lurking under harbour’s pier in twilight
+- hearse arriving at graveyard's gate
+- wreath laying across casket's smooth surface
+- gravestone weathered by centuries of grief
+- headstone chipped from mourners’ sorrowful touch
+- urn filled with last remnants of life
+- sculptured angel weeping on pedestal
+- daisy chain intertwined through tombstones
+- eagle feather placed at grave's head
+- rose petals scattered by mourner’s hand
+- candle flame flickering in urn’s glow
+- bible open to cherished verse beside grave
+- handkerchief damp from grief pressed on stone
+- mourners' tears dripping down the coffin lid
+- coffin resting under ancient cypress tree
+- daisies growing wild along cemetery path
+- cross standing tall amongst graves of family
+- funeral carriage slowly moving through gate
+- gardenias blooming atop freshly dug plot
+- headstone’s name etched by loving caress
+- cherry blossoms scattered at grave's edge
+- wreath lying on mausoleum doorstep
+- doves flying overhead in peaceful silence
+- ribbons fluttering from urns of memories
+- candelabras casting shadows on mourners' faces
+- funeral march echoing through graveyard trees
+- headstone’s date fading into time's memory
+- memento mori carving etched on tombstone
+- black flowers standing out amidst the green grass
+- grave’s soil moist from mourning day’s rain
+- blooms blooming over gravestone for the last time
+- memorial stone carved with loved one’s name
+- cemetery’s clock ticking through quiet hours
+- cherry tree blossoms falling on grave at twilight
+- crypt entrance shadowed in eternal sadness
+- whale breaching harbor's waves with stormy wind
+- cormorant squatting on buoyant harbour wreckage as lightning strikes nearby sea;
+- 'pike swimming in harbor's brackish waters during hurricane
+- jellyfish washing against harbor’s shore near rocks under the rain
+- sturgeon lurking near harbour’s muddy bed beneath hail storm;
+- seal basking on harbor's ice floe as snowflakes dance down
+- 'barnacle stuck on dockpost under the snowstorm, surrounded by broken ships'
+- crab frozen mid-scap at harbour's shore, where snow flurries swirl around it
+- ice skaters twirling across harbour’s frozen water in sunlight
+- sand dunes shifting along harbours’ coastline during sand storm with the wind;
+- 'starling flock taking over old boat as rain storms
+- shipworm tunneling through harbor's decaying pier under drizzly rain
+- 'mussel clinging to rock, battered by waves of a hurricane
+- snowy owl landing in harbour’s quiet inlet near the moonlight
+- 'bear walking by harbours shore during a hail storm
+- 'iceberg floating at harbor's entrance under moonlight with water droplets glistening;
+- 'seal swimming in harbour's choppy waters near sunrise
+- sea lion hauling out onto harbor’s rocky island as dawn breaks
+- shrimp hiding beneath harbor’s dock during a rainy downpour
+- 'swamp eel sliding through harbour’s murky waters under the moonlight near a shipwreck
+- 'manatee gliding along harbours’ seagrass beds in dusk, where debris floats
+- 'fisherboat floating at harbour’s docks, waiting for weather to clear
+- beached seal near harbour's inlet during twilight
+- school bus with faded yellow paint
+- hermit crab scuttling under dock
+- sea turtle nesting in soft sand at night
+- bald cypress towering over marsh water
+- praying mantis resting on weathered deck rail
+- cattle egret stalking through shallow pond during sunrise
+- garden spider weaving its web between oars
+- blue crab molting beneath the fishing boat’s hull
+- dolphin leaping alongside schooner in choppy seas
+- cottonmouth curled in sun-drenched rocks of marshlands, waiting
+- swamp maple blooming along shore’s edge
+- pelican perched on rusted anchor chain
+- mosquito swarm buzzing around boat's deck lamp at night
+- paddlefish gliding through harbor’s calm inlet at dawn
+- white ibis foraging in murky water near sunken hull
+- water strider skating across oily puddle beside boat house
+- mangrove root system exposed from receding waters during drought
+- dragonfly patrolling marshlands
+- tiger shark lurking under pier at sunset
+- brown snake slithering through marsh grass for its prey
+- seagull fighting over scraps on sandy beach
+- snapping turtle basking near lily pads and cattails in daylight
+- oyster shell glistening with new pearl in murky harbour waters
+- pink salmon leaping upstream near waterfall, at dusk
+- school of anchovies forming a shimmering sphere under sailboat, evading predators
+- mule kicking up dust from schoolyard playground
+- firefly buzzing around harbourside campfire during summer night
+- mercedes limousine idling at private drive
+- yacht with golden statues adorning deck
+- private jet ascending over cloudless sky
+- chauffeur in crisp uniform opening door
+- silver Rolls Royce parked at luxury resort
+- helicopter descending on rooftop helipad
+- gold-plated fountain gurgling in estate
+- stretched Hummer gliding along winding lane
+- white Lamborghini cruising through posh street
+- pristine Ferrari racing down palm-lined avenue
+- maserati with custom rims parked outside mansion
+- Bentley with polished brass detailing
+- Porsche speeding through gated community
+- private submarine diving into clear waters
+- golden retriever lounging on yacht's deck
+- snow-white cat peeking from open car window
+- champagne bottles chilling in limo’s bucket
+- crystal decanter filled with fine brandy
+- gold-embellished piano gleaming in lobby
+- sleigh with pristine white furs awaiting
+- cigar humidor crafted from rare woods
+- antique violin case resting on sofa
+- hand-painted vase adorned on shelf's corner
+- diamond-studded earrings sparkling at a ball
+- customized Rolex glinting under chandelier light;
+- polo ponies grazing in lush estate lawns
+- snowy owl perched on golden perch outside balcony
+- palms lining pathway to lavish entrance, with a sculpture in its garden
+- rickety rowboat leaking oil onto shore
+- abandoned sailboat listing from broken hull
+- worn tractor tire sinking into muddy field
+- rusty bicycle locked beside alleyway gate
+- dilapidated wagon trundling down dusty track
+- decaying pirogue floating near river bank
+- junkyard car with shattered window, flat tires
+- vintage boat with cracked hull, tilted in mucky lot
+- decrepit rowboat with broken wooden paddles
+- disused tugboat moored on harbor side wall
+- battered wheelbarrow resting against barn wall
+- mangled bicycle abandoned near dumpster
+- tarnished harp collecting dust on attic shelf, unused
+- broken windmill creaking in deserted field during winter storm
+- run-down kayak left in weedy back yard, leaking
+- neglected boat floating aimlessly through marshlands
+- rusted-out canoe propped against old shed
+- old caravan with broken down front door
+- forgotten rowboat half submerged in the harbour
+- faded dinghy tied to a rotten dock piling
+- worn-out fishing rod leaning against cabin
+- junky outboard motor left by the shore's edge
+- ramshackle hut leaning at beach's end with debris scattered outside
+- tattered mosquito net fluttering over broken window pane, abandoned
+- moss-laden tree stump near rundown cottage in forest clearing, decaying roots showing through soil
+- cactus leaning on an old stone fence, with its prickly needles all over
+- old waterwheel spinning slowly due to weak current near river
+- swaying banana tree growing next to dilapidated shack by beachside path
+- rusty chains holding a broken wooden dock together
+- half-buried tire stuck in mud near abandoned mill, rusted beyond repair
+- border collie herding sheep through checkpoint
+- cobra coiled around customs sign
+- armored tank guard duty at border
+- rusted drone hovering over outpost
+- giant sequoia blocking forest path to campground
+- redwood stump in front of check point
+- sentry post with broken flagpole
+- guarded barrier at border crossing
+- beetle crawling under checkpoint gate
+- watchtower with rusted ladder leaning against it
+- concrete barriers lined across road
+- moth fluttering around spotlight at border
+- soldier patrolling along fence line
+- barbed wire running along stone wall
+- deer leaping over fence in moonlight
+- snake slithering under broken checkpoint booth
+- metal detector beeping at entry point
+- eagle perched on guard tower railing
+- barking dog at border patrol station
+- cactus with bright pink flowers near entrance
+- pigeons roosting atop checkpoint hut
+- fiberglass boat in the woods, overturned by road
+- old bus abandoned beside the highway with graffiti
+- wooden sign indicating campgrounds along the forest trail
+- rusty chainsaw left beside a tree stump at the checkpoint
+- battered jeep parked near the guard shack
+- bison grazing near customs station
+- swirling lichen on old border wall
+- cracked statue of a soldier standing vigilant in field
+- trunk of an uprooted willow blocking road to campground
+- barnacle-encrusted buoy hanging from checkpoint gate
+- abandoned hammock stretched between trees near camp entrance
+- fence with broken planks at border line
+- snow geese honking over guard station
+- old, broken watchtower in disuse during summer heat
+- caterpillar excavator parked by the checkpoint gate
+- shattered beer bottle on dirt roadside near customs area
+- trampled tulip patch along road to guardhouse
+- withered olive tree shaded by border fence
+- rusting landmine hidden among rocks in field
+- sagging cactus fence encircling desert outpost
+- camouflaged tank lurking in jungle undergrowth
+- wobbly wooden ladder leading to watchtower, broken
+- deserted hammock beside tropical beach hut
+- sturdy stone well at forest border crossing
+- cresting sand dune blocking the highway
+- clanging wind chimes hanging near sentry post, damaged,
+- drifting balloon tethered to a tree near the camp entrance
+- rustic wood sign marking the path to river outpost
+- sandstone cave carved into border cliff face
+- rusted metal gate at campsite entrance
+- snow covered pine trees blocking forest road near campground
+- deserted hammock in jungle clearing
+- broken fence near a watchtower, snow-covered
+- faded redwood tree marking the path to border crossing
+- abandoned hut leaning against stone wall
+- rusting metal gate hanging off hinges at entrance of campground
+- tattered flag fluttering in breeze from guard tower rooftop
+- rusting metal gate hanging off hinges, campgrounds' entrance
+- cresting waves crashing against beachside checkpoint
+- camouflaged jeep hidden by bushy vegetation at forest outpost
+- wintered evergreen tree with snow-covered branches, leaning on fence
+- stained leather gloves laying under border sign
+- faded redwood tree blocking entrance to campsite
+- abandoned rowboat at a beach campgrounds
+- gnarled mangrove roots entwined around the broken gatepost
+- half-buried sandbags left from the flooded road
+- moss-covered concrete barrier lining the border fence
+- cracked windshield on jeep near outpost
+- crumbled cobblestone pavement at village checkpoint
+- splintered wood planks of a bridge to the island campground
+- ancient stone ruins along forest path
+- swaying sea grass in ocean near checkpoint gate
+- old, moss-covered boulder blocking trailhead road
+- seagull stranded on rusted boat anchor
+- moose wandering past derelict park ranger station
+- grizzly bear poking at broken trap along fence
+- fox lurking behind crumbling stone sentinels
+- coyote sneaking through barbed wire
+- badger climbing out of collapsed tunnel under the campgrounds gate, in ruins;
+- black bear foraging near rickety wooden tower by border crossing
+- lizard darting over fallen concrete bunker on abandoned beach road
+- raccoon poking at rusted metal barrel near check point guardhouse
+- bat flapping through gap in crumbling roof of forest outpost
+- rabbit hopping across rotten wooden planks of a bridge
+- crab scuttling over splintered dock at waterfront gate
+- goose pecking at discarded food scraps near beach hut's broken hammock
+- mink slipping into polluted lake through a hole in the fence
+- vulture circling above rusted military vehicle in desert outpost
+- beetle climbing over tattered camp chair in clearing
+- weasel skulking around toppled watchtower at forest road
+- frog croaking near rotting boat by the river outpost gate, moss-covered and broken;
+- mule grazing on weeds near collapsed farmhouse by border fence
+- crane pecking at abandoned tools near derelict construction site
+- wolf prowling through decaying barracks beside campgrounds entrance
+- shrew scurrying along base of the snow covered pine trees
+- deer drinking water from a rusted metal gate's leaky faucet
+- boar rummaging in trash pile behind old guard shack
+- kite tangled in barbed wire near deserted checkpoint hut
+- mouse sneaking into decaying building through hole in crumbling foundation
+- squirrel scampering over rusted metal gate hanging off hinges
+- firefly illuminating hidden night trails, glows faint
+- nightjar perched on rusty fencepost at camp
+- lizard darting under oil drum by outpost shack
+- bat swooping over broken glass windows
+- mouse scurrying around rusted tools in a clearing's shed
+- spider spinning web across old military vehicle's headlights
+- porcupine grazing on shrubbery beside campgrounds' gatehouse
+- racoon snatching food scraps from near the fence
+- seal swimming in black water, through broken docks by entrance of campsite
+- bear climbing over toppled wooden tower at border crossing
+- dragonfly resting on rotting boat at river outpost
+- skunk sniffing around trash cans behind forest gate
+- deer grazing in moonlight near stone ruins
+- fox snatching rabbit near old bridge
+- owl sitting on fence beside sentry post's window, empty
+- goose floating down the canal, past campsite shack
+- eagle soaring over broken tower at beach checkpoint
+- hawk perched on fence beside watchtower
+- moon snail sliding through wet sand near night patrols
+- pigeons sleeping on rusty gate's broken hinge at campsite entrance
+- snake slithering across barbed wire fence by outpost
+- crane standing in the middle of river, near guardhouse, damaged
+- heron wading through murky water past campgrounds' pier
+- cat prowling around abandoned shed near forest checkpoint
+- dragonfly resting on broken windshield at border crossing
+- mouse running through old jeep's tires, deflated
+- kite fluttering in the breeze beside stone wall of campsite
+- snail climbing up moss-covered concrete barrier by fence
+- hedgehog sneaking under rotted bridge plank near campsite gate
+- squirrel darting around rusted metal gate's hinge, broken
+- bear foraging at border outpost sign, faded
+- bat sleeping in the old watchtower roof gap
+- fox lurking beside concrete barrier lining the fence
 
 ## object
 - a dented thermos
@@ -236,6 +5311,670 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - a school satchel
 - a mobile phone face down
 - a glass of tea in a tulip glass
+- a syringe plunger, with blood smears
+- an IV drip bag, half-empty, tubing coiled around
+- A stained mask hung on the back of a door
+- a prescription bottle with frayed label
+- A worn clipboard hanging from the wall
+- a pair of crumpled scrubs in a corner chair
+- I am looking down at a rusty scalpel blade on a tray
+- a faded ID badge clipped to a pocket
+- an oxygen tank, dented metal, valve rusty
+- a deflated rubber glove, pale with powder
+- A plastic specimen cup full of piss
+- A used-up hand sanitizer bottle, label peeled off
+- The handle of a metal tray is bent
+- I am looking up into the scratched lens of a scope
+- the bottoms of blood-stained shoes that are laced loosely
+- It's a bandage box, open and torn inside an unlocked drawer
+- a yellowed plastic cup with a chipped rim
+- a dented metal canister full of gauze that is dirty
+- A roll of used medical tape, end frayed, sticky
+- A half-full water bottle with a hospital sticker
+- An old leather-bound logbook, edge worn, corner creased
+- A torn-up chart of human anatomy pinned to the wall
+- A plastic box for sharps full of needles
+- A rusty pair of scissors on a silver tray,
+- a rubber tube is curled and frayed
+- I am looking at an oxygen cannula that is covered with dirt and dust
+- a dented metal clipboard hanging from its hook on a stand
+- The handlebar of a wheelchair is grimy, the seat dirty
+- A faded map of the hospital, route marked with pen
+- a bottle of rubbing alcohol is half full, label peeling off
+- A cracked stethoscope hanging round someone's neck
+- A rusted set of medical tweezers
+- The bottom of a paper cup is torn and leaking water
+- a barnacle-encrusted compass
+- a sea-shell necklace, frayed cord, worn shells
+- a river stone, smooth from tumbling
+- a faded rope net, knotted
+- a broken lobster trap, barnacles attached
+- a rusted fishing hook with rotten bait
+- a decaying wooden oar
+- a small glass jar of river water containing a drowned bee
+- A used fishhook, rusty, embedded in a driftwood chunk
+- a rotted net handle, tied to the pier
+- an anchor rope, frayed from sandpaper on rocks and coral
+- an old sea-glass bottle half filled with beach sand
+- An eroded fishing lure, missing hook, with flaking paint
+- an algae-covered bucket of water
+- a faded red plastic paddle, peeling label
+- A rusty fishing tackle box, hinges bent open, with empty hooks on the inside
+- an old anchor, broken chain hanging loose
+- a broken crab net, torn fabric and frayed rope
+- An eroded sandal with a broken strap by the riverbank
+- an abandoned snorkel mask with a torn gasket
+- a flimsy fishing line from a reel
+- a peeling fish scale on a rock surface
+- A rusted metal float, covered in barnacles, attached to an orange buoy
+- An old rubber diver's flipper, hole by the toes
+- a wooden paddle with the bottoms of its planks worn down
+- A used up bucket full of dead bait, worms squirming
+- an empty fishing tackle box, no hooks inside, rusty hinges
+- A broken kayak paddle handle on a riverbank
+- an orange life jacket, ripped and faded by the sea
+- a pair of scuba fins covered in sand and mud
+- a cracked snorkel mask, water damaged gaskets and worn head strap
+- a fishing reel handle with missing paint, the button worn down
+- a sea shell necklace, broken clasps and faded shells
+- A boat anchor on a riverbank, rusted chain hanging loose from it
+- a metal fishhook box with a cracked hinge
+- A hospital ID tag with frayed string
+- A dirty rubber bulb for checking blood pressure
+- A plastic pill container, label smeared
+- A thermometer's glass is broken near the tip, mercury exposed
+- An eye patch is torn, faded by light and sweat
+- A metal scalpel, handle worn from use, dull blade
+- An IV bag hook, scratches from metal-to-metal scraping
+- a blood pressure cuff, velcro frayed
+- A tongue depressor, bent and yellowed at one end from use on a patient
+- A plastic syringe with a broken needle that is stained
+- A cold, crumpled paper gown with faded print
+- An IV stand, scratched paint, a wheel loose
+- A cotton swab box, lint spilling out from a ripped edge
+- A worn paper surgical mask, elastic strap frayed
+- A metal bedpan with scratches and rust stains
+- A hospital sock, faded stripes, hole in the toe
+- A disposable ice pack, frozen contents leak through tiny hole
+- a metal speculum with a bent handle and chipped silver coating
+- The edge of a used gauze pad, with bloodstains is tattered on one side
+- A plastic bedpan lid, cracked from hard impact
+- A cotton ball roll, one end frayed and loose, half used
+- A metal stapler, bent handle, sharp teeth bent out from use on a wound
+- An IV tubing clasp is warped and twisted from overuse in an emergency room
+- The edge of a used suture thread, frayed ends and worn
+- A broken syringe plunger
+- A metal tray with chipped enamel, edges banged up
+- a blood pressure cuff
+- An old pair of crumpled latex gloves, one ripped at the finger tip
+- A bottle of alcohol wipes, empty and crushed
+- brass compass face scratched and tarnished
+- plastic radio antenna snapped in half
+- vinyl tape player cover, worn and yellowed
+- chrome ashtray filled with old cigarettes ash
+- torn vinyl wallet, ID photo faded from sun exposure
+- wooden cassette player, paint chipped on its corners
+- old walkman, buttons missing under finger dirt
+- pocket-sized camera film door broken
+- a pocket radio battery compartment loose, no batteries
+- plastic tape measure with frayed inch markings, snapped clasp
+- vinyl record cover with ripped edges and peeling labels
+- brass telescope lens scratched and dirty, faded paint
+- leather belt frayed at both ends, missing stitches
+- plastic typewriter keys worn smooth in the center of each letter
+- wooden cassette player, paint chipped from corners
+- metal slide rule case cracked open, scale faded
+- rubber flashlight handle cracked and loose battery casing inside
+- polaroid camera lens scratched and dirty, ripped strap
+- plastic pocket watch glass face broken, black leather strap frayed
+- pocket-sized sewing kit rusty needle, worn scissors and thread
+- wooden clock pendulum weight dented by time use
+- chrome alarm clock ring bell with a dent from heavy force
+- vinyl album sleeve stained on back, torn corners and labels
+- chrome radio antenna snapped in half and paint chipped
+- metal slide rule with worn out ink on scale and missing cap
+- brass tape dispenser lever rusted and dirty
+- chrome camera flash battery cover loose, corrosion on metal
+- plastic sewing box hinge is bent open from frequent use
+- wooden photo album pages torn at the corners, brown stains from water
+- chrome watch crystal cracked from impact
+- vinyl LP record dusty with scratched grooves and dirt inside the center hole
+- metal film projector, gears missing teeth due to heavy usage
+- plastic tape recorder wheels loose on its shaft
+- plastic cassette player buttons worn out from use, black paint chipped
+- chrome flashlight lens cracked in half with a black rubber grip torn
+- chrome watch case and its hinges corroded from sweat and moisture
+- tennis racket, worn handle-grip frayed at edges
+- baseball mitt, stains where the ball has struck hard
+- skateboard wheels flattened at middle after years of tricks
+- bicycle helmet, scratches from falling down on gravel
+- hockey stick bent at tip and cracked grip tape, worn out
+- soccer cleats, torn stitches along the sides from kicking hard
+- golf club head scratched up with nicks from rocks in bunker shots
+- bowling ball with thumbhole roughened for better fit
+- basketball ripped leather and scuffed rubber base
+- surfboard bottom chipped and wax worn thin
+- skateboard deck tail dented from tricks gone wrong
+- paintbrush handle cracked with dry paint in bristles
+- football, scuffs from grass and wear along laces
+- lacrosse stick worn handle tape and nicks in head
+- camping stove burnt grate and chipped enamel
+- fishing reel rusty gears and broken plastic handle
+- pocket knife blade dull with chips on edge
+- snorkel mouthpiece cracked at the edges, faded color from sun exposure
+- swim cap frayed along hairline and missing straps
+- A yoga mat worn to the color underneath the surface and torn seams
+- A frisbee bent slightly after catching it rough surfaces
+- a hockey puck worn away at the sides from striking
+- pocket knife, handle worn smooth, blade with scratches
+- climbing rope frayed on edges and cut from sharp rocks
+- And a kayak paddle broken rubber grip, splintered wood
+- snowshoe strap torn and metal buckle bent
+- skis bottom scratched and rusted from hard use
+- baseball glove lacing loosened after catching many pitches hard
+- mountain bike saddle cover worn and cracked from long hours of sitting on it
+- metal thermometer tip bent from impact, black rubber grip chipped
+- plastic binoculars rubber eye-piece broken off by rough use
+- vinyl raincoat faded stripes with stains in collar from dirt exposure
+- chrome watering can spout clogged with dirt and cracks due to rough usage
+- camping lantern screen rusty and glass panel smudged up with grease and fingerprints, scratched
+- fishing net shredded edges from catching fish and rough surfaces in the sea
+- metal compass needle broken after a hard fall and chipped metal cover
+- steel water bottle dents and scratches from carrying in backpack and dropping it
+- plastic measuring cup broken handle from use and cracked at bottom from drops
+- vinyl rainboots faded colors from sun exposure and chipped rubber toe caps
+- chrome binoculars body scratched from rough handling and sand on beach surfaces
+- plastic compass broken bezel and damaged glass from rough handling
+- steel flashlight body dents with scratches from drops on hard surfaces, cracked casing
+- rubber gloves fingers torn from use in harsh weather conditions
+- plastic rain gauge faded label and dirt stains inside of container, broken off top
+- vinyl gloves fingers ripped after rough use while cleaning outdoor items during storms
+- plastic snow goggles straps broken and cracked from frequent use while shoveling snow
+- steel snow shovel rusted blade, bent at tip from rough use on gravelly driveways
+- vinyl ice scraper worn down rubber edges, chipped paint handle
+- chrome umbrella handles bent and dirty from constant rain exposure
+- brass telescope rusty metal pieces with broken hinges, scratched paint
+- metal pocket watch rusty hinge, damaged glass and scratches on the casing
+- vinyl rain boots faded color from the sun exposure, cracked soles from rough surfaces
+- plastic compass damaged glass cover and worn out rubber edge due to frequent handling
+- steering wheel, leather peeling at edges where hands grip
+- seat belt latch scratched open frequently from use
+- ashtray overflowing with cigarette butts, smudged
+- cupholder stained brown, rim worn and warped by heat
+- car key rusty teeth from frequent turning in ignition switch
+- radio knob worn to shiny silver from constant tuning
+- cloth sun visor faded and torn seam from pulling it down roughly
+- mirror cracked from hard backups and cleaning with rough cloths
+- door handle grimy, chrome scuffed and paint scratched away where hands have grabbed
+- window switch broken plastic cap, screws exposed to dirt and debris from heavy usage
+- sunroof latch worn from constant pushing open and closed against friction
+- gearshift worn leather top from hard driving habits
+- brake pedal rubber fraying around edges after years of heavy use
+- glove compartment spring loose on one side, won't close tight anymore
+- seat fabric torn where pocket knife had cut open when placing into the upholstery
+- interior roof lining has paint chipping from overhead lights and hanging objects scraping
+- dimmer switch worn out knob with greasy fingerprints all over it
+- power outlet in car's console cover missing, wires exposed for frequent phone charging
+- radio antenna snapped where it meets the base due to rough usage and impact
+- floor mat rubber edges chipped from kicking shoes off
+- hood release lever broken plastic, held together by duct tape
+- headrest leather cracked along seams due to constant friction and wear
+- rearview mirror hanging by a single wire from being knocked loose
+- window weather stripping ripped off where doors have been slammed too hard
+- carpet worn threadbare under the driver's seat, faded spots from heavy feet
+- air vent plastic knob broken in half after use for adjusting direction
+- tissue box metal spring broken from constant usage
+- radio antenna snapped at top with black electrical tape holding it together
+- window motor assembly wires broken and frayed from rough operation of windows
+- hood latch rusty, paint scratched away where hood has opened too hard against friction
+- seatbelt clip, teeth worn down by frequent use to hold the belts tight
+- trunk lock corroded from constant moisture exposure on rainy days
+- wooden plow handle polished smooth from farmer's grip
+- rusted pitchfork tines bent from digging through hard ground
+- leather harness cracks worn out from daily cattle pullings
+- broken milking pail lid with chipped paint, missing clasp
+- vintage metal washboard scratches, dents of repeated laundering
+- old spinning wheel worn thread worn around spindle after many yarns spun
+- carving knife handle broken where the wood met the blade
+- broom bristles frayed and bent from sweeping out the barn and streets daily
+- stone mortar chipped by years pounding herbs and grains into pastes
+- scythe's cutting edge dulled by mowing grass all summer long
+- sieve rims broken and handles loosened from straining many meals
+- water well bucket rope frayed from constant hoisting of water
+- old wooden ladder, steps worn away from countless climbs
+- hand mill stones dented and stained by grains milled since generations
+- pitcher handle broken after carrying much liquid between farmhouse and fields daily
+- clay pot base chipped from cooking countless meals over open fire
+- hay hook with a broken tooth from tearing hay bales apart, metal rusted
+- wooden pitchforks tines splintered from frequent use in compost piles for the crops
+- shears bent by cutting wheat on village fields day after day, edges dull
+- painted wheelbarrow handles flaked off from years of heavy carrying and exposure to sun
+- metal stove lid damaged hinge due to constant opening and closing from cooking
+- cloth rug frayed, worn out on the corners with muddy footprints and stains
+- straw broom handle splintered from sweeping dirt paths every day
+- wooden crate handles loose from heavy cargo loads delivered regularly throughout years
+- metal milking stool legs bent after many hours of sitting during milkings every day
+- pitchfork handle worn smooth from lifting hay bales
+- wooden barrel hoops warped by water exposure for the last decade, stained, leaky
+- candlewick pinched off and burnt around edges from repeated use
+- loom frame scratched from years of weaving cloth for village folk's clothing
+- battered lantern glass broken, soot on the inside, rusted hinges
+- wooden barrel bung loosened and worn out with daily usage over several years
+- scrap metal bucket's bottom cracked from repeated use of carrying heavy stuff around village
+- clay jar mouth chipped where a rope would have wrapped around to carry water
+- chisel blade dented with worn handle from carving wood pieces in the village
+- iron fire poker head rusty and bent, soot stained
+- wooden bucket split after constant usage and harsh exposure to the sun over years
+- stone bowl chipped on edges of use
+- rooftop vent cover dented from hail storms
+- metal gutter edge rusted, paint flaking off
+- antenna wire frayed where it's been cut
+- plastic solar panel corner shattered from a fall
+- old satellite dish cracked and covered with dirt from many seasons outdoors
+- chipped asphalt shingle after being stepped on repeatedly
+- drainage pipe joint sealed with worn, dirty duct tape
+- broken roof tile, moss growing in the cracks
+- rooftop thermostat wires exposed from heavy wind
+- chimney brick cracked where it's been hit by debris
+- cracked skylight pane has a spiderweb fracture running through it
+- wooden railing post warped due to exposure and humidity
+- skylight frame weathering, paint peeling off with age
+- broken solar panel cell with missing glass pieces
+- metal roof flashing bent out of shape where it meets the chimney
+- chimney cap rusted, flaking and covered in dirt, ash residue at base
+- satellite dish bolts loosened from constant vibration of the wind and rain
+- roof gutter sagging from heavy snow load during winter
+- cracked rooftop window from a severe hailstorm with debris stuck inside it
+- ventilation grille filthy, covered in leaves, dust and insects after many summers
+- metal pipe bent at a 45-degree angle and cracked due to falling branch
+- rooftop light fixture missing glass cover, broken bulbs inside
+- old chimney flashing has crumbled, pieces falling off after heavy storms
+- flashing around the roof vent is corroded and full of holes from rain
+- wooden shingle edge cracked due to age and weather conditions; chipped paint
+- metal roof vent cover with scratches all over from maintenance crews walking on it
+- chimney bricks stained black with soot at bottom
+- roof solar panel dirty, covered in bird droppings after long usage
+- thai wok handle charred by constant high heat
+- japanese tea scoop tarnished by centuries of use and powdered matcha dust
+- german beer mug grip stained with dark yeast and foam
+- french rolling pin scarred, flattened by countless croissant dough
+- indian spice grinder teeth broken from endless pounding
+- moroccan tagine lid rusted around handle after many stews
+- irish hurley wood splintered near the hand for slapping ball over years
+- italian pasta fork prongs bent out of shape from twirling spaghetti
+- scottish whiskey glass base worn down from rubbing across bar counter
+- swiss cheese knife holes dulling, and handle stained by many cheese
+- japanese wooden chopstick tips warped from constant use of soaking in broth and noodles
+- mexican stone molcajete bowl sides chipped, ground cumin stains
+- vietnamese bamboo rice basket bottom frayed from transporting countless grains across the markets
+- indonesian bamboo mat worn thin, stained by frequent serving of curries
+- greek olive oil bottle lip cracked by frequent pourings over decades and years
+- kenyan stone mortars bottom stained and worn smooth, after daily grinding
+- thai coconut shell scrapper wood handle broken from constant cutting coconut
+- india wooden rolling pin scarred by many chapati dough
+- japanese rice scoop chipped from serving thousands of meals since a long time ago
+- french pepper grinder teeth dented by years and years of crushing peppercorns
+- italian pasta spoon edge bent from twirling spaghetti over decades
+- mexican tortilla press metal plate scratched, with cornmeal embedded
+- portuguese corkscrew handle worn out, stained from opening wine bottles
+- greek cheese grater teeth dull by many years of use
+- thai wooden rice scoop, wood warped by humidity and usage in the kitchen
+- russian samovar spout corroded and bent after many cups of tea
+- chinese soup ladle handle loose from constant stirring, with stains of soups and stews
+- french baguette knife blade dulling out, with flour residues embedded into grooves on blade
+- seashell necklace broken clasp
+- beached glass bottle worn smooth by sand
+- driftwood carving sand eroded features from years on the shore
+- tattered fishnet rope frayed edges, salt-crusted knots
+- corroded anchor rusty and pitted with barnacles from sea exposure
+- ritual candle holder wax drip running down the side
+- baptismal font corner stone worn smooth by countless baptisms
+- incense burner charcoal-stained from years of burning rituals
+- rosary beads center cross tarnished and bent from constant handling during prayer services
+- congregational bell rope frayed, dark stains from years of tolling during services
+- priest's chalice gold rim smudged from the hands that hold it every service
+- communion cup silver surface scratched by the teeth of countless parishioners
+- confessional booth door handle worn down by decades of penitents seeking forgiveness
+- liturgy hymnal book spine frayed, pages creased and yellowed with use
+- processional cross foot worn thin from dragging along the path during services
+- altar cloth hem dirty with wax drippings after years of candle usage for ceremonies
+- bible leather cover creased from constant handling during rituals at churches or synagogues
+- prayer mat silk threads frayed, stains from the knees and feet of daily devotees
+- mosque ablution faucet spout worn, stained green with mineral deposits over years
+- sacred scripture bookmark torn edges where it's been read and reread at numerous rituals
+- yarn embroidered tapestry threadbare patches from religious ceremonies and festivities held
+- tabernacle gold lock tarnished after many centuries of daily opening for eucharist
+- pulpit lectern wood grain scratched from many speeches and readings at the altar
+- ritual oil bottle stopper cracked, residue of holy oil around it after frequent use
+- ritual asperges silver surface tarnished from many blessings with holy water during mass
+- communion wafer container lid creaky hinge, worn from daily distribution of communion wafers
+- baptismal towel fringe unraveling at the edges after years of use for drying newborns
+- censer charcoal residue around rim from constant burning of incense during rituals at shrines
+- ritual candle wick trimmer knife blade dulled by clipping many candles during religious ceremonies
+- processional banners edges frayed, tassels discolored from constant use in parades at festivals
+- ceremonial bell struck surface dented by centuries of tolling during rituals and processions
+- civic plaque brass nameplate tarnished, engraved letters worn from touching by many hands
+- ritual chalice cup bottom scuffed, stained with remnants of wine used in ceremonies
+- temple drumhead surface cracked from years of rhythmic beating for prayers and blessings
+- incense burner charred interior from repeated burning during prayer services
+- ceremonial sword hilt worn down, blade chipped from constant use in ritual combat demonstrations
+- processional flag fabric frayed, discolored from many years of waving during festivals and ceremonies
+- brazilian wooden coffee scoop, darkening from daily use
+- australian didgeridoo end rough with red dust
+- argentinean leather football cracked
+- peruvian stone grinding bowl sides smoothed by years of corn flour
+- egyptian sennet board pieces worn smooth through generations of gameplay
+- tibetan prayer wheel metal rusted and faded
+- polish wood carving knife blade nicked with use for over many years
+- german beer stein bottom scratched from sliding on pub tables
+- nigerian wooden serving spoon handle worn smooth, discolored by frequent washing
+- korean wooden rice scoop tip rounded from serving over decades
+- canadian snowshoe leather binding frayed at the edges
+- turkish hookah hose mouthpiece cracked from constant use
+- belgium chocolate mold dents chipped and stains inside with cocoa butter
+- ukrainian wooden matryoshka doll smallest one's paint chipping off from handling
+- south african wooden gourd water bottle exterior roughened by years of carrying
+- nepali wooden prayer mallet worn down from striking bells
+- iranian brass tea kettle black stained, handle loose from many cups served
+- brazilian macaw feather worn feathers and frayed ends with age
+- malaysian wooden rice scoop, wood warped by humidity
+- thai metal scissor tips jagged from cutting through coconut husk
+- indonesian bamboo flute end frayed by frequent playing and age
+- japanese folding fan wood handle smooth from constant opening and closing
+- dutch windmill key rusty, worn down in the middle from turning for so long
+- greek wooden ladle surface chipped after years of use with olive oil
+- ukrainian wooden egg spoon tip broken by frequent use
+- austrian beer mug handle stained and worn out through regular use
+- norwegian wooden clogs soles worn down from walking across fields for decades
+- cigarette lighter flame scorched with a thousand flicks
+- seat buckle latch stuck after countless re-engagments
+- stereo radio knob tarnished, blackened with fingerprints on the edges
+- ashtray ceramic rim stained from years of extinguishing cigarettes inside car windows
+- steering wheel leather rim cracked, worn smooth by hands at ten o'clock and two
+- radio antenna metal shaft bent from removal when going under a low overpass
+- cupholder plastic rim warped after countless drinks left sitting in the car sun
+- glove compartment latch loose after years of opening for directions and napkins
+- door handle chrome scratched by keys in pockets and purses of daily drivers
+- mirror glass frame creased, chipped from cleaning and adjustment over many miles
+- windshield wiper blade rubber peeling back after scraping away years of debris
+- shifter knob grip worn down by hands through gears and stop-and-go traffic
+- hood release latch rusted where it touches the underside of the hood in rainstorms
+- radio preset buttons faded after being pushed thousands of times for favorites songs
+- emergency brake handle rubber fraying, loose from emergency stops on hills
+- dashboard vinyl peeling, cracked from sun exposure and cold car interiors
+- sun visor mirror edge scratched, dirty from constant use in bright days
+- map light plastic housing yellowed with age, flickers when turned
+- interior handle plastic worn down from hands pulling at the door during rides
+- climate control buttons faded from hundreds of pushes for hot and cold comforts
+- radio tuner metal knob loose on its axis from constant twisting to stations
+- seat cushion fabric stretched where many people have sat to travel
+- seatbelt strap webbing fraying at the edges, torn from quick releases to exit car
+- interior door panel clip worn down after years of doors opening and closing
+- cigarette box bottom dented from pressure and weight in the back seat ashtray
+- window roll switch dirty from fingerprints after constant up/down adjustments
+- backseat buckle latch rusty, hard to open after kids playing with it at stoplights
+- interior floor mat rubber worn smooth by shoes, heavy dirt stains on the edges
+- cabinet plastic hinge worn down from frequent opening of the armrest compartment
+- headrest leather cover crackly in places where passengers lean their heads while sleeping
+- seat heater switch tarnished with age and finger grease during winter months cold rides
+- floor shift button metal base dirty, discolored by feet brushing against it when driving
+- radio power cable fraying from constant plugging/unplugging into car sockets
+- center console storage door hinge creaky from years of opening to store change, snacks
+- emergency brake lever tarnished handle, where hands grabbed it in panic or emergency situations
+- moroccan brass lantern glass soot-stained by a thousand oil lamps
+- italian leather glove thumb worn thin from gripping
+- swiss army knife corkscrew loosened from countless wine bottles
+- cuban cigar cutter blade chipped from decades of use cutting tobacco leaves
+- mexican clay pot rim chipped and cracked from daily cooking fires
+- english whittling knife blade stained with carving a lifetime into wood
+- french beret sweat-stained from nights under Parisian lights and rainy days on Seine banks
+- indonesian banana leaf plate edges curled up from heat of curries over time
+- greek fishing net torn by rough seas through many dawns
+- swedish hand-carved wooden spoon handle splintered, smoothed out by years of cooking stews
+- japanese silk fan frame wood cracked after opening during summer days for centuries
+- vietnamese lacquerware bowl surface chipped from serving rice during festivals over time
+- spanish castanets worn on the edges after dancing through endless flamenco performances
+- czech wooden marionette strings roughened by use of a lifetime puppetry
+- brazilian hammock ropes frayed and worn from lazy afternoons in the sun
+- austrian wine decanter lip stained with years of red
+- russian samovar handle tarnished from lifting during many tea ceremonies with friends and families
+- srilankan mask eyes chipped from countless dances in celebration
+- portuguese clay tile roof piece chipped, cracked from harsh rains through years of storms
+- american cowboy leather spurs chipped with years of riding horses through rocky terrain
+- russian wooden egg spoon tip broken from frequent use during Easter festivities
+- tennis racket strings frayed
+- bowling ball thumb grip worn
+- surfboard wax scraped, faded
+- diving mask strap rubberized
+- climbing harness buckle corroded
+- baseball glove pocket broken-in
+- skateboard wheels scuffed with debris
+- golf club iron head rusty after years of hitting off hard soil
+- fishing lure hooks bent, worn down
+- swimming goggles strap stretched
+- kayak paddle blade scratched
+- rollerblade wheel axle dirty from gravel roads
+- badminton racket handle wrapped leather torn after many hours of smashing shuttlecocks
+- rock-climbing chalk bag faded with dust on the edges, worn down at the bottom
+- basketball shoe rubber sole flattened in front by repeated jumps shooting hoops
+- tennis ball scuffed from countless matches on rough asphalt courts
+- bicycle seat leather cover cracked after many rides under the sun
+- mountain bike grip blackened from muddy trails
+- hockey stick shaft taped, worn with a thousand hits against ice surfaces and walls
+- skateboard tail worn smooth from ollies and flips
+- frisbee edge chipped from endless throws across yards
+- softball bat handle splintered, loose in the hands through swings of many seasons
+- cycling helmet foam cracked, compressed after countless crashes
+- volleyball knee pad scuffed with marks left from countless dives on gym floors
+- hunting rifle stock chipped, scratched with years of rough usage
+- soccer shin guard plastic edges worn down and dirty from sliding tackles through games
+- paintball gun trigger smooth, polished after thousands of shots to opponents' heads
+- boxing glove interior padding compacted from punching bags, sparring sessions
+- jogging shoes tread worn down on the bottom by endless miles on concrete trails
+- snowboard edge rusty after many runs down icy slopes
+- surfboard leash rope frayed with sea salt and rough currents
+- sailing boat rudder handle dirty where hands gripped steering through storms
+- snowshoes buckle straps weathered, discolored by many winters trudging through snow
+- golf glove finger tips torn from gripping clubs to strike the ball far
+- tennis shoe laces worn out at ends after constant tying, untying
+- border checkpoint barrier chain links rusted, twisted from daily use
+- wooden ticket booth counter scuffed, faded where travelers laid receipts
+- Iranian leather passport holder spine cracked where bent during stamping
+- plastic ID card reader buttons blackened by countless fingers
+- metal identification pin clasp dented from attaching to various uniforms for decades
+- police radio antenna fraying, scratched as it was clipped on belts, bumped against walls
+- swiss army pen blade nicked cutting open hundreds of official documents or letters
+- immigration document stamp rubber handle scratched, torn with frequent usage
+- checkpoint guard's whistle silver surface tarnished from hours spent blowing commands during busy shifts
+- border patrol hat band dirty with sweat after patrolling in blazing sun or rain
+- passport photo print worn, creased after repeated removal and replacement during inspections
+- visa approval stamp ink cartridge faded with disuse since travel restrictions began
+- safety vest reflective strips torn from late night traffic accidents
+- flashlight aluminum casing dented, scratched under heavy use at crime scenes
+- security lockpick metal rods worn flat at edges after frequent illegal entries
+- cigarette lighter flint worn down through midnight breaks in the field
+- binocular rubber eyepieces dirty, greasy from surveillance at night
+- morphine syringe needle dulled after administering relief in emergencies
+- pistol slide scratched, worn out after hundreds of night time confrontations
+- notebook pages yellowed, stained with coffee during late-night shift meetings
+- keyring jingling, bent from countless late-night unlockings
+- firearm grip leather handle worn smooth and sticky from hours holding, waiting to use
+- magnifying glass lens scratched, dirty after long nights examining trace evidence
+- cracked pocketknife blade dulled by cutting through ropes during midnight rescues
+- police radio buttons sticky from countless hours of night shifts calling out for backup
+- mace canister metal spray top corroded with many uses subduing suspects
+- crime scene tape handle discolored after wrapping it around evidence sites late at night
+- baton wood handle splintered and worn down during midnight patrol
+- night stick black rubber tip cracked, chipped from striking walls or doors late nights
+- policeman's sunglasses dirty with fingerprints from putting them on, removing them
+- police uniform buttons discolored where hands have repeatedly touched
+- taser electric shock probes damaged after many nighttime stun deployments
+- prison key metal rusted from repeated use unlocking cells in the darkness
+- pistol trigger worn smooth, polished by countless hours of training and confrontation on duty
+- flashlight glass lens chipped from being dropped during night pursuits or confrontations
+- holster leather strap roughened through endless draw, re-holster actions at night
+- nightstick leather grip handle discolored, worn from repeated grips and strikes
+- handcuff metal links scratched where they've locked criminals for a lifetime of midnight arrestations
+- handgun magazine baseplate chipped where it's repeatedly ejected
+- policeman's boot soles worn down on heels from constant patrolling nightly
+- evidence bag plastic worn through where fingers have repeatedly grasped it
+- criminal's handcuffs scratched, dulled from being forced into wrists late nights
+- policeman's hat leather strap faded at edges from wearing for years nightly
+- evidence gloves torn from handling rough, dirty evidence during long night shifts
+- tire iron head bent, rusted by hours of mid-night roadside assistance
+- litter picker claw teeth broken after endless cleanups on the side
+- road flare tip burnt black by lighting up after night crashes
+- tire pressure gauge needle loose from constant checks during midnight breakdowns
+- spare tire tread worn down after replacing flat tires under streetlamps at midnight
+- car emergency kit scissors blunt from cutting seat belts after accidents in the darkness
+- car flashlight body scratched from dropping on tarmac after midnight car wreckage inspections
+- roadside assistance reflector cone surface dull, faded after long years in blazing sun
+- candle wax dripped down over plastic base after countless hours lit during roadside inspections
+- bottle opener teeth worn flat from popping beer caps for weary night workers
+- handcuff key metal worn smooth by endless midnight arrests and lockups
+- walkie talkie plastic antenna broken off during struggle with a suspect in the moonlight
+- mug handle chipped from countless grip-and-go moves while on night shift
+- metal flashlight clip discolored by years of hanging on police belts in the rain
+- handheld scanner screen cracked where it fell on a nighttime raid
+- pocket knife blade tip broken after cutting through ropes during rescues under streetlights
+- checkpoint barrier metal hook twisted, bent by repeated use in securing fences at night
+- crime scene tape roller worn smooth after endless winding during midnight investigations at checkpoints
+- border patrol baton wooden handle smoothed by sweat during night patrols along the checkpoint
+- night shift notepad pages dog-eared from hurried notes on crime scenes
+- belt buckle scratch covered with dirt after falling off during a fight
+- security tag remover buttons jammed from detaching stolen merchandise from racks late at night
+- Doorknob scratches deepened by key after being picked for a midnight break-in
+- police officer whistle mouthpiece chipped after blowing during nighttime arrests
+- fire extinguisher handle worn smooth from repeated use in emergencies under streetlamps
+- night vision binoculars lens cracked after being dropped during midnight patrols
+- evidence pouch tag torn off after countless tags during night shifts
+- police boots sole separated with glue, used for walking on rainy nights
+- police uniform pocket torn from holding handcuffs in a hurry on midnight arrests
+- hand mirror broken where police have inspected suspect for traces under a lamp
+- security guard's badge holster fabric frayed from daily attachment and removal
+- baton rubber handle faded due to heat from repeated gripping during violent confrontations
+- night stick tip cracked after hitting metal doors for a midnight raid
+- bulletproof vest side straps frayed from frequent use over years of night shifts
+- firearm holster broken buckle, used to secure guns around the waist for night shifts
+- What would be the point of trying something new after years in the business
+- pocket flashlight metal clip rusted after clipping on, off during countless midnight raids
+- pencil graphite worn flat from endless note-taking
+- eraser rubber worn to a stub from correcting mistakes after night shifts
+- schoolbag zipper teeth bent from frequent use
+- lunchbox metal corners dented by repeated slamming in locker late nights
+- textbook cover torn where it was grabbed during the rush
+- backpack strap faded from sun exposure, worn smooth with time, used on night walks
+- notebook pages wrinkled from spilling coffee late night studying
+- desk chair wheels worn unevenly from constant shifting in classroom
+- classroom marker cap chewed on by students after midnight school events
+- locker door scratched and marked up after a nighttime party
+- art supplies box lid warped, covered in paint splatters from countless nights of painting
+- calculator keys sticky from spilled soda during a late-night exam session
+- scissors blade chipped from cutting through thick paper all night studying
+- ruler edge worn down from use marking off distances at night;
+- science beaker bottom charred from heating experiments after school
+- exam booklet edges curled up, used to take notes late nights under street lights;
+- compass needle loose from dropping during a midnight navigation lesson
+- paper clip ends bent from opening and closing all night working on assignments
+- student ID card laminated surface scratched after countless uses to swipe into classrooms;
+- globe stand dented from repeated use during night lessons
+- highlighter tip frayed from constant marking of textbooks late nights under desk lamps
+- tape dispenser wheel sticky after long nights sticking papers together on projects
+- colored pencils tips broken, worn down from art classes and late-night drawings;
+- library card faded, smudged after many years borrowing books at midnight;
+- stapler button jammed from overuse during a night cramming sessions for exams
+- planner pages yellowed, worn through at the edges from flipping all day
+- pencil sharpener blade dull from sharpening pencils all night studying for tests;
+- paperweight glass base cracked after being dropped in the library
+- eraser head missing where it was chewed off at night while taking exams
+- pocket dictionary leather corners bent from being carried everywhere after school
+- student agenda cover stained with coffee after endless late-night sessions planning for assignments
+- fishing reel handle worn by countless casts into the lake under moonlight
+- tennis racket strings frayed from hitting balls in dimly lit courts overnight
+- soccer cleats mud caked after late-night games on wet fields
+- biking gloves finger tips ripped from skidding on gravel trails at dusk
+- baseball glove leather cracked after catching countless fastballs in stadiums under floodlights at night
+- hockey stick blade chipped, worn by shooting pucks into the net late at night
+- skateboard trucks bent from grinding curbs and rails after dark
+- surfboard wax peeled off after paddling out during night rides on the ocean waves
+- rock-climbing chalk bag fabric ripped from scraping against rough surfaces in caves at night
+- swimming goggles strap worn thin from daily practice in dimly lit pools at midnight
+- kayak paddle grip smooth where hands clasp it through river rapids under starlight
+- tennis balls fur worn off, fuzzless from endless serves during the wee hours
+- badminton racket strings stretched out after smashing birdies on indoor courts all night
+- rugby ball scuffed by playing on muddy fields lit up for night matches
+- volleyball net rope frayed from players hitting hard at late night gym tournaments
+- ping pong paddle rubber worn flat after hitting countless backhands during late-night games
+- ski poles basket bent, damaged while skiing steep slopes under headlamp beams
+- frisbee disc edge torn after repeated catch and release in a park at dusk
+- table tennis net sagging, worn by being knocked back and forth during all-night games
+- darts dart point bent from sticking into boards repeatedly on nights out
+- jogging shoes sole separated where feet landed hard for many miles during midnight runs
+- kettlebell handle chipped after swinging weights through workouts in the garage at night
+- boxing gloves leather split from hitting punching bags, sparring with a partner under streetlights
+- yoga mat surface faded where hands pressed it during countless late-night poses
+- running shoes laces frayed, tied over and over for night runs on empty tracks;
+- pitchfork handle splintered after years of digging into earth
+- harvesting scythe blade dulled by wheat stalks cut in twilight
+- wagon wheel rim bent from driving loaded carts across fields
+- barn door hinges rusted, squeaking open, close at dawn
+- plowshare metal edge nicked from breaking hard dirt in moonlight
+- threshing machine pulley belt frayed, cracked from constant use after dusk
+- feed scoop edges chipped by grain kernels dug out late at night
+- hay rake teeth bent after raking hay fields through dusk
+- well bucket rope worn thin, slipped from water drawn by moonlight
+- scarecrow straw poking loose in windy nights, hands on shoulders
+- farm journal pages tattered, coffee spilled late-night planning, rain-rain
+- pitchfork prongs broken from stabbing hard soil under midnight sun
+- feed bin handle worn down where farmers grip at dawn
+- barn ladder rungs cracked by boots in night shifts over years of work
+- manure spreader shovel chipped from scooping after sunset
+- tractor seat torn, leather cracked from riding fields through dusk
+- fishing net tangled during the day, knots snarled at moonlight
+- barn cat blanket chewed by cats sleeping under old haystacks
+- hayloft door latch broken where farm hands grab at dawn
+- mower blade dull after cutting grass in twilight
+- horse bridle bit worn smooth from riding fields through midnight sun
+- grain bin spout chipped, dented after countless night harvest loads
+- tractor tire tread worn from driving fields at dusk to dawn for haybales
+- farmhouse door hinge loose where it creaks open by farmhands
+- silo rope frayed from hoisting grain bags after sunset
+- hay bailer hook cracked, bent from lifting bails under moonlight
+- barn mouse nest shredded hay chewed through in dusk fields
+- farm cart wheel spokes cracked, broken where it was hit at midnight
+- seed spreader handle grip worn down where farmer held at night
+- bail twine sharp, cut by bailing machines after sunset
+- fence wire rusted from cutting fields and gates in sunlight
+- ashtray overflowing, butts mashed on the asphalt
+- lighter flame flickering, used to start cigarettes driving slowly
+- car tire tread worn thin, spun on the hot pavement
+- soda can dented, crushed underfoot during a stop
+- roadside marker arrow faded, pointing toward the exit at dusk
+- truck bed rusty, scratches from loading and unloading
+- tire iron handle worn smooth, changing tires beside the road
+- wrecking ball chain links frayed from demolishing old structures
+- fuel nozzle grip grimy from filling up at midnight
+- flashlight lens cracked, fell while checking engine under the hood
+- reflector triangles edges chipped, hit during a nightly detour off road
+- wrench jaw rusted where used to tighten bolts on bridges
+- jacket sleeve frayed where arms were leaned out of window driving at midnight
+- car mat dirty, footprints from walking along the highway at dusk
+- camping lantern glass smudged from use during midnight pit stops under bridges
+- trailer hitch rusty where it was attached and removed on dark nights
+- car window cracked where pebbles hit on the highway at dawn
+- toolbox handle worn where gripped for emergency repairs by moonlight
+- radio antenna bent, knocked against trees in night drives through the woods
+- headlight lens scratched from flying debris under highway lamps at dusk
+- seat cushion torn from long haul truck drivers at midnight shift changes
+- motor oil bottle empty, used for late-night maintenance at rest stops
+- windshield wipers blades split from clearing muddy roads during a night drive
+- tailgate handle broken, slammed repeatedly at dark campgrounds under moonlight
+- radio knob loose, turned frequently during nighttime drives in the country
+- air filter dirty, clogged from driving through fields of wheat under starlight
+- taillight glass shattered, hit by debris on a late-night drive into town
+- road flare burnt out where it illuminated the shoulder during a midnight emergency call
+- towel threadbare from cleaning up spills during roadside meals, dusk;
+- windshield scraper blade frayed from clearing frost overnight in cold fields
 
 ## colour
 - rust and teal
@@ -258,3 +5997,778 @@ Edit freely; keep the "## axis" headings and the "- " prefix.
 - earth tones, no bright colour
 - violet dusk and streetlight amber
 - red brick and pale sky
+- rooftop sunset with pink skies
+- terracotta tiles baked under a cloudless blue sky
+- dark charcoal tar in stark contrast with faded gray weathering
+- copper pipes reflecting the soft blue glow of moonlight
+- weathered slate shingles with vibrant red ivy
+- white parchment and grey soot under dull skylight
+- silver rain drops on a rooftop's dusty rose tiles
+- faded red brick in bright sunlight
+- dull brown and faded green moss patches
+- blue tar with purple shadows at dusk
+- violet haze over gray slate roof
+- rusted metal ductwork against faded brown wood
+- grey sky reflected on the shiny black of roof material
+- red chimney tops against a gray, snowy horizon
+- black shadow and pink morning glow
+- silver roof against a dull green forest canopy below
+- pale yellow with green moss overgrowth
+- dusk blue and black rooftop silhouettes against red sunset
+- sunrise orange and grey steel
+- bright blue sky on the bright red of old, cracked tiles
+- cold silver rain and rusty edges
+- red tile with a golden glow from low sunlight
+- green ivy on grey concrete roof in shadow
+- blue tarp under cold moonlight
+- red brick chimney against a deep green tree canopy
+- grey and blue asphalt shingle in heavy snow
+- red clay tiles under dark brown shadows
+- white cement tiles under a violet, night sky
+- rusted tin panels with faded white paintwork
+- worn out red bricks of a rooftop entrance
+- dark grey rain clouds over dirty grey rooftops
+- faded blue and yellow rust patterns on the metal rooftop
+- red clay tiles in bright morning sunlight
+- yellow skylight filtering through a gray roof with black vent
+- bright yellow brickwork under cold winter skies
+- damp, gray concrete at twilight
+- mustard and terracotta in italian countryside
+- golden wheat fields against azure french sky
+- cobalt blue sea crashing onto spanish white shores
+- deep violet shadows on irish lush green hills
+- turquoise waters of greek islands meet the sky's crisp blue
+- moroccan orange walls with deep yellow doors
+- red earth and teal lakes in australia's outback
+- japanese cherry blossom pink against grey concrete cityscape
+- neon signs' crimson glow on chinese black asphalt roads
+- swiss forest greens with vibrant yellow autumn leaves
+- bright indian saffron under stormy gray skies
+- red russian onion domes contrasting with soft white snow
+- navy blue portuguese tiles in bright sunlight
+- tinted golden light over dutch countryside
+- greenish-gray moss on dark grey french slate roofs
+- pinkish orange canadian sunset over brown prairie
+- bright green of new york's parks contrasted with the gray cityscape
+- cobalt blue indian ocean at night under a silver moon
+- swedish lake blue reflected in sky at dusk
+- egyptian desert golds under deep midnight blue sky
+- chilean mountains' jagged grey against the bright green of forest below
+- thailand's golden temple tops under the clear aquamarine skies
+- greenish grey trees on argentine tundra under white snow
+- south african sunset yellow and orange over a pink horizon
+- polish fields' emerald greens meet the sky's steel blue
+- korean temples' soft cream walls against deep brown woods
+- brown rusted shipyards against the cold grey of norwegian seaside
+- bright magenta jamaican sunsets against gray skies
+- vibrant orange mexican haciendas under azure skies
+- yellowish green olive groves meeting a blue mediterranean sea
+- brazilian pink and black granite walls contrasting against the sky's turquoise hue
+- fresh spring grass against a bright lavender twilight in england
+- pinkish orange flamingos' feathers reflected on the red of african dunes
+- deep purple night over indian desert's copper sand
+- gray urban canyon under blue neon city lights at night in korea
+- french countryside greens and golds under the gray winter skies
+- pinkish coral under turquoise waters around thailand islands
+- pink lantern glow on dark brown market stalls
+- golden fairy string lights over black festival tents
+- vibrant yellow market umbrellas against red brick walls
+- dark indigo tents under a violet evening sky at the carnival
+- bright green market canopy above faded blue stonework
+- red and white stripes of tent roofs on tan sand dunes
+- cold green mist against rusted orange carnival rides
+- pink cotton candy clouds under a gray stormy sky at festival
+- black ink of marketplace shadows cast by yellow market lights
+- blue canvas tents in the orange glow of sunset during festivals
+- auburn autumn leaves scattered on tan market tents
+- silver fairground lights reflect off deep purple tarps
+- white tent peaks contrast with a dark grey, overcast sky
+- deep emerald market stalls beneath a hot pink dusk
+- tan marketplace tents under the orange glow of street lamps
+- dark gray smoke from food stalls against yellow festival balloons
+- red and gold circus awning under a cold lavender twilight
+- yellow straw hats at markets on a soft blue winter day
+- crimson and blue market tent reflections off rainy puddles
+- deep brown wooden market stands against pale green grasslands
+- dark blue canvas tents contrasting with mustard festival signs
+- golden lights of market stalls against deep black festival night
+- worn-out pink tents under grey clouds at sunset during a carnival
+- black and gold circus banners on bright orange desert sand
+- tan tents under the turquoise afternoon skies of the city fair
+- red market stalls beneath a clear, starry blue evening sky
+- yellow festival bunting against pale green countryside meadows
+- golden sunset rays over black carnival games
+- turquoise waters meet pink carnival lights in seaside festivals
+- silver circus tent peaks under a hot pink night sky
+- dark brown market tables set up by the grey oceanfront
+- black shadows and bright green carnival tents during sunset
+- deep blue festival posters with white lettering on orange walls
+- tan sandbags and bright yellow ticket booths at the county fair
+- pale pink sky of dusk under a dark festival canopy
+- turrets rise from crimson river water
+- crimson river waters flow through emerald forest in autumn
+- teal blue river bends through the dusty red canyon floor below
+- fiery pink sunset reflected on black sea waves
+- brown wooden dock juts into greenish-brown saltwater
+- sea water is dark purple against light golds of city sky at dusk
+- cobalt blue ocean meets grey and white cliff sides below
+- whitecaps on the teal ocean below a burnt umber cloud cover
+- blue-green river cuts through orange rocky valley
+- silvery sea water laps against dark brown weathered dock
+- rusted red seaweed under clear turquoise waters
+- green and blue algae blooms at the end of a wooden pier
+- river is rusty red as it reflects the sky's magenta glow at dawn
+- brownish orange driftwood along the edge of a gray sea shore
+- blue river currents cut through a white misty valley
+- dark green moss grows on weathered grey stone bridge over emerald waters
+- tidal water is dark green and cold steel blue against brown sea cliffs
+- gold and crimson lights from carnival barge against the river's obsidian surface
+- seafoam sprays at twilight off the blackened volcanic shoreline
+- green moss on ancient stone wall overlooking teal sea
+- blue sea foam contrasts with a white beach beneath gray skies
+- orange sunset glows in the blue ocean waves breaking near tan beach sand
+- rusty red and gold leaves on water's edge over turquoise river water
+- turbulent dark brown river water swirls under a hot pink sky at dusk
+- black volcanic rock formations rising from a turquoise sea
+- dark green ferns meet the black sandy beach against gray waves
+- waves crash on pale tan shoreline at night during a bright lavender storm
+- blue water flows under a yellow and orange autumn foliage canopy
+- silvery white waves break over grey rock formations
+- black seaweed clinging to greenish brown sea rocks at low tide
+- tanned sand beneath turquoise ocean waves with deep purple night sky above
+- misty lavender rain kisses blue denim jackets
+- burnt sienna sunset paints wet beige city streets
+- dim silver fog envelops charcoal buildings by the bay
+- stormy violet clouds clash with olive military parades
+- rain-soaked ebony pavement reflects fluorescent green traffic lights
+- silver sleet blankets rusted red industrial parks
+- damp teal shadows dance on peach market umbrellas
+- dark magenta twilight over blackened rooftop gardens
+- muddy brown fields under dark indigo hail clouds
+- melted pink sunrise bleeds into crimson skyscrapers
+- faded gold leaves float in grey morning mist
+- pale peach dawn breaks through ebony nightclub windows
+- winter white snow falls onto deep blue subway tiles
+- bright orange flames against dark slate fireplace hearths
+- brown rain streaks down black street signs
+- soft gray drizzle over faded beige farmhouses
+- silver frost on green ivy climbing crumbling walls
+- dark plum storm clouds over the city's gold monuments
+- fresh brown earth after blue rain in orange fields
+- yellow headlights streak through a pale tan fog
+- grey snow piles up against dark blue alleyways
+- white ice sculptures glitter under turquoise skies
+- blood red fire engines speeding down indigo roads at midnight
+- black lightning strikes pale green wheat fields
+- sand brown rivers flow around faded orange desert cacti
+- mustard rain puddles surround pink city park flowers
+- deep purple twilight over silver office towers
+- fiery red autumn leaves against grey brick apartments
+- blue tarps on old brown farm trailers during white snowfall
+- black storm clouds with crimson lightning flashes overhead
+- orange sunrays pierce a dull brown smoggy city skyline at dusk
+- vibrant yellow fields beneath deep indigo rain clouds
+- pale lavender dunes under neon pink moonlight
+- crimson sunset casts shadows on white sand cliffs
+- winter's dark gray snowfall upon brown autumn woods
+- bright emerald moss creeps through damp ebony caves
+- burnt orange mist rises off a steel blue morning lake
+- dark maroon fog drifts over a cold silver beach
+- orange sunrise paints the blue river and green hills
+- pale pink dawn breaks upon turquoise seas under charcoal clouds
+- brown moss-covered rocks jetting out of a silvery sea
+- golden wheat swaying in dark indigo twilight skies
+- dark navy waves clash with grey cliff faces
+- grey and tan pebbles washed by a yellow ocean
+- rusty orange sunrays through pale gray morning fog
+- purple night sky above the tan city rooftops
+- muted green algae blooms over a black rock
+- blue twilight reflects on white frosty buildings below
+- cold black rain drops onto pale peach autumn trees
+- red-brown dirt mounds around dark green cypress trees
+- silver moon casts light upon blue waves on tan beach sand
+- wispy white clouds in a burnt orange morning sky
+- green foliage along the dark indigo night river
+- black and yellow sparks of electricity on cold steel
+- rusty red water tanks stand out against a grey storm sky at dusk
+- blue-grey waterfalls under violet dawn skies
+- tan sandbars reflect an emerald green sky during sunset
+- sandy beige ocean waters in the deep purple night
+- dark pink mist swirls over blackened city alleys
+- rusted grey ships docked near a turquoise sea
+- silvery blue ice sculptures on black shoreline
+- black tar and white snowflakes swirl at midnight
+- orange fireworks blast off from a navy sea
+- vibrant yellow and pink hues of dawn break on a lavender desert sky
+- dark brown border posts jut out of parched tan soil
+- faded blue barricade fencing across empty gray plains
+- vibrant red flags against dull white snow drifts
+- pale mint green soldiers huddle behind beige sandbags at dusk
+- black and orange barriers near a dark blue river
+- rusted brown fence surrounding a pale yellow sunlit courtyard
+- crimson lights illuminate a muddy checkpoint under black skies
+- deep blue tarps conceal a dirty tan truck in the mist
+- dark green camouflage netting on rusty grey barricades
+- dim red flashlights shine down white papers at an entryway
+- tan brick guardhouse beside a navy blue stormy sky
+- yellow glow of a single bare bulb by a black iron gate
+- cold teal rain washes over rusted metal barriers against dark tan muddy ground
+- a bright yellow truck on green forest trail during sunset's golden hour
+- orange and white striped cones block the brown road leading into town
+- dark slate gate blocking a mud-slicked path beside an old brown farmhouse
+- faded brown fence post stands near a whitewashed beach during orange sunrise
+- dim red headlamps on a tan vehicle at an isolated checkpoint in the snowstorm
+- pink dawn breaks over the gray concrete barriers of the border station
+- dark green leaves fall around pale peach guard towers near a grey cityscape
+- a turquoise river runs underneath a silver guardrail under a tan roadway's edge
+- orange evening sunlight on a gray concrete barrier in an alleyway
+- dark teal sea swells against a crimson shoreline
+- pale blue tide laps at the blackened wooden pier
+- emerald kelp floats under cobalt river surface
+- tan sandbar divides turquoise ocean and pink sky
+- muted bronze sunset reflects off greenish blue lake
+- dark blue river churns below olive green hillsides
+- charcoal seagulls over silver ocean waves at dawn
+- dark brown seaweed clings to grey granite cliffs
+- indigo night meets white foamy surf at the shore
+- burnt umber sands border a teal morning sea surface
+- grey pebbles line a crystal blue stream amidst green ferns
+- golden sunrise glints off ebony seas in the distance
+- violet twilight on black rocky coast of calm blue waters
+- frosted white riverbank meets deep turquoise current
+- silvery seafoam crests atop an inkblack ocean at dusk
+- ebony rocks jut from a teal sea during pale yellow twilight
+- rusty boat docks in brown creek under orange dawn sky
+- tan sand dunes tower over the navy river valley
+- emerald waterfalls cascade into jade green lake
+- silver iceberg drifts on indigo ocean at nightfall
+- winter white riverbanks reflect a sapphire sea surface during pink sunset
+- green lily pads float on ebony still waters
+- maroon tide pools dot the sandy brown shoreline
+- golden hour reflects off violet storm clouds and teal seas
+- cold white riverbank juts into pale blue ocean below
+- pink dawn breaks over a grey sea mist over dark watery depths
+- dark indigo river meanders through the tan forest
+- silver beach pebbles beside bright turquoise waves
+- greenish blue lagoon under violet twilight skies
+- rusty red rocks jut from teal ocean during lavender sunset
+- olive green seaweed sways with dark indigo water
+- sage blue riverbank and pale yellow sunrise glimmer in the distance
+- vibrant coral tide pools in white frothy surf amidst ebony pebbles
+- auburn boat docked on tan beach sand under turquoise skies
+- dark brown driftwood scattered over bleached white island sands
+- red hibiscus flowers bloom against deep green tropical foliage
+- teal lagoon waters lap at pale yellow sunlit shore
+- lavender shadow stretches across golden tan beach
+- tan sand castles at edge of frothy blue surf line
+- green palms lean over a dark brown rock outcrop during dusk's golden hue
+- ebony lava flow meanders into turquoise ocean depths
+- violet orchids bloom near pink seashells on sandy white beach
+- dark grey boulders at turquoise sea edge during twilight
+- sunset orange tint reflects off white seaside cliffs
+- black volcanic rock formations beside teal wave currents
+- dark green vines dangle over a sapphire blue ocean surface
+- crimson sunburnt skin peels under pale yellow sunlight
+- ebony sea turtle floats over emerald coral reef
+- vibrant yellow birds perch on rusty brown palms
+- orange sunset glistens off teal morning sea
+- dark grey boulders beside a silver ocean surface
+- dried tan seagrass waves against deep blue tide line
+- tan seashells nestled in silvery white shore foam
+- red sunburnt cheeks glow under pale yellow sunlight
+- olive green palm fronds stretch above deep teal sea
+- ebony tree limbs sway over a pale violet horizon
+- green coconuts fall to tan sandy beaches
+- white seagull soars over the dark indigo ocean
+- dark grey island rocks contrast with bright coral tide pools
+- rusty brown dock posts rise above teal ocean depths
+- pale peach cliffs overlook a teal sea during pink dawn's break
+- vibrant blue-green parrotfish dart around green seagrass
+- yellow banana leaf hammock near turquoise sea waters
+- indigo night sky meets white frothy waves at beach shoreline
+- ebony volcanic rocks beside teal evening tide water
+- rusty brown fireplace mantel against deep teal velvet curtains
+- vibrant crimson throw pillow on olive green leather couch
+- pale yellow linen tablecloth contrasting with emerald plant pots
+- golden wooden floorboards reflecting lavender room wall accents
+- sapphire blue china plates on a white cotton lace tablecloth
+- muted beige carpet contrasting with teal upholstered armchair
+- mustard yellow lampshade over charcoal wooden end table
+- auburn antique rug paired with dark green velvet ottoman
+- burnt orange wall art against pale pink curtains and cream walls
+- lavender throw blanket draped on a maroon leather sofa
+- deep blue couch paired with black iron legs and tan pillows
+- snow white bedspread layered over sapphire blue sheets
+- indigo area rug over hardwood floor, beside dark brown dining table
+- pale coral wall adjacent to a beige fireplace and white brick
+- bright crimson bookshelf next to an antique wooden piano and teal wall
+- peach wallpaper with dark grey wainscoting in a dimly lit room
+- dark green velvet chair positioned beside pale yellow curtains
+- vibrant violet throw blanket drapes over cream coloured ottoman
+- maroon tablecloth paired with deep gold cutlery on a rustic wood table
+- peach couch with beige wall art and dark brown end table
+- lavender bedspread atop deep blue sheets against off-white bedpost
+- tan area rug beside the hearth, dark red sofa in corner of room
+- ebony wooden cabinet paired with pale yellow curtains over window
+- deep blue accent chair against auburn hardwood floor next to black coffee table
+- rusty copper pots hanging above teal tile backsplash in kitchen
+- mustard yellow throw pillow on ebony velvet couch paired with emerald curtains
+- crimson bloodstains against stark white bed linens
+- ivory hospital walls reflect sterile pink fluorescent light
+- mint green scrubs contrast dark brown wooden examination table
+- dull grey floor tiles stretch out under bright crimson exit sign glow
+- dark blue shadows cast over faded yellow curtains during nighttime
+- mustard IV tubing snakes around pale grey hospital gown
+- tan bandage wraps hide red surgical scars
+- ivory cast hides underneath pale beige hospital blanket
+- faded orange hallway carpet leads past teal operating room doors
+- bright yellow x-ray lights against ebony background
+- dull yellow light casts a shadow on rusty blue medical equipment
+- dark brown leather gloves contrast with white sterile lab coat
+- beige plasterboard walls beside teal hospital beds in recovery ward
+- faded brown wooden door frames contrast with teal wall paint
+- bright yellow caution tape against black rubber emergency room flooring
+- mustard sun peeks over indigo island peaks
+- pale pink hibiscus blooms near tan sandy coves
+- burnt orange cliffs drop into lavender dawn haze
+- dark turquoise lagoon contrasts with pale violet morning sky
+- silver moonlight gleams off ebony volcanic ash sand
+- cobalt sea waves crash against rusty brown lava rocks
+- deep emerald mangroves mirror dark charcoal night sky
+- brown driftwood lies on white coral sands at sunset's edge
+- lavender twilight envelops pale yellow island flowers
+- dark teal waters surround auburn tree trunks near shoreline
+- tan mud flats stretch along peach horizon under indigo clouds
+- white gulls glide over crimson morning sun rays reflecting off the ocean
+- fuchsia sunset skirts over ebony island outlines on turquoise sea horizon
+- dark teal mangrove shadows dance in shallow coral pink lagoon water
+- black boulder silhouettes stand against pale orange island hillsides at dusk
+- sapphire blue tropical fish dart through emerald alga-covered rocks
+- golden sun rays filter down on tan beach umbrellas and turquoise umbrella
+- silver palm fronds sway in deep coral ocean waters at daybreak
+- deep aquamarine depths teem with vibrant maroon sea stars beneath brown kelp beds
+- rusty grey cliff edges meet pale yellow foam crested tide water
+- tan volcanic sand beach glistens under peach morning sun rays
+- teal waves lap against rusted grey pier piles in dappled sunlight
+- cobalt blue waterfall cascades down emerald moss-covered rock
+- dark brown island paths lead into vibrant fuchsia sunset glow
+- ebony driftwood lies at the edge of turquoise sea foam at dusk
+- brown coral reefs bloom with pale crimson fish beneath teal waves
+- orange coral polyps hide amongst deep blue crevices in shallow water
+- deep sapphire currents flow around white sand islands under black storm clouds
+- mustard island grasses wave against dark purple night skies and peach moon glow
+- dark brown guard booth stands against rusted barbed wire fence
+- scarlet stop sign hangs near ebony pole along cobblestone road
+- pale beige security tent stretches next to faded black gravel path
+- ebony checkpoint gate stands open in teal twilight shadows
+- rusty orange barrels sit beside emerald military trucks at camp entrance
+- teal tarpaulin covers stacked crates near dark brown wooden fence
+- deep burgundy warning tape flutters against faded white brick wall
+- pale coral sunrise backlights ebony guard tower silhouette
+- mustard yellow security light casts long shadows over grey pavement
+- tan sandy road leads under teal military checkpoint canopy
+- vibrant fuchsia flowers bloom near auburn gate along cobblestone path
+- emerald shrubs border dark grey concrete bunker with tan sandbags
+- deep crimson sunsets backlight faded white guard shack at roadside
+- bright cobalt sky reflected off peach beach and black fence
+- mustard yellow security light illuminates teal tents under ebony rain clouds
+- tan military truck is parked along auburn checkpoint gate by crimson sunset
+- ebony wooden guard stand near rusty gate in pale beige twilight
+- sapphire blue water reflects faded white concrete wall and dark brown barrier
+- dark maroon gate swings shut as ebony tank drives over teal bridge
+- pale peach dawn casts long shadows from ebony gate across rusted military truck
+- deep crimson guard tent stretches beside grey gravel path towards checkpoint
+- mustard yellow sandbags line ebony barbed wire fence in vibrant fuchsia sunset glow
+- sapphire blue river reflects dark brown wooden bridge at twilight
+- black metal gate stands tall over peach cobblestone road at checkpoint
+- vibrant teal tarp covers crates beside rusted military truck along ebony dirt road
+- pale violet dusk backlights tan guard station across from faded black gate
+- ebony sentry box perched on teal tarpaulin near faded white gravel path
+- deep emerald shrubs surround teal checkpoint tents under mustard moonlit sky
+- pink dawn backdrops teal roadblock and dark brown wooden barrier at entrance
+- sapphire blue river reflects rusty orange fence by auburn guard booth during sunset
+- cobalt blue sky meets peach sand at edge of black security tent's shadow
+- rusted steel gate stands firm under faded beige military tent at checkpoint
+- grey concrete paths lined with yellowing tin shelters
+- tattered grey clothes hang off brown rope
+- pale green army tarp flutters beside tan wall
+- rusty zinc roof peeks over olive green fence
+- brown tarp covered stacks beneath mustard rain clouds
+- grey shanties line deep crimson dirt roadway
+- tan canvas tents against dark pink sunset
+- dusty grey shoes shuffle along faded orange asphalt
+- rusted brown trailer home beside faded black tire pile
+- worn blue mattress leaning on cracked concrete path
+- faded red blanket covers auburn wooden door
+- brown rust stains run down pale peach wall
+- blackened steel fence surrounds teal puddle in alleyway
+- pale brown cardboard box near crimson fire pit
+- grey tarp covered stacks beneath pale mustard sunrise
+- ebony wood fence hides faded black rubble piles
+- worn-out green army tent near black corrugated shed
+- teal river flows by grey concrete path
+- dark teal trash cans near peach cobblestone roadway
+- cracked crimson brick wall beside brown tarp roofing shack
+- tan wooden door against faded blue paint fence
+- grey concrete barrier beside rusty blue truck
+- faded orange tent near dark olive tree
+- rusty grey barrels next to cracked crimson pavement roadway
+- dark teal water flows between peach trash piles on shore
+- teal oil drum stands in brown dirt alleyway with black plastic bag
+- cobblestone path curves beneath pale beige tarp
+- rusty orange fence posts beside faded olive green military tent
+- brown tarp flapping above mustard sunrise backdrops ebony doorway
+- worn-out red shoes on tan wooden boardwalk
+- tan gravel roadway under crimson sunset sky
+- deep teal shadows stretch along rusted brown pipe
+- ebony tire swing hangs by black rope from faded yellow fence
+- rusty grey gate latches shut beside auburn sandbar pathway
+- rusted red ladder leans against teal storage tank
+- pale blue light flickers through cracked beige window
+- dark turquoise water stains on grey industrial pipes
+- faded orange caution sign hangs above ebony rail
+- worn-out green crate beside auburn concrete pillar
+- tan rusted chains coil around grey steel beam
+- vibrant lime light spills from cracked yellow door
+- sage green moss grows on faded grey brick wall
+- mustard rain splatters over dark brown tar paper roofing
+- faded maroon paint peels off old brown wooden crate
+- dark purple haze cloaks faded grey industrial smoke stack
+- tan rusted gears turn beside faded black factory building
+- brown mud puddles collect under olive green awning
+- teal mold stains grow on faded white factory wall
+- ebony oil stains spread across tan gravel driveway
+- pale turquoise light escapes through dusty yellow window
+- deep violet shadow stretches from teal crane over grey loading dock
+- mustard sunlight backlights dark green chemical drums
+- faded indigo paint scrapes off rusted red toolbox lid
+- tan rusted bolts on faded black iron gate
+- sienna dirt road winds near brown shipping container
+- rusty crimson bolts hold together tan steel grate
+- grey concrete bunker camouflaged with dark olive netting
+- pale lilac sunset glow through rusty teal steel beam
+- deep fuchsia light leaks from cracked grey factory door
+- tan rusted metal stairway leads up to brown warehouse roof
+- vibrant mustard forklift sits idle near faded black trailer
+- brown plastic tarp flutters over tan wooden pallet
+- pale aqua water drips from ebony fire escape ladder
+- deep olive cargo box near rusty red crane hook
+- tan gravel path lined with dark violet industrial barrels
+- grey concrete wall beside brown rusted pipefitting
+- sienna dust storms rise around faded white tanker truck
+- mustard streetlight casts long shadows over teal dumpster row
+- rusted orange scaffolding leans against faded grey brick wall
+- tan wooden walkway over deep purple oil spill
+- rusty crimson tractor sits beside old olive green fence
+- deep violet ivy climbs on ebony barn door frame
+- faded maroon sign hangs above mustard brick shop facade
+- tan corrugated roof leaks onto brown straw mattress
+- pale grey smoke wafts from deep red forge furnace
+- dark teal net dries over brown wooden dock plank
+- ebony horse carriage wheels rust beside tan gravel roadway
+- dark mustard haystacks under deep blue sky with crimson clouds
+- vibrant orange sunflower stands by faded green garden shed
+- dried maroon berries scatter dark olive leaves on pathway
+- tan brick chimney stands above dark peach thatched roof
+- pale yellow wheat fields border dark red barn
+- faded grey stone cottage under vibrant indigo sunset
+- rusted brown plow leans against faded green farmhouse
+- mustard oil lamps light up ebony wooden market stall
+- dark red apples rot on faded black wooden fruit stand
+- tan hay bales stacked near deep teal rainwater barrel
+- grey stone well beside crimson wildflower field
+- pale beige lighthouse stands tall over dark green cliffs
+- rusty black anchor chains hang from brown wooden pier
+- mustard daffodils grow under pale blue sky in spring village square
+- tan brick wall holds faded indigo flower pots
+- worn-out yellow fence beside vibrant lime ivy trellis
+- crimson apple trees near dark purple grapevine field
+- rusted brown wheelbarrow sits by deep turquoise lake shore
+- sage green vines cover ebony wooden gate frame
+- faded brown cow hides beneath faded yellow haystack field
+- dark teal pond reflects pale gold sunrise in farmstead
+- pale mustard wildflower meadow against crimson mountain range backdrop
+- tan brick courtyard around vibrant red rose garden
+- faded green army tent under grey storm clouds in distance
+- deep olive tractor trail leads to faded black barn entrance
+- worn-out brown leather harness lays on teal hay bale stack
+- grey stone bridge across mustard wheat field river
+- faded crimson maple trees over tan brick lane
+- tan wooden fence bordering deep blue waterway
+- muted beige sheets pile up beside faded yellow curtains
+- ebony stitches trace torn indigo hospital smock
+- teal bloodstain stains on white sterile gauze wrap
+- tan rusty scratches across olive drip pan
+- rusted mustard surgical tray near pale purple glove box
+- crimson fluid drains from clear vinyl tube
+- blood splatters on tan cotton gowns
+- tan metal rack holds dark violet medical journals
+- mustard liquid pools beneath faded grey lab coat
+- dull crimson emergency room door stands open
+- pale yellow linoleum tile peels near black rubber wheelchair tire
+- crimson medical bracelet lays beside ebony wooden hospital bed frame
+- black plastic IV bag dangles over mustard patient chair
+- deep maroon scrubs next to tan steel medicine tray
+- dark red fire extinguisher in front of grey ambulance bay door
+- faded white coat draped over black steel exam chair
+- white floor tile cracked beneath deep crimson spill
+- faded peach lab coat by tan stainless sink
+- mustard hospital sign near faded teal emergency cart
+- tan linen towels crumple on ebony supply shelf
+- vibrant olive green curtains frame grey hospital window pane
+- dark red stains splatter on white ceramic wash basin
+- white floor tile cracked under crimson footprints
+- ebony leather nurse’s shoes beside tan steel utility closet
+- rusty red fire alarm panel near dusty white cabinet
+- tan metal tray holds teal plastic syringes
+- olive drip stand near pale beige stretcher sheet
+- dark grey floor mat at crimson emergency door
+- grey steel hospital bed frame in dimly lit room
+- tan linen sheets lay atop tan wooden patient chair
+- frosted silver snowflakes scatter on ice-blue pond
+- dark cyan shadows of icicles glinting in sunlight
+- steel-gray ocean foam clings to cold rock shoreline
+- snow-covered evergreen pines surround frozen lake's edge
+- silver frosty spiderwebs cloak dead brown leaves
+- blue-white snowdrift obscures charcoal boulder below
+- shadow of slate-gray wolf paces near frozen riverbank
+- icy indigo frost forms on black metal pipe surface
+- cold white mist swirls around dark gray tombstone in moonlight
+- powdery turquoise ice crystals on dull brown wooden steps
+- pale grey twilight sky reflects deep teal lake surface, silent
+- shadow of a cold black iron fence casts onto silvered snow
+- icy indigo reflections ripple under white paper lanterns, hanging
+- faded yellow moon glow lights cold blue night sky
+- black steel chain links hang above gray stone wall
+- frozen white mist envelops rusty old tractor seat
+- silver snow piles under icy purple shadows, winter streetlamp glow
+- gray cobblestones wet with pale indigo puddles, morning dew
+- icy grey clouds hide dark blue stormfront in the distance
+- cold blue water drips slowly down worn grey stone face
+- pale gray fog hugs deep maroon rooftops at twilight
+- black ice glistens on dull green moss-covered path
+- shadowy figure casts long black silhouette onto pale grey sidewalk, walking away
+- dark violet rain soaks a faded grey army tent's canvas material
+- icy steel shovel rests against dark brown wooden fence post
+- teal water reflects dark slate-grey clouds on still pond surface
+- steel-blue raindrops cascade down cracked tan brick wall at dusk, silent
+- black iron gate creaks in icy midnight wind, slowly opening
+- icy teal water drips from dull brown wooden eaves, nighttime
+- dark olive raincoat huddles near steel gray storm drain grate
+- icy white snowfall blankets dark brown hay bale stack, silent winter field at dusk
+- faded gray clouds loom over pale green willow leaves on wet street
+- black leather boot print sinks into cold white snow, slowly melting
+- bright red flags flutter against teal tent awnings
+- vibrant purple scarves draped over yellow market stalls
+- sunlit gold canvas tents amidst faded blue tarps
+- mismatched brown crates scattered beside crimson flower buckets
+- faded black and white striped blankets hang across red cart wheels
+- deep green vines sprawl over rusty orange lanterns
+- orange market lights flicker near indigo velvet curtains
+- brown leather sandals sit on tan brick pavers, worn by rain
+- scarlet ribbons tangle through purple flower wreathes
+- worn yellow baskets rest against dark red wood stalls
+- faded olive tarps cover grey stone market tables
+- rusted black and gold bike leans against blue striped tent
+- pale beige lace tablecloths billow in brown dusty wind
+- silver tins clutter beside deep pink flower displays
+- dark teal canvases rest atop faded green trunks
+- faded tan cloth banners droop near yellow lantern frames
+- crinkled silver wrapping paper piles beneath grey market shelves
+- pale blue tarps conceal maroon crates during evening rain
+- orange twine tangles around green leafy vegetable stacks
+- sandy brown sacks gather in shadow of ebony wooden stalls
+- bright teal parasols contrast with dim purple awning
+- brown canvas totes sit on crimson market cart bed frames
+- faded tan picnic baskets rest beside indigo flower vases
+- muted mustard cloth napkins rest atop black folding table
+- rusty metal hooks dangle beside dark gray flower pots, hanging
+- dull brown leaf piles scattered under dim green umbrella, evening
+- olive burlap bags sit under faded white market tent
+- faded green crates stacked near rustic orange wood stalls
+- deep teal water buckets lean against ebony wooden cart
+- blue and tan flower bouquets spill from silver vases
+- tattered gold ribbon streams across bright violet awning, fluttering
+- black market signs hang amidst crimson paper lanterns, glowing
+- gritty orange road markings vanish under dull olive oil spills
+- winter white stripes on faded red guardrail glisten under silver moon
+- deep yellow streetlights reflect onto wet grey asphalt
+- vibrant pink graffiti smears against rusty brown bridge support
+- grey smoke curls from black exhaust pipe under dark green overpass
+- icy white tires skid past crimson brake lights on pitch road surface, night
+- dull purple bruises form from broken black traffic cones on muddy shoulder
+- orange construction barrels scattered amidst dirty grey asphalt
+- black rubber skids streak across cold grey pavement
+- snow-capped yellow median barrier separates damp indigo highway lanes
+- rusty brown guardrails reflect pale blue headlights in distant fog
+- dark green foliage shadows crimson roadwork signs at dusk
+- dirty brown tires rest on faded white road lines
+- frosty white breath forms in front of yellow taillights, idle traffic jam
+- crimson neon emergency light blinks under dark purple sky
+- mustard wildflowers grow between grey cracks on old highway
+- wet black road curves beneath faded blue road sign at nightfall
+- brown debris clings to slick olive-green asphalt at dawn
+- faded yellow tape flutters along dark grey pavement, accident site
+- dim red brake lights fade into distant black smoke trail
+- worn-out orange barrels hide near dirty brown asphalt edges
+- white stripes on grey road guide the way past dim blue signs after storm
+- battered grey signpost holds faded green detour arrow
+- yellow safety vests cluster near dirty white paint cones on highway
+- cold black car tires trace wet crimson lines at nightfall
+- damp indigo puddles collect around rusty yellow metal barrier on motorway
+- faded white lane markers disappear into dark grey asphalt, faded
+- vibrant orange barriers enclose road crew trucks amidst muddy debris
+- crimson sunset colors the edge of dark green forest beside highway
+- snowflakes form a white blanket over rusted metal guardrails, frozen
+- black tire marks streak across wet mustard field alongside road at twilight
+- icy blue reflections ripple onto blacktop under dim teal sky
+- faded grey roadside rocks nestled amidst brown dead leaves beside highway
+- white lines glow on wet asphalt in front of black vehicle in dark night
+- deep plum museum posters contrast with stark ivory walls
+- maroon exhibit ropes coil around brass stanchions
+- vibrant magenta graffiti decorates concrete stairwell at entrance
+- navy blue informational plaques beside mustard yellow exhibit labels
+- burgundy velvet ropes hang next to shiny chrome railings on the staircases
+- emerald green plants in faded red pots surround antique statues outside
+- dark cyan aquarium reveals school of tiny yellow fish beneath dimly lit bridge
+- gray steel frames support black & white photos, museum hall
+- purple shadows stretch across cream stone floor from bronze sculptures
+- faded lavender wallpaper peels around aged brown picture frame hangings
+- green moss creeps along weathered cream stone walls outside, wet
+- ebony leather couches in stark contrast with pale mint exhibition halls
+- bright white spotlights focus on silver artifacts displayed against crimson red walls
+- dirty khaki canvas tents host temporary events, museum courtyard
+- faded beige lace curtains hang over dark green wooden windowsills inside abandoned room
+- mustard yellow paint peels away from gray brick facade of historic building entrance
+- black and white mosaic tile patterns on walls, outside old public restrooms
+- dim turquoise reflections cast on the museum's black slate walkway, twilight
+- blue security barrier encircles pale yellow exhibit under harsh fluorescent lights at night
+- black framed pictures hang against gray walls by crimson rope barriers, gallery hallway
+- bright red fire truck parked near faded beige playground equipment
+- vivid yellow school buses line dusty brown parking lot
+- cobalt blue slide casts long shadow on sandy green playground
+- lush pink flower beds surround cream-colored picnic tables
+- bright cyan water from fountain splashes onto warm brown wooden deck
+- sandy beige sandbox with scattered shiny red and yellow toys
+- deep aqua lifeguard stand against light tan sand beach
+- red merry-go-round spins near black rubber climbing structures
+- faded denim jeans on swing seats sway next to silver metal frame jungle gym
+- cold gray stone benches sit under vibrant orange autumn trees in the playground
+- dark purple kite flies high against brilliant white cumulus clouds at the park
+- yellow construction zone barrier behind bright blue schoolhouse
+- black rubber tricycles lean against crimson brick building at daycare
+- pale violet shadows stretch across emerald green grass, play field
+- gray concrete slide exits onto pebbled brown path
+- saturated teal paddling pool near white painted wooden fence at park
+- worn grey wooden seesaw creaks between two kids on playground
+- saffron yellow seesaws on damp grey ground, playground
+- shimmering gold sand dunes surround vibrant pink castle playhouse
+- dull brown wooden picnic tables under lush orange leaves canopy
+- candy apple red kite flies over faded tan baseball field at sunset
+- soft lilac shadows dance upon green playing fields at twilight
+- dark rusty playground chains on baby blue metal swing set frame
+- wild cherry blossoms in full bloom against dark grey brick school wall
+- mustard yellow swings sway beside whitewashed wooden clubhouse
+- rust brown chain-link fence behind bright green playground turf
+- mossy green tree stump under faded teal wooden play set
+- orange and red autumn leaves cover gray concrete playground path, dusk
+- cobalt blue merry-go-round spins beneath white streetlights after sunset
+- blue & orange colored rubber balls bounce around sandy peach playground
+- green and cream colored school buses idle beside faded blacktop path
+- damp neon lights reflect onto slick black roads
+- faint pink streaks dawn over concrete high rises
+- silver skyscrapers cast shadows on crimson rooftops at sunset
+- sizzling red brake lights trail behind yellow taxi cabs in rush hour traffic
+- shimmering azure river winds through smoky gray buildings
+- dim orange street lamps illuminate wet dark blue sidewalks after rain
+- glossy black sedans cruise down dim purple urban avenue under pale pink sky
+- vivid crimson banners snap above teal market stalls
+- rusted red scaffolding clings to dirty beige apartment towers
+- cobalt blue billboards gleam over grimy white sidewalks
+- brown dead leaves collect on dark purple alleyways
+- pale pink cherry blossoms line gray concrete pedestrian path
+- faded brown dumpsters hide behind crimson construction barriers in alleyway
+- bright cyan skywalk reflects under neon violet signage
+- black metal fire escapes climb faded beige brick walls of apartments
+- dark teal canal cuts through smoggy white cityscape
+- white plastic tarps cover green park benches, awaiting sunset
+- gray concrete barriers hide dirty black exhaust pipes on bridges at twilight
+- silvery gray raindrops fall on muddy brown sidewalk beneath dim cyan streetlights
+- green ivy creeps up faded crimson brick walls of historic buildings in the fog
+- dim turquoise reflection glimmers along gray steel railings
+- faded yellow posters peels from wet black metal pole
+- silvery blue highway signs guide travelers into smoky beige urban canyon under violet twilight
+- deep magenta neon light flickers over faded teal parking lot
+- dirty black puddles collect beneath dim cyan bus station sign at night
+- pale aqua reflections ripple under crimson bridges at dusk
+- crimson sunset glows on the edge of damp gray streets, cityscape
+- glossy yellow taxi cabs cruise down dim purple urban avenues after rain
+- shimmering black & white mosaic tile patterns decorate brown concrete walls in alleyway
+- dull beige haystacks rest under indigo evening sky
+- earthen green fields roll toward violet mountains
+- crimson sun sinks behind weathered grey farmhouse roof
+- sickly yellow tractor sits beside faded orange barn
+- silvery moon glows over charcoal cobblestone streets
+- blacksmith's forge burns hot, casting fiery glow against grey stone walls
+- brown thatch roofs nestle into jade hills under pale rose dawn
+- olive green vineyard sprawls across burnt sienna earth
+- burnt orange leaves crunch underfoot along faded rust fence at autumn festival
+- dirty white linen billows from pink cottage windows in countryside
+- sickly grey smoke curls from warm chestnut bread oven in village square, market day
+- scarlet berries stain fingers and smile against dull yellow haybales
+- black iron pump handle juts out of mossy green well against blue stone wall
+- muted lavender flowers weave through rusted brown fence at country home
+- sickly green swamp reflects dark purple thunderclouds as a lightning strikes, village outskirts
+- dark indigo night cloaks sleepy tan cobblestone alleyways with faint amber lantern glow
+- fresh white linens flutter above vibrant marigold flowers in summer countryside
+- blood orange sunset bleeds into charcoal gray rooftops at dusk
+- damp ebony tree roots wind through pale blue morning mist along path, forest edge
+- rusty brown scarecrow stands tall against golden cornfield under vast sky
+- vibrant fuchsia wildflowers dance with green blades of grass, meadows around village
+- ivory sheep graze on emerald hillsides dotted with slate rooftops
+- drab olive soldiers stand at attention before royal crimson and gold banners
+- silvery river bends through deep brown forest under turquoise sky
+- withered grey vines cling to faded pink cottage walls, overgrown garden
+- golden wheat fields wave beneath pearlescent clouds at dawn
+- shadows dance on faded yellow plaster walls during a late night in village tavern
+- emerald ivy climbs faded peach stucco church bell tower under dark grey sky
+- vibrant saffron sunflower field meets dusty blue mountains
+- wilted gray weeds poke through chipped white cobblestones along deserted path
+- black wooden sign sways above purple lavender shop front in bustling village square
+- mossy green gravestones jut from yellow grass on quiet hillside beyond the village
+- golden candles flicker inside deep red velvet curtains on a stage
+- brown leather boots trudge through puddles along faded beige stone path
+- splattered maroon blood dries under cold steel handcuffs
+- glossy gold brocade envelopes the walls and ceiling of opulent bedroom
+- purple velvet ropes section off a line at the diamond gallery entrance
+- cobalt blue glass chandelier glistens above black lacquer poker table in luxurious room
+- deep crimson wine splashes from a shattered bottle onto cream parquet flooring
+- dark magenta silk robe draped across white marble bathtub's edge in master bathroom
+- dirty green leaves stick to the soles of gold-studded boots on grassy knoll
+- black lacquered nails tap impatiently on mahogany conference table
+- shattered emerald emeralds spill out onto plush beige carpet from broken vase
+- torn indigo taffeta dresses litter the hardwood floor, wedding dance hall
+- reddish-brown whiskey stains the crystal tumblers
+- opulent gold-leaf mirrors frame decadent purple velvet drapes in living room
+- wilted maroon roses lie scattered on black granite countertops of kitchen island
+- black leather-bound books teeter in towering piles across ivory marble floors of study
+- silver trays loaded with shimmering turquoise cocktails rest on white linen tablecloths
+- faded lilac silks billow from an open window into a dim orange room
+- rich emerald cashmere sweater folded neatly on the backseat of pearl grey limousine
+- drops of scarlet blood trace a path across polished walnut floors of study
+- crushed velvet curtains in deep plum block out the afternoon sun in bedroom
+- piled-up ebony furniture and gleaming white marble floor, dusty grand ballroom
+- rust-stained brass candlesticks stand on faded pink quilted couch with a book
+- dark magenta wine spills from crystal carafe onto crumpled yellow parchment papers
+- silver-grey smoke curls from ebony cigarettes in marble ashtray by window
+- crimson velvet chaise longue is placed under antique ivory mirror in sitting room
+- faded beige silk slips onto hardwood floor, master bedroom
+- opulent crimson and gold tapestries adorn the walls of a lavish study
+- silvery grey ash falls from brown cigarette onto the black marble countertop bar
+- dark turquoise velvet curtains frame the windows of a dim emerald library
+- dusty green ivy creeps along crumbling gold moldings of abandoned estate foyer
+- cracked mustard glass chandelier hangs above an ornate cherry wood desk in office
+- dull bronze keys jingle on tarnished silver keyring under antique brass table lamp
+- tattered burgundy velvet curtains obscure the window, candlelit room
+- spilled ebony ink pools across faded beige linen tablecloth, formal dining room
+- burning amber firelight flickers on aged gold picture frames in fireplace parlor

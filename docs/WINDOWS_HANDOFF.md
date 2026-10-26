@@ -95,3 +95,21 @@ See the bottom of `setup_log.md` on the box for what landed and the before/after
   must not nest an existing untagged `<d>`; timestamp normaliser (`0.500`, `02:75`, `04:591` → `00:SS.mmm`);
   `draw_palette` must mix in the intent and drop the person axes
   for no-person intents; minimum-words check for `long`.
+
+## 1.8 on the box: runbook §8 done (2026-10-26 01:30–03:22)
+- Pulled 3d6ec0e (1.8 → 1.8.2), Comfy restarted on it. Ömer's saved workflows loaded the Cue node with widget
+  values one slot off (framing = model name, writer = null, seed = 0) after the new inputs — re-add the node once
+  per workflow.
+- Models: all five tags existed as spelled. `gemma3-abliterated:27b` is fp16 (55 GB) and the only alternative is
+  q8_0 (30 GB), neither fits the 5090 with context; pulled `gemma3-abliterated:12b-q8_0` instead and it fails to
+  load on Ollama 0.40.7 (`token_embd.weight` shape mismatch) — Gemma needs a newer Ollama. The 55 GB fp16 is
+  still on disk.
+- Bake-off `tests/batches/cue-image-terse-bakeoff.json` (13 terse intents × 6 writers, prompts only):
+  `output/promptdeck_tests/REPORT.md` "1.8 writer bake-off". Pick: **mistral-small-abliterated:24b** as the daily
+  text writer (13/13 valid, 133 words, 13 s, best variety); 32B stays for `long`; vision_writer the 4B VL.
+- Cue bug (Mac): the 8B writers restate part of a subject's description right before its token and the
+  substitution doubles it ("young young woman", "A middle-aged the man"); drop the overlap before substituting.
+- Palette: `tools/make_palette.py --writer mistral-small-abliterated:24b --per-round 40 --rounds 25` ran 26 min,
+  +6514 lines (535–795 per axis, no duplicates); committed in `templates/palette.md`. Worth a prune pass on the
+  camera axis (mash-ups like "pallbearer's shoes reflecting streetlight downwards quick left").
+- API graphs `tests/workflows/cue_*.json` carry the 1.8 required inputs `vision_writer` and `framing`.

@@ -42,7 +42,9 @@
       "writer": "huihui_ai/qwen3-vl-abliterated:4b-instruct",
       "endpoint": "http://127.0.0.1:11434",
       "seed": 1,
-      "lock": false
+      "lock": false,
+      "vision_writer": "huihui_ai/qwen3-vl-abliterated:4b-instruct",
+      "framing": "auto"
     },
     "_meta": {
       "title": "Cue"

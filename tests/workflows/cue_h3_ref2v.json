@@ -80,7 +80,9 @@
         "23",
         0
       ],
-      "label_3": "char1"
+      "label_3": "char1",
+      "vision_writer": "huihui_ai/qwen3-vl-abliterated:4b-instruct",
+      "framing": "auto"
     },
     "_meta": {
       "title": "Cue"

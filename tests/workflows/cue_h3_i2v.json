@@ -69,7 +69,9 @@
       "image": [
         "6",
         0
-      ]
+      ],
+      "vision_writer": "huihui_ai/qwen3-vl-abliterated:4b-instruct",
+      "framing": "auto"
     },
     "_meta": {
       "title": "Cue"
