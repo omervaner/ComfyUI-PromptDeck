@@ -52,13 +52,17 @@ function deckInfo(node) {
   const deck = node._deck;
   const disabled = parseDisabled(widget(node, "disabled_lines")?.value);
   const filter = widget(node, "rating_filter")?.value ?? "all";
+  const block = deck.mode === "block";
   const entries = deck.lines.map((raw, i) => {
     const n = i + 1;
     const stripped = raw.trim();
-    const blank = !stripped || stripped.startsWith("#");
+    const blank = !block && (!stripped || stripped.startsWith("#"));
     const rating = deck.ratings[stripped] ?? "";
     const runnable = !blank && !disabled.has(n) && ratingOk(rating, filter);
-    return { n, raw, disp: stripped.replace(NUMBERING_RE, ""), blank, rating, disabled: disabled.has(n), runnable };
+    // block mode: the row is the header name, the tooltip and word count use the whole prompt
+    const full = block ? deck.texts?.[i] ?? "" : null;
+    const disp = block ? `${stripped} — ${full.split(/\s+/).slice(0, 12).join(" ")}` : stripped.replace(NUMBERING_RE, "");
+    return { n, raw, disp, full, blank, rating, disabled: disabled.has(n), runnable };
   });
   const runnable = entries.filter((e) => e.runnable);
   const idx = widget(node, "line_index")?.value ?? 0;
@@ -93,6 +97,8 @@ async function fetchLines(node) {
       const data = await resp.json();
       if (data.ok) {
         deck.lines = data.lines;
+        deck.mode = data.mode ?? "line";
+        deck.texts = data.mode === "block" ? (data.entries ?? []).map((e) => e.text) : null;
         deck.ratings = data.ratings ?? {};
       } else {
         deck.error = "file not found";
@@ -189,9 +195,11 @@ function makeDeckWidget(node) {
       if (info.runnable.length) {
         // word count of the last composed prompt, or of the upcoming line
         const current = widget(node, "resolved")?.value?.trim();
-        const basis = current || info.runnable[info.ordinal]?.disp || "";
+        const basis = current || info.runnable[info.ordinal]?.full || info.runnable[info.ordinal]?.disp || "";
         const words = basis ? basis.split(/\s+/).length : 0;
         posLabel = `${info.ordinal + 1} / ${info.runnable.length} · ${words}w`;
+        const unfilled = deck.lastRun?.unfilled;
+        if (unfilled?.length) posLabel = `unfilled: {${unfilled.join("} {")}} · ` + posLabel;
       } else {
         posLabel = deck.error ?? "empty";
       }
@@ -338,10 +346,11 @@ function makeDeckWidget(node) {
       if (hp && !deck.sbDrag && hp[0] >= listX && hp[0] <= listX + listW - SCROLLBAR_W) {
         const row = Math.floor((hp[1] - listY) / ROW_H);
         const e = row >= 0 && row < rows ? entries[top + row] : null;
-        if (e && !e.blank && ctx.measureText(e.disp).width > textMaxW) {
+        if (e && !e.blank && (e.full || ctx.measureText(e.disp).width > textMaxW)) {
           const tipMaxW = listW - 24;
-          // word-wrap the full text
-          const words = e.disp.split(/\s+/);
+          // word-wrap the full text (block prompts: the first 90 words)
+          let words = (e.full ?? e.disp).split(/\s+/);
+          if (words.length > 90) words = words.slice(0, 90).concat(["…"]);
           const lines = [];
           let cur = "";
           for (const w of words) {
@@ -554,7 +563,7 @@ function setupNode(node) {
   }
   // fixed height for pre/after so node resizing feeds the list, not these;
   // long text scrolls inside the boxes
-  for (const name of ["pre_text", "after_text"]) {
+  for (const name of ["pre_text", "after_text", "vars"]) {
     const w = widget(node, name);
     if (w) {
       w.computeSize = function (width) {

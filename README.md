@@ -47,6 +47,17 @@ gives you transport controls.
      earliest match onward (e.g. `cinematic, film grain` to drop style tails)
   4. `search` / `replace` — plain text substitution
   5. `pre_text` + line + `after_text`
+  (block mode: vars first, no numbering strip, then the same steps on the whole block)
+- **Block mode** for multi-line prompts (MiniMax H3's six sections, blank lines and all): put
+  `## name` above each prompt and the file switches to one entry per block, verbatim. The list
+  shows the names, hover shows the prompt, ratings follow the name (edit the text, keep the
+  star), and `filename_slug` is the name. Files without `## ` headers behave exactly as before.
+- **Vars**: a `vars` box with one `key = value` per line fills `{key}` and `{key|default}` in the
+  prompts (a var beats the default; a token with neither stays literal and the header says
+  `unfilled: {key}`). One scene deck, many characters: `look = short blonde woman in a black
+  dress` fills `<Subject 1> is the {look|woman} in <Video 1>`. In line mode vars apply only when
+  the box is non-empty, so existing decks never change. These braces are Prompt Deck's and are
+  filled before Cue ever sees the text; Cue's `{token}` subjects are a separate thing downstream.
 - **Honest metadata**: the final composed prompt is written back into the
   read-only `resolved` box after each run — so the *actual* prompt used is
   saved in your workflow JSON / PNG metadata, instead of the stale greyed-out
